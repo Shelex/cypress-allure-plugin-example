@@ -1,0 +1,7 @@
+{
+    "eslint.alwaysShowStatus": true,
+    "eslint.packageManager": "yarn",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+}
