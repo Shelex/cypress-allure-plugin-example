@@ -1,22 +1,9 @@
 {
     "root": true,
-    "extends": [
-        "prettier",
-        "plugin:cypress/recommended"
-    ],
+    "extends": ["plugin:cypress/recommended"],
     "rules": {
-        "prettier/prettier": [
-            "error",
-            {
-                "singleQuote": true,
-                "trailingComma": "none"
-            }
-        ],
         "prefer-template": "error",
-        "curly": [
-            "error",
-            "all"
-        ],
+        "curly": ["error", "all"],
         "no-restricted-globals": "off",
         "no-restricted-syntax": [
             "error",
@@ -82,11 +69,7 @@
         "no-unneeded-ternary": "warn",
         "no-useless-computed-key": "error"
     },
-    "plugins": [
-        "prettier",
-        "cypress",
-        "chai-friendly"
-    ],
+    "plugins": ["cypress", "chai-friendly"],
     "globals": {
         "cy": true,
         "Cypress": true
