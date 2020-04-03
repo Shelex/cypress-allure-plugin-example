@@ -42,7 +42,9 @@ context('Actions', () => {
 
     it('.submit() - submit a form', () => {
         cy.allure().tms('docs', 'https://on.cypress.io/submit');
-        cy.get('.action-form').find('[type="text"]').type('HALFOFF');
+        cy.get('.action-form')
+            .find('[type="text"]')
+            .type('HALFOFF');
         cy.get('.action-form')
             .submit()
             .next()
@@ -113,7 +115,9 @@ context('Actions', () => {
             )
             .severity('blocker');
 
-        cy.get('.action-div').dblclick().should('not.be.visible');
+        cy.get('.action-div')
+            .dblclick()
+            .should('not.be.visible');
         cy.get('.action-input-hidden').should('be.visible');
     });
 
@@ -126,7 +130,9 @@ context('Actions', () => {
       that hides the div and shows an input on right click`
             )
             .severity('blocker');
-        cy.get('.rightclick-action-div').rightclick().should('not.be.visible');
+        cy.get('.rightclick-action-div')
+            .rightclick()
+            .should('not.be.visible');
         cy.get('.rightclick-action-input-hidden').should('be.visible');
         cy.allure().label('subSuite', 'subSuiteValue');
     });
@@ -280,12 +286,16 @@ context('Actions', () => {
         cy.get('#scroll-vertical button').should('not.be.visible');
 
         // Cypress handles the scroll direction needed
-        cy.get('#scroll-vertical button').scrollIntoView().should('be.visible');
+        cy.get('#scroll-vertical button')
+            .scrollIntoView()
+            .should('be.visible');
 
         cy.get('#scroll-both button').should('not.be.visible');
 
         // Cypress knows to scroll to the right and down
-        cy.get('#scroll-both button').scrollIntoView().should('be.visible');
+        cy.get('#scroll-both button')
+            .scrollIntoView()
+            .should('be.visible');
     });
 
     it('.trigger() - trigger an event on a DOM element', () => {
@@ -334,7 +344,9 @@ context('Actions', () => {
 
         // or you can scroll to a specific coordinate:
         // (x axis, y axis) in pixels
-        cy.allure().parameter('x', 250).parameter('y', 250);
+        cy.allure()
+            .parameter('x', 250)
+            .parameter('y', 250);
         cy.get('#scrollable-vertical').scrollTo(250, 250);
 
         // or you can scroll to a specific percentage
