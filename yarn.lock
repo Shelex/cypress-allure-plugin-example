@@ -817,10 +817,10 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@shelex/cypress-allure-plugin@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-1.0.0.tgz#7b26383d3570c7cca4c0ee2232001dc0a37c6339"
-  integrity sha512-RRASjpn2luk/eCgJFYO+TB0lvMe8GvqUt694jXy6MMnqPO9CBmEWbhVI+nLn38nIRq1aS7aeKYCS+E+iDnunEw==
+"@shelex/cypress-allure-plugin@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-1.0.1.tgz#d03e1980726df623b9d4f1da8b18c5fce28b0421"
+  integrity sha512-+duQIa7AEh4kBbGi5N2Xzq1EB4H+NYXUr6OBTTxaiqVv5OeEUuHcI4Nx4p67EAcgv/oFYYEuysTfq1S+d6qf5Q==
   dependencies:
     allure-js-commons "^2.0.0-beta.6"
     fs-extra "^9.0.0"
@@ -3298,10 +3298,17 @@ mkdirp-classic@^0.5.2:
   resolved "https://registry.yarnpkg.com/mkdirp-classic/-/mkdirp-classic-0.5.2.tgz#54c441ce4c96cd7790e10b41a87aa51068ecab2b"
   integrity sha512-ejdnDQcR75gwknmMw/tx02AuRs8jCtqFoFqDZMjiNxsu85sRIJVXDKHuLYvUUPRBUtV2FpSZa9bL1BUa3BdR2g==
 
-mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@^0.5.4:
+mkdirp@^0.5.0, mkdirp@^0.5.4:
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.4.tgz#fd01504a6797ec5c9be81ff43d204961ed64a512"
   integrity sha512-iG9AK/dJLtJ0XNgTuDbSyNS3zECqDlAhnQW4CsNxBG3LQJBbHmRX1egw39DmtOdCAqY+dKXV+sgPgilNWUKMVw==
+  dependencies:
+    minimist "^1.2.5"
+
+mkdirp@^0.5.1:
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.5.tgz#d91cefd62d1436ca0f41620e251288d420099def"
+  integrity sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
   dependencies:
     minimist "^1.2.5"
 
