@@ -53,10 +53,10 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@shelex/cypress-allure-plugin@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-0.0.5.tgz#b76c85108ce4bcb4f30f3ef3571e45241b2d9619"
-  integrity sha512-fR8nOA4cQBVrOdc8ZGCQGmhp92rzSX6Spk/uOlWtV94yfzFvFQzx9FYUtj2gi5o7syem37AZeqVVHFXyZcGb/w==
+"@shelex/cypress-allure-plugin@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-0.0.6.tgz#4a008b1cb7978933a16d2bdce090857991b72f8a"
+  integrity sha512-v27RSo8zLlpBTdofwg4tm0W0KzG3+SZjWtiH/qNtWrEQPNkw6OU03B9VQJMPRVdTv5vF7PMVdkd/gJrMO01sdw==
   dependencies:
     allure-js-commons "^2.0.0-beta.6"
     fs-extra "^9.0.0"

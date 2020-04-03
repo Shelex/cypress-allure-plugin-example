@@ -10,7 +10,7 @@
     "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true"
   },
   "devDependencies": {
-    "@shelex/cypress-allure-plugin": "^0.0.5",
+    "@shelex/cypress-allure-plugin": "^0.0.6",
     "cypress": "^4.1.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-chai-friendly": "^0.5.0",
