@@ -8,6 +8,27 @@ context('Actions', () => {
         allure.label('lead', 'Lead');
         allure.label('owner', 'Me, lol');
         allure.label('framework', 'Cypress E2E Examples');
+
+        allure.writeExecutorInfo({
+            name: 'somename',
+            type: 'type',
+            url: 'https://google.com.ua',
+            buildOrder: 200,
+            buildName: 'basic',
+            buildUrl: 'https://path-to-ci',
+            reportUrl: 'https://path-to-report',
+            reportName: 'reportName'
+        });
+        allure.writeEnvironmentInfo({
+            someEnvInfo: 'envInfo'
+        });
+        allure.writeCategoriesDefinitions([
+            {
+                name: 'Sad tests',
+                messageRegex: /.*Sad.*/,
+                matchedStatuses: ['failed']
+            }
+        ]);
     });
 
     it('.focus() - focus on a DOM element', () => {
@@ -16,7 +37,7 @@ context('Actions', () => {
             .severity('minor');
         cy.get('.action-focus')
             .focus()
-            .should('have.class', 'focus')
+            .should('not.have.class', 'focus')
             .prev()
             .should('have.attr', 'style', 'color: orange;');
     });
@@ -42,9 +63,7 @@ context('Actions', () => {
 
     it('.submit() - submit a form', () => {
         cy.allure().tms('docs', 'https://on.cypress.io/submit');
-        cy.get('.action-form')
-            .find('[type="text"]')
-            .type('HALFOFF');
+        cy.get('.action-form').find('[type="text"]').type('HALFOFF');
         cy.get('.action-form')
             .submit()
             .next()
@@ -115,9 +134,7 @@ context('Actions', () => {
             )
             .severity('blocker');
 
-        cy.get('.action-div')
-            .dblclick()
-            .should('not.be.visible');
+        cy.get('.action-div').dblclick().should('not.be.visible');
         cy.get('.action-input-hidden').should('be.visible');
     });
 
@@ -130,9 +147,7 @@ context('Actions', () => {
       that hides the div and shows an input on right click`
             )
             .severity('blocker');
-        cy.get('.rightclick-action-div')
-            .rightclick()
-            .should('not.be.visible');
+        cy.get('.rightclick-action-div').rightclick().should('not.be.visible');
         cy.get('.rightclick-action-input-hidden').should('be.visible');
         cy.allure().label('subSuite', 'subSuiteValue');
     });
@@ -152,18 +167,18 @@ context('Actions', () => {
             .check()
             .should('be.checked');
 
-        cy.allure().logStep('.check() accepts a value argument');
+        cy.allure().step('.check() accepts a value argument');
 
         cy.get('.action-radios [type="radio"]')
             .check('radio1')
             .should('be.checked');
 
-        cy.allure().logStep('.check() accepts an array of values');
+        cy.allure().step('.check() accepts an array of values');
         cy.get('.action-multiple-checkboxes [type="checkbox"]')
             .check(['checkbox1', 'checkbox2'])
             .should('be.checked');
 
-        cy.allure().logStep('Ignore error checking prior to checking');
+        cy.allure().step('Ignore error checking prior to checking');
         cy.get('.action-checkboxes [disabled]')
             .check({ force: true })
             .should('be.checked');
@@ -177,31 +192,34 @@ context('Actions', () => {
         cy.allure()
             .tag('FAILED BY INTENT')
             .tms('docs', 'https://on.cypress.io/type')
-            .logStep('take usual screenshot from test', () => {
-                cy.screenshot();
-            });
+            .step('take usual screenshot from test');
+        cy.screenshot();
 
         cy.get('.action-email')
             .type('fake@email.com')
-            .should('have.value', 'fakes@email.com')
+            .should('have.value', 'fakes@email.com');
 
-            // .type() with special character sequences
+        cy.allure()
+            .step('.type() with special character sequences')
             .type('{leftarrow}{rightarrow}{uparrow}{downarrow}')
-            .type('{del}{selectall}{backspace}')
+            .type('{del}{selectall}{backspace}');
 
-            // .type() with key modifiers
+        cy.allure()
+            .step('.type() with key modifiers')
             .type('{alt}{option}') //these are equivalent
             .type('{ctrl}{control}') //these are equivalent
             .type('{meta}{command}{cmd}') //these are equivalent
-            .type('{shift}')
+            .type('{shift}');
 
-            // Delay each keypress by 0.1 sec
+        cy.allure()
+            .step('Delay each keypress by 0.1 sec')
             .type('slow.typing@email.com', { delay: 100 })
             .should('have.value', 'slow.typing@email.com');
 
+        cy.allure().step(
+            'Ignore error checking prior to type, like whether the input is visible or disabled'
+        );
         cy.get('.action-disabled')
-            // Ignore error checking prior to type
-            // like whether the input is visible or disabled
             .type('disabled error checking', { force: true })
             .should('have.value', 'disabled error checking');
     });
@@ -209,7 +227,7 @@ context('Actions', () => {
     it('.uncheck() - uncheck a checkbox element', () => {
         cy.allure()
             .tms('docs', 'https://on.cypress.io/uncheck')
-            .logStep(
+            .step(
                 'By default, .uncheck() will uncheck all matching checkbox elements in succession, one after another'
             );
         cy.get('.action-check [type="checkbox"]')
@@ -217,19 +235,19 @@ context('Actions', () => {
             .uncheck()
             .should('not.be.checked');
         cy.screenshot();
-        // .uncheck() accepts a value argument
+        cy.allure().step('.uncheck() accepts a value argument');
         cy.get('.action-check [type="checkbox"]')
             .check('checkbox1')
             .uncheck('checkbox1')
             .should('not.be.checked');
 
-        // .uncheck() accepts an array of values
+        cy.allure().step('.uncheck() accepts an array of values');
         cy.get('.action-check [type="checkbox"]')
             .check(['checkbox1', 'checkbox3'])
             .uncheck(['checkbox1', 'checkbox3'])
             .should('not.be.checked');
 
-        // Ignore error checking prior to unchecking
+        cy.allure().step('Ignore error checking prior to unchecking');
         cy.get('.action-check [disabled]')
             .uncheck({ force: true })
             .should('not.be.checked');
@@ -286,16 +304,12 @@ context('Actions', () => {
         cy.get('#scroll-vertical button').should('not.be.visible');
 
         // Cypress handles the scroll direction needed
-        cy.get('#scroll-vertical button')
-            .scrollIntoView()
-            .should('be.visible');
+        cy.get('#scroll-vertical button').scrollIntoView().should('be.visible');
 
         cy.get('#scroll-both button').should('not.be.visible');
 
         // Cypress knows to scroll to the right and down
-        cy.get('#scroll-both button')
-            .scrollIntoView()
-            .should('be.visible');
+        cy.get('#scroll-both button').scrollIntoView().should('be.visible');
     });
 
     it('.trigger() - trigger an event on a DOM element', () => {
@@ -344,9 +358,7 @@ context('Actions', () => {
 
         // or you can scroll to a specific coordinate:
         // (x axis, y axis) in pixels
-        cy.allure()
-            .parameter('x', 250)
-            .parameter('y', 250);
+        cy.allure().parameter('x', 250).parameter('y', 250);
         cy.get('#scrollable-vertical').scrollTo(250, 250);
 
         // or you can scroll to a specific percentage

@@ -817,10 +817,10 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@shelex/cypress-allure-plugin@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-1.0.1.tgz#d03e1980726df623b9d4f1da8b18c5fce28b0421"
-  integrity sha512-+duQIa7AEh4kBbGi5N2Xzq1EB4H+NYXUr6OBTTxaiqVv5OeEUuHcI4Nx4p67EAcgv/oFYYEuysTfq1S+d6qf5Q==
+"@shelex/cypress-allure-plugin@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-1.1.0.tgz#3d00696e81be140ce9331e10e3a220c2c121928e"
+  integrity sha512-GXcy6y6EpNpvmhbsM5YnWLDlR1vv+IRTGPuartmPFl2uEV1hrsd+SjioSHWlskYJIbf0Dee6F+9cM+CoXC796A==
   dependencies:
     allure-js-commons "^2.0.0-beta.6"
     fs-extra "^9.0.0"
