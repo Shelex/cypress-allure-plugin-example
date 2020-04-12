@@ -2,17 +2,18 @@
     "name": "cypress-allure-plugin-example",
     "version": "1.0.0",
     "main": "index.js",
-    "license": "MIT",
+    "license": "Apache-2.0",
     "scripts": {
         "cy:open": "yarn cypress open --env allure=true --config integrationFolder=cypress/integration/examples,testFiles=**/*.js --browser chrome",
         "cy:cucumber:open": "yarn cypress open --env allure=true --config integrationFolder=cypress/integration/cucumber,ignoreTestFiles=*.js,testFiles=**/*.{feature,features} --browser chrome",
         "cy:run": "yarn cypress run --config video=false,integrationFolder=cypress/integration/examples --env allure=true --browser chrome",
         "cy:cucumber:run": "yarn cypress run --config video=false,ignoreTestFiles=*.js,testFiles=**/*.{feature,features} --env allure=true --browser chrome",
         "allure:report": "allure generate allure-results --clean -o allure-report",
-        "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true"
+        "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true",
+        "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true"
     },
     "devDependencies": {
-        "@shelex/cypress-allure-plugin": "^1.1.0",
+        "@shelex/cypress-allure-plugin": "^1.2.0",
         "cypress": "^4.1.0",
         "cypress-cucumber-preprocessor": "^2.2.0",
         "eslint-plugin-chai-friendly": "^0.5.0",

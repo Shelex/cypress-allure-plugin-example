@@ -7,7 +7,7 @@ let myBeforeCount = 0;
 // This verifies that the hooks work with bundling feature
 // https://github.com/TheBrainFamily/cypress-cucumber-preprocessor/pull/234
 Before(() => {
-    expect(myBeforeCount).to.be.lessThan(2);
+    expect(myBeforeCount).to.be.lessThan(6);
     myBeforeCount += 1;
 });
 
@@ -22,4 +22,12 @@ Then(`I am very happy`, () => {
 
 Then(`I see {string} in the title`, (title) => {
     cy.title().should('include', title);
+});
+
+When(`I sum {int} and {int}`, (a, b) => {
+    cy.wrap(a + b).as('sumResult');
+});
+
+Then(`I want to see {int}`, (expected) => {
+    cy.get('@sumResult').should('equal', expected);
 });

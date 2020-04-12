@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Actions Epic",
+    "children" : [ {
+      "name" : "Actions Feature",
+      "children" : [ {
+        "name" : ".focus() - focus on a DOM element",
+        "uid" : "fadf98b4c9d7658a",
+        "parentUid" : "8787a9f62dc6088b37a8f4c545153671",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586526180364,
+          "stop" : 1586526180444,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8787a9f62dc6088b37a8f4c545153671"
+    } ],
+    "uid" : "774b79fc05614a096f1f11a38718f6d4"
+  } ]
+}

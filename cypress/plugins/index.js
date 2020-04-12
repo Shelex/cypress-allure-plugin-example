@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-/// <reference types="cypress-allure-plugin" />
+/// <reference types="@shelex/cypress-allure-plugin" />
 // ***********************************************************
 // This example plugins/index.js can be used to load plugins
 //
@@ -9,9 +9,8 @@
 // You can read more here:
 // https://on.cypress.io/plugins-guide
 // ***********************************************************
-const AllureWriter = require('cypress-allure-plugin/writer');
+const AllureWriter = require('@shelex/cypress-allure-plugin/writer');
 const cucumber = require('cypress-cucumber-preprocessor').default;
-module.exports = (on, config) => {};
 // This function is called when a project is opened or re-opened (e.g. due to
 // the project's config changing)
 /**

@@ -1,0 +1,10 @@
+[ {
+  "name" : "somename",
+  "type" : "type",
+  "url" : "https://google.com.ua",
+  "buildOrder" : 200,
+  "buildName" : "basic",
+  "buildUrl" : "https://path-to-ci",
+  "reportName" : "reportName",
+  "reportUrl" : "https://path-to-report"
+} ]

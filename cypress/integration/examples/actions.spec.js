@@ -1,17 +1,9 @@
 context('Actions', () => {
-    beforeEach(() => {
-        cy.visit('https://example.cypress.io/commands/actions');
+    before(() => {
         const allure = Cypress.Allure.reporter.getInterface();
-        allure.feature('Actions Feature');
-        allure.epic('Actions Epic');
-        allure.tms('docs', 'https://on.cypress.io/interacting-with-elements');
-        allure.label('lead', 'Lead');
-        allure.label('owner', 'Me, lol');
-        allure.label('framework', 'Cypress E2E Examples');
-
         allure.writeExecutorInfo({
             name: 'somename',
-            type: 'type',
+            type: 'type', // jenkins, bamboo, teamcity
             url: 'https://google.com.ua',
             buildOrder: 200,
             buildName: 'basic',
@@ -19,16 +11,32 @@ context('Actions', () => {
             reportUrl: 'https://path-to-report',
             reportName: 'reportName'
         });
+
         allure.writeEnvironmentInfo({
             someEnvInfo: 'envInfo'
         });
+
         allure.writeCategoriesDefinitions([
             {
-                name: 'Sad tests',
-                messageRegex: /.*Sad.*/,
+                name: 'Not to have class tests',
+                messageRegex: /.*not to have class.*/,
                 matchedStatuses: ['failed']
             }
         ]);
+    });
+
+    beforeEach(() => {
+        cy.visit('https://example.cypress.io/commands/actions');
+        const allure = Cypress.Allure.reporter.getInterface();
+        allure.feature('Actions Feature');
+        allure.epic('Plain js tests');
+        allure.tms('docs', 'https://on.cypress.io/interacting-with-elements');
+        allure.label('tag', 'this is tag');
+        allure.label('owner', 'Me, lol');
+    });
+
+    afterEach(() => {
+        cy.log(`this is after each hook`);
     });
 
     it('.focus() - focus on a DOM element', () => {
@@ -264,7 +272,16 @@ context('Actions', () => {
         // confirm the apples were selected
         // note that each value starts with "fr-" in our HTML
         cy.get('.action-select').should('have.value', 'fr-apples');
-
+        cy.allure().testAttachment(
+            'csv_table',
+            `John,Doe,120 jefferson st.,Riverside, NJ, 08075
+        Jack,McGinnis,220 hobo Av.,Phila, PA,09119
+        "John ""Da Man""",Repici,120 Jefferson St.,Riverside, NJ,08075
+        Stephen,Tyler,"7452 Terrace ""At the Plaza"" road",SomeTown,SD, 91234
+        ,Blankman,,SomeTown, SD, 00298
+        "Joan ""the bone"", Anne",Jet,"9th, at Terrace plc",Desert City,CO,00123`,
+            'text/csv'
+        );
         cy.get('.action-select-multiple')
             .select(['apples', 'oranges', 'bananas'])
             // when getting multiple values, invoke "val" method first

@@ -1,0 +1,11 @@
+[ {
+  "uid" : "fadf98b4c9d7658a",
+  "name" : ".focus() - focus on a DOM element",
+  "time" : {
+    "start" : 1586526180364,
+    "stop" : 1586526180444,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

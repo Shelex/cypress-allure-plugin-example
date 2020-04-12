@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Apr 10 16:43:00 EEST 2020","Fri Apr 10 16:43:00 EEST 2020","80","Actions","","","","",".focus() - focus on a DOM element",""

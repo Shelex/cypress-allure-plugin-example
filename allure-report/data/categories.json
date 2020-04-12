@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "hello",
+      "children" : [ {
+        "name" : ".focus() - focus on a DOM element",
+        "uid" : "fadf98b4c9d7658a",
+        "parentUid" : "6809160b16fa5c52d184ce7dd5998d18",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586526180364,
+          "stop" : 1586526180444,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6809160b16fa5c52d184ce7dd5998d18"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,4 +1,5 @@
-
+@epic("cucumber")
+@story("myStory")
 Feature: The Google
 
     I want to open Google page
@@ -8,16 +9,8 @@ Feature: The Google
     @story("firsttest4")
     @severity("critical")
     @owner("firsttest8")
-    @lead("firsttest10")
-    @host("firsttest12")
-    @thread("115")
-    @testMethod("firsttest16")
-    @testClass("firsttest18")
-    @package("firsttest20")
     @someOtherTags
-    @framework("firsttest22")
     @issue("jira","https://google.com")
-    @language("firsttest24")
     Scenario: Opening a Google network page
         Given I open Google page
         Then I see "Google" in the title
@@ -27,12 +20,23 @@ Feature: The Google
     @story("secondtest4")
     @severity("normal")
     @owner("secondtest8")
-    @lead("secondtest10")
-    @host("secondtest12")
-    @thread("114")
-    @package("secondtest20")
-    @framework("secondtest22")
-    @language("secondtest24")
     Scenario: Different kind of opening
         Given I kinda open Google page
         Then I am very happy
+
+    @subSuite("thirdtest0")
+    @epic("thirdtest2")
+    @story("thirdstory")
+    @severity("minor")
+    @owner("me")
+    @someOtherTags
+    @tms("link-to-tms","https://google.com")
+    Scenario Outline: Some scenario with examples
+        When I sum <a> and <b>
+        Then I want to see <result>
+        Examples:
+            | a | b  | result |
+            | 3 | 1  | 4      |
+            | 3 | 1  | 5      |
+            | 3 | 2  | 5      |
+            | 2 | -1 | 1      |
