@@ -3,7 +3,7 @@
   "reportUrl" : "https://path-to-report",
   "reportName" : "reportName",
   "data" : {
-    "duration" : 50536
+    "duration" : 52316
   }
 }, {
   "buildOrder" : 200,

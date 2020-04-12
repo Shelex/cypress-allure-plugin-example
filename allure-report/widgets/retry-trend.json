@@ -4,7 +4,7 @@
   "reportName" : "reportName",
   "data" : {
     "run" : 20,
-    "retry" : 20
+    "retry" : 40
   }
 }, {
   "buildOrder" : 200,
