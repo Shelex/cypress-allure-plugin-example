@@ -1,11 +1,13 @@
 context('Actions', () => {
     before(() => {
         const allure = Cypress.Allure.reporter.getInterface();
+        const today = new Date();
+        const currentHour = today.getHours();
         allure.writeExecutorInfo({
             name: 'somename',
             type: 'type', // jenkins, bamboo, teamcity
             url: 'https://google.com.ua',
-            buildOrder: 200,
+            buildOrder: currentHour, // in case buildOrder are same - it will count as retry
             buildName: 'basic',
             buildUrl: 'https://path-to-ci',
             reportUrl: 'https://path-to-report',
