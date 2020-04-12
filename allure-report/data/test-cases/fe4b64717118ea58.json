@@ -1,0 +1,229 @@
+{
+  "uid" : "fe4b64717118ea58",
+  "name" : ".clear() - clears an input or textarea element",
+  "fullName" : ".clear() - clears an input or textarea element",
+  "historyId" : "fa534f1bfef9141e4ee0be8e32412027",
+  "time" : {
+    "start" : 1586682603049,
+    "stop" : 1586682603645,
+    "duration" : 596
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit https://example.cypress.io/commands/actions ",
+      "time" : {
+        "start" : 1586682603076,
+        "stop" : 1586682603230,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get .action-clear ",
+      "time" : {
+        "start" : 1586682603231,
+        "stop" : 1586682603242,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type Clear this text ",
+      "time" : {
+        "start" : 1586682603242,
+        "stop" : 1586682603557,
+        "duration" : 315
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input#description.form-control.action-clear>** to have value **Clear this text** ",
+      "time" : {
+        "start" : 1586682603557,
+        "stop" : 1586682603561,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "clear  ",
+      "time" : {
+        "start" : 1586682603561,
+        "stop" : 1586682603645,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input#description.form-control.action-clear>** to have value **''** ",
+      "time" : {
+        "start" : 1586682603645,
+        "stop" : 1586682603645,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log this is after each hook ",
+      "time" : {
+        "start" : 1586682603652,
+        "stop" : 1586682603683,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  }, {
+    "name" : "docs",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/clear",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "16c5bad27e78eba2",
+        "reportUrl" : "https://path-to-report/#testresult/16c5bad27e78eba2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586682236395,
+          "stop" : 1586682236951,
+          "duration" : 556
+        }
+      }, {
+        "uid" : "66d08825d7ab929f",
+        "reportUrl" : "https://path-to-report/#testresult/66d08825d7ab929f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586654322731,
+          "stop" : 1586654323358,
+          "duration" : 627
+        }
+      }, {
+        "uid" : "eda3dd8bce87df1c",
+        "reportUrl" : "https://path-to-report/#testresult/eda3dd8bce87df1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586653799602,
+          "stop" : 1586653800170,
+          "duration" : 568
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+  "source" : "fe4b64717118ea58.json",
+  "parameterValues" : [ ]
+}
