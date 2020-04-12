@@ -2,7 +2,7 @@
   "name" : "somename",
   "type" : "type",
   "url" : "https://google.com.ua",
-  "buildOrder" : 1,
+  "buildOrder" : 9,
   "buildName" : "basic",
   "buildUrl" : "https://path-to-ci",
   "reportName" : "reportName",
