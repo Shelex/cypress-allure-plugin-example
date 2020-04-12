@@ -1,201 +1,201 @@
 [ {
-  "uid" : "6435a615ee6c9d78",
-  "name" : ".type() - type into a DOM element",
-  "time" : {
-    "start" : 1586653804359,
-    "stop" : 1586653813237,
-    "duration" : 8878
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ff4cc7ebc9f00c6c",
-  "name" : "Some scenario with examples (example #2)",
-  "time" : {
-    "start" : 1586653840871,
-    "stop" : 1586653845043,
-    "duration" : 4172
-  },
-  "status" : "failed",
-  "severity" : "minor"
-}, {
-  "uid" : "ca705a2a755d9dd2",
-  "name" : ".trigger() - trigger an event on a DOM element",
-  "time" : {
-    "start" : 1586653819475,
-    "stop" : 1586653819710,
-    "duration" : 235
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9b85bd5a752654ee",
-  "name" : ".scrollIntoView() - scroll an element into view",
-  "time" : {
-    "start" : 1586653819195,
-    "stop" : 1586653819423,
-    "duration" : 228
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "71e63340a815b7e0",
-  "name" : "cy.scrollTo() - scroll the window or element to a position",
-  "time" : {
-    "start" : 1586653819725,
-    "stop" : 1586653821880,
-    "duration" : 2155
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eda3dd8bce87df1c",
-  "name" : ".clear() - clears an input or textarea element",
-  "time" : {
-    "start" : 1586653799602,
-    "stop" : 1586653800170,
-    "duration" : 568
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6bdeede633994384",
-  "name" : ".click() - click on a DOM element",
-  "time" : {
-    "start" : 1586653800702,
-    "stop" : 1586653802827,
-    "duration" : 2125
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "267388b64267af1d",
-  "name" : ".uncheck() - uncheck a checkbox element",
-  "time" : {
-    "start" : 1586653813281,
-    "stop" : 1586653818098,
-    "duration" : 4817
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3198f936d63fa3a1",
-  "name" : "Some scenario with examples (example #4)",
-  "time" : {
-    "start" : 1586653845095,
-    "stop" : 1586653845115,
-    "duration" : 20
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "59ba8c4ee3168331",
-  "name" : ".check() - check a checkbox or radio element",
-  "time" : {
-    "start" : 1586653803394,
-    "stop" : 1586653804345,
-    "duration" : 951
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5a8f06c831d88034",
-  "name" : ".blur() - blur off a DOM element",
-  "time" : {
-    "start" : 1586653798981,
-    "stop" : 1586653799587,
-    "duration" : 606
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "17d62b405662b574",
-  "name" : ".rightclick() - right click on a DOM element",
-  "time" : {
-    "start" : 1586653803136,
-    "stop" : 1586653803385,
-    "duration" : 249
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "cae0074e0e0ec610",
-  "name" : "Some scenario with examples (example #1)",
-  "time" : {
-    "start" : 1586653840792,
-    "stop" : 1586653840866,
-    "duration" : 74
-  },
-  "status" : "passed",
-  "severity" : "minor"
-}, {
-  "uid" : "e9a15d3aa64e1d70",
-  "name" : ".submit() - submit a form",
-  "time" : {
-    "start" : 1586653800183,
-    "stop" : 1586653800685,
-    "duration" : 502
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "13c60c29dcd12b61",
+  "uid" : "94f8c374d483cd34",
   "name" : "Some scenario with examples (example #3)",
   "time" : {
-    "start" : 1586653845055,
-    "stop" : 1586653845088,
-    "duration" : 33
+    "start" : 1586654368419,
+    "stop" : 1586654368464,
+    "duration" : 45
   },
   "status" : "passed",
   "severity" : "minor"
 }, {
-  "uid" : "da305b52d2ee29fa",
-  "name" : ".dblclick() - double click on a DOM element",
+  "uid" : "657438d79cd0913c",
+  "name" : ".check() - check a checkbox or radio element",
   "time" : {
-    "start" : 1586653802842,
-    "stop" : 1586653803120,
-    "duration" : 278
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "8772c3e53dc8b7a8",
-  "name" : ".select() - select an option in a <select> element",
-  "time" : {
-    "start" : 1586653818160,
-    "stop" : 1586653819178,
-    "duration" : 1018
+    "start" : 1586654326567,
+    "stop" : 1586654327530,
+    "duration" : 963
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e9dfad1d65b06c5c",
-  "name" : "Different kind of opening",
+  "uid" : "fe35b1eef3817624",
+  "name" : "Some scenario with examples (example #2)",
   "time" : {
-    "start" : 1586653839920,
-    "stop" : 1586653840785,
-    "duration" : 865
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2f83c3c142560221",
-  "name" : ".focus() - focus on a DOM element",
-  "time" : {
-    "start" : 1586653794270,
-    "stop" : 1586653798949,
-    "duration" : 4679
+    "start" : 1586654364213,
+    "stop" : 1586654368409,
+    "duration" : 4196
   },
   "status" : "failed",
   "severity" : "minor"
 }, {
-  "uid" : "b86a15ebf04bcd0a",
-  "name" : "Opening a Google network page",
+  "uid" : "66d08825d7ab929f",
+  "name" : ".clear() - clears an input or textarea element",
   "time" : {
-    "start" : 1586653838734,
-    "stop" : 1586653839901,
-    "duration" : 1167
+    "start" : 1586654322731,
+    "stop" : 1586654323358,
+    "duration" : 627
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be9b4e8a38b5a154",
+  "name" : ".uncheck() - uncheck a checkbox element",
+  "time" : {
+    "start" : 1586654336750,
+    "stop" : 1586654341725,
+    "duration" : 4975
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5dd834f8c5a517b2",
+  "name" : ".dblclick() - double click on a DOM element",
+  "time" : {
+    "start" : 1586654325985,
+    "stop" : 1586654326264,
+    "duration" : 279
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "f51b3836a59229cb",
+  "name" : ".trigger() - trigger an event on a DOM element",
+  "time" : {
+    "start" : 1586654342990,
+    "stop" : 1586654343180,
+    "duration" : 190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c723040432a020d",
+  "name" : ".click() - click on a DOM element",
+  "time" : {
+    "start" : 1586654323836,
+    "stop" : 1586654325969,
+    "duration" : 2133
   },
   "status" : "passed",
   "severity" : "critical"
+}, {
+  "uid" : "fc9e01857990a96a",
+  "name" : ".select() - select an option in a <select> element",
+  "time" : {
+    "start" : 1586654341768,
+    "stop" : 1586654342743,
+    "duration" : 975
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fcb575391f382f1",
+  "name" : ".rightclick() - right click on a DOM element",
+  "time" : {
+    "start" : 1586654326277,
+    "stop" : 1586654326557,
+    "duration" : 280
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "4664513b17eebf3",
+  "name" : ".focus() - focus on a DOM element",
+  "time" : {
+    "start" : 1586654317491,
+    "stop" : 1586654322136,
+    "duration" : 4645
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "95f5fedc6ab154d7",
+  "name" : "cy.scrollTo() - scroll the window or element to a position",
+  "time" : {
+    "start" : 1586654343197,
+    "stop" : 1586654345355,
+    "duration" : 2158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10ab9802f8b58749",
+  "name" : ".type() - type into a DOM element",
+  "time" : {
+    "start" : 1586654327544,
+    "stop" : 1586654336723,
+    "duration" : 9179
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "756a34cb59549ec7",
+  "name" : "Different kind of opening",
+  "time" : {
+    "start" : 1586654363294,
+    "stop" : 1586654364127,
+    "duration" : 833
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f1905b4639b7534",
+  "name" : ".blur() - blur off a DOM element",
+  "time" : {
+    "start" : 1586654322166,
+    "stop" : 1586654322717,
+    "duration" : 551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aad8630899e9fa64",
+  "name" : "Opening a Google network page",
+  "time" : {
+    "start" : 1586654361966,
+    "stop" : 1586654363276,
+    "duration" : 1310
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ee4fa0dccb5e75c3",
+  "name" : "Some scenario with examples (example #4)",
+  "time" : {
+    "start" : 1586654368470,
+    "stop" : 1586654368492,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "3421068161a433ea",
+  "name" : "Some scenario with examples (example #1)",
+  "time" : {
+    "start" : 1586654364135,
+    "stop" : 1586654364205,
+    "duration" : 70
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "f71fe80f25ebd4fb",
+  "name" : ".scrollIntoView() - scroll an element into view",
+  "time" : {
+    "start" : 1586654342763,
+    "stop" : 1586654342965,
+    "duration" : 202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2d1a56aff3f5324",
+  "name" : ".submit() - submit a form",
+  "time" : {
+    "start" : 1586654323370,
+    "stop" : 1586654323823,
+    "duration" : 453
+  },
+  "status" : "passed",
+  "severity" : "normal"
 } ]
