@@ -1,26 +1,64 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Not to have class tests",
     "children" : [ {
-      "name" : "hello",
+      "name" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
       "children" : [ {
         "name" : ".focus() - focus on a DOM element",
-        "uid" : "fadf98b4c9d7658a",
-        "parentUid" : "6809160b16fa5c52d184ce7dd5998d18",
+        "uid" : "69d60f9fb808ebac",
+        "parentUid" : "f68554bcad9163695b77d14b928ed9a5",
         "status" : "failed",
         "time" : {
-          "start" : 1586526180364,
-          "stop" : 1586526180444,
-          "duration" : 80
+          "start" : 1586652564410,
+          "stop" : 1586652569086,
+          "duration" : 4676
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6809160b16fa5c52d184ce7dd5998d18"
+      "uid" : "f68554bcad9163695b77d14b928ed9a5"
+    } ],
+    "uid" : "645aecf10257b32eb3e7b5f6bbd53442"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying: expected '<input#email1.form-control.action-email>' to have value 'fakes@email.com', but the value was 'fake@email.com'",
+      "children" : [ {
+        "name" : ".type() - type into a DOM element",
+        "uid" : "c61258d333029e9c",
+        "parentUid" : "f4abfca97993c5ae1bb3a10931fe8769",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586652574364,
+          "stop" : 1586652583302,
+          "duration" : 8938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4abfca97993c5ae1bb3a10931fe8769"
+    }, {
+      "name" : "Timed out retrying: expected 4 to equal 5",
+      "children" : [ {
+        "name" : "Some scenario with examples (example #2)",
+        "uid" : "d06b81811d35230c",
+        "parentUid" : "554904025e41c4f6bfd4dc2ad5bd1b73",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586652610672,
+          "stop" : 1586652614865,
+          "duration" : 4193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "554904025e41c4f6bfd4dc2ad5bd1b73"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  } ],
+  "name" : "categories"
 }

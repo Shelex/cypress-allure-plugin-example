@@ -1,0 +1,34 @@
+{
+  "name": "becke-ch--regex--s0-0-v1--base--pl--lib",
+  "version": "1.4.0",
+  "description": "A JavaScript Regular Expression library, extending the standard RegExp class with missing functionality",
+  "keywords": [
+    "Regular Expression",
+    "RegExp",
+    "Regex",
+    "Search",
+    "Search & Replace",
+    "Search and Replace",
+    "match",
+    "split",
+    "exec"
+  ],
+  "main": "./src/becke-ch--regex--s0-0-v1--base--pl--lib.js",
+  "repository": {
+    "url": "file:///ws/tool/becke-ch--regex--s0-v1",
+    "type": "git"
+  },
+  "author": "Raoul Becke <regex--s0-v1@becke.ch> (http://www--s0-v1.becke.ch/tool/becke-ch--regex--s0-v1/becke-ch--regex--s0-0-v1--homepage--pl--client/)",
+  "license": "SEE LICENSE IN LICENSE",
+  "files": [
+    "src/**/*.js"
+  ],
+  "scripts": {
+    "build": "jsdoc src -d doc -R README.md -t template/default",
+    "test": "node_modules/mocha/bin/mocha test/becke-ch--regex--s0-0-v1--base--pl--lib--test.js"
+  },
+  "devDependencies": {
+    "jsdoc": "latest",
+    "mocha": "^3.2.0"
+  }
+}

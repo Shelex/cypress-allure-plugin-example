@@ -1,0 +1,23 @@
+{
+  "9669a37fa765c3bf4c36a146da118d95" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fadf98b4c9d7658a",
+      "reportUrl" : "https://path-to-report/#testresult/fadf98b4c9d7658a",
+      "status" : "failed",
+      "statusDetails" : "hello",
+      "time" : {
+        "start" : 1586526180364,
+        "stop" : 1586526180444,
+        "duration" : 80
+      }
+    } ]
+  }
+}

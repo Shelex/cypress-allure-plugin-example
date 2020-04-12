@@ -1,0 +1,32 @@
+{
+  "name": "cypress-cucumber-example",
+  "version": "1.0.0",
+  "description": "Example of cypress with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBrainFamily/cypress-cucumber-example.git"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing"
+  ],
+  "author": "Lukasz Gandecki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheBrainFamily/cypress-cucumber-example/issues"
+  },
+  "homepage": "https://github.com/TheBrainFamily/cypress-cucumber-example#readme",
+  "dependencies": {
+    "cypress": "^3.4.1",
+    "cypress-cucumber-preprocessor": "^1.16.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

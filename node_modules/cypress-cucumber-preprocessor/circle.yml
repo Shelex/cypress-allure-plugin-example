@@ -1,0 +1,31 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cypress/base:8
+    working_directory: ~/cypress-cucumber-preprocessor
+    steps:
+      - checkout
+      - run:
+          name: npm install
+          command: npm install
+      - run:
+          name: link the package
+          command: |
+            npm link
+            npm link cypress-cucumber-preprocessor
+      - run:
+          name: run tests
+          command: npm test
+      - run:
+          name: slow test run, for sanity
+          command: npm run test:each
+      - run:
+          name: Run on cypress-cucumber-example
+          command: bash ./.scripts/runOnExample.bash
+      - run:
+          name: Run on cypress-cucumber-webpack-typescript-example
+          command: bash ./.scripts/runOnWebpackTypescriptExample.bash
+      - run:
+          name: release
+          command: npm run semantic-release || true

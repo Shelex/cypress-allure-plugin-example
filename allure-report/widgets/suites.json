@@ -1,15 +1,26 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
     "uid" : "e4eb7c6362a258d35885a68faf6e31c7",
     "name" : "Actions",
     "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 14
+    }
+  }, {
+    "uid" : "68bde36fd2b0613b9298c2fb6bcb8d0c",
+    "name" : "The Google",
+    "statistic" : {
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 1
+      "total" : 6
     }
   } ]
 }

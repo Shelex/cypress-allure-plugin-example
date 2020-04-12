@@ -1,0 +1,49 @@
+{
+  "name": "assertion-error-formatter",
+  "version": "2.0.1",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib --ignore '**/*_test.js' --retain-lines",
+    "lint": "yarn run lint-js && yarn run lint-dependencies",
+    "lint-dependencies": "dependency-lint",
+    "lint-js": "eslint src/** test/test_helper.js",
+    "prepublish": "yarn run build",
+    "test": "yarn run lint && yarn run unit-test",
+    "unit-test": "mocha src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlierudolph/node-assertion-error-formatter.git"
+  },
+  "author": {
+    "name": "Charlie Rudolph",
+    "email": "charles.w.rudolph@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlierudolph/node-assertion-error-formatter/issues"
+  },
+  "homepage": "https://github.com/charlierudolph/node-assertion-error-formatter",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0",
+    "dependency-lint": "^4.3.0",
+    "eslint": "^3.7.0",
+    "eslint-plugin-babel": "^4.0.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.6",
+    "sinon-chai": "^2.8.0"
+  },
+  "dependencies": {
+    "diff": "^3.0.0",
+    "pad-right": "^0.2.2",
+    "repeat-string": "^1.6.1"
+  },
+  "files": [
+    "lib"
+  ]
+}
