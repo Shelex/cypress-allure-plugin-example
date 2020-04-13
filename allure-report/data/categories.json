@@ -6,13 +6,13 @@
       "name" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
       "children" : [ {
         "name" : ".focus() - focus on a DOM element",
-        "uid" : "6ba704eab033836d",
+        "uid" : "87d3eaa6b14f31e0",
         "parentUid" : "f68554bcad9163695b77d14b928ed9a5",
         "status" : "failed",
         "time" : {
-          "start" : 1586682597607,
-          "stop" : 1586682602344,
-          "duration" : 4737
+          "start" : 1586764285795,
+          "stop" : 1586764290503,
+          "duration" : 4708
         },
         "flaky" : false,
         "newFailed" : false,
@@ -27,13 +27,13 @@
       "name" : "Timed out retrying: expected '<input#email1.form-control.action-email>' to have value 'fakes@email.com', but the value was 'fake@email.com'",
       "children" : [ {
         "name" : ".type() - type into a DOM element",
-        "uid" : "3b606d5377730aae",
+        "uid" : "7dfcf2654b5ff468",
         "parentUid" : "f4abfca97993c5ae1bb3a10931fe8769",
         "status" : "failed",
         "time" : {
-          "start" : 1586682607781,
-          "stop" : 1586682617110,
-          "duration" : 9329
+          "start" : 1586764296344,
+          "stop" : 1586764305914,
+          "duration" : 9570
         },
         "flaky" : false,
         "newFailed" : false,
@@ -44,13 +44,13 @@
       "name" : "Timed out retrying: expected 4 to equal 5",
       "children" : [ {
         "name" : "Some scenario with examples (example #2)",
-        "uid" : "74d9d4bc73e77713",
+        "uid" : "ea480c567f1a5abd",
         "parentUid" : "554904025e41c4f6bfd4dc2ad5bd1b73",
         "status" : "failed",
         "time" : {
-          "start" : 1586682646069,
-          "stop" : 1586682650284,
-          "duration" : 4215
+          "start" : 1586764337186,
+          "stop" : 1586764341431,
+          "duration" : 4245
         },
         "flaky" : false,
         "newFailed" : false,
