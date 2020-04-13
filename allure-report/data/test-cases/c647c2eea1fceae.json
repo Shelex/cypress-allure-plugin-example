@@ -1,0 +1,268 @@
+{
+  "uid" : "c647c2eea1fceae",
+  "name" : "Some scenario with examples (example #4)",
+  "fullName" : "Some scenario with examples (example #4)",
+  "historyId" : "dabe4cb2cf80553f89abc3c5db8ecfd4",
+  "time" : {
+    "start" : 1586776261221,
+    "stop" : 1586776261242,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log This will run before every scenario of Google.feature test, but NEVER for Facebook/Google feature files ",
+      "time" : {
+        "start" : 1586776261233,
+        "stop" : 1586776261235,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "assert expected **5** to be below **6** ",
+      "time" : {
+        "start" : 1586776261235,
+        "stop" : 1586776261236,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I sum 2 and -1",
+      "time" : {
+        "start" : 1586776261236,
+        "stop" : 1586776261239,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "wrap 1 ",
+        "time" : {
+          "start" : 1586776261238,
+          "stop" : 1586776261239,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I want to see 1",
+      "time" : {
+        "start" : 1586776261239,
+        "stop" : 1586776261242,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get @sumResult ",
+        "time" : {
+          "start" : 1586776261240,
+          "stop" : 1586776261241,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **1** to equal **1** ",
+        "time" : {
+          "start" : 1586776261241,
+          "stop" : 1586776261242,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "The Google"
+  }, {
+    "name" : "epic",
+    "value" : "cucumber"
+  }, {
+    "name" : "story",
+    "value" : "myStory"
+  }, {
+    "name" : "subSuite",
+    "value" : "thirdtest0"
+  }, {
+    "name" : "epic",
+    "value" : "thirdtest2"
+  }, {
+    "name" : "story",
+    "value" : "thirdstory"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "owner",
+    "value" : "me"
+  }, {
+    "name" : "tag",
+    "value" : "someOtherTags"
+  }, {
+    "name" : "feature",
+    "value" : "The Google"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "link-to-tms",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://google.com",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "owner" : "me",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "6d77d519369a0acb",
+        "reportUrl" : "https://path-to-report/#testresult/6d77d519369a0acb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586764341508,
+          "stop" : 1586764341535,
+          "duration" : 27
+        }
+      }, {
+        "uid" : "fa126d448e4b7caa",
+        "reportUrl" : "https://path-to-report/#testresult/fa126d448e4b7caa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586682650341,
+          "stop" : 1586682650360,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "25b5959f43968f50",
+        "reportUrl" : "https://path-to-report/#testresult/25b5959f43968f50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586682281617,
+          "stop" : 1586682281638,
+          "duration" : 21
+        }
+      }, {
+        "uid" : "ee4fa0dccb5e75c3",
+        "reportUrl" : "https://path-to-report/#testresult/ee4fa0dccb5e75c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586654368470,
+          "stop" : 1586654368492,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "3198f936d63fa3a1",
+        "reportUrl" : "https://path-to-report/#testresult/3198f936d63fa3a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586653845095,
+          "stop" : 1586653845115,
+          "duration" : 20
+        }
+      } ]
+    },
+    "tags" : [ "someOtherTags" ]
+  },
+  "source" : "c647c2eea1fceae.json",
+  "parameterValues" : [ ]
+}
