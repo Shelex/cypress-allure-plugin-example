@@ -817,7 +817,7 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@shelex/cypress-allure-plugin@^1.2.0":
+"@shelex/cypress-allure-plugin@latest":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-1.2.0.tgz#189176a6090899eb27ebeaa2dcaf72b5da78c9c8"
   integrity sha512-6KiqmnppGIqp9z3dkADMgRIoQ+ObaFVlln0Fw7T/4/2GNRf1fxoGmml45TieWR3sgNtzA0uBoGmuURn6siqcuQ==
