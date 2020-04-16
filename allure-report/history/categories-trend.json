@@ -1,4 +1,12 @@
 [ {
+  "buildOrder" : 20,
+  "reportUrl" : "https://path-to-report",
+  "reportName" : "reportName",
+  "data" : {
+    "Product defects" : 2,
+    "Not to have class tests" : 1
+  }
+}, {
   "buildOrder" : 7,
   "reportUrl" : "https://path-to-report",
   "reportName" : "reportName",

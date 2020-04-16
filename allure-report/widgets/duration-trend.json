@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 20,
+  "reportUrl" : "https://path-to-report",
+  "reportName" : "reportName",
+  "data" : {
+    "duration" : 49564
+  }
+}, {
   "buildOrder" : 7,
   "reportUrl" : "https://path-to-report",
   "reportName" : "reportName",
