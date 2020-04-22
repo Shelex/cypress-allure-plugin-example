@@ -1,18 +1,39 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
+    "name" : "Not to have class tests",
+    "children" : [ {
+      "name" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
+      "children" : [ {
+        "name" : ".focus() - focus on a DOM element",
+        "uid" : "6ccb62c39a644e3",
+        "parentUid" : "f68554bcad9163695b77d14b928ed9a5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587551020537,
+          "stop" : 1587551025174,
+          "duration" : 4637
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f68554bcad9163695b77d14b928ed9a5"
+    } ],
+    "uid" : "645aecf10257b32eb3e7b5f6bbd53442"
+  }, {
     "name" : "Product defects",
     "children" : [ {
       "name" : "`cy.type()` failed because it requires a DOM element.\n\nThe subject received was:\n\n  > `Object{4}`\n\nThe previous command that ran was:\n\n  > `cy.wrap()`",
       "children" : [ {
         "name" : ".type() - type into a DOM element",
-        "uid" : "5b042c5964b6ce77",
+        "uid" : "499e341eb5602ff6",
         "parentUid" : "fc443546e264f1189c5342406516a46b",
         "status" : "failed",
         "time" : {
-          "start" : 1587548933804,
-          "stop" : 1587548939298,
-          "duration" : 5494
+          "start" : 1587551030858,
+          "stop" : 1587551036765,
+          "duration" : 5907
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +44,13 @@
       "name" : "Timed out retrying: expected 4 to equal 5",
       "children" : [ {
         "name" : "Some scenario with examples (example #2)",
-        "uid" : "113b7a1a701ba84b",
+        "uid" : "b8bc23e68b260a8a",
         "parentUid" : "554904025e41c4f6bfd4dc2ad5bd1b73",
         "status" : "failed",
         "time" : {
-          "start" : 1587548967290,
-          "stop" : 1587548971489,
-          "duration" : 4199
+          "start" : 1587551066578,
+          "stop" : 1587551070807,
+          "duration" : 4229
         },
         "flaky" : false,
         "newFailed" : false,
