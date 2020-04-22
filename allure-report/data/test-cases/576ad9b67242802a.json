@@ -1,0 +1,295 @@
+{
+  "uid" : "576ad9b67242802a",
+  "name" : ".focus() - focus on a DOM element",
+  "fullName" : ".focus() - focus on a DOM element",
+  "historyId" : "9669a37fa765c3bf4c36a146da118d95",
+  "time" : {
+    "start" : 1587543165788,
+    "stop" : 1587543166261,
+    "duration" : 473
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit https://example.cypress.io/commands/actions ",
+      "time" : {
+        "start" : 1587543165810,
+        "stop" : 1587543166220,
+        "duration" : 410
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get .action-focus ",
+      "time" : {
+        "start" : 1587543166220,
+        "stop" : 1587543166237,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "focus  ",
+      "time" : {
+        "start" : 1587543166237,
+        "stop" : 1587543166250,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input#password1.form-control.action-focus.focus>** to have class **focus** ",
+      "time" : {
+        "start" : 1587543166250,
+        "stop" : 1587543166253,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "prev  ",
+      "time" : {
+        "start" : 1587543166253,
+        "stop" : 1587543166260,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<label>** to have attribute **style** with the value **color: orange;** ",
+      "time" : {
+        "start" : 1587543166260,
+        "stop" : 1587543166261,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log this is after each hook ",
+      "time" : {
+        "start" : 1587543166274,
+        "stop" : 1587543166303,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  }, {
+    "name" : "docs",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/focus",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "6a1b7a8b2c0e8b34",
+        "reportUrl" : "https://path-to-report/#testresult/6a1b7a8b2c0e8b34",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
+        "time" : {
+          "start" : 1587542569523,
+          "stop" : 1587542574077,
+          "duration" : 4554
+        }
+      }, {
+        "uid" : "a844a83850acd869",
+        "reportUrl" : "https://path-to-report/#testresult/a844a83850acd869",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
+        "time" : {
+          "start" : 1587069411974,
+          "stop" : 1587069416762,
+          "duration" : 4788
+        }
+      }, {
+        "uid" : "87d3eaa6b14f31e0",
+        "reportUrl" : "https://path-to-report/#testresult/87d3eaa6b14f31e0",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
+        "time" : {
+          "start" : 1586764285795,
+          "stop" : 1586764290503,
+          "duration" : 4708
+        }
+      }, {
+        "uid" : "6ba704eab033836d",
+        "reportUrl" : "https://path-to-report/#testresult/6ba704eab033836d",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
+        "time" : {
+          "start" : 1586682597607,
+          "stop" : 1586682602344,
+          "duration" : 4737
+        }
+      }, {
+        "uid" : "2e550c83d84c3b35",
+        "reportUrl" : "https://path-to-report/#testresult/2e550c83d84c3b35",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
+        "time" : {
+          "start" : 1586682231226,
+          "stop" : 1586682235869,
+          "duration" : 4643
+        }
+      }, {
+        "uid" : "4664513b17eebf3",
+        "reportUrl" : "https://path-to-report/#testresult/4664513b17eebf3",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
+        "time" : {
+          "start" : 1586654317491,
+          "stop" : 1586654322136,
+          "duration" : 4645
+        }
+      }, {
+        "uid" : "2f83c3c142560221",
+        "reportUrl" : "https://path-to-report/#testresult/2f83c3c142560221",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
+        "time" : {
+          "start" : 1586653794270,
+          "stop" : 1586653798949,
+          "duration" : 4679
+        }
+      }, {
+        "uid" : "fadf98b4c9d7658a",
+        "reportUrl" : "https://path-to-report/#testresult/fadf98b4c9d7658a",
+        "status" : "failed",
+        "statusDetails" : "hello",
+        "time" : {
+          "start" : 1586526180364,
+          "stop" : 1586526180444,
+          "duration" : 80
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+  "source" : "576ad9b67242802a.json",
+  "parameterValues" : [ ]
+}

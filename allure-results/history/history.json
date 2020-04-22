@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "45104a9fbe318962",
+      "reportUrl" : "https://path-to-report/#testresult/45104a9fbe318962",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587542589766,
+        "stop" : 1587542590797,
+        "duration" : 1031
+      }
+    }, {
       "uid" : "e4494ccf0e8ad4d6",
       "reportUrl" : "https://path-to-report/#testresult/e4494ccf0e8ad4d6",
       "status" : "passed",
@@ -66,14 +75,24 @@
   },
   "f3c22ddce3b6ee36dac8b9bd658acdef" : {
     "statistic" : {
-      "failed" : 6,
+      "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "e9c4dc4c1fff494c",
+      "reportUrl" : "https://path-to-report/#testresult/e9c4dc4c1fff494c",
+      "status" : "failed",
+      "statusDetails" : "`cy.type()` failed because it requires a DOM element.\n\nThe subject received was:\n\n  > `Object{4}`\n\nThe previous command that ran was:\n\n  > `cy.wrap()`",
+      "time" : {
+        "start" : 1587542579212,
+        "stop" : 1587542584678,
+        "duration" : 5466
+      }
+    }, {
       "uid" : "eb8fd1fecf6f74d2",
       "reportUrl" : "https://path-to-report/#testresult/eb8fd1fecf6f74d2",
       "status" : "failed",
@@ -140,11 +159,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "7275e91d1b866da4",
+      "reportUrl" : "https://path-to-report/#testresult/7275e91d1b866da4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587542584717,
+        "stop" : 1587542589727,
+        "duration" : 5010
+      }
+    }, {
       "uid" : "d7df4c02486bd335",
       "reportUrl" : "https://path-to-report/#testresult/d7df4c02486bd335",
       "status" : "passed",
@@ -205,11 +233,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "f51a3845784c4080",
+      "reportUrl" : "https://path-to-report/#testresult/f51a3845784c4080",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587542611330,
+        "stop" : 1587542612300,
+        "duration" : 970
+      }
+    }, {
       "uid" : "7e0a2ef2fb5b9c4",
       "reportUrl" : "https://path-to-report/#testresult/7e0a2ef2fb5b9c4",
       "status" : "passed",
@@ -270,11 +307,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "719f4f331bd50d85",
+      "reportUrl" : "https://path-to-report/#testresult/719f4f331bd50d85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587542575206,
+        "stop" : 1587542575626,
+        "duration" : 420
+      }
+    }, {
       "uid" : "bae217bf13075aad",
       "reportUrl" : "https://path-to-report/#testresult/bae217bf13075aad",
       "status" : "passed",
@@ -335,11 +381,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "93f0881345bc3fdf",
+      "reportUrl" : "https://path-to-report/#testresult/93f0881345bc3fdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587542577787,
+        "stop" : 1587542578037,
+        "duration" : 250
+      }
+    }, {
       "uid" : "f0300468de349af",
       "reportUrl" : "https://path-to-report/#testresult/f0300468de349af",
       "status" : "passed",
@@ -400,11 +455,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "3ac0912b566d4f9a",
+      "reportUrl" : "https://path-to-report/#testresult/3ac0912b566d4f9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587542616706,
+        "stop" : 1587542616733,
+        "duration" : 27
+      }
+    }, {
       "uid" : "f3f66b294db800e5",
       "reportUrl" : "https://path-to-report/#testresult/f3f66b294db800e5",
       "status" : "passed",
@@ -462,14 +526,24 @@
   },
   "9669a37fa765c3bf4c36a146da118d95" : {
     "statistic" : {
-      "failed" : 7,
+      "failed" : 8,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "6a1b7a8b2c0e8b34",
+      "reportUrl" : "https://path-to-report/#testresult/6a1b7a8b2c0e8b34",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
+      "time" : {
+        "start" : 1587542569523,
+        "stop" : 1587542574077,
+        "duration" : 4554
+      }
+    }, {
       "uid" : "a844a83850acd869",
       "reportUrl" : "https://path-to-report/#testresult/a844a83850acd869",
       "status" : "failed",
@@ -546,11 +620,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "a63dfb5db838acc0",
+      "reportUrl" : "https://path-to-report/#testresult/a63dfb5db838acc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587542590814,
+        "stop" : 1587542591012,
+        "duration" : 198
+      }
+    }, {
       "uid" : "1116221ac175108",
       "reportUrl" : "https://path-to-report/#testresult/1116221ac175108",
       "status" : "passed",
@@ -608,14 +691,24 @@
   },
   "36ff6c5984ef82f9c1d14a83d9172cc1" : {
     "statistic" : {
-      "failed" : 6,
+      "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "62bbbbb5f1d838f",
+      "reportUrl" : "https://path-to-report/#testresult/62bbbbb5f1d838f",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying: expected 4 to equal 5",
+      "time" : {
+        "start" : 1587542612391,
+        "stop" : 1587542616611,
+        "duration" : 4220
+      }
+    }, {
       "uid" : "518fc918e231dac",
       "reportUrl" : "https://path-to-report/#testresult/518fc918e231dac",
       "status" : "failed",
@@ -682,11 +775,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "d4f5199f72e160b9",
+      "reportUrl" : "https://path-to-report/#testresult/d4f5199f72e160b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587542574659,
+        "stop" : 1587542575194,
+        "duration" : 535
+      }
+    }, {
       "uid" : "3341b9178a9c63b0",
       "reportUrl" : "https://path-to-report/#testresult/3341b9178a9c63b0",
       "status" : "passed",
@@ -747,11 +849,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "f3b7dd2c3b06fd9b",
+      "reportUrl" : "https://path-to-report/#testresult/f3b7dd2c3b06fd9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587542612313,
+        "stop" : 1587542612381,
+        "duration" : 68
+      }
+    }, {
       "uid" : "f9726a41dcc66aba",
       "reportUrl" : "https://path-to-report/#testresult/f9726a41dcc66aba",
       "status" : "passed",
@@ -812,11 +923,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "4cbafbaa6c6723c1",
+      "reportUrl" : "https://path-to-report/#testresult/4cbafbaa6c6723c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587542578284,
+        "stop" : 1587542579199,
+        "duration" : 915
+      }
+    }, {
       "uid" : "f269cd6b335ea24d",
       "reportUrl" : "https://path-to-report/#testresult/f269cd6b335ea24d",
       "status" : "passed",
@@ -877,11 +997,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "5bfcf70d56707ec",
+      "reportUrl" : "https://path-to-report/#testresult/5bfcf70d56707ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587542609624,
+        "stop" : 1587542611307,
+        "duration" : 1683
+      }
+    }, {
       "uid" : "ed4af62d4c1a1bc2",
       "reportUrl" : "https://path-to-report/#testresult/ed4af62d4c1a1bc2",
       "status" : "passed",
@@ -942,11 +1071,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "9325028383ec0d26",
+      "reportUrl" : "https://path-to-report/#testresult/9325028383ec0d26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587542575640,
+        "stop" : 1587542577774,
+        "duration" : 2134
+      }
+    }, {
       "uid" : "c18e1d243be86ca1",
       "reportUrl" : "https://path-to-report/#testresult/c18e1d243be86ca1",
       "status" : "passed",
@@ -1007,11 +1145,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "fa1d9816047ffc2f",
+      "reportUrl" : "https://path-to-report/#testresult/fa1d9816047ffc2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587542616624,
+        "stop" : 1587542616695,
+        "duration" : 71
+      }
+    }, {
       "uid" : "24ba6eaf66f5d9e7",
       "reportUrl" : "https://path-to-report/#testresult/24ba6eaf66f5d9e7",
       "status" : "passed",
@@ -1072,11 +1219,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "58208b132ee7eb39",
+      "reportUrl" : "https://path-to-report/#testresult/58208b132ee7eb39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587542591215,
+        "stop" : 1587542593374,
+        "duration" : 2159
+      }
+    }, {
       "uid" : "1d015105ad5679e2",
       "reportUrl" : "https://path-to-report/#testresult/1d015105ad5679e2",
       "status" : "passed",
@@ -1137,11 +1293,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "3e025b1c84aefc40",
+      "reportUrl" : "https://path-to-report/#testresult/3e025b1c84aefc40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587542574109,
+        "stop" : 1587542574644,
+        "duration" : 535
+      }
+    }, {
       "uid" : "ea509e68ef35057d",
       "reportUrl" : "https://path-to-report/#testresult/ea509e68ef35057d",
       "status" : "passed",
@@ -1202,11 +1367,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "714860dcf53eb560",
+      "reportUrl" : "https://path-to-report/#testresult/714860dcf53eb560",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587542578047,
+        "stop" : 1587542578274,
+        "duration" : 227
+      }
+    }, {
       "uid" : "fe154ff42c5a4a08",
       "reportUrl" : "https://path-to-report/#testresult/fe154ff42c5a4a08",
       "status" : "passed",
@@ -1267,11 +1441,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "7bc3a1703bccb3a8",
+      "reportUrl" : "https://path-to-report/#testresult/7bc3a1703bccb3a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587542591034,
+        "stop" : 1587542591204,
+        "duration" : 170
+      }
+    }, {
       "uid" : "aed7e90864c2c5f0",
       "reportUrl" : "https://path-to-report/#testresult/aed7e90864c2c5f0",
       "status" : "passed",

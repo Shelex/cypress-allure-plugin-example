@@ -1,0 +1,265 @@
+{
+  "uid" : "feed2d39345cb046",
+  "name" : ".clear() - clears an input or textarea element",
+  "fullName" : ".clear() - clears an input or textarea element",
+  "historyId" : "fa534f1bfef9141e4ee0be8e32412027",
+  "time" : {
+    "start" : 1587543166800,
+    "stop" : 1587543167503,
+    "duration" : 703
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit https://example.cypress.io/commands/actions ",
+      "time" : {
+        "start" : 1587543166828,
+        "stop" : 1587543166966,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get .action-clear ",
+      "time" : {
+        "start" : 1587543166966,
+        "stop" : 1587543166976,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "type Clear this text ",
+      "time" : {
+        "start" : 1587543166976,
+        "stop" : 1587543167420,
+        "duration" : 444
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input#description.form-control.action-clear>** to have value **Clear this text** ",
+      "time" : {
+        "start" : 1587543167420,
+        "stop" : 1587543167424,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "clear  ",
+      "time" : {
+        "start" : 1587543167424,
+        "stop" : 1587543167502,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input#description.form-control.action-clear>** to have value **''** ",
+      "time" : {
+        "start" : 1587543167502,
+        "stop" : 1587543167503,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log this is after each hook ",
+      "time" : {
+        "start" : 1587543167510,
+        "stop" : 1587543167544,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  }, {
+    "name" : "docs",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/clear",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "d4f5199f72e160b9",
+        "reportUrl" : "https://path-to-report/#testresult/d4f5199f72e160b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587542574659,
+          "stop" : 1587542575194,
+          "duration" : 535
+        }
+      }, {
+        "uid" : "3341b9178a9c63b0",
+        "reportUrl" : "https://path-to-report/#testresult/3341b9178a9c63b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587069417788,
+          "stop" : 1587069418338,
+          "duration" : 550
+        }
+      }, {
+        "uid" : "caeb86f3adb23781",
+        "reportUrl" : "https://path-to-report/#testresult/caeb86f3adb23781",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586764291268,
+          "stop" : 1586764291872,
+          "duration" : 604
+        }
+      }, {
+        "uid" : "fe4b64717118ea58",
+        "reportUrl" : "https://path-to-report/#testresult/fe4b64717118ea58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586682603049,
+          "stop" : 1586682603645,
+          "duration" : 596
+        }
+      }, {
+        "uid" : "16c5bad27e78eba2",
+        "reportUrl" : "https://path-to-report/#testresult/16c5bad27e78eba2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586682236395,
+          "stop" : 1586682236951,
+          "duration" : 556
+        }
+      }, {
+        "uid" : "66d08825d7ab929f",
+        "reportUrl" : "https://path-to-report/#testresult/66d08825d7ab929f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586654322731,
+          "stop" : 1586654323358,
+          "duration" : 627
+        }
+      }, {
+        "uid" : "eda3dd8bce87df1c",
+        "reportUrl" : "https://path-to-report/#testresult/eda3dd8bce87df1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586653799602,
+          "stop" : 1586653800170,
+          "duration" : 568
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+  "source" : "feed2d39345cb046.json",
+  "parameterValues" : [ ]
+}
