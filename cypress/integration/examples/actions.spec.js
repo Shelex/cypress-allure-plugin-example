@@ -207,7 +207,7 @@ context('Actions', () => {
 
         cy.get('.action-email')
             .type('fake@email.com')
-            .should('have.value', 'fakes@email.com');
+            .should('have.value', 'fake@email.com');
 
         cy.allure()
             .step('.type() with special character sequences')
