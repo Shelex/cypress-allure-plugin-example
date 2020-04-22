@@ -47,7 +47,7 @@ context('Actions', () => {
             .severity('minor');
         cy.get('.action-focus')
             .focus()
-            .should('not.have.class', 'focus')
+            .should('have.class', 'focus')
             .prev()
             .should('have.attr', 'style', 'color: orange;');
     });
