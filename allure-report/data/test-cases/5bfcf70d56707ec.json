@@ -1,0 +1,302 @@
+{
+  "uid" : "5bfcf70d56707ec",
+  "name" : "Opening a Google network page",
+  "fullName" : "Opening a Google network page",
+  "historyId" : "edff98744001822b846154ceea2c00bc",
+  "time" : {
+    "start" : 1587542609624,
+    "stop" : 1587542611307,
+    "duration" : 1683
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log This will run before every scenario of Google.feature test, but NEVER for Facebook/Google feature files ",
+      "time" : {
+        "start" : 1587542609646,
+        "stop" : 1587542609654,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "assert expected **0** to be below **6** ",
+      "time" : {
+        "start" : 1587542609654,
+        "stop" : 1587542609657,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Given I open Google page",
+      "time" : {
+        "start" : 1587542609657,
+        "stop" : 1587542611294,
+        "duration" : 1637
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://google.com ",
+        "time" : {
+          "start" : 1587542609660,
+          "stop" : 1587542611073,
+          "duration" : 1413
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "xhr  GET https://www.google.com/logos/2020/earthday20/r4/messages.en.nocache.json",
+        "time" : {
+          "start" : 1587542611073,
+          "stop" : 1587542611294,
+          "duration" : 221
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Then I see \"Google\" in the title",
+      "time" : {
+        "start" : 1587542611294,
+        "stop" : 1587542611307,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "title  ",
+        "time" : {
+          "start" : 1587542611299,
+          "stop" : 1587542611305,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **Google** to include **Google** ",
+        "time" : {
+          "start" : 1587542611305,
+          "stop" : 1587542611307,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "The Google"
+  }, {
+    "name" : "epic",
+    "value" : "cucumber"
+  }, {
+    "name" : "story",
+    "value" : "myStory"
+  }, {
+    "name" : "subSuite",
+    "value" : "firsttest0"
+  }, {
+    "name" : "epic",
+    "value" : "firsttest2"
+  }, {
+    "name" : "story",
+    "value" : "firsttest4"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "owner",
+    "value" : "firsttest8"
+  }, {
+    "name" : "tag",
+    "value" : "someOtherTags"
+  }, {
+    "name" : "feature",
+    "value" : "The Google"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "jira",
+    "url" : "https://your.domain.atlassian.net/browse/https://google.com",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "owner" : "firsttest8",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "ed4af62d4c1a1bc2",
+        "reportUrl" : "https://path-to-report/#testresult/ed4af62d4c1a1bc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587069455160,
+          "stop" : 1587069456263,
+          "duration" : 1103
+        }
+      }, {
+        "uid" : "3df0b09533dca958",
+        "reportUrl" : "https://path-to-report/#testresult/3df0b09533dca958",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586764334795,
+          "stop" : 1586764336360,
+          "duration" : 1565
+        }
+      }, {
+        "uid" : "b5a65bab99339837",
+        "reportUrl" : "https://path-to-report/#testresult/b5a65bab99339837",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586682644175,
+          "stop" : 1586682645347,
+          "duration" : 1172
+        }
+      }, {
+        "uid" : "a4eca12cdfbc55f4",
+        "reportUrl" : "https://path-to-report/#testresult/a4eca12cdfbc55f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586682274857,
+          "stop" : 1586682276262,
+          "duration" : 1405
+        }
+      }, {
+        "uid" : "aad8630899e9fa64",
+        "reportUrl" : "https://path-to-report/#testresult/aad8630899e9fa64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586654361966,
+          "stop" : 1586654363276,
+          "duration" : 1310
+        }
+      }, {
+        "uid" : "b86a15ebf04bcd0a",
+        "reportUrl" : "https://path-to-report/#testresult/b86a15ebf04bcd0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586653838734,
+          "stop" : 1586653839901,
+          "duration" : 1167
+        }
+      } ]
+    },
+    "tags" : [ "someOtherTags" ]
+  },
+  "source" : "5bfcf70d56707ec.json",
+  "parameterValues" : [ ]
+}

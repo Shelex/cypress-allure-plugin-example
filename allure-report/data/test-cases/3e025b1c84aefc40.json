@@ -1,0 +1,271 @@
+{
+  "uid" : "3e025b1c84aefc40",
+  "name" : ".blur() - blur off a DOM element",
+  "fullName" : ".blur() - blur off a DOM element",
+  "historyId" : "2403b69d3efe79b711ea79f102961b49",
+  "time" : {
+    "start" : 1587542574109,
+    "stop" : 1587542574644,
+    "duration" : 535
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit https://example.cypress.io/commands/actions ",
+      "time" : {
+        "start" : 1587542574129,
+        "stop" : 1587542574248,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get .action-blur ",
+      "time" : {
+        "start" : 1587542574248,
+        "stop" : 1587542574259,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type About to blur ",
+      "time" : {
+        "start" : 1587542574259,
+        "stop" : 1587542574631,
+        "duration" : 372
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "blur  ",
+      "time" : {
+        "start" : 1587542574631,
+        "stop" : 1587542574636,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input#fullName1.form-control.action-blur.error>** to have class **error** ",
+      "time" : {
+        "start" : 1587542574636,
+        "stop" : 1587542574638,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "prev  ",
+      "time" : {
+        "start" : 1587542574638,
+        "stop" : 1587542574643,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<label>** to have attribute **style** with the value **color: red;** ",
+      "time" : {
+        "start" : 1587542574643,
+        "stop" : 1587542574644,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log this is after each hook ",
+      "time" : {
+        "start" : 1587542574651,
+        "stop" : 1587542574681,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  }, {
+    "name" : "docs",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/blur",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "ea509e68ef35057d",
+        "reportUrl" : "https://path-to-report/#testresult/ea509e68ef35057d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587069416796,
+          "stop" : 1587069417771,
+          "duration" : 975
+        }
+      }, {
+        "uid" : "f75e0da3ede6ef3d",
+        "reportUrl" : "https://path-to-report/#testresult/f75e0da3ede6ef3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586764290537,
+          "stop" : 1586764291250,
+          "duration" : 713
+        }
+      }, {
+        "uid" : "3041f7dcd1b9467",
+        "reportUrl" : "https://path-to-report/#testresult/3041f7dcd1b9467",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586682602379,
+          "stop" : 1586682603031,
+          "duration" : 652
+        }
+      }, {
+        "uid" : "bede3cd486a19a31",
+        "reportUrl" : "https://path-to-report/#testresult/bede3cd486a19a31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586682235902,
+          "stop" : 1586682236381,
+          "duration" : 479
+        }
+      }, {
+        "uid" : "9f1905b4639b7534",
+        "reportUrl" : "https://path-to-report/#testresult/9f1905b4639b7534",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586654322166,
+          "stop" : 1586654322717,
+          "duration" : 551
+        }
+      }, {
+        "uid" : "5a8f06c831d88034",
+        "reportUrl" : "https://path-to-report/#testresult/5a8f06c831d88034",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586653798981,
+          "stop" : 1586653799587,
+          "duration" : 606
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+  "source" : "3e025b1c84aefc40.json",
+  "parameterValues" : [ ]
+}
