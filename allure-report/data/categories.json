@@ -1,52 +1,43 @@
 {
-    "uid": "4b4757e66a1912dae1a509f688f20b0f",
-    "children": [
-        {
-            "name": "Product defects",
-            "children": [
-                {
-                    "name": "`cy.type()` failed because it requires a DOM element.\n\nThe subject received was:\n\n  > `Object{4}`\n\nThe previous command that ran was:\n\n  > `cy.wrap()`",
-                    "children": [
-                        {
-                            "name": ".type() - type into a DOM element",
-                            "uid": "52ff485a22c236d2",
-                            "parentUid": "fc443546e264f1189c5342406516a46b",
-                            "status": "failed",
-                            "time": {
-                                "start": 1587543171636,
-                                "stop": 1587543177169,
-                                "duration": 5533
-                            },
-                            "flaky": false,
-                            "newFailed": false,
-                            "parameters": []
-                        }
-                    ],
-                    "uid": "fc443546e264f1189c5342406516a46b"
-                },
-                {
-                    "name": "Timed out retrying: expected 4 to equal 5",
-                    "children": [
-                        {
-                            "name": "Some scenario with examples (example #2)",
-                            "uid": "472eb4fc2e5364b7",
-                            "parentUid": "554904025e41c4f6bfd4dc2ad5bd1b73",
-                            "status": "failed",
-                            "time": {
-                                "start": 1587543205711,
-                                "stop": 1587543209908,
-                                "duration": 4197
-                            },
-                            "flaky": false,
-                            "newFailed": false,
-                            "parameters": []
-                        }
-                    ],
-                    "uid": "554904025e41c4f6bfd4dc2ad5bd1b73"
-                }
-            ],
-            "uid": "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-        }
-    ],
-    "name": "categories"
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "`cy.type()` failed because it requires a DOM element.\n\nThe subject received was:\n\n  > `Object{4}`\n\nThe previous command that ran was:\n\n  > `cy.wrap()`",
+      "children" : [ {
+        "name" : ".type() - type into a DOM element",
+        "uid" : "5b042c5964b6ce77",
+        "parentUid" : "fc443546e264f1189c5342406516a46b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587548933804,
+          "stop" : 1587548939298,
+          "duration" : 5494
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc443546e264f1189c5342406516a46b"
+    }, {
+      "name" : "Timed out retrying: expected 4 to equal 5",
+      "children" : [ {
+        "name" : "Some scenario with examples (example #2)",
+        "uid" : "113b7a1a701ba84b",
+        "parentUid" : "554904025e41c4f6bfd4dc2ad5bd1b73",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587548967290,
+          "stop" : 1587548971489,
+          "duration" : 4199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "554904025e41c4f6bfd4dc2ad5bd1b73"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
 }

@@ -1,106 +1,113 @@
-[
-    {
-        "buildOrder": 8,
-        "reportUrl": "https://path-to-report",
-        "reportName": "reportName",
-        "data": {
-            "failed": 3,
-            "broken": 0,
-            "skipped": 0,
-            "passed": 17,
-            "unknown": 0,
-            "total": 20
-        }
-    },
-    {
-        "buildOrder": 20,
-        "reportUrl": "https://path-to-report",
-        "reportName": "reportName",
-        "data": {
-            "failed": 3,
-            "broken": 0,
-            "skipped": 0,
-            "passed": 17,
-            "unknown": 0,
-            "total": 20
-        }
-    },
-    {
-        "buildOrder": 7,
-        "reportUrl": "https://path-to-report",
-        "reportName": "reportName",
-        "data": {
-            "failed": 3,
-            "broken": 0,
-            "skipped": 0,
-            "passed": 17,
-            "unknown": 0,
-            "total": 20
-        }
-    },
-    {
-        "buildOrder": 9,
-        "reportUrl": "https://path-to-report",
-        "reportName": "reportName",
-        "data": {
-            "failed": 3,
-            "broken": 0,
-            "skipped": 0,
-            "passed": 17,
-            "unknown": 0,
-            "total": 20
-        }
-    },
-    {
-        "buildOrder": 9,
-        "reportUrl": "https://path-to-report",
-        "reportName": "reportName",
-        "data": {
-            "failed": 3,
-            "broken": 0,
-            "skipped": 0,
-            "passed": 17,
-            "unknown": 0,
-            "total": 20
-        }
-    },
-    {
-        "buildOrder": 1,
-        "reportUrl": "https://path-to-report",
-        "reportName": "reportName",
-        "data": {
-            "failed": 3,
-            "broken": 0,
-            "skipped": 0,
-            "passed": 17,
-            "unknown": 0,
-            "total": 20
-        }
-    },
-    {
-        "buildOrder": 200,
-        "reportUrl": "https://path-to-report",
-        "reportName": "reportName",
-        "data": {
-            "failed": 3,
-            "broken": 0,
-            "skipped": 0,
-            "passed": 17,
-            "unknown": 0,
-            "total": 20
-        }
-    },
-    {
-        "buildOrder": 200,
-        "reportUrl": "https://path-to-report",
-        "reportName": "reportName",
-        "data": {
-            "failed": 1,
-            "broken": 0,
-            "skipped": 0,
-            "passed": 0,
-            "unknown": 0,
-            "total": 1
-        }
-    }
-]
+[ {
+<<<<<<< HEAD
+  "buildOrder" : 11,
+=======
+  "buildOrder" : 8,
+  "reportUrl" : "https://path-to-report",
+  "reportName" : "reportName",
+  "data" : {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 18,
+    "unknown" : 0,
+    "total" : 20
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "https://path-to-report",
+  "reportName" : "reportName",
+  "data" : {
+    "failed" : 3,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 17,
+    "unknown" : 0,
+    "total" : 20
+  }
+}, {
+  "buildOrder" : 20,
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd
+  "reportUrl" : "https://path-to-report",
+  "reportName" : "reportName",
+  "data" : {
+    "failed" : 3,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 17,
+    "unknown" : 0,
+    "total" : 20
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "https://path-to-report",
+  "reportName" : "reportName",
+  "data" : {
+    "failed" : 3,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 17,
+    "unknown" : 0,
+    "total" : 20
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "https://path-to-report",
+  "reportName" : "reportName",
+  "data" : {
+    "failed" : 3,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 17,
+    "unknown" : 0,
+    "total" : 20
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "https://path-to-report",
+  "reportName" : "reportName",
+  "data" : {
+    "failed" : 3,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 17,
+    "unknown" : 0,
+    "total" : 20
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "https://path-to-report",
+  "reportName" : "reportName",
+  "data" : {
+    "failed" : 3,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 17,
+    "unknown" : 0,
+    "total" : 20
+  }
+}, {
+  "buildOrder" : 200,
+  "reportUrl" : "https://path-to-report",
+  "reportName" : "reportName",
+  "data" : {
+    "failed" : 3,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 17,
+    "unknown" : 0,
+    "total" : 20
+  }
+}, {
+  "buildOrder" : 200,
+  "reportUrl" : "https://path-to-report",
+  "reportName" : "reportName",
+  "data" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 1
+  }
+} ]

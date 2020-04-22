@@ -1,660 +1,579 @@
 {
-    "uid": "b1a8273437954620fa374b796ffaacdd",
-    "children": [
-        {
-            "name": "Plain js tests",
-            "children": [
-                {
-                    "name": "Actions Feature",
-                    "children": [
-                        {
-                            "name": ".focus() - focus on a DOM element",
-                            "uid": "576ad9b67242802a",
-                            "parentUid": "eda9441f4fad7c740aae10dcf97b13ba",
-                            "status": "passed",
-                            "time": {
-                                "start": 1587543165788,
-                                "stop": 1587543166261,
-                                "duration": 473
-                            },
-                            "flaky": false,
-                            "newFailed": false,
-                            "parameters": []
-                        },
-                        {
-                            "name": ".blur() - blur off a DOM element",
-                            "uid": "204c7a86073f278f",
-                            "parentUid": "eda9441f4fad7c740aae10dcf97b13ba",
-                            "status": "passed",
-                            "time": {
-                                "start": 1587543166283,
-                                "stop": 1587543166780,
-                                "duration": 497
-                            },
-                            "flaky": false,
-                            "newFailed": false,
-                            "parameters": []
-                        },
-                        {
-                            "name": ".clear() - clears an input or textarea element",
-                            "uid": "feed2d39345cb046",
-                            "parentUid": "eda9441f4fad7c740aae10dcf97b13ba",
-                            "status": "passed",
-                            "time": {
-                                "start": 1587543166800,
-                                "stop": 1587543167503,
-                                "duration": 703
-                            },
-                            "flaky": false,
-                            "newFailed": false,
-                            "parameters": []
-                        },
-                        {
-                            "name": ".submit() - submit a form",
-                            "uid": "54a12e90e1182aa5",
-                            "parentUid": "eda9441f4fad7c740aae10dcf97b13ba",
-                            "status": "passed",
-                            "time": {
-                                "start": 1587543167517,
-                                "stop": 1587543167972,
-                                "duration": 455
-                            },
-                            "flaky": false,
-                            "newFailed": false,
-                            "parameters": []
-                        },
-                        {
-                            "name": ".click() - click on a DOM element",
-                            "uid": "3d073c9262604296",
-                            "parentUid": "eda9441f4fad7c740aae10dcf97b13ba",
-                            "status": "passed",
-                            "time": {
-                                "start": 1587543167985,
-                                "stop": 1587543170151,
-                                "duration": 2166
-                            },
-                            "flaky": false,
-                            "newFailed": false,
-                            "parameters": []
-                        },
-                        {
-                            "name": ".dblclick() - double click on a DOM element",
-                            "uid": "8108c481987815fc",
-                            "parentUid": "eda9441f4fad7c740aae10dcf97b13ba",
-                            "status": "passed",
-                            "time": {
-                                "start": 1587543170167,
-                                "stop": 1587543170425,
-                                "duration": 258
-                            },
-                            "flaky": false,
-                            "newFailed": false,
-                            "parameters": []
-                        },
-                        {
-                            "name": ".rightclick() - right click on a DOM element",
-                            "uid": "1f4ef2cd9b8e75e0",
-                            "parentUid": "eda9441f4fad7c740aae10dcf97b13ba",
-                            "status": "passed",
-                            "time": {
-                                "start": 1587543170436,
-                                "stop": 1587543170698,
-                                "duration": 262
-                            },
-                            "flaky": false,
-                            "newFailed": false,
-                            "parameters": []
-                        },
-                        {
-                            "name": ".check() - check a checkbox or radio element",
-                            "uid": "f777d9a3c4766df5",
-                            "parentUid": "eda9441f4fad7c740aae10dcf97b13ba",
-                            "status": "passed",
-                            "time": {
-                                "start": 1587543170712,
-                                "stop": 1587543171624,
-                                "duration": 912
-                            },
-                            "flaky": false,
-                            "newFailed": false,
-                            "parameters": []
-                        },
-                        {
-                            "name": ".type() - type into a DOM element",
-                            "uid": "52ff485a22c236d2",
-                            "parentUid": "eda9441f4fad7c740aae10dcf97b13ba",
-                            "status": "failed",
-                            "time": {
-                                "start": 1587543171636,
-                                "stop": 1587543177169,
-                                "duration": 5533
-                            },
-                            "flaky": false,
-                            "newFailed": false,
-                            "parameters": []
-                        },
-                        {
-                            "name": ".uncheck() - uncheck a checkbox element",
-                            "uid": "b37ed3574d9a2604",
-                            "parentUid": "eda9441f4fad7c740aae10dcf97b13ba",
-                            "status": "passed",
-                            "time": {
-                                "start": 1587543177202,
-                                "stop": 1587543183158,
-                                "duration": 5956
-                            },
-                            "flaky": false,
-                            "newFailed": false,
-                            "parameters": []
-                        },
-                        {
-                            "name": ".select() - select an option in a <select> element",
-                            "uid": "8cd55ad0cd27ba1b",
-                            "parentUid": "eda9441f4fad7c740aae10dcf97b13ba",
-                            "status": "passed",
-                            "time": {
-                                "start": 1587543183199,
-                                "stop": 1587543184226,
-                                "duration": 1027
-                            },
-                            "flaky": false,
-                            "newFailed": false,
-                            "parameters": []
-                        },
-                        {
-                            "name": ".scrollIntoView() - scroll an element into view",
-                            "uid": "95905ef63669cb68",
-                            "parentUid": "eda9441f4fad7c740aae10dcf97b13ba",
-                            "status": "passed",
-                            "time": {
-                                "start": 1587543184244,
-                                "stop": 1587543184450,
-                                "duration": 206
-                            },
-                            "flaky": false,
-                            "newFailed": false,
-                            "parameters": [
-                                "https://on.cypress.io/scrollintoview"
-                            ]
-                        },
-                        {
-                            "name": ".trigger() - trigger an event on a DOM element",
-                            "uid": "aaded25aebef8420",
-                            "parentUid": "eda9441f4fad7c740aae10dcf97b13ba",
-                            "status": "passed",
-                            "time": {
-                                "start": 1587543184475,
-                                "stop": 1587543184664,
-                                "duration": 189
-                            },
-                            "flaky": false,
-                            "newFailed": false,
-                            "parameters": ["https://on.cypress.io/trigger"]
-                        },
-                        {
-                            "name": "cy.scrollTo() - scroll the window or element to a position",
-                            "uid": "30fd3608da73a1fe",
-                            "parentUid": "eda9441f4fad7c740aae10dcf97b13ba",
-                            "status": "passed",
-                            "time": {
-                                "start": 1587543184675,
-                                "stop": 1587543186823,
-                                "duration": 2148
-                            },
-                            "flaky": false,
-                            "newFailed": false,
-                            "parameters": ["250", "250", "250", "250"]
-                        }
-                    ],
-                    "uid": "eda9441f4fad7c740aae10dcf97b13ba"
-                }
-            ],
-            "uid": "cae7621e2565352e172b864ca84b877b"
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Plain js tests",
+    "children" : [ {
+      "name" : "Actions Feature",
+      "children" : [ {
+        "name" : ".focus() - focus on a DOM element",
+        "uid" : "43148e7a5609eba9",
+        "parentUid" : "eda9441f4fad7c740aae10dcf97b13ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548928227,
+          "stop" : 1587548928656,
+          "duration" : 429
         },
-        {
-            "name": "cucumber",
-            "children": [
-                {
-                    "name": "The Google",
-                    "children": [
-                        {
-                            "name": "myStory",
-                            "children": [
-                                {
-                                    "name": "Opening a Google network page",
-                                    "uid": "e388fcf6f0b19354",
-                                    "parentUid": "704f32ebd0d7e3c2bffd30143f5dde29",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543203333,
-                                        "stop": 1587543204572,
-                                        "duration": 1239
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                },
-                                {
-                                    "name": "Different kind of opening",
-                                    "uid": "b2d537154536f673",
-                                    "parentUid": "704f32ebd0d7e3c2bffd30143f5dde29",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543204589,
-                                        "stop": 1587543205610,
-                                        "duration": 1021
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                },
-                                {
-                                    "name": "Some scenario with examples (example #1)",
-                                    "uid": "bf6b6ba10ae9f82",
-                                    "parentUid": "704f32ebd0d7e3c2bffd30143f5dde29",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543205623,
-                                        "stop": 1587543205702,
-                                        "duration": 79
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                },
-                                {
-                                    "name": "Some scenario with examples (example #2)",
-                                    "uid": "472eb4fc2e5364b7",
-                                    "parentUid": "704f32ebd0d7e3c2bffd30143f5dde29",
-                                    "status": "failed",
-                                    "time": {
-                                        "start": 1587543205711,
-                                        "stop": 1587543209908,
-                                        "duration": 4197
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                },
-                                {
-                                    "name": "Some scenario with examples (example #3)",
-                                    "uid": "28c7e2217256cde5",
-                                    "parentUid": "704f32ebd0d7e3c2bffd30143f5dde29",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543209919,
-                                        "stop": 1587543209957,
-                                        "duration": 38
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                },
-                                {
-                                    "name": "Some scenario with examples (example #4)",
-                                    "uid": "fb661a67b7a1546d",
-                                    "parentUid": "704f32ebd0d7e3c2bffd30143f5dde29",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543209963,
-                                        "stop": 1587543209988,
-                                        "duration": 25
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                }
-                            ],
-                            "uid": "704f32ebd0d7e3c2bffd30143f5dde29"
-                        },
-                        {
-                            "name": "firsttest4",
-                            "children": [
-                                {
-                                    "name": "Opening a Google network page",
-                                    "uid": "e388fcf6f0b19354",
-                                    "parentUid": "24625e48b102417bb7c108f8c82e1ef6",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543203333,
-                                        "stop": 1587543204572,
-                                        "duration": 1239
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                }
-                            ],
-                            "uid": "24625e48b102417bb7c108f8c82e1ef6"
-                        },
-                        {
-                            "name": "secondtest4",
-                            "children": [
-                                {
-                                    "name": "Different kind of opening",
-                                    "uid": "b2d537154536f673",
-                                    "parentUid": "27ee9ae8235e455e05f85526821950c8",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543204589,
-                                        "stop": 1587543205610,
-                                        "duration": 1021
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                }
-                            ],
-                            "uid": "27ee9ae8235e455e05f85526821950c8"
-                        },
-                        {
-                            "name": "thirdstory",
-                            "children": [
-                                {
-                                    "name": "Some scenario with examples (example #1)",
-                                    "uid": "bf6b6ba10ae9f82",
-                                    "parentUid": "8559b512bca7c3ad9050ac9e305d737d",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543205623,
-                                        "stop": 1587543205702,
-                                        "duration": 79
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                },
-                                {
-                                    "name": "Some scenario with examples (example #2)",
-                                    "uid": "472eb4fc2e5364b7",
-                                    "parentUid": "8559b512bca7c3ad9050ac9e305d737d",
-                                    "status": "failed",
-                                    "time": {
-                                        "start": 1587543205711,
-                                        "stop": 1587543209908,
-                                        "duration": 4197
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                },
-                                {
-                                    "name": "Some scenario with examples (example #3)",
-                                    "uid": "28c7e2217256cde5",
-                                    "parentUid": "8559b512bca7c3ad9050ac9e305d737d",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543209919,
-                                        "stop": 1587543209957,
-                                        "duration": 38
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                },
-                                {
-                                    "name": "Some scenario with examples (example #4)",
-                                    "uid": "fb661a67b7a1546d",
-                                    "parentUid": "8559b512bca7c3ad9050ac9e305d737d",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543209963,
-                                        "stop": 1587543209988,
-                                        "duration": 25
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                }
-                            ],
-                            "uid": "8559b512bca7c3ad9050ac9e305d737d"
-                        }
-                    ],
-                    "uid": "328056cc1946597f16be261ff0f4c27b"
-                }
-            ],
-            "uid": "15728b4d860dc264291b1522ee206d0c"
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".blur() - blur off a DOM element",
+        "uid" : "4025e625194f4692",
+        "parentUid" : "eda9441f4fad7c740aae10dcf97b13ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548928676,
+          "stop" : 1587548929216,
+          "duration" : 540
         },
-        {
-            "name": "firsttest2",
-            "children": [
-                {
-                    "name": "The Google",
-                    "children": [
-                        {
-                            "name": "myStory",
-                            "children": [
-                                {
-                                    "name": "Opening a Google network page",
-                                    "uid": "e388fcf6f0b19354",
-                                    "parentUid": "083fee47420624564580b75ce772dd4b",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543203333,
-                                        "stop": 1587543204572,
-                                        "duration": 1239
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                }
-                            ],
-                            "uid": "083fee47420624564580b75ce772dd4b"
-                        },
-                        {
-                            "name": "firsttest4",
-                            "children": [
-                                {
-                                    "name": "Opening a Google network page",
-                                    "uid": "e388fcf6f0b19354",
-                                    "parentUid": "fe6df30cecb4e98bdea5b75afd2f96c3",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543203333,
-                                        "stop": 1587543204572,
-                                        "duration": 1239
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                }
-                            ],
-                            "uid": "fe6df30cecb4e98bdea5b75afd2f96c3"
-                        }
-                    ],
-                    "uid": "b5e041fd85e51d9b5c57fee58cbd329b"
-                }
-            ],
-            "uid": "e1bca22e9be89dcbc9235e006c78fd0e"
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".clear() - clears an input or textarea element",
+        "uid" : "94b35056f252801e",
+        "parentUid" : "eda9441f4fad7c740aae10dcf97b13ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548929239,
+          "stop" : 1587548929774,
+          "duration" : 535
         },
-        {
-            "name": "secondtest2",
-            "children": [
-                {
-                    "name": "The Google",
-                    "children": [
-                        {
-                            "name": "myStory",
-                            "children": [
-                                {
-                                    "name": "Different kind of opening",
-                                    "uid": "b2d537154536f673",
-                                    "parentUid": "e71b09d8b1b8f23003724cdc9ffc64c6",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543204589,
-                                        "stop": 1587543205610,
-                                        "duration": 1021
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                }
-                            ],
-                            "uid": "e71b09d8b1b8f23003724cdc9ffc64c6"
-                        },
-                        {
-                            "name": "secondtest4",
-                            "children": [
-                                {
-                                    "name": "Different kind of opening",
-                                    "uid": "b2d537154536f673",
-                                    "parentUid": "c343b06456cedda152d2104bf9710761",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543204589,
-                                        "stop": 1587543205610,
-                                        "duration": 1021
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                }
-                            ],
-                            "uid": "c343b06456cedda152d2104bf9710761"
-                        }
-                    ],
-                    "uid": "73842c8796e6a9ae3384b1c87561333c"
-                }
-            ],
-            "uid": "59bd5915fe617e2b0481d5477dbd32be"
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".submit() - submit a form",
+        "uid" : "81997592ca8e78b5",
+        "parentUid" : "eda9441f4fad7c740aae10dcf97b13ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548929790,
+          "stop" : 1587548930235,
+          "duration" : 445
         },
-        {
-            "name": "thirdtest2",
-            "children": [
-                {
-                    "name": "The Google",
-                    "children": [
-                        {
-                            "name": "myStory",
-                            "children": [
-                                {
-                                    "name": "Some scenario with examples (example #1)",
-                                    "uid": "bf6b6ba10ae9f82",
-                                    "parentUid": "dadcdcbe5423a08362a82c584d75c14f",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543205623,
-                                        "stop": 1587543205702,
-                                        "duration": 79
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                },
-                                {
-                                    "name": "Some scenario with examples (example #2)",
-                                    "uid": "472eb4fc2e5364b7",
-                                    "parentUid": "dadcdcbe5423a08362a82c584d75c14f",
-                                    "status": "failed",
-                                    "time": {
-                                        "start": 1587543205711,
-                                        "stop": 1587543209908,
-                                        "duration": 4197
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                },
-                                {
-                                    "name": "Some scenario with examples (example #3)",
-                                    "uid": "28c7e2217256cde5",
-                                    "parentUid": "dadcdcbe5423a08362a82c584d75c14f",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543209919,
-                                        "stop": 1587543209957,
-                                        "duration": 38
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                },
-                                {
-                                    "name": "Some scenario with examples (example #4)",
-                                    "uid": "fb661a67b7a1546d",
-                                    "parentUid": "dadcdcbe5423a08362a82c584d75c14f",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543209963,
-                                        "stop": 1587543209988,
-                                        "duration": 25
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                }
-                            ],
-                            "uid": "dadcdcbe5423a08362a82c584d75c14f"
-                        },
-                        {
-                            "name": "thirdstory",
-                            "children": [
-                                {
-                                    "name": "Some scenario with examples (example #1)",
-                                    "uid": "bf6b6ba10ae9f82",
-                                    "parentUid": "35788c56282efbb3f187d06b560a83a5",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543205623,
-                                        "stop": 1587543205702,
-                                        "duration": 79
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                },
-                                {
-                                    "name": "Some scenario with examples (example #2)",
-                                    "uid": "472eb4fc2e5364b7",
-                                    "parentUid": "35788c56282efbb3f187d06b560a83a5",
-                                    "status": "failed",
-                                    "time": {
-                                        "start": 1587543205711,
-                                        "stop": 1587543209908,
-                                        "duration": 4197
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                },
-                                {
-                                    "name": "Some scenario with examples (example #3)",
-                                    "uid": "28c7e2217256cde5",
-                                    "parentUid": "35788c56282efbb3f187d06b560a83a5",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543209919,
-                                        "stop": 1587543209957,
-                                        "duration": 38
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                },
-                                {
-                                    "name": "Some scenario with examples (example #4)",
-                                    "uid": "fb661a67b7a1546d",
-                                    "parentUid": "35788c56282efbb3f187d06b560a83a5",
-                                    "status": "passed",
-                                    "time": {
-                                        "start": 1587543209963,
-                                        "stop": 1587543209988,
-                                        "duration": 25
-                                    },
-                                    "flaky": false,
-                                    "newFailed": false,
-                                    "parameters": []
-                                }
-                            ],
-                            "uid": "35788c56282efbb3f187d06b560a83a5"
-                        }
-                    ],
-                    "uid": "dc6f44aae1376916ab8d9733a37bade9"
-                }
-            ],
-            "uid": "69f15ab28fa3fbcdf257661303121413"
-        }
-    ],
-    "name": "behaviors"
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".click() - click on a DOM element",
+        "uid" : "de1d8536d926098b",
+        "parentUid" : "eda9441f4fad7c740aae10dcf97b13ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548930248,
+          "stop" : 1587548932355,
+          "duration" : 2107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".dblclick() - double click on a DOM element",
+        "uid" : "fd57b2302c17d726",
+        "parentUid" : "eda9441f4fad7c740aae10dcf97b13ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548932367,
+          "stop" : 1587548932620,
+          "duration" : 253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".rightclick() - right click on a DOM element",
+        "uid" : "7a0ef259089b97cf",
+        "parentUid" : "eda9441f4fad7c740aae10dcf97b13ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548932631,
+          "stop" : 1587548932868,
+          "duration" : 237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".check() - check a checkbox or radio element",
+        "uid" : "ce67a5b24c4f793c",
+        "parentUid" : "eda9441f4fad7c740aae10dcf97b13ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548932878,
+          "stop" : 1587548933791,
+          "duration" : 913
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".type() - type into a DOM element",
+        "uid" : "5b042c5964b6ce77",
+        "parentUid" : "eda9441f4fad7c740aae10dcf97b13ba",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587548933804,
+          "stop" : 1587548939298,
+          "duration" : 5494
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".uncheck() - uncheck a checkbox element",
+        "uid" : "74514ecfa377a6d4",
+        "parentUid" : "eda9441f4fad7c740aae10dcf97b13ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548939321,
+          "stop" : 1587548944595,
+          "duration" : 5274
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".select() - select an option in a <select> element",
+        "uid" : "2dc11649ee1de4e",
+        "parentUid" : "eda9441f4fad7c740aae10dcf97b13ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548944637,
+          "stop" : 1587548945668,
+          "duration" : 1031
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : ".scrollIntoView() - scroll an element into view",
+        "uid" : "4a8603b089019cc8",
+        "parentUid" : "eda9441f4fad7c740aae10dcf97b13ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548945691,
+          "stop" : 1587548945905,
+          "duration" : 214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://on.cypress.io/scrollintoview" ]
+      }, {
+        "name" : ".trigger() - trigger an event on a DOM element",
+        "uid" : "ada358e36eff7b11",
+        "parentUid" : "eda9441f4fad7c740aae10dcf97b13ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548945931,
+          "stop" : 1587548946110,
+          "duration" : 179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://on.cypress.io/trigger" ]
+      }, {
+        "name" : "cy.scrollTo() - scroll the window or element to a position",
+        "uid" : "56c8ec6c2d965099",
+        "parentUid" : "eda9441f4fad7c740aae10dcf97b13ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548946122,
+          "stop" : 1587548948280,
+          "duration" : 2158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "250", "250", "250", "250" ]
+      } ],
+      "uid" : "eda9441f4fad7c740aae10dcf97b13ba"
+    } ],
+    "uid" : "cae7621e2565352e172b864ca84b877b"
+  }, {
+    "name" : "cucumber",
+    "children" : [ {
+      "name" : "The Google",
+      "children" : [ {
+        "name" : "myStory",
+        "children" : [ {
+          "name" : "Opening a Google network page",
+          "uid" : "5fc0914a503fbfa1",
+          "parentUid" : "704f32ebd0d7e3c2bffd30143f5dde29",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548964841,
+            "stop" : 1587548966344,
+            "duration" : 1503
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Different kind of opening",
+          "uid" : "cd0768d1f508e6b6",
+          "parentUid" : "704f32ebd0d7e3c2bffd30143f5dde29",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548966371,
+            "stop" : 1587548967134,
+            "duration" : 763
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Some scenario with examples (example #1)",
+          "uid" : "d26b98fe43cd54bc",
+          "parentUid" : "704f32ebd0d7e3c2bffd30143f5dde29",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548967155,
+            "stop" : 1587548967278,
+            "duration" : 123
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Some scenario with examples (example #2)",
+          "uid" : "113b7a1a701ba84b",
+          "parentUid" : "704f32ebd0d7e3c2bffd30143f5dde29",
+          "status" : "failed",
+          "time" : {
+            "start" : 1587548967290,
+            "stop" : 1587548971489,
+            "duration" : 4199
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Some scenario with examples (example #3)",
+          "uid" : "1a4a7a8945a4916d",
+          "parentUid" : "704f32ebd0d7e3c2bffd30143f5dde29",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548971505,
+            "stop" : 1587548971596,
+            "duration" : 91
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Some scenario with examples (example #4)",
+          "uid" : "7b8fdddd560bc5b5",
+          "parentUid" : "704f32ebd0d7e3c2bffd30143f5dde29",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548971607,
+            "stop" : 1587548971629,
+            "duration" : 22
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "704f32ebd0d7e3c2bffd30143f5dde29"
+      }, {
+        "name" : "firsttest4",
+        "children" : [ {
+          "name" : "Opening a Google network page",
+          "uid" : "5fc0914a503fbfa1",
+          "parentUid" : "24625e48b102417bb7c108f8c82e1ef6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548964841,
+            "stop" : 1587548966344,
+            "duration" : 1503
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "24625e48b102417bb7c108f8c82e1ef6"
+      }, {
+        "name" : "secondtest4",
+        "children" : [ {
+          "name" : "Different kind of opening",
+          "uid" : "cd0768d1f508e6b6",
+          "parentUid" : "27ee9ae8235e455e05f85526821950c8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548966371,
+            "stop" : 1587548967134,
+            "duration" : 763
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "27ee9ae8235e455e05f85526821950c8"
+      }, {
+        "name" : "thirdstory",
+        "children" : [ {
+          "name" : "Some scenario with examples (example #1)",
+          "uid" : "d26b98fe43cd54bc",
+          "parentUid" : "8559b512bca7c3ad9050ac9e305d737d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548967155,
+            "stop" : 1587548967278,
+            "duration" : 123
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Some scenario with examples (example #2)",
+          "uid" : "113b7a1a701ba84b",
+          "parentUid" : "8559b512bca7c3ad9050ac9e305d737d",
+          "status" : "failed",
+          "time" : {
+            "start" : 1587548967290,
+            "stop" : 1587548971489,
+            "duration" : 4199
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Some scenario with examples (example #3)",
+          "uid" : "1a4a7a8945a4916d",
+          "parentUid" : "8559b512bca7c3ad9050ac9e305d737d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548971505,
+            "stop" : 1587548971596,
+            "duration" : 91
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Some scenario with examples (example #4)",
+          "uid" : "7b8fdddd560bc5b5",
+          "parentUid" : "8559b512bca7c3ad9050ac9e305d737d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548971607,
+            "stop" : 1587548971629,
+            "duration" : 22
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8559b512bca7c3ad9050ac9e305d737d"
+      } ],
+      "uid" : "328056cc1946597f16be261ff0f4c27b"
+    } ],
+    "uid" : "15728b4d860dc264291b1522ee206d0c"
+  }, {
+    "name" : "firsttest2",
+    "children" : [ {
+      "name" : "The Google",
+      "children" : [ {
+        "name" : "myStory",
+        "children" : [ {
+          "name" : "Opening a Google network page",
+          "uid" : "5fc0914a503fbfa1",
+          "parentUid" : "083fee47420624564580b75ce772dd4b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548964841,
+            "stop" : 1587548966344,
+            "duration" : 1503
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "083fee47420624564580b75ce772dd4b"
+      }, {
+        "name" : "firsttest4",
+        "children" : [ {
+          "name" : "Opening a Google network page",
+          "uid" : "5fc0914a503fbfa1",
+          "parentUid" : "fe6df30cecb4e98bdea5b75afd2f96c3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548964841,
+            "stop" : 1587548966344,
+            "duration" : 1503
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fe6df30cecb4e98bdea5b75afd2f96c3"
+      } ],
+      "uid" : "b5e041fd85e51d9b5c57fee58cbd329b"
+    } ],
+    "uid" : "e1bca22e9be89dcbc9235e006c78fd0e"
+  }, {
+    "name" : "secondtest2",
+    "children" : [ {
+      "name" : "The Google",
+      "children" : [ {
+        "name" : "myStory",
+        "children" : [ {
+          "name" : "Different kind of opening",
+          "uid" : "cd0768d1f508e6b6",
+          "parentUid" : "e71b09d8b1b8f23003724cdc9ffc64c6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548966371,
+            "stop" : 1587548967134,
+            "duration" : 763
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e71b09d8b1b8f23003724cdc9ffc64c6"
+      }, {
+        "name" : "secondtest4",
+        "children" : [ {
+          "name" : "Different kind of opening",
+          "uid" : "cd0768d1f508e6b6",
+          "parentUid" : "c343b06456cedda152d2104bf9710761",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548966371,
+            "stop" : 1587548967134,
+            "duration" : 763
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c343b06456cedda152d2104bf9710761"
+      } ],
+      "uid" : "73842c8796e6a9ae3384b1c87561333c"
+    } ],
+    "uid" : "59bd5915fe617e2b0481d5477dbd32be"
+  }, {
+    "name" : "thirdtest2",
+    "children" : [ {
+      "name" : "The Google",
+      "children" : [ {
+        "name" : "myStory",
+        "children" : [ {
+          "name" : "Some scenario with examples (example #1)",
+          "uid" : "d26b98fe43cd54bc",
+          "parentUid" : "dadcdcbe5423a08362a82c584d75c14f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548967155,
+            "stop" : 1587548967278,
+            "duration" : 123
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Some scenario with examples (example #2)",
+          "uid" : "113b7a1a701ba84b",
+          "parentUid" : "dadcdcbe5423a08362a82c584d75c14f",
+          "status" : "failed",
+          "time" : {
+            "start" : 1587548967290,
+            "stop" : 1587548971489,
+            "duration" : 4199
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Some scenario with examples (example #3)",
+          "uid" : "1a4a7a8945a4916d",
+          "parentUid" : "dadcdcbe5423a08362a82c584d75c14f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548971505,
+            "stop" : 1587548971596,
+            "duration" : 91
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Some scenario with examples (example #4)",
+          "uid" : "7b8fdddd560bc5b5",
+          "parentUid" : "dadcdcbe5423a08362a82c584d75c14f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548971607,
+            "stop" : 1587548971629,
+            "duration" : 22
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dadcdcbe5423a08362a82c584d75c14f"
+      }, {
+        "name" : "thirdstory",
+        "children" : [ {
+          "name" : "Some scenario with examples (example #1)",
+          "uid" : "d26b98fe43cd54bc",
+          "parentUid" : "35788c56282efbb3f187d06b560a83a5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548967155,
+            "stop" : 1587548967278,
+            "duration" : 123
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Some scenario with examples (example #2)",
+          "uid" : "113b7a1a701ba84b",
+          "parentUid" : "35788c56282efbb3f187d06b560a83a5",
+          "status" : "failed",
+          "time" : {
+            "start" : 1587548967290,
+            "stop" : 1587548971489,
+            "duration" : 4199
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Some scenario with examples (example #3)",
+          "uid" : "1a4a7a8945a4916d",
+          "parentUid" : "35788c56282efbb3f187d06b560a83a5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548971505,
+            "stop" : 1587548971596,
+            "duration" : 91
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Some scenario with examples (example #4)",
+          "uid" : "7b8fdddd560bc5b5",
+          "parentUid" : "35788c56282efbb3f187d06b560a83a5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1587548971607,
+            "stop" : 1587548971629,
+            "duration" : 22
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "35788c56282efbb3f187d06b560a83a5"
+      } ],
+      "uid" : "dc6f44aae1376916ab8d9733a37bade9"
+    } ],
+    "uid" : "69f15ab28fa3fbcdf257661303121413"
+  } ],
+  "name" : "behaviors"
 }
