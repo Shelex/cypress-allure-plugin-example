@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"name":"somename","type":"type","url":"https://google.com.ua","buildOrder":11,"buildName":"basic","buildUrl":"https://path-to-ci","reportUrl":"https://path-to-report","reportName":"reportName"}
-=======
-{"name":"somename","type":"type","url":"https://google.com.ua","buildOrder":8,"buildName":"basic","buildUrl":"https://path-to-ci","reportUrl":"https://path-to-report","reportName":"reportName"}
->>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd
+{"name":"somename","type":"type","url":"https://google.com.ua","buildOrder":9,"buildName":"basic","buildUrl":"https://path-to-ci","reportUrl":"https://path-to-report","reportName":"reportName"}

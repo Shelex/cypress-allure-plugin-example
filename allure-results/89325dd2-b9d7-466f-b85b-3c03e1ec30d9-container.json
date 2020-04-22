@@ -1,5 +1,0 @@
-<<<<<<< HEAD:allure-results/89892cd0-c7a2-4093-87d1-14da3575aa58-container.json
-{"uuid":"89892cd0-c7a2-4093-87d1-14da3575aa58","children":[],"befores":[],"afters":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[]}],"name":"Actions"}
-=======
-{"uuid":"89325dd2-b9d7-466f-b85b-3c03e1ec30d9","children":[],"befores":[],"afters":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[]}],"name":"Actions"}
->>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-results/89325dd2-b9d7-466f-b85b-3c03e1ec30d9-container.json

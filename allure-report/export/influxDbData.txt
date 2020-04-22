@@ -1,28 +1,12 @@
-<<<<<<< HEAD
-launch_status failed=3 1586776263000000000
-launch_status broken=0 1586776263000000000
-launch_status passed=17 1586776263000000000
-launch_status skipped=0 1586776263000000000
-launch_status unknown=0 1586776263000000000
-launch_time duration=50722 1586776263000000000
-launch_time min_duration=21 1586776263000000000
-launch_time max_duration=9143 1586776263000000000
-launch_time sum_duration=34170 1586776263000000000
-launch_problems product_defects=2 1586776263000000000
-launch_problems not_to_have_class_tests=1 1586776263000000000
-launch_retries retries=0 1586776263000000000
-launch_retries run=20 1586776263000000000
-=======
-launch_status failed=2 1587543212000000000
-launch_status broken=0 1587543212000000000
-launch_status passed=18 1587543212000000000
-launch_status skipped=0 1587543212000000000
-launch_status unknown=0 1587543212000000000
-launch_time duration=44200 1587543212000000000
-launch_time min_duration=25 1587543212000000000
-launch_time max_duration=5956 1587543212000000000
-launch_time sum_duration=27384 1587543212000000000
-launch_problems product_defects=2 1587543212000000000
-launch_retries retries=0 1587543212000000000
-launch_retries run=20 1587543212000000000
->>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd
+launch_status failed=2 1587548974000000000
+launch_status broken=0 1587548974000000000
+launch_status passed=18 1587548974000000000
+launch_status skipped=0 1587548974000000000
+launch_status unknown=0 1587548974000000000
+launch_time duration=43402 1587548974000000000
+launch_time min_duration=22 1587548974000000000
+launch_time max_duration=5494 1587548974000000000
+launch_time sum_duration=26510 1587548974000000000
+launch_problems product_defects=2 1587548974000000000
+launch_retries retries=0 1587548974000000000
+launch_retries run=20 1587548974000000000
