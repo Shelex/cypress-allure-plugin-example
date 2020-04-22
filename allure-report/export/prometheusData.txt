@@ -1,13 +1,19 @@
-launch_status_failed 3
+launch_status_failed 2
 launch_status_broken 0
-launch_status_passed 17
+launch_status_passed 18
 launch_status_skipped 0
 launch_status_unknown 0
+<<<<<<< HEAD
 launch_time_duration 50722
 launch_time_min_duration 21
 launch_time_max_duration 9143
 launch_time_sum_duration 34170
+=======
+launch_time_duration 44200
+launch_time_min_duration 25
+launch_time_max_duration 5956
+launch_time_sum_duration 27384
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd
 launch_problems_product_defects 2
-launch_problems_not_to_have_class_tests 1
 launch_retries_retries 0
 launch_retries_run 20

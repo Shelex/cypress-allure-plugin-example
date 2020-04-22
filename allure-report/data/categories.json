@@ -1,64 +1,52 @@
 {
-  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Not to have class tests",
-    "children" : [ {
-      "name" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
-      "children" : [ {
-        "name" : ".focus() - focus on a DOM element",
-        "uid" : "9bd6ed497812b51e",
-        "parentUid" : "f68554bcad9163695b77d14b928ed9a5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1586776210520,
-          "stop" : 1586776215137,
-          "duration" : 4617
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f68554bcad9163695b77d14b928ed9a5"
-    } ],
-    "uid" : "645aecf10257b32eb3e7b5f6bbd53442"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Timed out retrying: expected '<input#email1.form-control.action-email>' to have value 'fakes@email.com', but the value was 'fake@email.com'",
-      "children" : [ {
-        "name" : ".type() - type into a DOM element",
-        "uid" : "18c46105e312f322",
-        "parentUid" : "f4abfca97993c5ae1bb3a10931fe8769",
-        "status" : "failed",
-        "time" : {
-          "start" : 1586776220474,
-          "stop" : 1586776229617,
-          "duration" : 9143
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f4abfca97993c5ae1bb3a10931fe8769"
-    }, {
-      "name" : "Timed out retrying: expected 4 to equal 5",
-      "children" : [ {
-        "name" : "Some scenario with examples (example #2)",
-        "uid" : "41d238d1184b8213",
-        "parentUid" : "554904025e41c4f6bfd4dc2ad5bd1b73",
-        "status" : "failed",
-        "time" : {
-          "start" : 1586776256956,
-          "stop" : 1586776261166,
-          "duration" : 4210
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "554904025e41c4f6bfd4dc2ad5bd1b73"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ],
-  "name" : "categories"
+    "uid": "4b4757e66a1912dae1a509f688f20b0f",
+    "children": [
+        {
+            "name": "Product defects",
+            "children": [
+                {
+                    "name": "`cy.type()` failed because it requires a DOM element.\n\nThe subject received was:\n\n  > `Object{4}`\n\nThe previous command that ran was:\n\n  > `cy.wrap()`",
+                    "children": [
+                        {
+                            "name": ".type() - type into a DOM element",
+                            "uid": "52ff485a22c236d2",
+                            "parentUid": "fc443546e264f1189c5342406516a46b",
+                            "status": "failed",
+                            "time": {
+                                "start": 1587543171636,
+                                "stop": 1587543177169,
+                                "duration": 5533
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        }
+                    ],
+                    "uid": "fc443546e264f1189c5342406516a46b"
+                },
+                {
+                    "name": "Timed out retrying: expected 4 to equal 5",
+                    "children": [
+                        {
+                            "name": "Some scenario with examples (example #2)",
+                            "uid": "472eb4fc2e5364b7",
+                            "parentUid": "554904025e41c4f6bfd4dc2ad5bd1b73",
+                            "status": "failed",
+                            "time": {
+                                "start": 1587543205711,
+                                "stop": 1587543209908,
+                                "duration": 4197
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "parameters": []
+                        }
+                    ],
+                    "uid": "554904025e41c4f6bfd4dc2ad5bd1b73"
+                }
+            ],
+            "uid": "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+        }
+    ],
+    "name": "categories"
 }

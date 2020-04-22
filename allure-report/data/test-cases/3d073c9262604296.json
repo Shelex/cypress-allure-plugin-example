@@ -1,0 +1,815 @@
+{
+    "uid": "3d073c9262604296",
+    "name": ".click() - click on a DOM element",
+    "fullName": ".click() - click on a DOM element",
+    "historyId": "d344e728139f2b8b8dd61351b7c9ff28",
+    "time": {
+        "start": 1587543167985,
+        "stop": 1587543170151,
+        "duration": 2166
+    },
+    "descriptionHtml": "\n        <p class=\"has-line-data\" data-line-start=\"0\" data-line-end=\"1\">You can click on 9 specific positions of an element:</p>\n        <pre><code>\n        -------------------------------------\n        | topLeft        top       topRight |\n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | left          center        right |  \n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | bottomLeft   bottom   bottomRight |  \n        -------------------------------------\n        </code></pre>",
+    "status": "passed",
+    "flaky": false,
+    "newFailed": false,
+    "beforeStages": [
+        {
+            "time": {},
+            "status": "passed",
+            "steps": [
+                {
+                    "name": "visit https://example.cypress.io/commands/actions ",
+                    "time": {
+                        "start": 1587543168010,
+                        "stop": 1587543168128,
+                        "duration": 118
+                    },
+                    "status": "passed",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "stepsCount": 0,
+                    "attachmentsCount": 0,
+                    "shouldDisplayMessage": false,
+                    "hasContent": false
+                }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "stepsCount": 1,
+            "attachmentsCount": 0,
+            "shouldDisplayMessage": false,
+            "hasContent": true
+        }
+    ],
+    "testStage": {
+        "descriptionHtml": "\n        <p class=\"has-line-data\" data-line-start=\"0\" data-line-end=\"1\">You can click on 9 specific positions of an element:</p>\n        <pre><code>\n        -------------------------------------\n        | topLeft        top       topRight |\n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | left          center        right |  \n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | bottomLeft   bottom   bottomRight |  \n        -------------------------------------\n        </code></pre>",
+        "status": "passed",
+        "steps": [
+            {
+                "name": "get .action-btn ",
+                "time": {
+                    "start": 1587543168128,
+                    "stop": 1587543168138,
+                    "duration": 10
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click  ",
+                "time": {
+                    "start": 1587543168138,
+                    "stop": 1587543168225,
+                    "duration": 87
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "get #action-canvas ",
+                "time": {
+                    "start": 1587543168225,
+                    "stop": 1587543168230,
+                    "duration": 5
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click  ",
+                "time": {
+                    "start": 1587543168230,
+                    "stop": 1587543168395,
+                    "duration": 165
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "get #action-canvas ",
+                "time": {
+                    "start": 1587543168395,
+                    "stop": 1587543168399,
+                    "duration": 4
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click topLeft ",
+                "time": {
+                    "start": 1587543168399,
+                    "stop": 1587543168476,
+                    "duration": 77
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "get #action-canvas ",
+                "time": {
+                    "start": 1587543168476,
+                    "stop": 1587543168482,
+                    "duration": 6
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click top ",
+                "time": {
+                    "start": 1587543168482,
+                    "stop": 1587543168556,
+                    "duration": 74
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "get #action-canvas ",
+                "time": {
+                    "start": 1587543168556,
+                    "stop": 1587543168562,
+                    "duration": 6
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click topRight ",
+                "time": {
+                    "start": 1587543168562,
+                    "stop": 1587543168637,
+                    "duration": 75
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "get #action-canvas ",
+                "time": {
+                    "start": 1587543168637,
+                    "stop": 1587543168642,
+                    "duration": 5
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click left ",
+                "time": {
+                    "start": 1587543168642,
+                    "stop": 1587543168718,
+                    "duration": 76
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "get #action-canvas ",
+                "time": {
+                    "start": 1587543168718,
+                    "stop": 1587543168723,
+                    "duration": 5
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click right ",
+                "time": {
+                    "start": 1587543168723,
+                    "stop": 1587543168799,
+                    "duration": 76
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "get #action-canvas ",
+                "time": {
+                    "start": 1587543168799,
+                    "stop": 1587543168806,
+                    "duration": 7
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click bottomLeft ",
+                "time": {
+                    "start": 1587543168806,
+                    "stop": 1587543168890,
+                    "duration": 84
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "get #action-canvas ",
+                "time": {
+                    "start": 1587543168890,
+                    "stop": 1587543168896,
+                    "duration": 6
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click bottom ",
+                "time": {
+                    "start": 1587543168896,
+                    "stop": 1587543168973,
+                    "duration": 77
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "get #action-canvas ",
+                "time": {
+                    "start": 1587543168973,
+                    "stop": 1587543168978,
+                    "duration": 5
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click bottomRight ",
+                "time": {
+                    "start": 1587543168978,
+                    "stop": 1587543169052,
+                    "duration": 74
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "get #action-canvas ",
+                "time": {
+                    "start": 1587543169052,
+                    "stop": 1587543169057,
+                    "duration": 5
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click 80, 75 ",
+                "time": {
+                    "start": 1587543169057,
+                    "stop": 1587543169134,
+                    "duration": 77
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click 170, 75 ",
+                "time": {
+                    "start": 1587543169134,
+                    "stop": 1587543169214,
+                    "duration": 80
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click 80, 165 ",
+                "time": {
+                    "start": 1587543169214,
+                    "stop": 1587543169290,
+                    "duration": 76
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click 100, 185 ",
+                "time": {
+                    "start": 1587543169290,
+                    "stop": 1587543169366,
+                    "duration": 76
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click 125, 190 ",
+                "time": {
+                    "start": 1587543169366,
+                    "stop": 1587543169442,
+                    "duration": 76
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click 150, 185 ",
+                "time": {
+                    "start": 1587543169442,
+                    "stop": 1587543169519,
+                    "duration": 77
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click 170, 165 ",
+                "time": {
+                    "start": 1587543169519,
+                    "stop": 1587543169595,
+                    "duration": 76
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "get .action-labels>.label ",
+                "time": {
+                    "start": 1587543169595,
+                    "stop": 1587543169609,
+                    "duration": 14
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click {multiple: true} ",
+                "time": {
+                    "start": 1587543169609,
+                    "stop": 1587543169692,
+                    "duration": 83
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click {multiple: true} ",
+                "time": {
+                    "start": 1587543169692,
+                    "stop": 1587543169770,
+                    "duration": 78
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click {multiple: true} ",
+                "time": {
+                    "start": 1587543169770,
+                    "stop": 1587543169852,
+                    "duration": 82
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click {multiple: true} ",
+                "time": {
+                    "start": 1587543169852,
+                    "stop": 1587543169931,
+                    "duration": 79
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click {multiple: true} ",
+                "time": {
+                    "start": 1587543169931,
+                    "stop": 1587543170011,
+                    "duration": 80
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click {multiple: true} ",
+                "time": {
+                    "start": 1587543170011,
+                    "stop": 1587543170089,
+                    "duration": 78
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "get .action-opacity>.btn ",
+                "time": {
+                    "start": 1587543170089,
+                    "stop": 1587543170094,
+                    "duration": 5
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            },
+            {
+                "name": "click {force: true} ",
+                "time": {
+                    "start": 1587543170094,
+                    "stop": 1587543170151,
+                    "duration": 57
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "shouldDisplayMessage": false,
+                "hasContent": false
+            }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "stepsCount": 37,
+        "attachmentsCount": 0,
+        "shouldDisplayMessage": false,
+        "hasContent": true
+    },
+    "afterStages": [
+        {
+            "time": {},
+            "status": "passed",
+            "steps": [
+                {
+                    "name": "log this is after each hook ",
+                    "time": {
+                        "start": 1587543170160,
+                        "stop": 1587543170189,
+                        "duration": 29
+                    },
+                    "status": "passed",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "stepsCount": 0,
+                    "attachmentsCount": 0,
+                    "shouldDisplayMessage": false,
+                    "hasContent": false
+                }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "stepsCount": 1,
+            "attachmentsCount": 0,
+            "shouldDisplayMessage": false,
+            "hasContent": true
+        }
+    ],
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "Actions"
+        },
+        {
+            "name": "feature",
+            "value": "Actions Feature"
+        },
+        {
+            "name": "epic",
+            "value": "Plain js tests"
+        },
+        {
+            "name": "tag",
+            "value": "this is tag"
+        },
+        {
+            "name": "owner",
+            "value": "Me, lol"
+        },
+        {
+            "name": "severity",
+            "value": "critical"
+        },
+        {
+            "name": "resultFormat",
+            "value": "allure2"
+        }
+    ],
+    "parameters": [],
+    "links": [
+        {
+            "name": "docs",
+            "url": "https://on.cypress.io/interacting-with-elements",
+            "type": "tms"
+        },
+        {
+            "name": "docs",
+            "url": "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/click",
+            "type": "tms"
+        }
+    ],
+    "hidden": false,
+    "retry": false,
+    "extra": {
+        "severity": "critical",
+        "owner": "Me, lol",
+        "retries": [],
+        "categories": [],
+        "history": {
+            "statistic": {
+                "failed": 0,
+                "broken": 0,
+                "skipped": 0,
+                "passed": 8,
+                "unknown": 0,
+                "total": 8
+            },
+            "items": [
+                {
+                    "uid": "9325028383ec0d26",
+                    "reportUrl": "https://path-to-report/#testresult/9325028383ec0d26",
+                    "status": "passed",
+                    "time": {
+                        "start": 1587542575640,
+                        "stop": 1587542577774,
+                        "duration": 2134
+                    }
+                },
+                {
+                    "uid": "c18e1d243be86ca1",
+                    "reportUrl": "https://path-to-report/#testresult/c18e1d243be86ca1",
+                    "status": "passed",
+                    "time": {
+                        "start": 1587069418782,
+                        "stop": 1587069420994,
+                        "duration": 2212
+                    }
+                },
+                {
+                    "uid": "226a29526f7c8727",
+                    "reportUrl": "https://path-to-report/#testresult/226a29526f7c8727",
+                    "status": "passed",
+                    "time": {
+                        "start": 1586764292358,
+                        "stop": 1586764294633,
+                        "duration": 2275
+                    }
+                },
+                {
+                    "uid": "a6eee0971824bda5",
+                    "reportUrl": "https://path-to-report/#testresult/a6eee0971824bda5",
+                    "status": "passed",
+                    "time": {
+                        "start": 1586682604119,
+                        "stop": 1586682606264,
+                        "duration": 2145
+                    }
+                },
+                {
+                    "uid": "3772ee28c6c7b414",
+                    "reportUrl": "https://path-to-report/#testresult/3772ee28c6c7b414",
+                    "status": "passed",
+                    "time": {
+                        "start": 1586682237400,
+                        "stop": 1586682239463,
+                        "duration": 2063
+                    }
+                },
+                {
+                    "uid": "c723040432a020d",
+                    "reportUrl": "https://path-to-report/#testresult/c723040432a020d",
+                    "status": "passed",
+                    "time": {
+                        "start": 1586654323836,
+                        "stop": 1586654325969,
+                        "duration": 2133
+                    }
+                },
+                {
+                    "uid": "6bdeede633994384",
+                    "reportUrl": "https://path-to-report/#testresult/6bdeede633994384",
+                    "status": "passed",
+                    "time": {
+                        "start": 1586653800702,
+                        "stop": 1586653802827,
+                        "duration": 2125
+                    }
+                }
+            ]
+        },
+        "tags": ["this is tag"]
+    },
+    "source": "3d073c9262604296.json",
+    "parameterValues": []
+}

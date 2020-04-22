@@ -1,0 +1,464 @@
+{
+<<<<<<< HEAD:allure-report/data/test-cases/3a72ddbde481265a.json
+  "uid" : "3a72ddbde481265a",
+=======
+  "uid" : "30fd3608da73a1fe",
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/30fd3608da73a1fe.json
+  "name" : "cy.scrollTo() - scroll the window or element to a position",
+  "fullName" : "cy.scrollTo() - scroll the window or element to a position",
+  "historyId" : "fe80c3e0acdef7da3652450f932b177f",
+  "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/3a72ddbde481265a.json
+    "start" : 1586776236596,
+    "stop" : 1586776238726,
+    "duration" : 2130
+=======
+    "start" : 1587543184675,
+    "stop" : 1587543186823,
+    "duration" : 2148
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/30fd3608da73a1fe.json
+  },
+  "descriptionHtml" : "\n        <p class=\"has-line-data\" data-line-start=\"0\" data-line-end=\"1\">You can click on 9 specific positions of an element:</p>\n        <pre><code>\n        -------------------------------------\n        | topLeft        top       topRight |\n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | left          center        right |  \n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | bottomLeft   bottom   bottomRight |  \n        -------------------------------------\n        </code></pre>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit https://example.cypress.io/commands/actions ",
+      "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/3a72ddbde481265a.json
+        "start" : 1586776236619,
+        "stop" : 1586776236719,
+        "duration" : 100
+=======
+        "start" : 1587543184701,
+        "stop" : 1587543184811,
+        "duration" : 110
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/30fd3608da73a1fe.json
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "descriptionHtml" : "\n        <p class=\"has-line-data\" data-line-start=\"0\" data-line-end=\"1\">You can click on 9 specific positions of an element:</p>\n        <pre><code>\n        -------------------------------------\n        | topLeft        top       topRight |\n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | left          center        right |  \n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | bottomLeft   bottom   bottomRight |  \n        -------------------------------------\n        </code></pre>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "scrollTo bottom ",
+      "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/3a72ddbde481265a.json
+        "start" : 1586776236719,
+        "stop" : 1586776236724,
+        "duration" : 5
+=======
+        "start" : 1587543184811,
+        "stop" : 1587543184818,
+        "duration" : 7
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/30fd3608da73a1fe.json
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #scrollable-horizontal ",
+      "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/3a72ddbde481265a.json
+        "start" : 1586776236724,
+        "stop" : 1586776236729,
+=======
+        "start" : 1587543184818,
+        "stop" : 1587543184823,
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/30fd3608da73a1fe.json
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "scrollTo right ",
+      "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/3a72ddbde481265a.json
+        "start" : 1586776236729,
+        "stop" : 1586776236731,
+=======
+        "start" : 1587543184823,
+        "stop" : 1587543184825,
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/30fd3608da73a1fe.json
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #scrollable-vertical ",
+      "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/3a72ddbde481265a.json
+        "start" : 1586776236731,
+        "stop" : 1586776236735,
+        "duration" : 4
+=======
+        "start" : 1587543184825,
+        "stop" : 1587543184828,
+        "duration" : 3
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/30fd3608da73a1fe.json
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "scrollTo 250, 250 ",
+      "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/3a72ddbde481265a.json
+        "start" : 1586776236735,
+        "stop" : 1586776236736,
+        "duration" : 1
+=======
+        "start" : 1587543184828,
+        "stop" : 1587543184831,
+        "duration" : 3
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/30fd3608da73a1fe.json
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #scrollable-both ",
+      "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/3a72ddbde481265a.json
+        "start" : 1586776236736,
+        "stop" : 1586776236740,
+        "duration" : 4
+=======
+        "start" : 1587543184831,
+        "stop" : 1587543184834,
+        "duration" : 3
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/30fd3608da73a1fe.json
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "scrollTo 75%, 25% ",
+      "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/3a72ddbde481265a.json
+        "start" : 1586776236740,
+        "stop" : 1586776236742,
+=======
+        "start" : 1587543184834,
+        "stop" : 1587543184836,
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/30fd3608da73a1fe.json
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #scrollable-vertical ",
+      "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/3a72ddbde481265a.json
+        "start" : 1586776236742,
+        "stop" : 1586776236745,
+        "duration" : 3
+=======
+        "start" : 1587543184836,
+        "stop" : 1587543184841,
+        "duration" : 5
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/30fd3608da73a1fe.json
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "scrollTo center, {easing: linear} ",
+      "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/3a72ddbde481265a.json
+        "start" : 1586776236745,
+        "stop" : 1586776236747,
+=======
+        "start" : 1587543184841,
+        "stop" : 1587543184843,
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/30fd3608da73a1fe.json
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #scrollable-both ",
+      "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/3a72ddbde481265a.json
+        "start" : 1586776236747,
+        "stop" : 1586776236750,
+=======
+        "start" : 1587543184843,
+        "stop" : 1587543184846,
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/30fd3608da73a1fe.json
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "scrollTo center, {duration: 2000} ",
+      "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/3a72ddbde481265a.json
+        "start" : 1586776236750,
+        "stop" : 1586776238726,
+        "duration" : 1976
+=======
+        "start" : 1587543184846,
+        "stop" : 1587543186823,
+        "duration" : 1977
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/30fd3608da73a1fe.json
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log this is after each hook ",
+      "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/3a72ddbde481265a.json
+        "start" : 1586776238741,
+        "stop" : 1586776238766,
+        "duration" : 25
+=======
+        "start" : 1587543186836,
+        "stop" : 1587543186859,
+        "duration" : 23
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/30fd3608da73a1fe.json
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "scrollHeight",
+    "value" : "250"
+  }, {
+    "name" : "scrollWidth",
+    "value" : "250"
+  }, {
+    "name" : "x",
+    "value" : "250"
+  }, {
+    "name" : "y",
+    "value" : "250"
+  } ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  }, {
+    "name" : "docs",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/scrollTo",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+<<<<<<< HEAD:allure-report/data/test-cases/3a72ddbde481265a.json
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+=======
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "58208b132ee7eb39",
+        "reportUrl" : "https://path-to-report/#testresult/58208b132ee7eb39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587542591215,
+          "stop" : 1587542593374,
+          "duration" : 2159
+        }
+      }, {
+        "uid" : "1d015105ad5679e2",
+        "reportUrl" : "https://path-to-report/#testresult/1d015105ad5679e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587069437621,
+          "stop" : 1587069439767,
+          "duration" : 2146
+        }
+      }, {
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/30fd3608da73a1fe.json
+        "uid" : "dca001797a627c9d",
+        "reportUrl" : "https://path-to-report/#testresult/dca001797a627c9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586764313385,
+          "stop" : 1586764315540,
+          "duration" : 2155
+        }
+      }, {
+        "uid" : "c201452d6442e47e",
+        "reportUrl" : "https://path-to-report/#testresult/c201452d6442e47e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586682623753,
+          "stop" : 1586682625905,
+          "duration" : 2152
+        }
+      }, {
+        "uid" : "68b01ff16d8116c9",
+        "reportUrl" : "https://path-to-report/#testresult/68b01ff16d8116c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586682256593,
+          "stop" : 1586682258739,
+          "duration" : 2146
+        }
+      }, {
+        "uid" : "95f5fedc6ab154d7",
+        "reportUrl" : "https://path-to-report/#testresult/95f5fedc6ab154d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586654343197,
+          "stop" : 1586654345355,
+          "duration" : 2158
+        }
+      }, {
+        "uid" : "71e63340a815b7e0",
+        "reportUrl" : "https://path-to-report/#testresult/71e63340a815b7e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586653819725,
+          "stop" : 1586653821880,
+          "duration" : 2155
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+<<<<<<< HEAD:allure-report/data/test-cases/3a72ddbde481265a.json
+  "source" : "3a72ddbde481265a.json",
+=======
+  "source" : "30fd3608da73a1fe.json",
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/30fd3608da73a1fe.json
+  "parameterValues" : [ "250", "250", "250", "250" ]
+}

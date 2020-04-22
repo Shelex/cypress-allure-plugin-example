@@ -1,5 +1,24 @@
 [ {
+<<<<<<< HEAD
   "buildOrder" : 11,
+=======
+  "buildOrder" : 8,
+  "reportUrl" : "https://path-to-report",
+  "reportName" : "reportName",
+  "data" : {
+    "Product defects" : 2
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "https://path-to-report",
+  "reportName" : "reportName",
+  "data" : {
+    "Product defects" : 2,
+    "Not to have class tests" : 1
+  }
+}, {
+  "buildOrder" : 20,
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd
   "reportUrl" : "https://path-to-report",
   "reportName" : "reportName",
   "data" : {

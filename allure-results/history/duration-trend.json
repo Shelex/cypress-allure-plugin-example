@@ -1,43 +1,66 @@
-[ {
-  "buildOrder" : 7,
-  "reportUrl" : "https://path-to-report",
-  "reportName" : "reportName",
-  "data" : {
-    "duration" : 55740
-  }
-}, {
-  "buildOrder" : 9,
-  "reportUrl" : "https://path-to-report",
-  "reportName" : "reportName",
-  "data" : {
-    "duration" : 52753
-  }
-}, {
-  "buildOrder" : 9,
-  "reportUrl" : "https://path-to-report",
-  "reportName" : "reportName",
-  "data" : {
-    "duration" : 50412
-  }
-}, {
-  "buildOrder" : 1,
-  "reportUrl" : "https://path-to-report",
-  "reportName" : "reportName",
-  "data" : {
-    "duration" : 51001
-  }
-}, {
-  "buildOrder" : 200,
-  "reportUrl" : "https://path-to-report",
-  "reportName" : "reportName",
-  "data" : {
-    "duration" : 50845
-  }
-}, {
-  "buildOrder" : 200,
-  "reportUrl" : "https://path-to-report",
-  "reportName" : "reportName",
-  "data" : {
-    "duration" : 80
-  }
-} ]
+[
+    {
+        "buildOrder": 8,
+        "reportUrl": "https://path-to-report",
+        "reportName": "reportName",
+        "data": {
+            "duration": 47210
+        }
+    },
+    {
+        "buildOrder": 20,
+        "reportUrl": "https://path-to-report",
+        "reportName": "reportName",
+        "data": {
+            "duration": 49564
+        }
+    },
+    {
+        "buildOrder": 7,
+        "reportUrl": "https://path-to-report",
+        "reportName": "reportName",
+        "data": {
+            "duration": 55740
+        }
+    },
+    {
+        "buildOrder": 9,
+        "reportUrl": "https://path-to-report",
+        "reportName": "reportName",
+        "data": {
+            "duration": 52753
+        }
+    },
+    {
+        "buildOrder": 9,
+        "reportUrl": "https://path-to-report",
+        "reportName": "reportName",
+        "data": {
+            "duration": 50412
+        }
+    },
+    {
+        "buildOrder": 1,
+        "reportUrl": "https://path-to-report",
+        "reportName": "reportName",
+        "data": {
+            "duration": 51001
+        }
+    },
+    {
+        "buildOrder": 200,
+        "reportUrl": "https://path-to-report",
+        "reportName": "reportName",
+        "data": {
+            "duration": 50845
+        }
+    },
+    {
+        "buildOrder": 200,
+        "reportUrl": "https://path-to-report",
+        "reportName": "reportName",
+        "data": {
+            "duration": 80
+        }
+    }
+]

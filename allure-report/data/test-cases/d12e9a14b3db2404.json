@@ -1,12 +1,22 @@
 {
+<<<<<<< HEAD:allure-report/data/test-cases/d12e9a14b3db2404.json
   "uid" : "d12e9a14b3db2404",
+=======
+  "uid" : "1f4ef2cd9b8e75e0",
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/1f4ef2cd9b8e75e0.json
   "name" : ".rightclick() - right click on a DOM element",
   "fullName" : ".rightclick() - right click on a DOM element",
   "historyId" : "e8e9d54ad7f8d5dc5395c519ee0c3bec",
   "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/d12e9a14b3db2404.json
     "start" : 1586776219215,
     "stop" : 1586776219488,
     "duration" : 273
+=======
+    "start" : 1587543170436,
+    "stop" : 1587543170698,
+    "duration" : 262
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/1f4ef2cd9b8e75e0.json
   },
   "description" : "\n      Our app has a listener on 'contextmenu' event in our 'scripts.js'\n      that hides the div and shows an input on right click",
   "descriptionHtml" : "<pre><code>  Our app has a listener on 'contextmenu' event in our 'scripts.js'\n  that hides the div and shows an input on right click\n</code></pre>\n",
@@ -19,9 +29,15 @@
     "steps" : [ {
       "name" : "visit https://example.cypress.io/commands/actions ",
       "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/d12e9a14b3db2404.json
         "start" : 1586776219236,
         "stop" : 1586776219383,
         "duration" : 147
+=======
+        "start" : 1587543170457,
+        "stop" : 1587543170585,
+        "duration" : 128
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/1f4ef2cd9b8e75e0.json
       },
       "status" : "passed",
       "steps" : [ ],
@@ -45,9 +61,15 @@
     "steps" : [ {
       "name" : "get .rightclick-action-div ",
       "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/d12e9a14b3db2404.json
         "start" : 1586776219383,
         "stop" : 1586776219394,
         "duration" : 11
+=======
+        "start" : 1587543170585,
+        "stop" : 1587543170595,
+        "duration" : 10
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/1f4ef2cd9b8e75e0.json
       },
       "status" : "passed",
       "steps" : [ ],
@@ -60,9 +82,15 @@
     }, {
       "name" : "rightclick  ",
       "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/d12e9a14b3db2404.json
         "start" : 1586776219394,
         "stop" : 1586776219475,
         "duration" : 81
+=======
+        "start" : 1587543170595,
+        "stop" : 1587543170679,
+        "duration" : 84
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/1f4ef2cd9b8e75e0.json
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,8 +103,13 @@
     }, {
       "name" : "assert expected **<div.rightclick-action-div.hidden>** not to be **visible** ",
       "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/d12e9a14b3db2404.json
         "start" : 1586776219475,
         "stop" : 1586776219477,
+=======
+        "start" : 1587543170679,
+        "stop" : 1587543170681,
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/1f4ef2cd9b8e75e0.json
         "duration" : 2
       },
       "status" : "passed",
@@ -90,9 +123,15 @@
     }, {
       "name" : "get .rightclick-action-input-hidden ",
       "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/d12e9a14b3db2404.json
         "start" : 1586776219477,
         "stop" : 1586776219484,
         "duration" : 7
+=======
+        "start" : 1587543170681,
+        "stop" : 1587543170693,
+        "duration" : 12
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/1f4ef2cd9b8e75e0.json
       },
       "status" : "passed",
       "steps" : [ ],
@@ -105,9 +144,15 @@
     }, {
       "name" : "assert expected **<input.rightclick-action-input-hidden.form-control>** to be **visible** ",
       "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/d12e9a14b3db2404.json
         "start" : 1586776219484,
         "stop" : 1586776219488,
         "duration" : 4
+=======
+        "start" : 1587543170693,
+        "stop" : 1587543170698,
+        "duration" : 5
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/1f4ef2cd9b8e75e0.json
       },
       "status" : "passed",
       "steps" : [ ],
@@ -131,9 +176,15 @@
     "steps" : [ {
       "name" : "log this is after each hook ",
       "time" : {
+<<<<<<< HEAD:allure-report/data/test-cases/d12e9a14b3db2404.json
         "start" : 1586776219494,
         "stop" : 1586776219520,
         "duration" : 26
+=======
+        "start" : 1587543170705,
+        "stop" : 1587543170739,
+        "duration" : 34
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/1f4ef2cd9b8e75e0.json
       },
       "status" : "passed",
       "steps" : [ ],
@@ -198,11 +249,37 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
+<<<<<<< HEAD:allure-report/data/test-cases/d12e9a14b3db2404.json
         "passed" : 6,
         "unknown" : 0,
         "total" : 6
       },
       "items" : [ {
+=======
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "714860dcf53eb560",
+        "reportUrl" : "https://path-to-report/#testresult/714860dcf53eb560",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587542578047,
+          "stop" : 1587542578274,
+          "duration" : 227
+        }
+      }, {
+        "uid" : "fe154ff42c5a4a08",
+        "reportUrl" : "https://path-to-report/#testresult/fe154ff42c5a4a08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587069421327,
+          "stop" : 1587069421567,
+          "duration" : 240
+        }
+      }, {
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/1f4ef2cd9b8e75e0.json
         "uid" : "e7ff90dddc777a5",
         "reportUrl" : "https://path-to-report/#testresult/e7ff90dddc777a5",
         "status" : "passed",
@@ -251,6 +328,10 @@
     },
     "tags" : [ "this is tag" ]
   },
+<<<<<<< HEAD:allure-report/data/test-cases/d12e9a14b3db2404.json
   "source" : "d12e9a14b3db2404.json",
+=======
+  "source" : "1f4ef2cd9b8e75e0.json",
+>>>>>>> e7ea5b2c48eb8a617371763edcc3b47c3f2fc5bd:allure-report/data/test-cases/1f4ef2cd9b8e75e0.json
   "parameterValues" : [ ]
 }

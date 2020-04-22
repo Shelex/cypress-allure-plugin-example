@@ -47,7 +47,7 @@ context('Actions', () => {
             .severity('minor');
         cy.get('.action-focus')
             .focus()
-            .should('not.have.class', 'focus')
+            .should('have.class', 'focus')
             .prev()
             .should('have.attr', 'style', 'color: orange;');
     });
@@ -207,7 +207,7 @@ context('Actions', () => {
 
         cy.get('.action-email')
             .type('fake@email.com')
-            .should('have.value', 'fakes@email.com');
+            .should('have.value', 'fake@email.com');
 
         cy.allure()
             .step('.type() with special character sequences')
