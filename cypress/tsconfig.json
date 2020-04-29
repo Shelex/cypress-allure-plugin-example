@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "baseUrl": "../node_modules",
+        "types": [
+            "../node_modules/cypress",
+            "../node_modules/@shelex/cypress-allure-plugin/reporter"
+        ],
+        "noEmit": true
+    },
+    "include": ["**/*.*"]
+}

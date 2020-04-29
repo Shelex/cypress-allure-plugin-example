@@ -209,20 +209,21 @@ context('Actions', () => {
             .type('fake@email.com')
             .should('have.value', 'fake@email.com');
 
-        cy.allure()
-            .step('.type() with special character sequences')
+        cy.allure().step('.type() with special character sequences');
+        cy.get('.action-email')
             .type('{leftarrow}{rightarrow}{uparrow}{downarrow}')
             .type('{del}{selectall}{backspace}');
 
-        cy.allure()
-            .step('.type() with key modifiers')
+        cy.allure().step('.type() with key modifiers');
+        cy.get('.action-email')
             .type('{alt}{option}') //these are equivalent
             .type('{ctrl}{control}') //these are equivalent
             .type('{meta}{command}{cmd}') //these are equivalent
             .type('{shift}');
 
-        cy.allure()
-            .step('Delay each keypress by 0.1 sec')
+        cy.allure().step('Delay each keypress by 0.1 sec');
+
+        cy.get('.action-email')
             .type('slow.typing@email.com', { delay: 100 })
             .should('have.value', 'slow.typing@email.com');
 
@@ -392,5 +393,6 @@ context('Actions', () => {
 
         // control the duration of the scroll (in ms)
         cy.get('#scrollable-both').scrollTo('center', { duration: 2000 });
+        cy.screenshot();
     });
 });
