@@ -1,4 +1,12 @@
 [ {
+  "buildOrder" : 8,
+  "reportUrl" : "https://path-to-report",
+  "reportName" : "reportName",
+  "data" : {
+    "run" : 20,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 10,
   "reportUrl" : "https://path-to-report",
   "reportName" : "reportName",

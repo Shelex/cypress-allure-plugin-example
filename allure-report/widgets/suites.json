@@ -4,10 +4,10 @@
     "uid" : "e4eb7c6362a258d35885a68faf6e31c7",
     "name" : "Actions",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
       "total" : 14
     }
