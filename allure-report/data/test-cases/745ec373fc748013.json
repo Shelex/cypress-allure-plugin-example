@@ -1,0 +1,514 @@
+{
+  "uid" : "745ec373fc748013",
+  "name" : ".uncheck() - uncheck a checkbox element",
+  "fullName" : ".uncheck() - uncheck a checkbox element",
+  "historyId" : "51a9f7733ef5e871f2775d59ad773b00",
+  "time" : {
+    "start" : 1594591730242,
+    "stop" : 1594591735512,
+    "duration" : 5270
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://example.cypress.io/commands/actions\")",
+      "time" : {
+        "start" : 1594591730265,
+        "stop" : 1594591730500,
+        "duration" : 235
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "By default, .uncheck() will uncheck all matching checkbox elements in succession, one after another",
+      "time" : {
+        "start" : 1594591730502,
+        "stop" : 1594591734843,
+        "duration" : 4341
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\".action-check [type=\"checkbox\"]\")",
+        "time" : {
+          "start" : 1594591730502,
+          "stop" : 1594591730512,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "not (\"[disabled]\")",
+        "time" : {
+          "start" : 1594591730512,
+          "stop" : 1594591730515,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "uncheck",
+        "time" : {
+          "start" : 1594591730515,
+          "stop" : 1594591730675,
+          "duration" : 160
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "uncheck",
+        "time" : {
+          "start" : 1594591730675,
+          "stop" : 1594591730675,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **[ <input>, 1 more... ]** not to be **checked** assert",
+        "time" : {
+          "start" : 1594591730675,
+          "stop" : 1594591730675,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "screenshot",
+        "time" : {
+          "start" : 1594591730675,
+          "stop" : 1594591734842,
+          "duration" : 4167
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : ".uncheck() accepts a value argument",
+      "time" : {
+        "start" : 1594591734843,
+        "stop" : 1594591735069,
+        "duration" : 226
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\".action-check [type=\"checkbox\"]\")",
+        "time" : {
+          "start" : 1594591734843,
+          "stop" : 1594591734888,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "check (\"checkbox1\")",
+        "time" : {
+          "start" : 1594591734888,
+          "stop" : 1594591734976,
+          "duration" : 88
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "uncheck (\"checkbox1\")",
+        "time" : {
+          "start" : 1594591734976,
+          "stop" : 1594591735068,
+          "duration" : 92
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **<input>** not to be **checked** assert",
+        "time" : {
+          "start" : 1594591735068,
+          "stop" : 1594591735068,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : ".uncheck() accepts an array of values",
+      "time" : {
+        "start" : 1594591735069,
+        "stop" : 1594591735426,
+        "duration" : 357
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\".action-check [type=\"checkbox\"]\")",
+        "time" : {
+          "start" : 1594591735069,
+          "stop" : 1594591735080,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "check (\"checkbox1,checkbox3\")",
+        "time" : {
+          "start" : 1594591735080,
+          "stop" : 1594591735245,
+          "duration" : 165
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "[checkbox1, checkbox3] check",
+        "time" : {
+          "start" : 1594591735245,
+          "stop" : 1594591735245,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "uncheck (\"checkbox1,checkbox3\")",
+        "time" : {
+          "start" : 1594591735245,
+          "stop" : 1594591735425,
+          "duration" : 180
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "[checkbox1, checkbox3] uncheck",
+        "time" : {
+          "start" : 1594591735425,
+          "stop" : 1594591735425,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **[ <input>, 1 more... ]** not to be **checked** assert",
+        "time" : {
+          "start" : 1594591735425,
+          "stop" : 1594591735425,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ignore error checking prior to unchecking",
+      "time" : {
+        "start" : 1594591735426,
+        "stop" : 1594591735512,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\".action-check [disabled]\")",
+        "time" : {
+          "start" : 1594591735426,
+          "stop" : 1594591735435,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "uncheck (\"[object Object]\")",
+        "time" : {
+          "start" : 1594591735435,
+          "stop" : 1594591735512,
+          "duration" : 77
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **<input>** not to be **checked** assert",
+        "time" : {
+          "start" : 1594591735512,
+          "stop" : 1594591735512,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c5ea56f019769f9e",
+      "name" : "actions.spec.js:2020-07-12T22:08:52.649Z",
+      "source" : "c5ea56f019769f9e.png",
+      "type" : "image/png",
+      "size" : 998868
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 23,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log (\"this is after each hook\")",
+      "time" : {
+        "start" : 1594591735518,
+        "stop" : 1594591735527,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  }, {
+    "name" : "docs",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/uncheck",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "8e09630e02084b6d",
+        "reportUrl" : "https://path-to-report/#testresult/8e09630e02084b6d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594586611089,
+          "stop" : 1594586617204,
+          "duration" : 6115
+        }
+      }, {
+        "uid" : "ba0b23c54cc7e29f",
+        "reportUrl" : "https://path-to-report/#testresult/ba0b23c54cc7e29f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589875316661,
+          "stop" : 1589875321481,
+          "duration" : 4820
+        }
+      }, {
+        "uid" : "27fa048799d31712",
+        "reportUrl" : "https://path-to-report/#testresult/27fa048799d31712",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587551036808,
+          "stop" : 1587551042335,
+          "duration" : 5527
+        }
+      }, {
+        "uid" : "74514ecfa377a6d4",
+        "reportUrl" : "https://path-to-report/#testresult/74514ecfa377a6d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548939321,
+          "stop" : 1587548944595,
+          "duration" : 5274
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+  "source" : "745ec373fc748013.json",
+  "parameterValues" : [ ]
+}

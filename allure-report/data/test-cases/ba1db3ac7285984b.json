@@ -1,0 +1,244 @@
+{
+  "uid" : "ba1db3ac7285984b",
+  "name" : ".dblclick() - double click on a DOM element",
+  "fullName" : ".dblclick() - double click on a DOM element",
+  "historyId" : "4c1efb7c23927b88d87c774722380f85",
+  "time" : {
+    "start" : 1594591720413,
+    "stop" : 1594591720646,
+    "duration" : 233
+  },
+  "description" : "\n      Our app has a listener on 'dblclick' event in our 'scripts.js'\n      that hides the div and shows an input on double click",
+  "descriptionHtml" : "<pre><code>  Our app has a listener on 'dblclick' event in our 'scripts.js'\n  that hides the div and shows an input on double click\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://example.cypress.io/commands/actions\")",
+      "time" : {
+        "start" : 1594591720429,
+        "stop" : 1594591720544,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "\n      Our app has a listener on 'dblclick' event in our 'scripts.js'\n      that hides the div and shows an input on double click",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get (\".action-div\")",
+      "time" : {
+        "start" : 1594591720546,
+        "stop" : 1594591720553,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "dblclick",
+      "time" : {
+        "start" : 1594591720553,
+        "stop" : 1594591720637,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<div.action-div.hidden>** not to be **visible** assert",
+      "time" : {
+        "start" : 1594591720637,
+        "stop" : 1594591720637,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".action-input-hidden\")",
+      "time" : {
+        "start" : 1594591720637,
+        "stop" : 1594591720645,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<input.action-input-hidden.form-control>** to be **visible** assert",
+      "time" : {
+        "start" : 1594591720645,
+        "stop" : 1594591720645,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log (\"this is after each hook\")",
+      "time" : {
+        "start" : 1594591720650,
+        "stop" : 1594591720651,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  }, {
+    "name" : "docs",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/dblclick",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "5233774e170ec25",
+        "reportUrl" : "https://path-to-report/#testresult/5233774e170ec25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594586600411,
+          "stop" : 1594586600703,
+          "duration" : 292
+        }
+      }, {
+        "uid" : "eac354cc4c9d3fe1",
+        "reportUrl" : "https://path-to-report/#testresult/eac354cc4c9d3fe1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589875307419,
+          "stop" : 1589875307750,
+          "duration" : 331
+        }
+      }, {
+        "uid" : "a5de4d7cf5a610c1",
+        "reportUrl" : "https://path-to-report/#testresult/a5de4d7cf5a610c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587551029192,
+          "stop" : 1587551029465,
+          "duration" : 273
+        }
+      }, {
+        "uid" : "fd57b2302c17d726",
+        "reportUrl" : "https://path-to-report/#testresult/fd57b2302c17d726",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548932367,
+          "stop" : 1587548932620,
+          "duration" : 253
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+  "source" : "ba1db3ac7285984b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,296 @@
+{
+  "uid" : "3170f598164f331",
+  "name" : "Some scenario with examples (example #2)",
+  "fullName" : "Some scenario with examples (example #2)",
+  "historyId" : "36ff6c5984ef82f9c1d14a83d9172cc1",
+  "time" : {
+    "start" : 1594591759301,
+    "stop" : 1594591763461,
+    "duration" : 4160
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying: expected 4 to equal 5",
+  "statusTrace" : "AssertionError: Timed out retrying: expected 4 to equal 5\n    at applyChainer (https://www.google.com/__cypress/runner/cypress_runner.js:131707:32)\n    at https://www.google.com/__cypress/runner/cypress_runner.js:131748:16\n    at arrayReduce (https://www.google.com/__cypress/runner/cypress_runner.js:18403:21)\n    at Function.reduce (https://www.google.com/__cypress/runner/cypress_runner.js:27401:14)\n    at applyChainers (https://www.google.com/__cypress/runner/cypress_runner.js:131738:18)\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Function.Promise.attempt.Promise.try (https://www.google.com/__cypress/runner/cypress_runner.js:6333:29)\n    at Context.shouldFn (https://www.google.com/__cypress/runner/cypress_runner.js:131752:23)\n    at Context.should (https://www.google.com/__cypress/runner/cypress_runner.js:131767:23)\n    at https://www.google.com/__cypress/runner/cypress_runner.js:127819:39\n    at assertions (https://www.google.com/__cypress/runner/cypress_runner.js:128079:14)\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Object.gotValue (https://www.google.com/__cypress/runner/cypress_runner.js:8203:18)\n    at Object.gotAccum (https://www.google.com/__cypress/runner/cypress_runner.js:8190:25)\n    at Object.tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Promise._settlePromiseFromHandler (https://www.google.com/__cypress/runner/cypress_runner.js:6994:31)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log (\"This will run before every scenario of Google.feature test, but NEVER for Facebook/Google feature files\")",
+      "time" : {
+        "start" : 1594591759307,
+        "stop" : 1594591759308,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying: expected 4 to equal 5",
+    "statusTrace" : "AssertionError: Timed out retrying: expected 4 to equal 5\n    at applyChainer (https://www.google.com/__cypress/runner/cypress_runner.js:131707:32)\n    at https://www.google.com/__cypress/runner/cypress_runner.js:131748:16\n    at arrayReduce (https://www.google.com/__cypress/runner/cypress_runner.js:18403:21)\n    at Function.reduce (https://www.google.com/__cypress/runner/cypress_runner.js:27401:14)\n    at applyChainers (https://www.google.com/__cypress/runner/cypress_runner.js:131738:18)\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Function.Promise.attempt.Promise.try (https://www.google.com/__cypress/runner/cypress_runner.js:6333:29)\n    at Context.shouldFn (https://www.google.com/__cypress/runner/cypress_runner.js:131752:23)\n    at Context.should (https://www.google.com/__cypress/runner/cypress_runner.js:131767:23)\n    at https://www.google.com/__cypress/runner/cypress_runner.js:127819:39\n    at assertions (https://www.google.com/__cypress/runner/cypress_runner.js:128079:14)\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Object.gotValue (https://www.google.com/__cypress/runner/cypress_runner.js:8203:18)\n    at Object.gotAccum (https://www.google.com/__cypress/runner/cypress_runner.js:8190:25)\n    at Object.tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Promise._settlePromiseFromHandler (https://www.google.com/__cypress/runner/cypress_runner.js:6994:31)",
+    "steps" : [ {
+      "name" : "expected **3** to be below **6** assert",
+      "time" : {
+        "start" : 1594591759311,
+        "stop" : 1594591759311,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I sum 3 and 1",
+      "time" : {
+        "start" : 1594591759313,
+        "stop" : 1594591759316,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "wrap (\"4\")",
+        "time" : {
+          "start" : 1594591759313,
+          "stop" : 1594591759314,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"sumResult\")",
+        "time" : {
+          "start" : 1594591759314,
+          "stop" : 1594591759314,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I want to see 5",
+      "time" : {
+        "start" : 1594591759316,
+        "stop" : 1594591763461,
+        "duration" : 4145
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get (\"@sumResult\")",
+        "time" : {
+          "start" : 1594591759317,
+          "stop" : 1594591763312,
+          "duration" : 3995
+        },
+        "status" : "failed",
+        "statusMessage" : "Timed out retrying: expected 4 to equal 5",
+        "statusTrace" : "AssertionError: Timed out retrying: expected 4 to equal 5\n    at applyChainer (https://www.google.com/__cypress/runner/cypress_runner.js:131707:32)\n    at https://www.google.com/__cypress/runner/cypress_runner.js:131748:16\n    at arrayReduce (https://www.google.com/__cypress/runner/cypress_runner.js:18403:21)\n    at Function.reduce (https://www.google.com/__cypress/runner/cypress_runner.js:27401:14)\n    at applyChainers (https://www.google.com/__cypress/runner/cypress_runner.js:131738:18)\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Function.Promise.attempt.Promise.try (https://www.google.com/__cypress/runner/cypress_runner.js:6333:29)\n    at Context.shouldFn (https://www.google.com/__cypress/runner/cypress_runner.js:131752:23)\n    at Context.should (https://www.google.com/__cypress/runner/cypress_runner.js:131767:23)\n    at https://www.google.com/__cypress/runner/cypress_runner.js:127819:39\n    at assertions (https://www.google.com/__cypress/runner/cypress_runner.js:128079:14)\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Object.gotValue (https://www.google.com/__cypress/runner/cypress_runner.js:8203:18)\n    at Object.gotAccum (https://www.google.com/__cypress/runner/cypress_runner.js:8190:25)\n    at Object.tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Promise._settlePromiseFromHandler (https://www.google.com/__cypress/runner/cypress_runner.js:6994:31)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      }, {
+        "name" : "expected **4** to equal **5** assert",
+        "time" : {
+          "start" : 1594591763311,
+          "stop" : 1594591763311,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "statusMessage" : "Timed out retrying: expected 4 to equal 5",
+        "statusTrace" : "AssertionError: Timed out retrying: expected 4 to equal 5\n    at applyChainer (https://www.google.com/__cypress/runner/cypress_runner.js:131707:32)\n    at https://www.google.com/__cypress/runner/cypress_runner.js:131748:16\n    at arrayReduce (https://www.google.com/__cypress/runner/cypress_runner.js:18403:21)\n    at Function.reduce (https://www.google.com/__cypress/runner/cypress_runner.js:27401:14)\n    at applyChainers (https://www.google.com/__cypress/runner/cypress_runner.js:131738:18)\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Function.Promise.attempt.Promise.try (https://www.google.com/__cypress/runner/cypress_runner.js:6333:29)\n    at Context.shouldFn (https://www.google.com/__cypress/runner/cypress_runner.js:131752:23)\n    at Context.should (https://www.google.com/__cypress/runner/cypress_runner.js:131767:23)\n    at https://www.google.com/__cypress/runner/cypress_runner.js:127819:39\n    at assertions (https://www.google.com/__cypress/runner/cypress_runner.js:128079:14)\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Object.gotValue (https://www.google.com/__cypress/runner/cypress_runner.js:8203:18)\n    at Object.gotAccum (https://www.google.com/__cypress/runner/cypress_runner.js:8190:25)\n    at Object.tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Promise._settlePromiseFromHandler (https://www.google.com/__cypress/runner/cypress_runner.js:6994:31)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c5df07968e27976d",
+      "name" : "cucumber/news/Google.feature:2020-07-12T22:09:23.316Z",
+      "source" : "c5df07968e27976d.png",
+      "type" : "image/png",
+      "size" : 86396
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "The Google"
+  }, {
+    "name" : "epic",
+    "value" : "cucumber"
+  }, {
+    "name" : "story",
+    "value" : "myStory"
+  }, {
+    "name" : "subSuite",
+    "value" : "thirdtest0"
+  }, {
+    "name" : "epic",
+    "value" : "thirdtest2"
+  }, {
+    "name" : "story",
+    "value" : "thirdstory"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "owner",
+    "value" : "me"
+  }, {
+    "name" : "tag",
+    "value" : "someOtherTags"
+  }, {
+    "name" : "feature",
+    "value" : "The Google"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "link-to-tms",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://google.com",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "owner" : "me",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "d4918d75d41daec6",
+        "reportUrl" : "https://path-to-report/#testresult/d4918d75d41daec6",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected 4 to equal 5",
+        "time" : {
+          "start" : 1594586643816,
+          "stop" : 1594586648043,
+          "duration" : 4227
+        }
+      }, {
+        "uid" : "3a926bb193f6c269",
+        "reportUrl" : "https://path-to-report/#testresult/3a926bb193f6c269",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected 4 to equal 5",
+        "time" : {
+          "start" : 1589875347413,
+          "stop" : 1589875351591,
+          "duration" : 4178
+        }
+      }, {
+        "uid" : "b8bc23e68b260a8a",
+        "reportUrl" : "https://path-to-report/#testresult/b8bc23e68b260a8a",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected 4 to equal 5",
+        "time" : {
+          "start" : 1587551066578,
+          "stop" : 1587551070807,
+          "duration" : 4229
+        }
+      }, {
+        "uid" : "113b7a1a701ba84b",
+        "reportUrl" : "https://path-to-report/#testresult/113b7a1a701ba84b",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected 4 to equal 5",
+        "time" : {
+          "start" : 1587548967290,
+          "stop" : 1587548971489,
+          "duration" : 4199
+        }
+      } ]
+    },
+    "tags" : [ "someOtherTags" ]
+  },
+  "source" : "3170f598164f331.json",
+  "parameterValues" : [ ]
+}
