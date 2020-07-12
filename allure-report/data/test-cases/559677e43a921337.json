@@ -1,5 +1,5 @@
 {
-  "uid" : "df08d0cb2ebf303e",
+  "uid" : "559677e43a921337",
   "name" : ".type() - type into a DOM element",
   "fullName" : ".type() - type into a DOM element",
   "historyId" : "f3c22ddce3b6ee36dac8b9bd658acdef",
@@ -25,17 +25,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 1
+    "hasContent" : true
   } ],
   "testStage" : {
     "status" : "passed",
@@ -58,10 +58,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "get .action-email ",
         "time" : {
@@ -73,10 +73,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "type fake@email.com ",
         "time" : {
@@ -88,10 +88,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "assert expected **<input#email1.form-control.action-email>** to have value **fake@email.com** ",
         "time" : {
@@ -103,17 +103,17 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 4,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 4
+      "hasContent" : true
     }, {
       "name" : ".type() with special character sequences",
       "time" : {
@@ -133,10 +133,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "type {leftarrow}{rightarrow}{uparrow}{downarrow} ",
         "time" : {
@@ -148,10 +148,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "type {del}{selectall}{backspace} ",
         "time" : {
@@ -163,17 +163,17 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 3,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 3
+      "hasContent" : true
     }, {
       "name" : ".type() with key modifiers",
       "time" : {
@@ -193,10 +193,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "type {alt}{option} ",
         "time" : {
@@ -208,10 +208,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "type {ctrl}{control} ",
         "time" : {
@@ -223,10 +223,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "type {meta}{command}{cmd} ",
         "time" : {
@@ -238,10 +238,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "type {shift} ",
         "time" : {
@@ -253,17 +253,17 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 5,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 5
+      "hasContent" : true
     }, {
       "name" : "Delay each keypress by 0.1 sec",
       "time" : {
@@ -283,10 +283,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "type slow.typing@email.com, {delay: 100} ",
         "time" : {
@@ -298,10 +298,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "assert expected **<input#email1.form-control.action-email>** to have value **slow.typing@email.com** ",
         "time" : {
@@ -313,17 +313,17 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 3,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 3
+      "hasContent" : true
     }, {
       "name" : "Ignore error checking prior to type, like whether the input is visible or disabled",
       "time" : {
@@ -343,10 +343,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "type disabled error checking, {force: true} ",
         "time" : {
@@ -358,10 +358,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "assert expected **<textarea.form-control.action-disabled>** to have value **disabled error checking** ",
         "time" : {
@@ -373,30 +373,30 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 3,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 3
+      "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "5a2d3d95c120a9d4",
+      "uid" : "4ba48a23b7819277",
       "name" : "actions.spec.js:2020-07-12T20:43:24.862Z",
-      "source" : "5a2d3d95c120a9d4.png",
+      "source" : "4ba48a23b7819277.png",
       "type" : "image/png",
       "size" : 998627
     } ],
     "parameters" : [ ],
+    "stepsCount" : 23,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 23
+    "hasContent" : true
   },
   "afterStages" : [ {
     "time" : { },
@@ -412,17 +412,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 1
+    "hasContent" : true
   } ],
   "labels" : [ {
     "name" : "parentSuite",
@@ -505,6 +505,6 @@
     },
     "tags" : [ "FAILED BY INTENT", "this is tag" ]
   },
-  "source" : "df08d0cb2ebf303e.json",
+  "source" : "559677e43a921337.json",
   "parameterValues" : [ ]
 }

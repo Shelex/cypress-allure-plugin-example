@@ -1,5 +1,5 @@
 {
-  "uid" : "78a2451ece2ed9dc",
+  "uid" : "9ea261f7463766d7",
   "name" : "Some scenario with examples (example #2)",
   "fullName" : "Some scenario with examples (example #2)",
   "historyId" : "36ff6c5984ef82f9c1d14a83d9172cc1",
@@ -27,27 +27,27 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 1
+    "hasContent" : true
   }, {
     "time" : { },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "failed",
@@ -64,10 +64,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "When I sum 3 and 1",
       "time" : {
@@ -87,17 +87,17 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 1,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 1
+      "hasContent" : true
     }, {
       "name" : "Then I want to see 5",
       "time" : {
@@ -117,10 +117,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "assert expected **4** to equal **5** ",
         "time" : {
@@ -132,10 +132,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "new url https://www.google.com/ ",
         "time" : {
@@ -147,10 +147,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       }, {
         "name" : "xhr  GET https://www.google.com/complete/search?q&cp=0&client=psy-ab&xssi=t&gs_ri=gws-wiz&hl=en&authuser=0&psi=E3YLX6aiILulytMP5L6XuAE.1594586644131&ei=E3YLX6aiILulytMP5L6XuAE&nolsbt=1",
         "time" : {
@@ -162,30 +162,30 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
+        "stepsCount" : 0,
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false,
-        "hasContent" : false,
-        "stepsCount" : 0
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 4,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
-      "stepsCount" : 4
+      "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "2c7880e2878f8146",
+      "uid" : "a91254f6e1877886",
       "name" : "cucumber/news/Google.feature:2020-07-12T20:44:07.875Z",
-      "source" : "2c7880e2878f8146.png",
+      "source" : "a91254f6e1877886.png",
       "type" : "image/png",
       "size" : 96124
     } ],
     "parameters" : [ ],
+    "stepsCount" : 8,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : true,
-    "hasContent" : true,
-    "stepsCount" : 8
+    "hasContent" : true
   },
   "afterStages" : [ {
     "time" : { },
@@ -193,10 +193,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "parentSuite",
@@ -292,6 +292,6 @@
     },
     "tags" : [ "someOtherTags" ]
   },
-  "source" : "78a2451ece2ed9dc.json",
+  "source" : "9ea261f7463766d7.json",
   "parameterValues" : [ ]
 }

@@ -1,5 +1,5 @@
 {
-  "uid" : "5b1b854d4ac591e0",
+  "uid" : "f8abf57a29a27962",
   "name" : "cy.scrollTo() - scroll the window or element to a position",
   "fullName" : "cy.scrollTo() - scroll the window or element to a position",
   "historyId" : "fe80c3e0acdef7da3652450f932b177f",
@@ -26,17 +26,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 1
+    "hasContent" : true
   } ],
   "testStage" : {
     "descriptionHtml" : "\n        <p class=\"has-line-data\" data-line-start=\"0\" data-line-end=\"1\">You can click on 9 specific positions of an element:</p>\n        <pre><code>\n        -------------------------------------\n        | topLeft        top       topRight |\n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | left          center        right |  \n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | bottomLeft   bottom   bottomRight |  \n        -------------------------------------\n        </code></pre>",
@@ -52,10 +52,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "get #scrollable-horizontal ",
       "time" : {
@@ -67,10 +67,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "scrollTo right ",
       "time" : {
@@ -82,10 +82,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "get #scrollable-vertical ",
       "time" : {
@@ -97,10 +97,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "scrollTo 250, 250 ",
       "time" : {
@@ -112,10 +112,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "get #scrollable-both ",
       "time" : {
@@ -127,10 +127,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "scrollTo 75%, 25% ",
       "time" : {
@@ -142,10 +142,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "get #scrollable-vertical ",
       "time" : {
@@ -157,10 +157,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "scrollTo center, {easing: linear} ",
       "time" : {
@@ -172,10 +172,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "get #scrollable-both ",
       "time" : {
@@ -187,10 +187,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "scrollTo center, {duration: 2000} ",
       "time" : {
@@ -202,10 +202,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "screenshot  ",
       "time" : {
@@ -217,23 +217,23 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "7253e5b111d33c37",
+      "uid" : "59d926b4b77adbe0",
       "name" : "actions.spec.js:2020-07-12T20:43:43.248Z",
-      "source" : "7253e5b111d33c37.png",
+      "source" : "59d926b4b77adbe0.png",
       "type" : "image/png",
       "size" : 993873
     } ],
     "parameters" : [ ],
+    "stepsCount" : 12,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 12
+    "hasContent" : true
   },
   "afterStages" : [ {
     "time" : { },
@@ -249,17 +249,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 1
+    "hasContent" : true
   } ],
   "labels" : [ {
     "name" : "parentSuite",
@@ -349,6 +349,6 @@
     },
     "tags" : [ "this is tag" ]
   },
-  "source" : "5b1b854d4ac591e0.json",
+  "source" : "f8abf57a29a27962.json",
   "parameterValues" : [ "250", "250", "250", "250" ]
 }

@@ -1,5 +1,5 @@
 {
-  "uid" : "e0905d38f4c8a1be",
+  "uid" : "b086e28c072bf0c9",
   "name" : ".focus() - focus on a DOM element",
   "fullName" : ".focus() - focus on a DOM element",
   "historyId" : "9669a37fa765c3bf4c36a146da118d95",
@@ -19,10 +19,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 0,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
-    "stepsCount" : 0
+    "hasContent" : false
   }, {
     "time" : { },
     "status" : "passed",
@@ -37,17 +37,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 1
+    "hasContent" : true
   } ],
   "testStage" : {
     "status" : "failed",
@@ -64,10 +64,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "focus  ",
       "time" : {
@@ -79,10 +79,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "assert expected **<input#password1.form-control.action-focus.focus>** not to have class **focus** ",
       "time" : {
@@ -94,23 +94,23 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "756f02a37561bec3",
+      "uid" : "601e4b63a2654a71",
       "name" : "actions.spec.js:2020-07-12T20:43:16.498Z",
-      "source" : "756f02a37561bec3.png",
+      "source" : "601e4b63a2654a71.png",
       "type" : "image/png",
       "size" : 127048
     } ],
     "parameters" : [ ],
+    "stepsCount" : 3,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : true,
-    "hasContent" : true,
-    "stepsCount" : 3
+    "hasContent" : true
   },
   "afterStages" : [ {
     "time" : { },
@@ -126,17 +126,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 1
+    "hasContent" : true
   } ],
   "labels" : [ {
     "name" : "parentSuite",
@@ -224,6 +224,6 @@
     },
     "tags" : [ "this is tag" ]
   },
-  "source" : "e0905d38f4c8a1be.json",
+  "source" : "b086e28c072bf0c9.json",
   "parameterValues" : [ ]
 }

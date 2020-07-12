@@ -1,5 +1,5 @@
 {
-  "uid" : "9f08c7b94a1d2ed5",
+  "uid" : "8a0ff2ce034359db",
   "name" : ".rightclick() - right click on a DOM element",
   "fullName" : ".rightclick() - right click on a DOM element",
   "historyId" : "e8e9d54ad7f8d5dc5395c519ee0c3bec",
@@ -27,17 +27,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 1
+    "hasContent" : true
   } ],
   "testStage" : {
     "description" : "\n      Our app has a listener on 'contextmenu' event in our 'scripts.js'\n      that hides the div and shows an input on right click",
@@ -53,10 +53,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "rightclick  ",
       "time" : {
@@ -68,10 +68,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "assert expected **<div.rightclick-action-div.hidden>** not to be **visible** ",
       "time" : {
@@ -83,10 +83,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "get .rightclick-action-input-hidden ",
       "time" : {
@@ -98,10 +98,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     }, {
       "name" : "assert expected **<input.rightclick-action-input-hidden.form-control>** to be **visible** ",
       "time" : {
@@ -113,17 +113,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 5,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 5
+    "hasContent" : true
   },
   "afterStages" : [ {
     "time" : { },
@@ -139,17 +139,17 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "stepsCount" : 0,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
-      "stepsCount" : 0
+      "hasContent" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "stepsCount" : 1,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 1
+    "hasContent" : true
   } ],
   "labels" : [ {
     "name" : "parentSuite",
@@ -233,6 +233,6 @@
     },
     "tags" : [ "this is tag" ]
   },
-  "source" : "9f08c7b94a1d2ed5.json",
+  "source" : "8a0ff2ce034359db.json",
   "parameterValues" : [ ]
 }
