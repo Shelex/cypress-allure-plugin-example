@@ -1,0 +1,243 @@
+{
+  "uid" : "4affb5b3d7d90bab",
+  "name" : ".trigger() - trigger an event on a DOM element",
+  "fullName" : ".trigger() - trigger an event on a DOM element",
+  "historyId" : "21f1cc93d9cdddda675113664770c6c7",
+  "time" : {
+    "start" : 1594586618514,
+    "stop" : 1594586618717,
+    "duration" : 203
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit https://example.cypress.io/commands/actions ",
+      "time" : {
+        "start" : 1594586618532,
+        "stop" : 1594586618667,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get .trigger-input-range ",
+      "time" : {
+        "start" : 1594586618667,
+        "stop" : 1594586618684,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "invoke .val(25) ",
+      "time" : {
+        "start" : 1594586618684,
+        "stop" : 1594586618688,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "trigger change ",
+      "time" : {
+        "start" : 1594586618688,
+        "stop" : 1594586618710,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get input[type=range] ",
+      "time" : {
+        "start" : 1594586618710,
+        "stop" : 1594586618713,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "siblings p ",
+      "time" : {
+        "start" : 1594586618713,
+        "stop" : 1594586618717,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "assert expected **<p>** to have text **'25'** ",
+      "time" : {
+        "start" : 1594586618717,
+        "stop" : 1594586618717,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log this is after each hook ",
+      "time" : {
+        "start" : 1594586618723,
+        "stop" : 1594586618743,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "docs",
+    "value" : "https://on.cypress.io/trigger"
+  } ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "18052636298bd07a",
+        "reportUrl" : "https://path-to-report/#testresult/18052636298bd07a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589875322880,
+          "stop" : 1589875323075,
+          "duration" : 195
+        }
+      }, {
+        "uid" : "6af489dbff18082f",
+        "reportUrl" : "https://path-to-report/#testresult/6af489dbff18082f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587551043836,
+          "stop" : 1587551044019,
+          "duration" : 183
+        }
+      }, {
+        "uid" : "ada358e36eff7b11",
+        "reportUrl" : "https://path-to-report/#testresult/ada358e36eff7b11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548945931,
+          "stop" : 1587548946110,
+          "duration" : 179
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+  "source" : "4affb5b3d7d90bab.json",
+  "parameterValues" : [ "https://on.cypress.io/trigger" ]
+}

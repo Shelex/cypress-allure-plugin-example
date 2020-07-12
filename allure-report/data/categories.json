@@ -6,13 +6,13 @@
       "name" : "Timed out retrying: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
       "children" : [ {
         "name" : ".focus() - focus on a DOM element",
-        "uid" : "77ad8c8b33466876",
+        "uid" : "e0905d38f4c8a1be",
         "parentUid" : "f68554bcad9163695b77d14b928ed9a5",
         "status" : "failed",
         "time" : {
-          "start" : 1589875298992,
-          "stop" : 1589875303666,
-          "duration" : 4674
+          "start" : 1594586591873,
+          "stop" : 1594586596671,
+          "duration" : 4798
         },
         "flaky" : false,
         "newFailed" : false,
@@ -27,13 +27,13 @@
       "name" : "Timed out retrying: expected 4 to equal 5",
       "children" : [ {
         "name" : "Some scenario with examples (example #2)",
-        "uid" : "3a926bb193f6c269",
+        "uid" : "78a2451ece2ed9dc",
         "parentUid" : "554904025e41c4f6bfd4dc2ad5bd1b73",
         "status" : "failed",
         "time" : {
-          "start" : 1589875347413,
-          "stop" : 1589875351591,
-          "duration" : 4178
+          "start" : 1594586643816,
+          "stop" : 1594586648043,
+          "duration" : 4227
         },
         "flaky" : false,
         "newFailed" : false,

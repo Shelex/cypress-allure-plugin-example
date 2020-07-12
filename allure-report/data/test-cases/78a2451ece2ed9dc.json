@@ -1,0 +1,297 @@
+{
+  "uid" : "78a2451ece2ed9dc",
+  "name" : "Some scenario with examples (example #2)",
+  "fullName" : "Some scenario with examples (example #2)",
+  "historyId" : "36ff6c5984ef82f9c1d14a83d9172cc1",
+  "time" : {
+    "start" : 1594586643816,
+    "stop" : 1594586648043,
+    "duration" : 4227
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying: expected 4 to equal 5",
+  "statusTrace" : "AssertionError: Timed out retrying: expected 4 to equal 5\n    at applyChainer (https://www.google.com/__cypress/runner/cypress_runner.js:131707:32)\n    at https://www.google.com/__cypress/runner/cypress_runner.js:131748:16\n    at arrayReduce (https://www.google.com/__cypress/runner/cypress_runner.js:18403:21)\n    at Function.reduce (https://www.google.com/__cypress/runner/cypress_runner.js:27401:14)\n    at applyChainers (https://www.google.com/__cypress/runner/cypress_runner.js:131738:18)\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Function.Promise.attempt.Promise.try (https://www.google.com/__cypress/runner/cypress_runner.js:6333:29)\n    at Context.shouldFn (https://www.google.com/__cypress/runner/cypress_runner.js:131752:23)\n    at Context.should (https://www.google.com/__cypress/runner/cypress_runner.js:131767:23)\n    at https://www.google.com/__cypress/runner/cypress_runner.js:127819:39\n    at assertions (https://www.google.com/__cypress/runner/cypress_runner.js:128079:14)\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Object.gotValue (https://www.google.com/__cypress/runner/cypress_runner.js:8203:18)\n    at Object.gotAccum (https://www.google.com/__cypress/runner/cypress_runner.js:8190:25)\n    at Object.tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Promise._settlePromiseFromHandler (https://www.google.com/__cypress/runner/cypress_runner.js:6994:31)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log This will run before every scenario of Google.feature test, but NEVER for Facebook/Google feature files ",
+      "time" : {
+        "start" : 1594586643859,
+        "stop" : 1594586643864,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying: expected 4 to equal 5",
+    "statusTrace" : "AssertionError: Timed out retrying: expected 4 to equal 5\n    at applyChainer (https://www.google.com/__cypress/runner/cypress_runner.js:131707:32)\n    at https://www.google.com/__cypress/runner/cypress_runner.js:131748:16\n    at arrayReduce (https://www.google.com/__cypress/runner/cypress_runner.js:18403:21)\n    at Function.reduce (https://www.google.com/__cypress/runner/cypress_runner.js:27401:14)\n    at applyChainers (https://www.google.com/__cypress/runner/cypress_runner.js:131738:18)\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Function.Promise.attempt.Promise.try (https://www.google.com/__cypress/runner/cypress_runner.js:6333:29)\n    at Context.shouldFn (https://www.google.com/__cypress/runner/cypress_runner.js:131752:23)\n    at Context.should (https://www.google.com/__cypress/runner/cypress_runner.js:131767:23)\n    at https://www.google.com/__cypress/runner/cypress_runner.js:127819:39\n    at assertions (https://www.google.com/__cypress/runner/cypress_runner.js:128079:14)\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Object.gotValue (https://www.google.com/__cypress/runner/cypress_runner.js:8203:18)\n    at Object.gotAccum (https://www.google.com/__cypress/runner/cypress_runner.js:8190:25)\n    at Object.tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:9059:23)\n    at Promise._settlePromiseFromHandler (https://www.google.com/__cypress/runner/cypress_runner.js:6994:31)",
+    "steps" : [ {
+      "name" : "assert expected **3** to be below **6** ",
+      "time" : {
+        "start" : 1594586643864,
+        "stop" : 1594586643867,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I sum 3 and 1",
+      "time" : {
+        "start" : 1594586643867,
+        "stop" : 1594586643870,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "wrap 4 ",
+        "time" : {
+          "start" : 1594586643868,
+          "stop" : 1594586643870,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Then I want to see 5",
+      "time" : {
+        "start" : 1594586643870,
+        "stop" : 1594586648043,
+        "duration" : 4173
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get @sumResult ",
+        "time" : {
+          "start" : 1594586643872,
+          "stop" : 1594586643875,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "assert expected **4** to equal **5** ",
+        "time" : {
+          "start" : 1594586643875,
+          "stop" : 1594586643940,
+          "duration" : 65
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "new url https://www.google.com/ ",
+        "time" : {
+          "start" : 1594586643940,
+          "stop" : 1594586644236,
+          "duration" : 296
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "xhr  GET https://www.google.com/complete/search?q&cp=0&client=psy-ab&xssi=t&gs_ri=gws-wiz&hl=en&authuser=0&psi=E3YLX6aiILulytMP5L6XuAE.1594586644131&ei=E3YLX6aiILulytMP5L6XuAE&nolsbt=1",
+        "time" : {
+          "start" : 1594586644236,
+          "stop" : 1594586648043,
+          "duration" : 3807
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    } ],
+    "attachments" : [ {
+      "uid" : "2c7880e2878f8146",
+      "name" : "cucumber/news/Google.feature:2020-07-12T20:44:07.875Z",
+      "source" : "2c7880e2878f8146.png",
+      "type" : "image/png",
+      "size" : 96124
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 8
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "The Google"
+  }, {
+    "name" : "epic",
+    "value" : "cucumber"
+  }, {
+    "name" : "story",
+    "value" : "myStory"
+  }, {
+    "name" : "subSuite",
+    "value" : "thirdtest0"
+  }, {
+    "name" : "epic",
+    "value" : "thirdtest2"
+  }, {
+    "name" : "story",
+    "value" : "thirdstory"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "owner",
+    "value" : "me"
+  }, {
+    "name" : "tag",
+    "value" : "someOtherTags"
+  }, {
+    "name" : "feature",
+    "value" : "The Google"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "link-to-tms",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://google.com",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "owner" : "me",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "3a926bb193f6c269",
+        "reportUrl" : "https://path-to-report/#testresult/3a926bb193f6c269",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected 4 to equal 5",
+        "time" : {
+          "start" : 1589875347413,
+          "stop" : 1589875351591,
+          "duration" : 4178
+        }
+      }, {
+        "uid" : "b8bc23e68b260a8a",
+        "reportUrl" : "https://path-to-report/#testresult/b8bc23e68b260a8a",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected 4 to equal 5",
+        "time" : {
+          "start" : 1587551066578,
+          "stop" : 1587551070807,
+          "duration" : 4229
+        }
+      }, {
+        "uid" : "113b7a1a701ba84b",
+        "reportUrl" : "https://path-to-report/#testresult/113b7a1a701ba84b",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying: expected 4 to equal 5",
+        "time" : {
+          "start" : 1587548967290,
+          "stop" : 1587548971489,
+          "duration" : 4199
+        }
+      } ]
+    },
+    "tags" : [ "someOtherTags" ]
+  },
+  "source" : "78a2451ece2ed9dc.json",
+  "parameterValues" : [ ]
+}

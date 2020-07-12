@@ -1,0 +1,378 @@
+{
+  "uid" : "edb54b9541f0e201",
+  "name" : ".scrollIntoView() - scroll an element into view",
+  "fullName" : ".scrollIntoView() - scroll an element into view",
+  "historyId" : "72601dad9974c4cb0682b32e47fe55e9",
+  "time" : {
+    "start" : 1594586618305,
+    "stop" : 1594586618500,
+    "duration" : 195
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit https://example.cypress.io/commands/actions ",
+      "time" : {
+        "start" : 1594586618325,
+        "stop" : 1594586618439,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get #scroll-horizontal button ",
+      "time" : {
+        "start" : 1594586618439,
+        "stop" : 1594586618448,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "assert expected **<button.btn.btn-danger>** not to be **visible** ",
+      "time" : {
+        "start" : 1594586618448,
+        "stop" : 1594586618451,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #scroll-horizontal button ",
+      "time" : {
+        "start" : 1594586618451,
+        "stop" : 1594586618454,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "scrollIntoView  ",
+      "time" : {
+        "start" : 1594586618454,
+        "stop" : 1594586618462,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "assert expected **<button.btn.btn-danger>** to be **visible** ",
+      "time" : {
+        "start" : 1594586618462,
+        "stop" : 1594586618466,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #scroll-vertical button ",
+      "time" : {
+        "start" : 1594586618466,
+        "stop" : 1594586618469,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "assert expected **<button.btn.btn-danger>** not to be **visible** ",
+      "time" : {
+        "start" : 1594586618469,
+        "stop" : 1594586618473,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #scroll-vertical button ",
+      "time" : {
+        "start" : 1594586618473,
+        "stop" : 1594586618476,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "scrollIntoView  ",
+      "time" : {
+        "start" : 1594586618476,
+        "stop" : 1594586618480,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "assert expected **<button.btn.btn-danger>** to be **visible** ",
+      "time" : {
+        "start" : 1594586618480,
+        "stop" : 1594586618484,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #scroll-both button ",
+      "time" : {
+        "start" : 1594586618484,
+        "stop" : 1594586618487,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "assert expected **<button.btn.btn-danger>** not to be **visible** ",
+      "time" : {
+        "start" : 1594586618487,
+        "stop" : 1594586618490,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #scroll-both button ",
+      "time" : {
+        "start" : 1594586618490,
+        "stop" : 1594586618493,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "scrollIntoView  ",
+      "time" : {
+        "start" : 1594586618493,
+        "stop" : 1594586618496,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "assert expected **<button.btn.btn-danger>** to be **visible** ",
+      "time" : {
+        "start" : 1594586618496,
+        "stop" : 1594586618500,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 15
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log this is after each hook ",
+      "time" : {
+        "start" : 1594586618510,
+        "stop" : 1594586618532,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "docs",
+    "value" : "https://on.cypress.io/scrollintoview"
+  } ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "40847001e298a7e2",
+        "reportUrl" : "https://path-to-report/#testresult/40847001e298a7e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589875322552,
+          "stop" : 1589875322857,
+          "duration" : 305
+        }
+      }, {
+        "uid" : "e0515af587c9178c",
+        "reportUrl" : "https://path-to-report/#testresult/e0515af587c9178c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587551043511,
+          "stop" : 1587551043813,
+          "duration" : 302
+        }
+      }, {
+        "uid" : "4a8603b089019cc8",
+        "reportUrl" : "https://path-to-report/#testresult/4a8603b089019cc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548945691,
+          "stop" : 1587548945905,
+          "duration" : 214
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+  "source" : "edb54b9541f0e201.json",
+  "parameterValues" : [ "https://on.cypress.io/scrollintoview" ]
+}

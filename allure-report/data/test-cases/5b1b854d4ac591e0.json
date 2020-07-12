@@ -1,0 +1,354 @@
+{
+  "uid" : "5b1b854d4ac591e0",
+  "name" : "cy.scrollTo() - scroll the window or element to a position",
+  "fullName" : "cy.scrollTo() - scroll the window or element to a position",
+  "historyId" : "fe80c3e0acdef7da3652450f932b177f",
+  "time" : {
+    "start" : 1594586618728,
+    "stop" : 1594586625767,
+    "duration" : 7039
+  },
+  "descriptionHtml" : "\n        <p class=\"has-line-data\" data-line-start=\"0\" data-line-end=\"1\">You can click on 9 specific positions of an element:</p>\n        <pre><code>\n        -------------------------------------\n        | topLeft        top       topRight |\n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | left          center        right |  \n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | bottomLeft   bottom   bottomRight |  \n        -------------------------------------\n        </code></pre>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit https://example.cypress.io/commands/actions ",
+      "time" : {
+        "start" : 1594586618743,
+        "stop" : 1594586618862,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "descriptionHtml" : "\n        <p class=\"has-line-data\" data-line-start=\"0\" data-line-end=\"1\">You can click on 9 specific positions of an element:</p>\n        <pre><code>\n        -------------------------------------\n        | topLeft        top       topRight |\n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | left          center        right |  \n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | bottomLeft   bottom   bottomRight |  \n        -------------------------------------\n        </code></pre>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "scrollTo bottom ",
+      "time" : {
+        "start" : 1594586618862,
+        "stop" : 1594586618874,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #scrollable-horizontal ",
+      "time" : {
+        "start" : 1594586618874,
+        "stop" : 1594586618878,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "scrollTo right ",
+      "time" : {
+        "start" : 1594586618878,
+        "stop" : 1594586618882,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #scrollable-vertical ",
+      "time" : {
+        "start" : 1594586618882,
+        "stop" : 1594586618885,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "scrollTo 250, 250 ",
+      "time" : {
+        "start" : 1594586618885,
+        "stop" : 1594586618887,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #scrollable-both ",
+      "time" : {
+        "start" : 1594586618887,
+        "stop" : 1594586618890,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "scrollTo 75%, 25% ",
+      "time" : {
+        "start" : 1594586618890,
+        "stop" : 1594586618892,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #scrollable-vertical ",
+      "time" : {
+        "start" : 1594586618892,
+        "stop" : 1594586618896,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "scrollTo center, {easing: linear} ",
+      "time" : {
+        "start" : 1594586618896,
+        "stop" : 1594586618898,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get #scrollable-both ",
+      "time" : {
+        "start" : 1594586618898,
+        "stop" : 1594586618902,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "scrollTo center, {duration: 2000} ",
+      "time" : {
+        "start" : 1594586618902,
+        "stop" : 1594586620889,
+        "duration" : 1987
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "screenshot  ",
+      "time" : {
+        "start" : 1594586620889,
+        "stop" : 1594586625767,
+        "duration" : 4878
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "7253e5b111d33c37",
+      "name" : "actions.spec.js:2020-07-12T20:43:43.248Z",
+      "source" : "7253e5b111d33c37.png",
+      "type" : "image/png",
+      "size" : 993873
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 12
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log this is after each hook ",
+      "time" : {
+        "start" : 1594586625834,
+        "stop" : 1594586625863,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "scrollHeight",
+    "value" : "250"
+  }, {
+    "name" : "scrollWidth",
+    "value" : "250"
+  }, {
+    "name" : "x",
+    "value" : "250"
+  }, {
+    "name" : "y",
+    "value" : "250"
+  } ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  }, {
+    "name" : "docs",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/scrollTo",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "9b5a52ea692454f3",
+        "reportUrl" : "https://path-to-report/#testresult/9b5a52ea692454f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589875323088,
+          "stop" : 1589875328988,
+          "duration" : 5900
+        }
+      }, {
+        "uid" : "54226c66bc659922",
+        "reportUrl" : "https://path-to-report/#testresult/54226c66bc659922",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587551044035,
+          "stop" : 1587551046179,
+          "duration" : 2144
+        }
+      }, {
+        "uid" : "56c8ec6c2d965099",
+        "reportUrl" : "https://path-to-report/#testresult/56c8ec6c2d965099",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548946122,
+          "stop" : 1587548948280,
+          "duration" : 2158
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+  "source" : "5b1b854d4ac591e0.json",
+  "parameterValues" : [ "250", "250", "250", "250" ]
+}
