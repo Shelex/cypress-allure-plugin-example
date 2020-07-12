@@ -5,7 +5,7 @@
         "source.fixAll.eslint": true
     },
     "editor.formatOnSave": true,
-    "cucumberautocomplete.steps": ["cypress/integration/cucumber/**/*.js"],
+    "cucumberautocomplete.steps":["cypress/integration/cucumber/**/*.js"],
     "cucumberautocomplete.syncfeatures": true,
     "cucumberautocomplete.strictGherkinCompletion": false,
     "cucumberautocomplete.onTypeFormat": true,
