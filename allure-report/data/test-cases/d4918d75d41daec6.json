@@ -1,5 +1,5 @@
 {
-  "uid" : "9ea261f7463766d7",
+  "uid" : "d4918d75d41daec6",
   "name" : "Some scenario with examples (example #2)",
   "fullName" : "Some scenario with examples (example #2)",
   "historyId" : "36ff6c5984ef82f9c1d14a83d9172cc1",
@@ -175,9 +175,9 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "a91254f6e1877886",
+      "uid" : "4959957419b49039",
       "name" : "cucumber/news/Google.feature:2020-07-12T20:44:07.875Z",
-      "source" : "a91254f6e1877886.png",
+      "source" : "4959957419b49039.png",
       "type" : "image/png",
       "size" : 96124
     } ],
@@ -292,6 +292,6 @@
     },
     "tags" : [ "someOtherTags" ]
   },
-  "source" : "9ea261f7463766d7.json",
+  "source" : "d4918d75d41daec6.json",
   "parameterValues" : [ ]
 }

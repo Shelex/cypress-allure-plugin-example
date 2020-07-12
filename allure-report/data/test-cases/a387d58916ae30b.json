@@ -1,12 +1,12 @@
 {
-  "uid" : "9d6a9e422f4805cd",
-  "name" : ".blur() - blur off a DOM element",
-  "fullName" : ".blur() - blur off a DOM element",
-  "historyId" : "2403b69d3efe79b711ea79f102961b49",
+  "uid" : "a387d58916ae30b",
+  "name" : ".clear() - clears an input or textarea element",
+  "fullName" : ".clear() - clears an input or textarea element",
+  "historyId" : "fa534f1bfef9141e4ee0be8e32412027",
   "time" : {
-    "start" : 1594586596701,
-    "stop" : 1594586597212,
-    "duration" : 511
+    "start" : 1594586597225,
+    "stop" : 1594586597780,
+    "duration" : 555
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,9 +17,9 @@
     "steps" : [ {
       "name" : "visit https://example.cypress.io/commands/actions ",
       "time" : {
-        "start" : 1594586596724,
-        "stop" : 1594586596850,
-        "duration" : 126
+        "start" : 1594586597245,
+        "stop" : 1594586597381,
+        "duration" : 136
       },
       "status" : "passed",
       "steps" : [ ],
@@ -40,11 +40,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "get .action-blur ",
+      "name" : "get .action-clear ",
       "time" : {
-        "start" : 1594586596850,
-        "stop" : 1594586596859,
-        "duration" : 9
+        "start" : 1594586597381,
+        "stop" : 1594586597391,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -55,11 +55,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "type About to blur ",
+      "name" : "type Clear this text ",
       "time" : {
-        "start" : 1594586596859,
-        "stop" : 1594586597199,
-        "duration" : 340
+        "start" : 1594586597391,
+        "stop" : 1594586597698,
+        "duration" : 307
       },
       "status" : "passed",
       "steps" : [ ],
@@ -70,11 +70,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "blur  ",
+      "name" : "assert expected **<input#description.form-control.action-clear>** to have value **Clear this text** ",
       "time" : {
-        "start" : 1594586597199,
-        "stop" : 1594586597205,
-        "duration" : 6
+        "start" : 1594586597698,
+        "stop" : 1594586597701,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -85,11 +85,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **<input#fullName1.form-control.action-blur.error>** to have class **error** ",
+      "name" : "clear  ",
       "time" : {
-        "start" : 1594586597205,
-        "stop" : 1594586597206,
-        "duration" : 1
+        "start" : 1594586597701,
+        "stop" : 1594586597779,
+        "duration" : 78
       },
       "status" : "passed",
       "steps" : [ ],
@@ -100,25 +100,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "prev  ",
+      "name" : "assert expected **<input#description.form-control.action-clear>** to have value **''** ",
       "time" : {
-        "start" : 1594586597206,
-        "stop" : 1594586597211,
-        "duration" : 5
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "assert expected **<label>** to have attribute **style** with the value **color: red;** ",
-      "time" : {
-        "start" : 1594586597211,
-        "stop" : 1594586597212,
+        "start" : 1594586597779,
+        "stop" : 1594586597780,
         "duration" : 1
       },
       "status" : "passed",
@@ -132,7 +117,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 6,
+    "stepsCount" : 5,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -143,9 +128,9 @@
     "steps" : [ {
       "name" : "log this is after each hook ",
       "time" : {
-        "start" : 1594586597218,
-        "stop" : 1594586597245,
-        "duration" : 27
+        "start" : 1594586597786,
+        "stop" : 1594586597817,
+        "duration" : 31
       },
       "status" : "passed",
       "steps" : [ ],
@@ -189,7 +174,7 @@
     "type" : "tms"
   }, {
     "name" : "docs",
-    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/blur",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/clear",
     "type" : "tms"
   } ],
   "hidden" : false,
@@ -209,36 +194,36 @@
         "total" : 4
       },
       "items" : [ {
-        "uid" : "4dbab8e48aa4a164",
-        "reportUrl" : "https://path-to-report/#testresult/4dbab8e48aa4a164",
+        "uid" : "764d5b05f9e9cff4",
+        "reportUrl" : "https://path-to-report/#testresult/764d5b05f9e9cff4",
         "status" : "passed",
         "time" : {
-          "start" : 1589875303693,
-          "stop" : 1589875304287,
-          "duration" : 594
+          "start" : 1589875304302,
+          "stop" : 1589875304885,
+          "duration" : 583
         }
       }, {
-        "uid" : "410b16b507105f10",
-        "reportUrl" : "https://path-to-report/#testresult/410b16b507105f10",
+        "uid" : "53e015a63bc1f42c",
+        "reportUrl" : "https://path-to-report/#testresult/53e015a63bc1f42c",
         "status" : "passed",
         "time" : {
-          "start" : 1587551025207,
-          "stop" : 1587551025829,
-          "duration" : 622
+          "start" : 1587551025845,
+          "stop" : 1587551026416,
+          "duration" : 571
         }
       }, {
-        "uid" : "4025e625194f4692",
-        "reportUrl" : "https://path-to-report/#testresult/4025e625194f4692",
+        "uid" : "94b35056f252801e",
+        "reportUrl" : "https://path-to-report/#testresult/94b35056f252801e",
         "status" : "passed",
         "time" : {
-          "start" : 1587548928676,
-          "stop" : 1587548929216,
-          "duration" : 540
+          "start" : 1587548929239,
+          "stop" : 1587548929774,
+          "duration" : 535
         }
       } ]
     },
     "tags" : [ "this is tag" ]
   },
-  "source" : "9d6a9e422f4805cd.json",
+  "source" : "a387d58916ae30b.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "649d677cf0299306",
-  "name" : "Some scenario with examples (example #3)",
-  "fullName" : "Some scenario with examples (example #3)",
-  "historyId" : "76d7e5e6322bbc385815a2ac410a0a9c",
+  "uid" : "6777a0d2295e25f0",
+  "name" : "Different kind of opening",
+  "fullName" : "Different kind of opening",
+  "historyId" : "dee961f506311d0d235b2b326ab77c38",
   "time" : {
-    "start" : 1594586648056,
-    "stop" : 1594586648093,
-    "duration" : 37
+    "start" : 1594586643327,
+    "stop" : 1594586643708,
+    "duration" : 381
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,8 +17,8 @@
     "steps" : [ {
       "name" : "log This will run before every scenario of Google.feature test, but NEVER for Facebook/Google feature files ",
       "time" : {
-        "start" : 1594586648083,
-        "stop" : 1594586648086,
+        "start" : 1594586643466,
+        "stop" : 1594586643469,
         "duration" : 3
       },
       "status" : "passed",
@@ -50,11 +50,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "assert expected **4** to be below **6** ",
+      "name" : "assert expected **1** to be below **6** ",
       "time" : {
-        "start" : 1594586648086,
-        "stop" : 1594586648087,
-        "duration" : 1
+        "start" : 1594586643469,
+        "stop" : 1594586643477,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,19 +65,19 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "When I sum 3 and 2",
+      "name" : "Given I kinda open Google page",
       "time" : {
-        "start" : 1594586648087,
-        "stop" : 1594586648090,
-        "duration" : 3
+        "start" : 1594586643477,
+        "stop" : 1594586643702,
+        "duration" : 225
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "wrap 5 ",
+        "name" : "visit https://google.com ",
         "time" : {
-          "start" : 1594586648089,
-          "stop" : 1594586648090,
-          "duration" : 1
+          "start" : 1594586643478,
+          "stop" : 1594586643702,
+          "duration" : 224
         },
         "status" : "passed",
         "steps" : [ ],
@@ -95,18 +95,18 @@
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "Then I want to see 5",
+      "name" : "Then I am very happy",
       "time" : {
-        "start" : 1594586648090,
-        "stop" : 1594586648093,
-        "duration" : 3
+        "start" : 1594586643702,
+        "stop" : 1594586643708,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "get @sumResult ",
+        "name" : "title  ",
         "time" : {
-          "start" : 1594586648091,
-          "stop" : 1594586648092,
+          "start" : 1594586643705,
+          "stop" : 1594586643706,
           "duration" : 1
         },
         "status" : "passed",
@@ -118,11 +118,11 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "assert expected **5** to equal **5** ",
+        "name" : "assert expected **Google** to include **Google** ",
         "time" : {
-          "start" : 1594586648092,
-          "stop" : 1594586648093,
-          "duration" : 1
+          "start" : 1594586643706,
+          "stop" : 1594586643708,
+          "duration" : 2
         },
         "status" : "passed",
         "steps" : [ ],
@@ -169,22 +169,19 @@
     "value" : "myStory"
   }, {
     "name" : "subSuite",
-    "value" : "thirdtest0"
+    "value" : "secondtest0"
   }, {
     "name" : "epic",
-    "value" : "thirdtest2"
+    "value" : "secondtest2"
   }, {
     "name" : "story",
-    "value" : "thirdstory"
+    "value" : "secondtest4"
   }, {
     "name" : "severity",
-    "value" : "minor"
+    "value" : "normal"
   }, {
     "name" : "owner",
-    "value" : "me"
-  }, {
-    "name" : "tag",
-    "value" : "someOtherTags"
+    "value" : "secondtest8"
   }, {
     "name" : "feature",
     "value" : "The Google"
@@ -193,16 +190,12 @@
     "value" : "allure2"
   } ],
   "parameters" : [ ],
-  "links" : [ {
-    "name" : "link-to-tms",
-    "url" : "https://some.testrail.instance/path/suite/caseID-https://google.com",
-    "type" : "tms"
-  } ],
+  "links" : [ ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "minor",
-    "owner" : "me",
+    "severity" : "normal",
+    "owner" : "secondtest8",
     "retries" : [ ],
     "categories" : [ ],
     "history" : {
@@ -215,36 +208,36 @@
         "total" : 4
       },
       "items" : [ {
-        "uid" : "12957e6acbb5ebb7",
-        "reportUrl" : "https://path-to-report/#testresult/12957e6acbb5ebb7",
+        "uid" : "40db529dd57a247a",
+        "reportUrl" : "https://path-to-report/#testresult/40db529dd57a247a",
         "status" : "passed",
         "time" : {
-          "start" : 1589875351602,
-          "stop" : 1589875351641,
-          "duration" : 39
+          "start" : 1589875346771,
+          "stop" : 1589875347359,
+          "duration" : 588
         }
       }, {
-        "uid" : "5ab31ba9f1a1c5b0",
-        "reportUrl" : "https://path-to-report/#testresult/5ab31ba9f1a1c5b0",
+        "uid" : "70f3edb2b71e6c07",
+        "reportUrl" : "https://path-to-report/#testresult/70f3edb2b71e6c07",
         "status" : "passed",
         "time" : {
-          "start" : 1587551070822,
-          "stop" : 1587551070871,
-          "duration" : 49
+          "start" : 1587551065466,
+          "stop" : 1587551066451,
+          "duration" : 985
         }
       }, {
-        "uid" : "1a4a7a8945a4916d",
-        "reportUrl" : "https://path-to-report/#testresult/1a4a7a8945a4916d",
+        "uid" : "cd0768d1f508e6b6",
+        "reportUrl" : "https://path-to-report/#testresult/cd0768d1f508e6b6",
         "status" : "passed",
         "time" : {
-          "start" : 1587548971505,
-          "stop" : 1587548971596,
-          "duration" : 91
+          "start" : 1587548966371,
+          "stop" : 1587548967134,
+          "duration" : 763
         }
       } ]
     },
-    "tags" : [ "someOtherTags" ]
+    "tags" : [ ]
   },
-  "source" : "649d677cf0299306.json",
+  "source" : "6777a0d2295e25f0.json",
   "parameterValues" : [ ]
 }

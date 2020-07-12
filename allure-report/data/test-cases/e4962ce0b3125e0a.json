@@ -1,15 +1,13 @@
 {
-  "uid" : "8a0ff2ce034359db",
-  "name" : ".rightclick() - right click on a DOM element",
-  "fullName" : ".rightclick() - right click on a DOM element",
-  "historyId" : "e8e9d54ad7f8d5dc5395c519ee0c3bec",
+  "uid" : "e4962ce0b3125e0a",
+  "name" : ".trigger() - trigger an event on a DOM element",
+  "fullName" : ".trigger() - trigger an event on a DOM element",
+  "historyId" : "21f1cc93d9cdddda675113664770c6c7",
   "time" : {
-    "start" : 1594586600719,
-    "stop" : 1594586600948,
-    "duration" : 229
+    "start" : 1594586618514,
+    "stop" : 1594586618717,
+    "duration" : 203
   },
-  "description" : "\n      Our app has a listener on 'contextmenu' event in our 'scripts.js'\n      that hides the div and shows an input on right click",
-  "descriptionHtml" : "<pre><code>  Our app has a listener on 'contextmenu' event in our 'scripts.js'\n  that hides the div and shows an input on right click\n</code></pre>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -19,9 +17,9 @@
     "steps" : [ {
       "name" : "visit https://example.cypress.io/commands/actions ",
       "time" : {
-        "start" : 1594586600739,
-        "stop" : 1594586600844,
-        "duration" : 105
+        "start" : 1594586618532,
+        "stop" : 1594586618667,
+        "duration" : 135
       },
       "status" : "passed",
       "steps" : [ ],
@@ -40,14 +38,13 @@
     "hasContent" : true
   } ],
   "testStage" : {
-    "description" : "\n      Our app has a listener on 'contextmenu' event in our 'scripts.js'\n      that hides the div and shows an input on right click",
     "status" : "passed",
     "steps" : [ {
-      "name" : "get .rightclick-action-div ",
+      "name" : "get .trigger-input-range ",
       "time" : {
-        "start" : 1594586600844,
-        "stop" : 1594586600854,
-        "duration" : 10
+        "start" : 1594586618667,
+        "stop" : 1594586618684,
+        "duration" : 17
       },
       "status" : "passed",
       "steps" : [ ],
@@ -58,11 +55,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "rightclick  ",
+      "name" : "invoke .val(25) ",
       "time" : {
-        "start" : 1594586600854,
-        "stop" : 1594586600934,
-        "duration" : 80
+        "start" : 1594586618684,
+        "stop" : 1594586618688,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -73,10 +70,25 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **<div.rightclick-action-div.hidden>** not to be **visible** ",
+      "name" : "trigger change ",
       "time" : {
-        "start" : 1594586600934,
-        "stop" : 1594586600937,
+        "start" : 1594586618688,
+        "stop" : 1594586618710,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get input[type=range] ",
+      "time" : {
+        "start" : 1594586618710,
+        "stop" : 1594586618713,
         "duration" : 3
       },
       "status" : "passed",
@@ -88,11 +100,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "get .rightclick-action-input-hidden ",
+      "name" : "siblings p ",
       "time" : {
-        "start" : 1594586600937,
-        "stop" : 1594586600944,
-        "duration" : 7
+        "start" : 1594586618713,
+        "stop" : 1594586618717,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -103,11 +115,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **<input.rightclick-action-input-hidden.form-control>** to be **visible** ",
+      "name" : "assert expected **<p>** to have text **'25'** ",
       "time" : {
-        "start" : 1594586600944,
-        "stop" : 1594586600948,
-        "duration" : 4
+        "start" : 1594586618717,
+        "stop" : 1594586618717,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -120,7 +132,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 5,
+    "stepsCount" : 6,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -131,9 +143,9 @@
     "steps" : [ {
       "name" : "log this is after each hook ",
       "time" : {
-        "start" : 1594586600953,
-        "stop" : 1594586600976,
-        "duration" : 23
+        "start" : 1594586618723,
+        "stop" : 1594586618743,
+        "duration" : 20
       },
       "status" : "passed",
       "steps" : [ ],
@@ -167,29 +179,22 @@
     "name" : "owner",
     "value" : "Me, lol"
   }, {
-    "name" : "severity",
-    "value" : "blocker"
-  }, {
-    "name" : "subSuite",
-    "value" : "subSuiteValue"
-  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "docs",
+    "value" : "https://on.cypress.io/trigger"
+  } ],
   "links" : [ {
     "name" : "docs",
     "url" : "https://on.cypress.io/interacting-with-elements",
-    "type" : "tms"
-  }, {
-    "name" : "docs",
-    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/rightclick",
     "type" : "tms"
   } ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "blocker",
+    "severity" : "normal",
     "owner" : "Me, lol",
     "retries" : [ ],
     "categories" : [ ],
@@ -203,36 +208,36 @@
         "total" : 4
       },
       "items" : [ {
-        "uid" : "ccf072405dadfb7f",
-        "reportUrl" : "https://path-to-report/#testresult/ccf072405dadfb7f",
+        "uid" : "18052636298bd07a",
+        "reportUrl" : "https://path-to-report/#testresult/18052636298bd07a",
         "status" : "passed",
         "time" : {
-          "start" : 1589875307758,
-          "stop" : 1589875307998,
-          "duration" : 240
+          "start" : 1589875322880,
+          "stop" : 1589875323075,
+          "duration" : 195
         }
       }, {
-        "uid" : "ec7b759db29a2b85",
-        "reportUrl" : "https://path-to-report/#testresult/ec7b759db29a2b85",
+        "uid" : "6af489dbff18082f",
+        "reportUrl" : "https://path-to-report/#testresult/6af489dbff18082f",
         "status" : "passed",
         "time" : {
-          "start" : 1587551029476,
-          "stop" : 1587551029827,
-          "duration" : 351
+          "start" : 1587551043836,
+          "stop" : 1587551044019,
+          "duration" : 183
         }
       }, {
-        "uid" : "7a0ef259089b97cf",
-        "reportUrl" : "https://path-to-report/#testresult/7a0ef259089b97cf",
+        "uid" : "ada358e36eff7b11",
+        "reportUrl" : "https://path-to-report/#testresult/ada358e36eff7b11",
         "status" : "passed",
         "time" : {
-          "start" : 1587548932631,
-          "stop" : 1587548932868,
-          "duration" : 237
+          "start" : 1587548945931,
+          "stop" : 1587548946110,
+          "duration" : 179
         }
       } ]
     },
     "tags" : [ "this is tag" ]
   },
-  "source" : "8a0ff2ce034359db.json",
-  "parameterValues" : [ ]
+  "source" : "e4962ce0b3125e0a.json",
+  "parameterValues" : [ "https://on.cypress.io/trigger" ]
 }

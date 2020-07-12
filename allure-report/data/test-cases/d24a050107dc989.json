@@ -1,12 +1,12 @@
 {
-  "uid" : "da1e295491eff0f8",
-  "name" : ".trigger() - trigger an event on a DOM element",
-  "fullName" : ".trigger() - trigger an event on a DOM element",
-  "historyId" : "21f1cc93d9cdddda675113664770c6c7",
+  "uid" : "d24a050107dc989",
+  "name" : ".blur() - blur off a DOM element",
+  "fullName" : ".blur() - blur off a DOM element",
+  "historyId" : "2403b69d3efe79b711ea79f102961b49",
   "time" : {
-    "start" : 1594586618514,
-    "stop" : 1594586618717,
-    "duration" : 203
+    "start" : 1594586596701,
+    "stop" : 1594586597212,
+    "duration" : 511
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,9 +17,9 @@
     "steps" : [ {
       "name" : "visit https://example.cypress.io/commands/actions ",
       "time" : {
-        "start" : 1594586618532,
-        "stop" : 1594586618667,
-        "duration" : 135
+        "start" : 1594586596724,
+        "stop" : 1594586596850,
+        "duration" : 126
       },
       "status" : "passed",
       "steps" : [ ],
@@ -40,11 +40,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "get .trigger-input-range ",
+      "name" : "get .action-blur ",
       "time" : {
-        "start" : 1594586618667,
-        "stop" : 1594586618684,
-        "duration" : 17
+        "start" : 1594586596850,
+        "stop" : 1594586596859,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -55,11 +55,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "invoke .val(25) ",
+      "name" : "type About to blur ",
       "time" : {
-        "start" : 1594586618684,
-        "stop" : 1594586618688,
-        "duration" : 4
+        "start" : 1594586596859,
+        "stop" : 1594586597199,
+        "duration" : 340
       },
       "status" : "passed",
       "steps" : [ ],
@@ -70,11 +70,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "trigger change ",
+      "name" : "blur  ",
       "time" : {
-        "start" : 1594586618688,
-        "stop" : 1594586618710,
-        "duration" : 22
+        "start" : 1594586597199,
+        "stop" : 1594586597205,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -85,11 +85,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "get input[type=range] ",
+      "name" : "assert expected **<input#fullName1.form-control.action-blur.error>** to have class **error** ",
       "time" : {
-        "start" : 1594586618710,
-        "stop" : 1594586618713,
-        "duration" : 3
+        "start" : 1594586597205,
+        "stop" : 1594586597206,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -100,11 +100,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "siblings p ",
+      "name" : "prev  ",
       "time" : {
-        "start" : 1594586618713,
-        "stop" : 1594586618717,
-        "duration" : 4
+        "start" : 1594586597206,
+        "stop" : 1594586597211,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ ],
@@ -115,11 +115,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **<p>** to have text **'25'** ",
+      "name" : "assert expected **<label>** to have attribute **style** with the value **color: red;** ",
       "time" : {
-        "start" : 1594586618717,
-        "stop" : 1594586618717,
-        "duration" : 0
+        "start" : 1594586597211,
+        "stop" : 1594586597212,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -143,9 +143,9 @@
     "steps" : [ {
       "name" : "log this is after each hook ",
       "time" : {
-        "start" : 1594586618723,
-        "stop" : 1594586618743,
-        "duration" : 20
+        "start" : 1594586597218,
+        "stop" : 1594586597245,
+        "duration" : 27
       },
       "status" : "passed",
       "steps" : [ ],
@@ -182,13 +182,14 @@
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "docs",
-    "value" : "https://on.cypress.io/trigger"
-  } ],
+  "parameters" : [ ],
   "links" : [ {
     "name" : "docs",
     "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  }, {
+    "name" : "docs",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/blur",
     "type" : "tms"
   } ],
   "hidden" : false,
@@ -208,36 +209,36 @@
         "total" : 4
       },
       "items" : [ {
-        "uid" : "18052636298bd07a",
-        "reportUrl" : "https://path-to-report/#testresult/18052636298bd07a",
+        "uid" : "4dbab8e48aa4a164",
+        "reportUrl" : "https://path-to-report/#testresult/4dbab8e48aa4a164",
         "status" : "passed",
         "time" : {
-          "start" : 1589875322880,
-          "stop" : 1589875323075,
-          "duration" : 195
+          "start" : 1589875303693,
+          "stop" : 1589875304287,
+          "duration" : 594
         }
       }, {
-        "uid" : "6af489dbff18082f",
-        "reportUrl" : "https://path-to-report/#testresult/6af489dbff18082f",
+        "uid" : "410b16b507105f10",
+        "reportUrl" : "https://path-to-report/#testresult/410b16b507105f10",
         "status" : "passed",
         "time" : {
-          "start" : 1587551043836,
-          "stop" : 1587551044019,
-          "duration" : 183
+          "start" : 1587551025207,
+          "stop" : 1587551025829,
+          "duration" : 622
         }
       }, {
-        "uid" : "ada358e36eff7b11",
-        "reportUrl" : "https://path-to-report/#testresult/ada358e36eff7b11",
+        "uid" : "4025e625194f4692",
+        "reportUrl" : "https://path-to-report/#testresult/4025e625194f4692",
         "status" : "passed",
         "time" : {
-          "start" : 1587548945931,
-          "stop" : 1587548946110,
-          "duration" : 179
+          "start" : 1587548928676,
+          "stop" : 1587548929216,
+          "duration" : 540
         }
       } ]
     },
     "tags" : [ "this is tag" ]
   },
-  "source" : "da1e295491eff0f8.json",
-  "parameterValues" : [ "https://on.cypress.io/trigger" ]
+  "source" : "d24a050107dc989.json",
+  "parameterValues" : [ ]
 }

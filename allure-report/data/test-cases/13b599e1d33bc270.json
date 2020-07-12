@@ -1,5 +1,5 @@
 {
-  "uid" : "5a36a24cdfc05cde",
+  "uid" : "13b599e1d33bc270",
   "name" : ".check() - check a checkbox or radio element",
   "fullName" : ".check() - check a checkbox or radio element",
   "historyId" : "849ba0e0891ca04ca3b974daf1abad42",
@@ -542,6 +542,6 @@
     },
     "tags" : [ "this is tag" ]
   },
-  "source" : "5a36a24cdfc05cde.json",
+  "source" : "13b599e1d33bc270.json",
   "parameterValues" : [ ]
 }

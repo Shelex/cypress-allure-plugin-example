@@ -1,12 +1,12 @@
 {
-  "uid" : "559677e43a921337",
-  "name" : ".type() - type into a DOM element",
-  "fullName" : ".type() - type into a DOM element",
-  "historyId" : "f3c22ddce3b6ee36dac8b9bd658acdef",
+  "uid" : "8e09630e02084b6d",
+  "name" : ".uncheck() - uncheck a checkbox element",
+  "fullName" : ".uncheck() - uncheck a checkbox element",
+  "historyId" : "51a9f7733ef5e871f2775d59ad773b00",
   "time" : {
-    "start" : 1594586601957,
-    "stop" : 1594586611057,
-    "duration" : 9100
+    "start" : 1594586611089,
+    "stop" : 1594586617204,
+    "duration" : 6115
   },
   "status" : "passed",
   "flaky" : false,
@@ -17,9 +17,9 @@
     "steps" : [ {
       "name" : "visit https://example.cypress.io/commands/actions ",
       "time" : {
-        "start" : 1594586601979,
-        "stop" : 1594586602142,
-        "duration" : 163
+        "start" : 1594586611113,
+        "stop" : 1594586611292,
+        "duration" : 179
       },
       "status" : "passed",
       "steps" : [ ],
@@ -40,19 +40,124 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "take usual screenshot from test",
+      "name" : "By default, .uncheck() will uncheck all matching checkbox elements in succession, one after another",
       "time" : {
-        "start" : 1594586602142,
-        "stop" : 1594586607857,
-        "duration" : 5715
+        "start" : 1594586611292,
+        "stop" : 1594586616463,
+        "duration" : 5171
       },
       "status" : "passed",
       "steps" : [ {
+        "name" : "get .action-check [type=\"checkbox\"] ",
+        "time" : {
+          "start" : 1594586611293,
+          "stop" : 1594586611303,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "not [disabled] ",
+        "time" : {
+          "start" : 1594586611303,
+          "stop" : 1594586611307,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "uncheck  ",
+        "time" : {
+          "start" : 1594586611307,
+          "stop" : 1594586611405,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "uncheck  ",
+        "time" : {
+          "start" : 1594586611405,
+          "stop" : 1594586611485,
+          "duration" : 80
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **[ <input>, 1 more... ]** not to be **checked** ",
+        "time" : {
+          "start" : 1594586611485,
+          "stop" : 1594586611491,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
         "name" : "screenshot  ",
         "time" : {
-          "start" : 1594586602143,
-          "stop" : 1594586607523,
-          "duration" : 5380
+          "start" : 1594586611491,
+          "stop" : 1594586616463,
+          "duration" : 4972
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : ".uncheck() accepts a value argument",
+      "time" : {
+        "start" : 1594586616463,
+        "stop" : 1594586616705,
+        "duration" : 242
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get .action-check [type=\"checkbox\"] ",
+        "time" : {
+          "start" : 1594586616504,
+          "stop" : 1594586616525,
+          "duration" : 21
         },
         "status" : "passed",
         "steps" : [ ],
@@ -63,11 +168,11 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "get .action-email ",
+        "name" : "check checkbox1 ",
         "time" : {
-          "start" : 1594586607523,
-          "stop" : 1594586607543,
-          "duration" : 20
+          "start" : 1594586616525,
+          "stop" : 1594586616615,
+          "duration" : 90
         },
         "status" : "passed",
         "steps" : [ ],
@@ -78,11 +183,11 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "type fake@email.com ",
+        "name" : "uncheck checkbox1 ",
         "time" : {
-          "start" : 1594586607543,
-          "stop" : 1594586607857,
-          "duration" : 314
+          "start" : 1594586616615,
+          "stop" : 1594586616703,
+          "duration" : 88
         },
         "status" : "passed",
         "steps" : [ ],
@@ -93,11 +198,11 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "assert expected **<input#email1.form-control.action-email>** to have value **fake@email.com** ",
+        "name" : "assert expected **<input>** not to be **checked** ",
         "time" : {
-          "start" : 1594586607857,
-          "stop" : 1594586607857,
-          "duration" : 0
+          "start" : 1594586616703,
+          "stop" : 1594586616705,
+          "duration" : 2
         },
         "status" : "passed",
         "steps" : [ ],
@@ -115,19 +220,19 @@
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : ".type() with special character sequences",
+      "name" : ".uncheck() accepts an array of values",
       "time" : {
-        "start" : 1594586607857,
-        "stop" : 1594586608076,
-        "duration" : 219
+        "start" : 1594586616705,
+        "stop" : 1594586617112,
+        "duration" : 407
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "get .action-email ",
+        "name" : "get .action-check [type=\"checkbox\"] ",
         "time" : {
-          "start" : 1594586607864,
-          "stop" : 1594586607873,
-          "duration" : 9
+          "start" : 1594586616713,
+          "stop" : 1594586616726,
+          "duration" : 13
         },
         "status" : "passed",
         "steps" : [ ],
@@ -138,11 +243,11 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "type {leftarrow}{rightarrow}{uparrow}{downarrow} ",
+        "name" : "check [checkbox1, checkbox3] ",
         "time" : {
-          "start" : 1594586607873,
-          "stop" : 1594586607988,
-          "duration" : 115
+          "start" : 1594586616726,
+          "stop" : 1594586616822,
+          "duration" : 96
         },
         "status" : "passed",
         "steps" : [ ],
@@ -153,41 +258,11 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "type {del}{selectall}{backspace} ",
+        "name" : "check [checkbox1, checkbox3] ",
         "time" : {
-          "start" : 1594586607988,
-          "stop" : 1594586608076,
-          "duration" : 88
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      } ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 3,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : ".type() with key modifiers",
-      "time" : {
-        "start" : 1594586608076,
-        "stop" : 1594586608422,
-        "duration" : 346
-      },
-      "status" : "passed",
-      "steps" : [ {
-        "name" : "get .action-email ",
-        "time" : {
-          "start" : 1594586608087,
-          "stop" : 1594586608096,
-          "duration" : 9
+          "start" : 1594586616822,
+          "stop" : 1594586616921,
+          "duration" : 99
         },
         "status" : "passed",
         "steps" : [ ],
@@ -198,40 +273,10 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "type {alt}{option} ",
+        "name" : "uncheck [checkbox1, checkbox3] ",
         "time" : {
-          "start" : 1594586608096,
-          "stop" : 1594586608181,
-          "duration" : 85
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      }, {
-        "name" : "type {ctrl}{control} ",
-        "time" : {
-          "start" : 1594586608181,
-          "stop" : 1594586608265,
-          "duration" : 84
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      }, {
-        "name" : "type {meta}{command}{cmd} ",
-        "time" : {
-          "start" : 1594586608265,
-          "stop" : 1594586608358,
+          "start" : 1594586616921,
+          "stop" : 1594586617014,
           "duration" : 93
         },
         "status" : "passed",
@@ -243,11 +288,26 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "type {shift} ",
+        "name" : "uncheck [checkbox1, checkbox3] ",
         "time" : {
-          "start" : 1594586608358,
-          "stop" : 1594586608422,
-          "duration" : 64
+          "start" : 1594586617014,
+          "stop" : 1594586617108,
+          "duration" : 94
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **[ <input>, 1 more... ]** not to be **checked** ",
+        "time" : {
+          "start" : 1594586617108,
+          "stop" : 1594586617112,
+          "duration" : 4
         },
         "status" : "passed",
         "steps" : [ ],
@@ -260,83 +320,23 @@
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 5,
+      "stepsCount" : 6,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "Delay each keypress by 0.1 sec",
+      "name" : "Ignore error checking prior to unchecking",
       "time" : {
-        "start" : 1594586608422,
-        "stop" : 1594586610651,
-        "duration" : 2229
+        "start" : 1594586617112,
+        "stop" : 1594586617204,
+        "duration" : 92
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "get .action-email ",
+        "name" : "get .action-check [disabled] ",
         "time" : {
-          "start" : 1594586608433,
-          "stop" : 1594586608443,
-          "duration" : 10
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      }, {
-        "name" : "type slow.typing@email.com, {delay: 100} ",
-        "time" : {
-          "start" : 1594586608443,
-          "stop" : 1594586610651,
-          "duration" : 2208
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      }, {
-        "name" : "assert expected **<input#email1.form-control.action-email>** to have value **slow.typing@email.com** ",
-        "time" : {
-          "start" : 1594586610651,
-          "stop" : 1594586610651,
-          "duration" : 0
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "stepsCount" : 0,
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "hasContent" : false
-      } ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 3,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    }, {
-      "name" : "Ignore error checking prior to type, like whether the input is visible or disabled",
-      "time" : {
-        "start" : 1594586610651,
-        "stop" : 1594586611057,
-        "duration" : 406
-      },
-      "status" : "passed",
-      "steps" : [ {
-        "name" : "get .action-disabled ",
-        "time" : {
-          "start" : 1594586610659,
-          "stop" : 1594586610671,
+          "start" : 1594586617120,
+          "stop" : 1594586617132,
           "duration" : 12
         },
         "status" : "passed",
@@ -348,11 +348,11 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "type disabled error checking, {force: true} ",
+        "name" : "uncheck {force: true} ",
         "time" : {
-          "start" : 1594586610671,
-          "stop" : 1594586611056,
-          "duration" : 385
+          "start" : 1594586617132,
+          "stop" : 1594586617201,
+          "duration" : 69
         },
         "status" : "passed",
         "steps" : [ ],
@@ -363,11 +363,11 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "assert expected **<textarea.form-control.action-disabled>** to have value **disabled error checking** ",
+        "name" : "assert expected **<input>** not to be **checked** ",
         "time" : {
-          "start" : 1594586611056,
-          "stop" : 1594586611057,
-          "duration" : 1
+          "start" : 1594586617201,
+          "stop" : 1594586617204,
+          "duration" : 3
         },
         "status" : "passed",
         "steps" : [ ],
@@ -386,11 +386,11 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "4ba48a23b7819277",
-      "name" : "actions.spec.js:2020-07-12T20:43:24.862Z",
-      "source" : "4ba48a23b7819277.png",
+      "uid" : "3d3a0a23bc4d3a03",
+      "name" : "actions.spec.js:2020-07-12T20:43:33.785Z",
+      "source" : "3d3a0a23bc4d3a03.png",
       "type" : "image/png",
-      "size" : 998627
+      "size" : 998868
     } ],
     "parameters" : [ ],
     "stepsCount" : 23,
@@ -404,9 +404,9 @@
     "steps" : [ {
       "name" : "log this is after each hook ",
       "time" : {
-        "start" : 1594586611073,
-        "stop" : 1594586611113,
-        "duration" : 40
+        "start" : 1594586617232,
+        "stop" : 1594586617273,
+        "duration" : 41
       },
       "status" : "passed",
       "steps" : [ ],
@@ -440,9 +440,6 @@
     "name" : "owner",
     "value" : "Me, lol"
   }, {
-    "name" : "tag",
-    "value" : "FAILED BY INTENT"
-  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
@@ -453,7 +450,7 @@
     "type" : "tms"
   }, {
     "name" : "docs",
-    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/type",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/uncheck",
     "type" : "tms"
   } ],
   "hidden" : false,
@@ -465,46 +462,44 @@
     "categories" : [ ],
     "history" : {
       "statistic" : {
-        "failed" : 2,
+        "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 4,
         "unknown" : 0,
         "total" : 4
       },
       "items" : [ {
-        "uid" : "a84ae7bc4141e2ba",
-        "reportUrl" : "https://path-to-report/#testresult/a84ae7bc4141e2ba",
+        "uid" : "ba0b23c54cc7e29f",
+        "reportUrl" : "https://path-to-report/#testresult/ba0b23c54cc7e29f",
         "status" : "passed",
         "time" : {
-          "start" : 1589875308918,
-          "stop" : 1589875316627,
-          "duration" : 7709
+          "start" : 1589875316661,
+          "stop" : 1589875321481,
+          "duration" : 4820
         }
       }, {
-        "uid" : "499e341eb5602ff6",
-        "reportUrl" : "https://path-to-report/#testresult/499e341eb5602ff6",
-        "status" : "failed",
-        "statusDetails" : "`cy.type()` failed because it requires a DOM element.\n\nThe subject received was:\n\n  > `Object{4}`\n\nThe previous command that ran was:\n\n  > `cy.wrap()`",
+        "uid" : "27fa048799d31712",
+        "reportUrl" : "https://path-to-report/#testresult/27fa048799d31712",
+        "status" : "passed",
         "time" : {
-          "start" : 1587551030858,
-          "stop" : 1587551036765,
-          "duration" : 5907
+          "start" : 1587551036808,
+          "stop" : 1587551042335,
+          "duration" : 5527
         }
       }, {
-        "uid" : "5b042c5964b6ce77",
-        "reportUrl" : "https://path-to-report/#testresult/5b042c5964b6ce77",
-        "status" : "failed",
-        "statusDetails" : "`cy.type()` failed because it requires a DOM element.\n\nThe subject received was:\n\n  > `Object{4}`\n\nThe previous command that ran was:\n\n  > `cy.wrap()`",
+        "uid" : "74514ecfa377a6d4",
+        "reportUrl" : "https://path-to-report/#testresult/74514ecfa377a6d4",
+        "status" : "passed",
         "time" : {
-          "start" : 1587548933804,
-          "stop" : 1587548939298,
-          "duration" : 5494
+          "start" : 1587548939321,
+          "stop" : 1587548944595,
+          "duration" : 5274
         }
       } ]
     },
-    "tags" : [ "FAILED BY INTENT", "this is tag" ]
+    "tags" : [ "this is tag" ]
   },
-  "source" : "559677e43a921337.json",
+  "source" : "8e09630e02084b6d.json",
   "parameterValues" : [ ]
 }

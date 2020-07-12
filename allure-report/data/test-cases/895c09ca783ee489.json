@@ -1,5 +1,5 @@
 {
-  "uid" : "17e9a516ddba8848",
+  "uid" : "895c09ca783ee489",
   "name" : ".click() - click on a DOM element",
   "fullName" : ".click() - click on a DOM element",
   "historyId" : "d344e728139f2b8b8dd61351b7c9ff28",
@@ -709,6 +709,6 @@
     },
     "tags" : [ "this is tag" ]
   },
-  "source" : "17e9a516ddba8848.json",
+  "source" : "895c09ca783ee489.json",
   "parameterValues" : [ ]
 }

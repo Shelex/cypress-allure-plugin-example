@@ -1,13 +1,15 @@
 {
-  "uid" : "664b887bfcf9ae7e",
-  "name" : ".clear() - clears an input or textarea element",
-  "fullName" : ".clear() - clears an input or textarea element",
-  "historyId" : "fa534f1bfef9141e4ee0be8e32412027",
+  "uid" : "5233774e170ec25",
+  "name" : ".dblclick() - double click on a DOM element",
+  "fullName" : ".dblclick() - double click on a DOM element",
+  "historyId" : "4c1efb7c23927b88d87c774722380f85",
   "time" : {
-    "start" : 1594586597225,
-    "stop" : 1594586597780,
-    "duration" : 555
+    "start" : 1594586600411,
+    "stop" : 1594586600703,
+    "duration" : 292
   },
+  "description" : "\n      Our app has a listener on 'dblclick' event in our 'scripts.js'\n      that hides the div and shows an input on double click",
+  "descriptionHtml" : "<pre><code>  Our app has a listener on 'dblclick' event in our 'scripts.js'\n  that hides the div and shows an input on double click\n</code></pre>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -17,9 +19,9 @@
     "steps" : [ {
       "name" : "visit https://example.cypress.io/commands/actions ",
       "time" : {
-        "start" : 1594586597245,
-        "stop" : 1594586597381,
-        "duration" : 136
+        "start" : 1594586600429,
+        "stop" : 1594586600597,
+        "duration" : 168
       },
       "status" : "passed",
       "steps" : [ ],
@@ -38,13 +40,14 @@
     "hasContent" : true
   } ],
   "testStage" : {
+    "description" : "\n      Our app has a listener on 'dblclick' event in our 'scripts.js'\n      that hides the div and shows an input on double click",
     "status" : "passed",
     "steps" : [ {
-      "name" : "get .action-clear ",
+      "name" : "get .action-div ",
       "time" : {
-        "start" : 1594586597381,
-        "stop" : 1594586597391,
-        "duration" : 10
+        "start" : 1594586600597,
+        "stop" : 1594586600606,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
@@ -55,11 +58,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "type Clear this text ",
+      "name" : "dblclick  ",
       "time" : {
-        "start" : 1594586597391,
-        "stop" : 1594586597698,
-        "duration" : 307
+        "start" : 1594586600606,
+        "stop" : 1594586600692,
+        "duration" : 86
       },
       "status" : "passed",
       "steps" : [ ],
@@ -70,41 +73,41 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **<input#description.form-control.action-clear>** to have value **Clear this text** ",
+      "name" : "assert expected **<div.action-div.hidden>** not to be **visible** ",
       "time" : {
-        "start" : 1594586597698,
-        "stop" : 1594586597701,
+        "start" : 1594586600692,
+        "stop" : 1594586600694,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .action-input-hidden ",
+      "time" : {
+        "start" : 1594586600694,
+        "stop" : 1594586600700,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input.action-input-hidden.form-control>** to be **visible** ",
+      "time" : {
+        "start" : 1594586600700,
+        "stop" : 1594586600703,
         "duration" : 3
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "clear  ",
-      "time" : {
-        "start" : 1594586597701,
-        "stop" : 1594586597779,
-        "duration" : 78
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "assert expected **<input#description.form-control.action-clear>** to have value **''** ",
-      "time" : {
-        "start" : 1594586597779,
-        "stop" : 1594586597780,
-        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -128,9 +131,9 @@
     "steps" : [ {
       "name" : "log this is after each hook ",
       "time" : {
-        "start" : 1594586597786,
-        "stop" : 1594586597817,
-        "duration" : 31
+        "start" : 1594586600713,
+        "stop" : 1594586600739,
+        "duration" : 26
       },
       "status" : "passed",
       "steps" : [ ],
@@ -164,6 +167,9 @@
     "name" : "owner",
     "value" : "Me, lol"
   }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
@@ -174,13 +180,13 @@
     "type" : "tms"
   }, {
     "name" : "docs",
-    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/clear",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/dblclick",
     "type" : "tms"
   } ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "normal",
+    "severity" : "blocker",
     "owner" : "Me, lol",
     "retries" : [ ],
     "categories" : [ ],
@@ -194,36 +200,36 @@
         "total" : 4
       },
       "items" : [ {
-        "uid" : "764d5b05f9e9cff4",
-        "reportUrl" : "https://path-to-report/#testresult/764d5b05f9e9cff4",
+        "uid" : "eac354cc4c9d3fe1",
+        "reportUrl" : "https://path-to-report/#testresult/eac354cc4c9d3fe1",
         "status" : "passed",
         "time" : {
-          "start" : 1589875304302,
-          "stop" : 1589875304885,
-          "duration" : 583
+          "start" : 1589875307419,
+          "stop" : 1589875307750,
+          "duration" : 331
         }
       }, {
-        "uid" : "53e015a63bc1f42c",
-        "reportUrl" : "https://path-to-report/#testresult/53e015a63bc1f42c",
+        "uid" : "a5de4d7cf5a610c1",
+        "reportUrl" : "https://path-to-report/#testresult/a5de4d7cf5a610c1",
         "status" : "passed",
         "time" : {
-          "start" : 1587551025845,
-          "stop" : 1587551026416,
-          "duration" : 571
+          "start" : 1587551029192,
+          "stop" : 1587551029465,
+          "duration" : 273
         }
       }, {
-        "uid" : "94b35056f252801e",
-        "reportUrl" : "https://path-to-report/#testresult/94b35056f252801e",
+        "uid" : "fd57b2302c17d726",
+        "reportUrl" : "https://path-to-report/#testresult/fd57b2302c17d726",
         "status" : "passed",
         "time" : {
-          "start" : 1587548929239,
-          "stop" : 1587548929774,
-          "duration" : 535
+          "start" : 1587548932367,
+          "stop" : 1587548932620,
+          "duration" : 253
         }
       } ]
     },
     "tags" : [ "this is tag" ]
   },
-  "source" : "664b887bfcf9ae7e.json",
+  "source" : "5233774e170ec25.json",
   "parameterValues" : [ ]
 }
