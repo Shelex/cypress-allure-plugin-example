@@ -1,0 +1,732 @@
+{
+  "uid" : "774ca53627d9908c",
+  "name" : ".click() - click on a DOM element",
+  "fullName" : ".click() - click on a DOM element",
+  "historyId" : "d344e728139f2b8b8dd61351b7c9ff28",
+  "time" : {
+    "start" : 1608040645357,
+    "stop" : 1608040647494,
+    "duration" : 2137
+  },
+  "descriptionHtml" : "\n        <p class=\"has-line-data\" data-line-start=\"0\" data-line-end=\"1\">You can click on 9 specific positions of an element:</p>\n        <pre><code>\n        -------------------------------------\n        | topLeft        top       topRight |\n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | left          center        right |  \n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | bottomLeft   bottom   bottomRight |  \n        -------------------------------------\n        </code></pre>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://example.cypress.io/commands/actions\")",
+      "time" : {
+        "start" : 1608040645383,
+        "stop" : 1608040645502,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "descriptionHtml" : "\n        <p class=\"has-line-data\" data-line-start=\"0\" data-line-end=\"1\">You can click on 9 specific positions of an element:</p>\n        <pre><code>\n        -------------------------------------\n        | topLeft        top       topRight |\n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | left          center        right |  \n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | bottomLeft   bottom   bottomRight |  \n        -------------------------------------\n        </code></pre>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get (\".action-btn\")",
+      "time" : {
+        "start" : 1608040645506,
+        "stop" : 1608040645514,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1608040645514,
+        "stop" : 1608040645605,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#action-canvas\")",
+      "time" : {
+        "start" : 1608040645605,
+        "stop" : 1608040645610,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1608040645610,
+        "stop" : 1608040645738,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#action-canvas\")",
+      "time" : {
+        "start" : 1608040645738,
+        "stop" : 1608040645741,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click (\"topLeft\")",
+      "time" : {
+        "start" : 1608040645741,
+        "stop" : 1608040645819,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#action-canvas\")",
+      "time" : {
+        "start" : 1608040645819,
+        "stop" : 1608040645822,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click (\"top\")",
+      "time" : {
+        "start" : 1608040645822,
+        "stop" : 1608040645898,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#action-canvas\")",
+      "time" : {
+        "start" : 1608040645898,
+        "stop" : 1608040645903,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click (\"topRight\")",
+      "time" : {
+        "start" : 1608040645903,
+        "stop" : 1608040645979,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#action-canvas\")",
+      "time" : {
+        "start" : 1608040645979,
+        "stop" : 1608040645982,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click (\"left\")",
+      "time" : {
+        "start" : 1608040645982,
+        "stop" : 1608040646058,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#action-canvas\")",
+      "time" : {
+        "start" : 1608040646058,
+        "stop" : 1608040646061,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click (\"right\")",
+      "time" : {
+        "start" : 1608040646061,
+        "stop" : 1608040646138,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#action-canvas\")",
+      "time" : {
+        "start" : 1608040646139,
+        "stop" : 1608040646142,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click (\"bottomLeft\")",
+      "time" : {
+        "start" : 1608040646142,
+        "stop" : 1608040646219,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#action-canvas\")",
+      "time" : {
+        "start" : 1608040646219,
+        "stop" : 1608040646222,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click (\"bottom\")",
+      "time" : {
+        "start" : 1608040646222,
+        "stop" : 1608040646301,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#action-canvas\")",
+      "time" : {
+        "start" : 1608040646302,
+        "stop" : 1608040646305,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click (\"bottomRight\")",
+      "time" : {
+        "start" : 1608040646305,
+        "stop" : 1608040646381,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#action-canvas\")",
+      "time" : {
+        "start" : 1608040646381,
+        "stop" : 1608040646386,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click (\"80\"; \"75\")",
+      "time" : {
+        "start" : 1608040646386,
+        "stop" : 1608040646461,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click (\"170\"; \"75\")",
+      "time" : {
+        "start" : 1608040646461,
+        "stop" : 1608040646538,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click (\"80\"; \"165\")",
+      "time" : {
+        "start" : 1608040646538,
+        "stop" : 1608040646617,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click (\"100\"; \"185\")",
+      "time" : {
+        "start" : 1608040646617,
+        "stop" : 1608040646694,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click (\"125\"; \"190\")",
+      "time" : {
+        "start" : 1608040646694,
+        "stop" : 1608040646770,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click (\"150\"; \"185\")",
+      "time" : {
+        "start" : 1608040646770,
+        "stop" : 1608040646847,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click (\"170\"; \"165\")",
+      "time" : {
+        "start" : 1608040646847,
+        "stop" : 1608040646922,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".action-labels>.label\")",
+      "time" : {
+        "start" : 1608040646922,
+        "stop" : 1608040646940,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click (\"[object Object]\")",
+      "time" : {
+        "start" : 1608040646940,
+        "stop" : 1608040647426,
+        "duration" : 486
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "{multiple: true} click",
+      "time" : {
+        "start" : 1608040647426,
+        "stop" : 1608040647426,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "{multiple: true} click",
+      "time" : {
+        "start" : 1608040647426,
+        "stop" : 1608040647426,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "{multiple: true} click",
+      "time" : {
+        "start" : 1608040647426,
+        "stop" : 1608040647426,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "{multiple: true} click",
+      "time" : {
+        "start" : 1608040647426,
+        "stop" : 1608040647426,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "{multiple: true} click",
+      "time" : {
+        "start" : 1608040647426,
+        "stop" : 1608040647426,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".action-opacity>.btn\")",
+      "time" : {
+        "start" : 1608040647426,
+        "stop" : 1608040647429,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click (\"[object Object]\")",
+      "time" : {
+        "start" : 1608040647430,
+        "stop" : 1608040647493,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 37,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log (\"this is after each hook\")",
+      "time" : {
+        "start" : 1608040647499,
+        "stop" : 1608040647501,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  }, {
+    "name" : "docs",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/click",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "8c351b55cdca74e4",
+        "reportUrl" : "https://path-to-report/#testresult/8c351b55cdca74e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608040018991,
+          "stop" : 1608040021187,
+          "duration" : 2196
+        }
+      }, {
+        "uid" : "5656e00a1735a679",
+        "reportUrl" : "https://path-to-report/#testresult/5656e00a1735a679",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039670242,
+          "stop" : 1608039672354,
+          "duration" : 2112
+        }
+      }, {
+        "uid" : "538d6086f7a2dcaa",
+        "reportUrl" : "https://path-to-report/#testresult/538d6086f7a2dcaa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039347792,
+          "stop" : 1608039349979,
+          "duration" : 2187
+        }
+      }, {
+        "uid" : "85b19435c145947c",
+        "reportUrl" : "https://path-to-report/#testresult/85b19435c145947c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602183027438,
+          "stop" : 1602183029526,
+          "duration" : 2088
+        }
+      }, {
+        "uid" : "9507b0025e4245c5",
+        "reportUrl" : "https://path-to-report/#testresult/9507b0025e4245c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594591718332,
+          "stop" : 1594591720401,
+          "duration" : 2069
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+  "source" : "774ca53627d9908c.json",
+  "parameterValues" : [ ]
+}

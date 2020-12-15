@@ -1,0 +1,526 @@
+{
+  "uid" : "97d9faa7601306e2",
+  "name" : ".type() - type into a DOM element",
+  "fullName" : ".type() - type into a DOM element",
+  "historyId" : "f3c22ddce3b6ee36dac8b9bd658acdef",
+  "time" : {
+    "start" : 1608040649155,
+    "stop" : 1608040658331,
+    "duration" : 9176
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://example.cypress.io/commands/actions\")",
+      "time" : {
+        "start" : 1608040649183,
+        "stop" : 1608040649323,
+        "duration" : 140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "take usual screenshot from test",
+      "time" : {
+        "start" : 1608040649329,
+        "stop" : 1608040655031,
+        "duration" : 5702
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "screenshot",
+        "time" : {
+          "start" : 1608040649329,
+          "stop" : 1608040654674,
+          "duration" : 5345
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\".action-email\")",
+        "time" : {
+          "start" : 1608040654674,
+          "stop" : 1608040654703,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"fake@email.com\")",
+        "time" : {
+          "start" : 1608040654703,
+          "stop" : 1608040655031,
+          "duration" : 328
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **<input#email1.form-control.action-email>** to have value **fake@email.com** assert",
+        "time" : {
+          "start" : 1608040655031,
+          "stop" : 1608040655031,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : ".type() with special character sequences",
+      "time" : {
+        "start" : 1608040655031,
+        "stop" : 1608040655265,
+        "duration" : 234
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\".action-email\")",
+        "time" : {
+          "start" : 1608040655032,
+          "stop" : 1608040655043,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"{leftarrow}{rightarrow}{uparrow}{downarrow}\")",
+        "time" : {
+          "start" : 1608040655043,
+          "stop" : 1608040655159,
+          "duration" : 116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"{del}{selectall}{backspace}\")",
+        "time" : {
+          "start" : 1608040655159,
+          "stop" : 1608040655264,
+          "duration" : 105
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : ".type() with key modifiers",
+      "time" : {
+        "start" : 1608040655265,
+        "stop" : 1608040655645,
+        "duration" : 380
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\".action-email\")",
+        "time" : {
+          "start" : 1608040655265,
+          "stop" : 1608040655283,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"{alt}{option}\")",
+        "time" : {
+          "start" : 1608040655283,
+          "stop" : 1608040655376,
+          "duration" : 93
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"{ctrl}{control}\")",
+        "time" : {
+          "start" : 1608040655376,
+          "stop" : 1608040655468,
+          "duration" : 92
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"{meta}{command}{cmd}\")",
+        "time" : {
+          "start" : 1608040655468,
+          "stop" : 1608040655568,
+          "duration" : 100
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"{shift}\")",
+        "time" : {
+          "start" : 1608040655568,
+          "stop" : 1608040655645,
+          "duration" : 77
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Delay each keypress by 0.1 sec",
+      "time" : {
+        "start" : 1608040655645,
+        "stop" : 1608040657887,
+        "duration" : 2242
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\".action-email\")",
+        "time" : {
+          "start" : 1608040655646,
+          "stop" : 1608040655662,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"slow.typing@email.com\"; \"[object Object]\")",
+        "time" : {
+          "start" : 1608040655662,
+          "stop" : 1608040657886,
+          "duration" : 2224
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **<input#email1.form-control.action-email>** to have value **slow.typing@email.com** assert",
+        "time" : {
+          "start" : 1608040657886,
+          "stop" : 1608040657886,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ignore error checking prior to type, like whether the input is visible or disabled",
+      "time" : {
+        "start" : 1608040657887,
+        "stop" : 1608040658331,
+        "duration" : 444
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\".action-disabled\")",
+        "time" : {
+          "start" : 1608040657887,
+          "stop" : 1608040657900,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"disabled error checking\"; \"[object Object]\")",
+        "time" : {
+          "start" : 1608040657900,
+          "stop" : 1608040658330,
+          "duration" : 430
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **<textarea.form-control.action-disabled>** to have value **disabled error checking** assert",
+        "time" : {
+          "start" : 1608040658330,
+          "stop" : 1608040658330,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1e757700c35985a8",
+      "name" : "actions.spec.js:2020-12-15T13:57:31.883Z",
+      "source" : "1e757700c35985a8.png",
+      "type" : "image/png",
+      "size" : 998771
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 23,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log (\"this is after each hook\")",
+      "time" : {
+        "start" : 1608040658348,
+        "stop" : 1608040658353,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "tag",
+    "value" : "FAILED BY INTENT"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  }, {
+    "name" : "docs",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/type",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "be6fd120da764da1",
+        "reportUrl" : "https://path-to-report/#testresult/be6fd120da764da1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608040022914,
+          "stop" : 1608040039872,
+          "duration" : 16958
+        }
+      }, {
+        "uid" : "6737ffd55b03c7a5",
+        "reportUrl" : "https://path-to-report/#testresult/6737ffd55b03c7a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039673984,
+          "stop" : 1608039684270,
+          "duration" : 10286
+        }
+      }, {
+        "uid" : "80f755eb23a005e2",
+        "reportUrl" : "https://path-to-report/#testresult/80f755eb23a005e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039351532,
+          "stop" : 1608039360542,
+          "duration" : 9010
+        }
+      }, {
+        "uid" : "f946d60bcf96fb44",
+        "reportUrl" : "https://path-to-report/#testresult/f946d60bcf96fb44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602183031036,
+          "stop" : 1602183039454,
+          "duration" : 8418
+        }
+      }, {
+        "uid" : "3d8753f32ae9d542",
+        "reportUrl" : "https://path-to-report/#testresult/3d8753f32ae9d542",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594591721833,
+          "stop" : 1594591730212,
+          "duration" : 8379
+        }
+      } ]
+    },
+    "tags" : [ "FAILED BY INTENT", "this is tag" ]
+  },
+  "source" : "97d9faa7601306e2.json",
+  "parameterValues" : [ ]
+}
