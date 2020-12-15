@@ -1,0 +1,274 @@
+{
+  "uid" : "ad407adba71879ee",
+  "name" : ".rightclick() - right click on a DOM element",
+  "fullName" : ".rightclick() - right click on a DOM element",
+  "historyId" : "e8e9d54ad7f8d5dc5395c519ee0c3bec",
+  "time" : {
+    "start" : 1608039672679,
+    "stop" : 1608039672956,
+    "duration" : 277
+  },
+  "description" : "\n      Our app has a listener on 'contextmenu' event in our 'scripts.js'\n      that hides the div and shows an input on right click",
+  "descriptionHtml" : "<pre><code>  Our app has a listener on 'contextmenu' event in our 'scripts.js'\n  that hides the div and shows an input on right click\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://example.cypress.io/commands/actions\")",
+      "time" : {
+        "start" : 1608039672710,
+        "stop" : 1608039672847,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "\n      Our app has a listener on 'contextmenu' event in our 'scripts.js'\n      that hides the div and shows an input on right click",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get (\".rightclick-action-div\")",
+      "time" : {
+        "start" : 1608039672850,
+        "stop" : 1608039672858,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "rightclick",
+      "time" : {
+        "start" : 1608039672858,
+        "stop" : 1608039672945,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<div.rightclick-action-div.hidden>** not to be **visible** assert",
+      "time" : {
+        "start" : 1608039672944,
+        "stop" : 1608039672944,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".rightclick-action-input-hidden\")",
+      "time" : {
+        "start" : 1608039672945,
+        "stop" : 1608039672955,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<input.rightclick-action-input-hidden.form-control>** to be **visible** assert",
+      "time" : {
+        "start" : 1608039672955,
+        "stop" : 1608039672955,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log (\"this is after each hook\")",
+      "time" : {
+        "start" : 1608039672962,
+        "stop" : 1608039672963,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "subSuite",
+    "value" : "subSuiteValue"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  }, {
+    "name" : "docs",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/rightclick",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "27bc84af9dd3326",
+        "reportUrl" : "https://path-to-report/#testresult/27bc84af9dd3326",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039350285,
+          "stop" : 1608039350555,
+          "duration" : 270
+        }
+      }, {
+        "uid" : "99890bce3049b02a",
+        "reportUrl" : "https://path-to-report/#testresult/99890bce3049b02a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602183029826,
+          "stop" : 1602183030081,
+          "duration" : 255
+        }
+      }, {
+        "uid" : "c01faaae0e832a27",
+        "reportUrl" : "https://path-to-report/#testresult/c01faaae0e832a27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594591720654,
+          "stop" : 1594591720894,
+          "duration" : 240
+        }
+      }, {
+        "uid" : "ce2f2728ec447021",
+        "reportUrl" : "https://path-to-report/#testresult/ce2f2728ec447021",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594586600719,
+          "stop" : 1594586600948,
+          "duration" : 229
+        }
+      }, {
+        "uid" : "ccf072405dadfb7f",
+        "reportUrl" : "https://path-to-report/#testresult/ccf072405dadfb7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589875307758,
+          "stop" : 1589875307998,
+          "duration" : 240
+        }
+      }, {
+        "uid" : "ec7b759db29a2b85",
+        "reportUrl" : "https://path-to-report/#testresult/ec7b759db29a2b85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587551029476,
+          "stop" : 1587551029827,
+          "duration" : 351
+        }
+      }, {
+        "uid" : "7a0ef259089b97cf",
+        "reportUrl" : "https://path-to-report/#testresult/7a0ef259089b97cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548932631,
+          "stop" : 1587548932868,
+          "duration" : 237
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+  "source" : "ad407adba71879ee.json",
+  "parameterValues" : [ ]
+}
