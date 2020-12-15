@@ -1,0 +1,592 @@
+{
+  "uid" : "55d347c96e50b1f7",
+  "name" : ".check() - check a checkbox or radio element",
+  "fullName" : ".check() - check a checkbox or radio element",
+  "historyId" : "849ba0e0891ca04ca3b974daf1abad42",
+  "time" : {
+    "start" : 1608040021897,
+    "stop" : 1608040022901,
+    "duration" : 1004
+  },
+  "description" : "\n      By default, .check() will check all\n      matching checkbox or radio elements in succession, one after another",
+  "descriptionHtml" : "<pre><code>  By default, .check() will check all\n  matching checkbox or radio elements in succession, one after another\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"https://example.cypress.io/commands/actions\")",
+      "time" : {
+        "start" : 1608040021930,
+        "stop" : 1608040022100,
+        "duration" : 170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "\n      By default, .check() will check all\n      matching checkbox or radio elements in succession, one after another",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get (\".action-checkboxes [type=\"checkbox\"]\")",
+      "time" : {
+        "start" : 1608040022104,
+        "stop" : 1608040022115,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "not (\"[disabled]\")",
+      "time" : {
+        "start" : 1608040022115,
+        "stop" : 1608040022119,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check",
+      "time" : {
+        "start" : 1608040022119,
+        "stop" : 1608040022297,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check",
+      "time" : {
+        "start" : 1608040022296,
+        "stop" : 1608040022296,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **[ <input>, 1 more... ]** to be **checked** assert",
+      "time" : {
+        "start" : 1608040022296,
+        "stop" : 1608040022296,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".action-radios [type=\"radio\"]\")",
+      "time" : {
+        "start" : 1608040022297,
+        "stop" : 1608040022303,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "not (\"[disabled]\")",
+      "time" : {
+        "start" : 1608040022303,
+        "stop" : 1608040022306,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check",
+      "time" : {
+        "start" : 1608040022306,
+        "stop" : 1608040022481,
+        "duration" : 175
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check",
+      "time" : {
+        "start" : 1608040022481,
+        "stop" : 1608040022481,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **[ <input#optionsRadios1>, 1 more... ]** to be **checked** assert",
+      "time" : {
+        "start" : 1608040022481,
+        "stop" : 1608040022481,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : ".check() accepts a value argument",
+      "time" : {
+        "start" : 1608040022481,
+        "stop" : 1608040022581,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\".action-radios [type=\"radio\"]\")",
+        "time" : {
+          "start" : 1608040022482,
+          "stop" : 1608040022490,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "check (\"radio1\")",
+        "time" : {
+          "start" : 1608040022490,
+          "stop" : 1608040022581,
+          "duration" : 91
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **<input#optionsRadios1>** to be **checked** assert",
+        "time" : {
+          "start" : 1608040022581,
+          "stop" : 1608040022581,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : ".check() accepts an array of values",
+      "time" : {
+        "start" : 1608040022581,
+        "stop" : 1608040022759,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\".action-multiple-checkboxes [type=\"checkbox\"]\")",
+        "time" : {
+          "start" : 1608040022581,
+          "stop" : 1608040022591,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "check (\"checkbox1,checkbox2\")",
+        "time" : {
+          "start" : 1608040022591,
+          "stop" : 1608040022759,
+          "duration" : 168
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "[checkbox1, checkbox2] check",
+        "time" : {
+          "start" : 1608040022759,
+          "stop" : 1608040022759,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **[ <input>, 1 more... ]** to be **checked** assert",
+        "time" : {
+          "start" : 1608040022759,
+          "stop" : 1608040022759,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ignore error checking prior to checking",
+      "time" : {
+        "start" : 1608040022759,
+        "stop" : 1608040022901,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\".action-checkboxes [disabled]\")",
+        "time" : {
+          "start" : 1608040022760,
+          "stop" : 1608040022762,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "check (\"[object Object]\")",
+        "time" : {
+          "start" : 1608040022762,
+          "stop" : 1608040022825,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **<input>** to be **checked** assert",
+        "time" : {
+          "start" : 1608040022825,
+          "stop" : 1608040022825,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\".action-radios [type=\"radio\"]\")",
+        "time" : {
+          "start" : 1608040022825,
+          "stop" : 1608040022832,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "check (\"radio3\"; \"[object Object]\")",
+        "time" : {
+          "start" : 1608040022832,
+          "stop" : 1608040022900,
+          "duration" : 68
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **<input#optionsRadios3>** to be **checked** assert",
+        "time" : {
+          "start" : 1608040022900,
+          "stop" : 1608040022900,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 26,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log (\"this is after each hook\")",
+      "time" : {
+        "start" : 1608040022907,
+        "stop" : 1608040022908,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  }, {
+    "name" : "docs",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/check",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "ad19f78fb8e39eb7",
+        "reportUrl" : "https://path-to-report/#testresult/ad19f78fb8e39eb7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039672966,
+          "stop" : 1608039673946,
+          "duration" : 980
+        }
+      }, {
+        "uid" : "9515296098fb8c97",
+        "reportUrl" : "https://path-to-report/#testresult/9515296098fb8c97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039350565,
+          "stop" : 1608039351519,
+          "duration" : 954
+        }
+      }, {
+        "uid" : "309c9f9938085480",
+        "reportUrl" : "https://path-to-report/#testresult/309c9f9938085480",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602183030089,
+          "stop" : 1602183031024,
+          "duration" : 935
+        }
+      }, {
+        "uid" : "de1aa23f568f1a14",
+        "reportUrl" : "https://path-to-report/#testresult/de1aa23f568f1a14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594591720905,
+          "stop" : 1594591721822,
+          "duration" : 917
+        }
+      }, {
+        "uid" : "13b599e1d33bc270",
+        "reportUrl" : "https://path-to-report/#testresult/13b599e1d33bc270",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594586600957,
+          "stop" : 1594586601943,
+          "duration" : 986
+        }
+      }, {
+        "uid" : "2aef297f5718bbe3",
+        "reportUrl" : "https://path-to-report/#testresult/2aef297f5718bbe3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589875308005,
+          "stop" : 1589875308905,
+          "duration" : 900
+        }
+      }, {
+        "uid" : "eb9a553dfacecaf9",
+        "reportUrl" : "https://path-to-report/#testresult/eb9a553dfacecaf9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587551029840,
+          "stop" : 1587551030844,
+          "duration" : 1004
+        }
+      }, {
+        "uid" : "ce67a5b24c4f793c",
+        "reportUrl" : "https://path-to-report/#testresult/ce67a5b24c4f793c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587548932878,
+          "stop" : 1587548933791,
+          "duration" : 913
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+  "source" : "55d347c96e50b1f7.json",
+  "parameterValues" : [ ]
+}

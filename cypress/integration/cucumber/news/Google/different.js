@@ -33,7 +33,7 @@ When(`I sum {int} and {int}`, (a, b) => {
 Then(`I want to see {int}`, (expected) => {
     cy.get('@sumResult').should('equal', expected);
     cy.get('@sumResult').then((sum) => {
-        cy.allure().attachment(
+        cy.allure().testAttachment(
             'this_is_json_attached',
             JSON.stringify(
                 {
