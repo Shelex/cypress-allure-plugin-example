@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 18,
+  "reportUrl" : "https://path-to-report",
+  "reportName" : "reportName",
+  "data" : {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 18,
+    "unknown" : 0,
+    "total" : 20
+  }
+}, {
   "buildOrder" : 22,
   "reportUrl" : "https://path-to-report",
   "reportName" : "reportName",
