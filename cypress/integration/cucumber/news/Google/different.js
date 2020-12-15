@@ -25,9 +25,20 @@ Then(`I see {string} in the title`, (title) => {
 });
 
 When(`I sum {int} and {int}`, (a, b) => {
+    cy.allure().parameter('a', a).parameter('b', b);
     cy.wrap(a + b).as('sumResult');
 });
 
 Then(`I want to see {int}`, (expected) => {
     cy.get('@sumResult').should('equal', expected);
+    cy.get('@sumResult').then((sum) => {
+        cy.allure().attachment(
+            'this_is_json_attached',
+            {
+                hello: 'world',
+                sum: sum
+            },
+            'application/json'
+        );
+    });
 });
