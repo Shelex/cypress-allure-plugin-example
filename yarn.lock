@@ -818,10 +818,10 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@shelex/cypress-allure-plugin@^1.8.5":
-  version "1.8.5"
-  resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-1.8.5.tgz#94e2f63d580afbb9e727c37a3df8aba14e4edafb"
-  integrity sha512-axPe7KwTwyIsIZM3RicIKazuEkBAOfopyBisk7YNVOne3+7MJ7CF8I2ZxSCtHZlPWzqSJTeG7gpaAqJrkfj/3w==
+"@shelex/cypress-allure-plugin@1.10.0":
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-1.10.0.tgz#4ad068126d62fccbc3152d0afb60dd8297d0ea73"
+  integrity sha512-rfSbwHBC/ZbPdc34dgYF0cRM2opJihWUHh74y+P/YYWRp54/gIyS1NvdfOmrh+3mVCHy92dlrQBdIxHr/3ZZQw==
   dependencies:
     allure-js-commons "^2.0.0-beta.6"
     uuid "^7.0.2"
@@ -1906,10 +1906,10 @@ cypress-cucumber-preprocessor@^3.0.0:
     minimist "^1.2.5"
     through "^2.3.8"
 
-cypress@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-6.1.0.tgz#af2596cb110aa98eaf75fef3d8ab379ca0ff2413"
-  integrity sha512-uQnSxRcZ6hkf9R5cr8KpRBTzN88QZwLIImbf5DWa5RIxH6o5Gpff58EcjiYhAR8/8p9SGv7O6SRygq4H+k0Qpw==
+cypress@6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-6.2.0.tgz#1a8a7dd5bd08db3064551a9f12072963cc9337bf"
+  integrity sha512-m/rkcogYM9MTy8rbsZgyS5wT2L/J+B5V2bY2ztkDNMyqhk/oZgUF4KTWVLzkW2I+scg0iAddca95tLlt7XnAtw==
   dependencies:
     "@cypress/listr-verbose-renderer" "^0.4.1"
     "@cypress/request" "^2.88.5"

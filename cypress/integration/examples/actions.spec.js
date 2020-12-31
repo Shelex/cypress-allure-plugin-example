@@ -7,16 +7,18 @@ context('Actions', () => {
         allure.writeExecutorInfo({
             name: 'somename',
             type: 'type', // jenkins, bamboo, teamcity
-            url: 'https://google.com.ua',
+            //url: 'https://google.com.ua',
             buildOrder: currentHour, // in case buildOrder are same - it will count as retry
             buildName: 'basic',
-            buildUrl: 'https://path-to-ci',
-            reportUrl: 'https://path-to-report',
+            //buildUrl: 'https://path-to-ci',
+            //reportUrl: 'https://path-to-report',
             reportName: 'reportName'
         });
 
         allure.writeEnvironmentInfo({
-            someEnvInfo: 'envInfo'
+            someEnvInfo: 'envInfo',
+            'cypress-allure-plugin':
+                'https://github.com/Shelex/cypress-allure-plugin'
         });
 
         allure.writeCategoriesDefinitions([
