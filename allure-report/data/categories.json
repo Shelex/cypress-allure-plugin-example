@@ -6,13 +6,13 @@
       "name" : "Timed out retrying after 4000ms: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
       "children" : [ {
         "name" : ".focus() - focus on a DOM element",
-        "uid" : "b7658f10e5f3fc4",
+        "uid" : "7f2ae80b1fa64d3e",
         "parentUid" : "36077692a5570af3507b6444b5560594",
         "status" : "failed",
         "time" : {
-          "start" : 1609375297863,
-          "stop" : 1609375302636,
-          "duration" : 4773
+          "start" : 1609428193342,
+          "stop" : 1609428198240,
+          "duration" : 4898
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,100 +24,22 @@
   }, {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command",
+      "name" : "Timed out retrying after 4000ms: expected 4 to equal 5",
       "children" : [ {
-        "name" : ".type() - type into a DOM element",
-        "uid" : "fd4efe0ca3fe280d",
-        "parentUid" : "7827c0c711ef0f374a84eee77fee1e6f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1609375308282,
-          "stop" : 1609375314366,
-          "duration" : 6084
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : ".uncheck() - uncheck a checkbox element",
-        "uid" : "20fd35a57f1fe099",
-        "parentUid" : "7827c0c711ef0f374a84eee77fee1e6f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1609375314395,
-          "stop" : 1609375319779,
-          "duration" : 5384
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "cy.scrollTo() - scroll the window or element to a position",
-        "uid" : "dcbd7a535f912a9f",
-        "parentUid" : "7827c0c711ef0f374a84eee77fee1e6f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1609375321362,
-          "stop" : 1609375328663,
-          "duration" : 7301
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ "250", "250", "250", "250" ]
-      }, {
-        "name" : "Some scenario with examples (example #1)",
-        "uid" : "7f8be27967c9eb93",
-        "parentUid" : "7827c0c711ef0f374a84eee77fee1e6f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1609375346587,
-          "stop" : 1609375347671,
-          "duration" : 1084
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
         "name" : "Some scenario with examples (example #2)",
-        "uid" : "7dc8ad6d429d71a6",
-        "parentUid" : "7827c0c711ef0f374a84eee77fee1e6f",
+        "uid" : "cb9f0469dd6a24c6",
+        "parentUid" : "f0cff20cc4618e0c10ee5c8755153371",
         "status" : "failed",
         "time" : {
-          "start" : 1609375347709,
-          "stop" : 1609375348686,
-          "duration" : 977
+          "start" : 1609428247672,
+          "stop" : 1609428252630,
+          "duration" : 4958
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
-        "name" : "Some scenario with examples (example #3)",
-        "uid" : "56b2a65ff1debf19",
-        "parentUid" : "7827c0c711ef0f374a84eee77fee1e6f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1609375348700,
-          "stop" : 1609375349637,
-          "duration" : 937
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "Some scenario with examples (example #4)",
-        "uid" : "130175beec4a1837",
-        "parentUid" : "7827c0c711ef0f374a84eee77fee1e6f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1609375349665,
-          "stop" : 1609375350629,
-          "duration" : 964
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
       } ],
-      "uid" : "7827c0c711ef0f374a84eee77fee1e6f"
+      "uid" : "f0cff20cc4618e0c10ee5c8755153371"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

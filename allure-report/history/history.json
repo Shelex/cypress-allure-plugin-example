@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "cdc78e29ab775d20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428219558,
+        "stop" : 1609428220595,
+        "duration" : 1037
+      }
+    }, {
       "uid" : "575bea8a20d0fffa",
       "status" : "passed",
       "time" : {
@@ -77,11 +85,19 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "265fe4c77be9d4c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428204346,
+        "stop" : 1609428213544,
+        "duration" : 9198
+      }
+    }, {
       "uid" : "fd4efe0ca3fe280d",
       "status" : "failed",
       "statusDetails" : "Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command",
@@ -151,11 +167,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "d2ccc9afe89bde47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428213574,
+        "stop" : 1609428219527,
+        "duration" : 5953
+      }
+    }, {
       "uid" : "20fd35a57f1fe099",
       "status" : "failed",
       "statusDetails" : "Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command",
@@ -225,11 +249,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "eaad04b606ef7ab2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428246075,
+        "stop" : 1609428247047,
+        "duration" : 972
+      }
+    }, {
       "uid" : "349041d422a09f62",
       "status" : "passed",
       "time" : {
@@ -298,11 +330,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "fe8e192ce019c457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428199703,
+        "stop" : 1609428200174,
+        "duration" : 471
+      }
+    }, {
       "uid" : "55074f577c8834b5",
       "status" : "passed",
       "time" : {
@@ -368,14 +408,23 @@
   },
   "9669a37fa765c3bf4c36a146da118d95" : {
     "statistic" : {
-      "failed" : 10,
+      "failed" : 11,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "7f2ae80b1fa64d3e",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
+      "time" : {
+        "start" : 1609428193342,
+        "stop" : 1609428198240,
+        "duration" : 4898
+      }
+    }, {
       "uid" : "b7658f10e5f3fc4",
       "status" : "failed",
       "statusDetails" : "Timed out retrying after 4000ms: expected '<input#password1.form-control.action-focus.focus>' not to have class 'focus'",
@@ -451,11 +500,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "74b1305bd71cec91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428202827,
+        "stop" : 1609428203107,
+        "duration" : 280
+      }
+    }, {
       "uid" : "a766888f45d82f3d",
       "status" : "passed",
       "time" : {
@@ -524,11 +581,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "46e36bd220e1ebe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428253161,
+        "stop" : 1609428253657,
+        "duration" : 496
+      }
+    }, {
       "uid" : "130175beec4a1837",
       "status" : "failed",
       "statusDetails" : "Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command",
@@ -598,11 +663,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "2cf7b64322c65900",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428220607,
+        "stop" : 1609428220828,
+        "duration" : 221
+      }
+    }, {
       "uid" : "c0911e0d2667a6ab",
       "status" : "passed",
       "time" : {
@@ -671,11 +744,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "29ed78fdfbf544cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428198864,
+        "stop" : 1609428199690,
+        "duration" : 826
+      }
+    }, {
       "uid" : "5a229d125eaaa02e",
       "status" : "passed",
       "time" : {
@@ -741,14 +822,23 @@
   },
   "36ff6c5984ef82f9c1d14a83d9172cc1" : {
     "statistic" : {
-      "failed" : 11,
+      "failed" : 12,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "cb9f0469dd6a24c6",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected 4 to equal 5",
+      "time" : {
+        "start" : 1609428247672,
+        "stop" : 1609428252630,
+        "duration" : 4958
+      }
+    }, {
       "uid" : "7dc8ad6d429d71a6",
       "status" : "failed",
       "statusDetails" : "Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command",
@@ -824,11 +914,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "5818f248039bb4f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428203380,
+        "stop" : 1609428204334,
+        "duration" : 954
+      }
+    }, {
       "uid" : "163966e8f8fe8de9",
       "status" : "passed",
       "time" : {
@@ -897,11 +995,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "ba838ca3c7dd5666",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428247056,
+        "stop" : 1609428247665,
+        "duration" : 609
+      }
+    }, {
       "uid" : "7f8be27967c9eb93",
       "status" : "failed",
       "statusDetails" : "Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command",
@@ -971,11 +1077,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "37add4e6a0a2a548",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428243830,
+        "stop" : 1609428246050,
+        "duration" : 2220
+      }
+    }, {
       "uid" : "9060e223b37e4342",
       "status" : "passed",
       "time" : {
@@ -1044,11 +1158,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "393440df49266416",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428252660,
+        "stop" : 1609428253136,
+        "duration" : 476
+      }
+    }, {
       "uid" : "56b2a65ff1debf19",
       "status" : "failed",
       "statusDetails" : "Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command",
@@ -1118,11 +1240,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "f9746b1f56145317",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428200187,
+        "stop" : 1609428202720,
+        "duration" : 2533
+      }
+    }, {
       "uid" : "168a2c1d1198213b",
       "status" : "passed",
       "time" : {
@@ -1191,11 +1321,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "1154b5f279f1b5e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428221069,
+        "stop" : 1609428227784,
+        "duration" : 6715
+      }
+    }, {
       "uid" : "dcbd7a535f912a9f",
       "status" : "failed",
       "statusDetails" : "Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command",
@@ -1265,11 +1403,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "f48a6b41542ed36d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428198281,
+        "stop" : 1609428198842,
+        "duration" : 561
+      }
+    }, {
       "uid" : "854468ad286ea70b",
       "status" : "passed",
       "time" : {
@@ -1338,11 +1484,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "72c849eae6c28586",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428220846,
+        "stop" : 1609428221055,
+        "duration" : 209
+      }
+    }, {
       "uid" : "55662ad52af044bd",
       "status" : "passed",
       "time" : {
@@ -1411,11 +1565,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "5f3294262228ba46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609428203114,
+        "stop" : 1609428203373,
+        "duration" : 259
+      }
+    }, {
       "uid" : "d2b2c538972c8848",
       "status" : "passed",
       "time" : {

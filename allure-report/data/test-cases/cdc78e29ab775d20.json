@@ -1,0 +1,515 @@
+{
+  "uid" : "cdc78e29ab775d20",
+  "name" : ".select() - select an option in a <select> element",
+  "fullName" : ".select() - select an option in a <select> element",
+  "historyId" : "28bc5613ac85f7eac08842508aeb8cc4",
+  "time" : {
+    "start" : 1609428219558,
+    "stop" : 1609428220595,
+    "duration" : 1037
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1609428219559,
+        "stop" : 1609428219801,
+        "duration" : 242
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"https://example.cypress.io/commands/actions\")",
+        "time" : {
+          "start" : 1609428219594,
+          "stop" : 1609428219800,
+          "duration" : 206
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get (\".action-select\")",
+      "time" : {
+        "start" : 1609428219803,
+        "stop" : 1609428219814,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<select.form-control.action-select>** to have value **--Select a fruit--** assert",
+      "time" : {
+        "start" : 1609428219814,
+        "stop" : 1609428219814,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".action-select\")",
+      "time" : {
+        "start" : 1609428219814,
+        "stop" : 1609428219817,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "select (\"apples\")",
+      "time" : {
+        "start" : 1609428219817,
+        "stop" : 1609428219952,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".action-select\")",
+      "time" : {
+        "start" : 1609428219952,
+        "stop" : 1609428219958,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<select.form-control.action-select>** to have value **fr-apples** assert",
+      "time" : {
+        "start" : 1609428219958,
+        "stop" : 1609428219958,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".action-select-multiple\")",
+      "time" : {
+        "start" : 1609428219959,
+        "stop" : 1609428219961,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "select (\"apples,oranges,bananas\")",
+      "time" : {
+        "start" : 1609428219961,
+        "stop" : 1609428220201,
+        "duration" : 240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "invoke (\"val\")",
+      "time" : {
+        "start" : 1609428220201,
+        "stop" : 1609428220209,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **[ Array(3) ]** to deeply equal **[ Array(3) ]** assert",
+      "time" : {
+        "start" : 1609428220209,
+        "stop" : 1609428220209,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".action-select\")",
+      "time" : {
+        "start" : 1609428220209,
+        "stop" : 1609428220212,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "select (\"fr-bananas\")",
+      "time" : {
+        "start" : 1609428220212,
+        "stop" : 1609428220344,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<select.form-control.action-select>** to have value **fr-bananas** assert",
+      "time" : {
+        "start" : 1609428220344,
+        "stop" : 1609428220344,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".action-select-multiple\")",
+      "time" : {
+        "start" : 1609428220344,
+        "stop" : 1609428220347,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "select (\"fr-apples,fr-oranges,fr-bananas\")",
+      "time" : {
+        "start" : 1609428220347,
+        "stop" : 1609428220583,
+        "duration" : 236
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "invoke (\"val\")",
+      "time" : {
+        "start" : 1609428220583,
+        "stop" : 1609428220588,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **[ Array(3) ]** to deeply equal **[ Array(3) ]** assert",
+      "time" : {
+        "start" : 1609428220588,
+        "stop" : 1609428220588,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".action-select-multiple\")",
+      "time" : {
+        "start" : 1609428220588,
+        "stop" : 1609428220591,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "invoke (\"val\")",
+      "time" : {
+        "start" : 1609428220591,
+        "stop" : 1609428220594,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **[ Array(3) ]** to include **fr-oranges** assert",
+      "time" : {
+        "start" : 1609428220594,
+        "stop" : 1609428220594,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1609428220599,
+        "stop" : 1609428220600,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"this is after each hook\")",
+        "time" : {
+          "start" : 1609428220599,
+          "stop" : 1609428220600,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "440e7939e0f12e37",
+      "name" : "csv_table",
+      "source" : "440e7939e0f12e37.csv",
+      "type" : "text/csv",
+      "size" : 367
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 24,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  }, {
+    "name" : "docs",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/select",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "575bea8a20d0fffa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609375319850,
+          "stop" : 1609375320910,
+          "duration" : 1060
+        }
+      }, {
+        "uid" : "1abeef05b3195a4c",
+        "reportUrl" : "https://path-to-report/#testresult/1abeef05b3195a4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608040664264,
+          "stop" : 1608040665354,
+          "duration" : 1090
+        }
+      }, {
+        "uid" : "d53af6755a0c1f06",
+        "reportUrl" : "https://path-to-report/#testresult/d53af6755a0c1f06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608040053296,
+          "stop" : 1608040054393,
+          "duration" : 1097
+        }
+      }, {
+        "uid" : "97b76989b9fd36fd",
+        "reportUrl" : "https://path-to-report/#testresult/97b76989b9fd36fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039690158,
+          "stop" : 1608039691209,
+          "duration" : 1051
+        }
+      }, {
+        "uid" : "53228a7b698e69dd",
+        "reportUrl" : "https://path-to-report/#testresult/53228a7b698e69dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039366227,
+          "stop" : 1608039367258,
+          "duration" : 1031
+        }
+      }, {
+        "uid" : "9cd93b466f2ab6e6",
+        "reportUrl" : "https://path-to-report/#testresult/9cd93b466f2ab6e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602183045027,
+          "stop" : 1602183046040,
+          "duration" : 1013
+        }
+      }, {
+        "uid" : "e7635d5d7da337c9",
+        "reportUrl" : "https://path-to-report/#testresult/e7635d5d7da337c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594591735542,
+          "stop" : 1594591736524,
+          "duration" : 982
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+  "source" : "cdc78e29ab775d20.json",
+  "parameterValues" : [ ]
+}

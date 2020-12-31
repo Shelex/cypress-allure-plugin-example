@@ -1,0 +1,298 @@
+{
+  "uid" : "72c849eae6c28586",
+  "name" : ".trigger() - trigger an event on a DOM element",
+  "fullName" : ".trigger() - trigger an event on a DOM element",
+  "historyId" : "21f1cc93d9cdddda675113664770c6c7",
+  "time" : {
+    "start" : 1609428220846,
+    "stop" : 1609428221055,
+    "duration" : 209
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1609428220846,
+        "stop" : 1609428221009,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"https://example.cypress.io/commands/actions\")",
+        "time" : {
+          "start" : 1609428220864,
+          "stop" : 1609428221008,
+          "duration" : 144
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get (\".trigger-input-range\")",
+      "time" : {
+        "start" : 1609428221011,
+        "stop" : 1609428221018,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "invoke (\"val\"; \"25\")",
+      "time" : {
+        "start" : 1609428221018,
+        "stop" : 1609428221021,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "trigger (\"change\")",
+      "time" : {
+        "start" : 1609428221021,
+        "stop" : 1609428221045,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"input[type=range]\")",
+      "time" : {
+        "start" : 1609428221045,
+        "stop" : 1609428221049,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "siblings (\"p\")",
+      "time" : {
+        "start" : 1609428221049,
+        "stop" : 1609428221055,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<p>** to have text **'25'** assert",
+      "time" : {
+        "start" : 1609428221055,
+        "stop" : 1609428221055,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1609428221062,
+        "stop" : 1609428221066,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"this is after each hook\")",
+        "time" : {
+          "start" : 1609428221065,
+          "stop" : 1609428221065,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "docs",
+    "value" : "https://on.cypress.io/trigger"
+  } ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "55662ad52af044bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609375321170,
+          "stop" : 1609375321354,
+          "duration" : 184
+        }
+      }, {
+        "uid" : "508bff884fec987",
+        "reportUrl" : "https://path-to-report/#testresult/508bff884fec987",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608040665637,
+          "stop" : 1608040665877,
+          "duration" : 240
+        }
+      }, {
+        "uid" : "b0bed35b082ee3a3",
+        "reportUrl" : "https://path-to-report/#testresult/b0bed35b082ee3a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608040054728,
+          "stop" : 1608040054968,
+          "duration" : 240
+        }
+      }, {
+        "uid" : "cfaa4ea8b44d5acc",
+        "reportUrl" : "https://path-to-report/#testresult/cfaa4ea8b44d5acc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039691469,
+          "stop" : 1608039691711,
+          "duration" : 242
+        }
+      }, {
+        "uid" : "336826ea934dc868",
+        "reportUrl" : "https://path-to-report/#testresult/336826ea934dc868",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039367513,
+          "stop" : 1608039367708,
+          "duration" : 195
+        }
+      }, {
+        "uid" : "539d3ad138c699ef",
+        "reportUrl" : "https://path-to-report/#testresult/539d3ad138c699ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602183046321,
+          "stop" : 1602183046527,
+          "duration" : 206
+        }
+      }, {
+        "uid" : "ee03aaaa82865e6a",
+        "reportUrl" : "https://path-to-report/#testresult/ee03aaaa82865e6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594591736772,
+          "stop" : 1594591736942,
+          "duration" : 170
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+  "source" : "72c849eae6c28586.json",
+  "parameterValues" : [ "https://on.cypress.io/trigger" ]
+}

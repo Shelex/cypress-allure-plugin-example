@@ -1,0 +1,369 @@
+{
+  "uid" : "46e36bd220e1ebe6",
+  "name" : "Some scenario with examples (example #4)",
+  "fullName" : "Some scenario with examples (example #4)",
+  "historyId" : "dabe4cb2cf80553f89abc3c5db8ecfd4",
+  "time" : {
+    "start" : 1609428253161,
+    "stop" : 1609428253657,
+    "duration" : 496
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1609428253162,
+        "stop" : 1609428253180,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"This will run before every scenario\")",
+        "time" : {
+          "start" : 1609428253178,
+          "stop" : 1609428253179,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1609428253180,
+        "stop" : 1609428253180,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **5** to be below **6** assert",
+      "time" : {
+        "start" : 1609428253183,
+        "stop" : 1609428253183,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I sum 2 and -1",
+      "time" : {
+        "start" : 1609428253185,
+        "stop" : 1609428253641,
+        "duration" : 456
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "screenshot (\"this_is_cy_screenshot\")",
+        "time" : {
+          "start" : 1609428253187,
+          "stop" : 1609428253638,
+          "duration" : 451
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "wrap (\"1\")",
+        "time" : {
+          "start" : 1609428253638,
+          "stop" : 1609428253639,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"sumResult\")",
+        "time" : {
+          "start" : 1609428253639,
+          "stop" : 1609428253640,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "a",
+        "value" : "2"
+      }, {
+        "name" : "b",
+        "value" : "-1"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I want to see 1",
+      "time" : {
+        "start" : 1609428253641,
+        "stop" : 1609428253657,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\"@sumResult\")",
+        "time" : {
+          "start" : 1609428253641,
+          "stop" : 1609428253654,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **1** to equal **1** assert",
+        "time" : {
+          "start" : 1609428253654,
+          "stop" : 1609428253654,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\"@sumResult\")",
+        "time" : {
+          "start" : 1609428253654,
+          "stop" : 1609428253655,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "69d9ddd30f96f42d",
+      "name" : "this_is_json_attached",
+      "source" : "69d9ddd30f96f42d.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "ff493b60562781ec",
+      "name" : "this_is_cy_screenshot",
+      "source" : "ff493b60562781ec.png",
+      "type" : "image/png",
+      "size" : 58479
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "The Google"
+  }, {
+    "name" : "epic",
+    "value" : "cucumber"
+  }, {
+    "name" : "story",
+    "value" : "myStory"
+  }, {
+    "name" : "subSuite",
+    "value" : "thirdtest0"
+  }, {
+    "name" : "epic",
+    "value" : "thirdtest2"
+  }, {
+    "name" : "story",
+    "value" : "thirdstory"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "owner",
+    "value" : "me"
+  }, {
+    "name" : "tag",
+    "value" : "someOtherTags"
+  }, {
+    "name" : "feature",
+    "value" : "The Google"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "link-to-tms",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://google.com",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "owner" : "me",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "130175beec4a1837",
+        "status" : "failed",
+        "statusDetails" : "Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command",
+        "time" : {
+          "start" : 1609375349665,
+          "stop" : 1609375350629,
+          "duration" : 964
+        }
+      }, {
+        "uid" : "75701dafd26c6574",
+        "reportUrl" : "https://path-to-report/#testresult/75701dafd26c6574",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608040699713,
+          "stop" : 1608040700184,
+          "duration" : 471
+        }
+      }, {
+        "uid" : "6d1d6a4a5cb72a27",
+        "reportUrl" : "https://path-to-report/#testresult/6d1d6a4a5cb72a27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608040112026,
+          "stop" : 1608040113049,
+          "duration" : 1023
+        }
+      }, {
+        "uid" : "eaa480dac3ebd74",
+        "reportUrl" : "https://path-to-report/#testresult/eaa480dac3ebd74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039725651,
+          "stop" : 1608039726073,
+          "duration" : 422
+        }
+      }, {
+        "uid" : "593d99c13be69805",
+        "reportUrl" : "https://path-to-report/#testresult/593d99c13be69805",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039398223,
+          "stop" : 1608039398260,
+          "duration" : 37
+        }
+      }, {
+        "uid" : "c1ad2e9b42688a4b",
+        "reportUrl" : "https://path-to-report/#testresult/c1ad2e9b42688a4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602183076250,
+          "stop" : 1602183076282,
+          "duration" : 32
+        }
+      }, {
+        "uid" : "fc03fbd822947997",
+        "reportUrl" : "https://path-to-report/#testresult/fc03fbd822947997",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594591763519,
+          "stop" : 1594591763535,
+          "duration" : 16
+        }
+      } ]
+    },
+    "tags" : [ "someOtherTags" ]
+  },
+  "source" : "46e36bd220e1ebe6.json",
+  "parameterValues" : [ ]
+}
