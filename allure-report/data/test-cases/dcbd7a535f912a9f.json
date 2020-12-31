@@ -1,0 +1,424 @@
+{
+  "uid" : "dcbd7a535f912a9f",
+  "name" : "cy.scrollTo() - scroll the window or element to a position",
+  "fullName" : "cy.scrollTo() - scroll the window or element to a position",
+  "historyId" : "fe80c3e0acdef7da3652450f932b177f",
+  "time" : {
+    "start" : 1609375321362,
+    "stop" : 1609375328663,
+    "duration" : 7301
+  },
+  "descriptionHtml" : "\n        <p class=\"has-line-data\" data-line-start=\"0\" data-line-end=\"1\">You can click on 9 specific positions of an element:</p>\n        <pre><code>\n        -------------------------------------\n        | topLeft        top       topRight |\n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | left          center        right |  \n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | bottomLeft   bottom   bottomRight |  \n        -------------------------------------\n        </code></pre>",
+  "status" : "failed",
+  "statusMessage" : "Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command",
+  "statusTrace" : "CypressError: Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command\n    at $Cy.cy.<computed> [as task] (https://example.cypress.io/__cypress/runner/cypress_runner.js:170220:23)\n    at Object.onAfterScreenshot (https://example.cypress.io/__cypress/runner/cypress_runner.js:176459:21)\n    at https://example.cypress.io/__cypress/runner/cypress_runner.js:159458:17\n    at tryCatcher (https://example.cypress.io/__cypress/runner/cypress_runner.js:10584:23)\n    at Promise._settlePromiseFromHandler (https://example.cypress.io/__cypress/runner/cypress_runner.js:8519:31)\n    at Promise._settlePromise (https://example.cypress.io/__cypress/runner/cypress_runner.js:8576:18)\n    at Promise._settlePromise0 (https://example.cypress.io/__cypress/runner/cypress_runner.js:8621:10)\n    at Promise._settlePromises (https://example.cypress.io/__cypress/runner/cypress_runner.js:8701:18)\n    at _drainQueueStep (https://example.cypress.io/__cypress/runner/cypress_runner.js:5291:12)\n    at _drainQueue (https://example.cypress.io/__cypress/runner/cypress_runner.js:5284:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:5300:5)\n    at Async.drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:5170:14)\nFrom Your Spec Code:\n    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress/integration/examples/actions.spec.js:212:8)\nFrom Your Spec Code:\n    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress/integration/examples/actions.spec.js:212:8)",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "descriptionHtml" : "\n        <p class=\"has-line-data\" data-line-start=\"0\" data-line-end=\"1\">You can click on 9 specific positions of an element:</p>\n        <pre><code>\n        -------------------------------------\n        | topLeft        top       topRight |\n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | left          center        right |  \n        |                                   |  \n        |                                   |  \n        |                                   |  \n        | bottomLeft   bottom   bottomRight |  \n        -------------------------------------\n        </code></pre>",
+    "status" : "failed",
+    "statusMessage" : "Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command",
+    "statusTrace" : "CypressError: Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command\n    at $Cy.cy.<computed> [as task] (https://example.cypress.io/__cypress/runner/cypress_runner.js:170220:23)\n    at Object.onAfterScreenshot (https://example.cypress.io/__cypress/runner/cypress_runner.js:176459:21)\n    at https://example.cypress.io/__cypress/runner/cypress_runner.js:159458:17\n    at tryCatcher (https://example.cypress.io/__cypress/runner/cypress_runner.js:10584:23)\n    at Promise._settlePromiseFromHandler (https://example.cypress.io/__cypress/runner/cypress_runner.js:8519:31)\n    at Promise._settlePromise (https://example.cypress.io/__cypress/runner/cypress_runner.js:8576:18)\n    at Promise._settlePromise0 (https://example.cypress.io/__cypress/runner/cypress_runner.js:8621:10)\n    at Promise._settlePromises (https://example.cypress.io/__cypress/runner/cypress_runner.js:8701:18)\n    at _drainQueueStep (https://example.cypress.io/__cypress/runner/cypress_runner.js:5291:12)\n    at _drainQueue (https://example.cypress.io/__cypress/runner/cypress_runner.js:5284:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:5300:5)\n    at Async.drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:5170:14)\nFrom Your Spec Code:\n    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress/integration/examples/actions.spec.js:212:8)\nFrom Your Spec Code:\n    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress/integration/examples/actions.spec.js:212:8)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1609375321363,
+        "stop" : 1609375321508,
+        "duration" : 145
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"https://example.cypress.io/commands/actions\")",
+        "time" : {
+          "start" : 1609375321392,
+          "stop" : 1609375321508,
+          "duration" : 116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "scrollTo (\"bottom\")",
+      "time" : {
+        "start" : 1609375321513,
+        "stop" : 1609375321520,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#scrollable-horizontal\")",
+      "time" : {
+        "start" : 1609375321520,
+        "stop" : 1609375321522,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "scrollTo (\"right\")",
+      "time" : {
+        "start" : 1609375321522,
+        "stop" : 1609375321525,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#scrollable-vertical\")",
+      "time" : {
+        "start" : 1609375321526,
+        "stop" : 1609375321528,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "scrollTo (\"250\"; \"250\")",
+      "time" : {
+        "start" : 1609375321528,
+        "stop" : 1609375321531,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#scrollable-both\")",
+      "time" : {
+        "start" : 1609375321532,
+        "stop" : 1609375321534,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "scrollTo (\"75%\"; \"25%\")",
+      "time" : {
+        "start" : 1609375321534,
+        "stop" : 1609375321536,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#scrollable-vertical\")",
+      "time" : {
+        "start" : 1609375321537,
+        "stop" : 1609375321539,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "scrollTo (\"center\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1609375321539,
+        "stop" : 1609375321541,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#scrollable-both\")",
+      "time" : {
+        "start" : 1609375321541,
+        "stop" : 1609375321544,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "scrollTo (\"center\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1609375321544,
+        "stop" : 1609375323522,
+        "duration" : 1978
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "screenshot",
+      "time" : {
+        "start" : 1609375323522,
+        "stop" : 1609375328161,
+        "duration" : 4639
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "screenshot",
+      "time" : {
+        "start" : 1609375328161,
+        "stop" : 1609375328161,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1609375328664,
+        "stop" : 1609375328682,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"this is after each hook\")",
+        "time" : {
+          "start" : 1609375328678,
+          "stop" : 1609375328682,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4d26cabf4824d552",
+      "name" : "actions.spec.js:2020-12-31T00:42:08.167Z",
+      "source" : "4d26cabf4824d552.png",
+      "type" : "image/png",
+      "size" : 330065
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "scrollHeight",
+    "value" : "250"
+  }, {
+    "name" : "scrollWidth",
+    "value" : "250"
+  }, {
+    "name" : "x",
+    "value" : "250"
+  }, {
+    "name" : "y",
+    "value" : "250"
+  } ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  }, {
+    "name" : "docs",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/scrollTo",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "809c7909c56fd94d",
+        "reportUrl" : "https://path-to-report/#testresult/809c7909c56fd94d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608040665886,
+          "stop" : 1608040672902,
+          "duration" : 7016
+        }
+      }, {
+        "uid" : "7c78e355b671c902",
+        "reportUrl" : "https://path-to-report/#testresult/7c78e355b671c902",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608040054977,
+          "stop" : 1608040069522,
+          "duration" : 14545
+        }
+      }, {
+        "uid" : "b6839542175df0b7",
+        "reportUrl" : "https://path-to-report/#testresult/b6839542175df0b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039691723,
+          "stop" : 1608039698592,
+          "duration" : 6869
+        }
+      }, {
+        "uid" : "7bfb8ab2fc30860e",
+        "reportUrl" : "https://path-to-report/#testresult/7bfb8ab2fc30860e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039367718,
+          "stop" : 1608039374464,
+          "duration" : 6746
+        }
+      }, {
+        "uid" : "f06841b0a17ea09f",
+        "reportUrl" : "https://path-to-report/#testresult/f06841b0a17ea09f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602183046536,
+          "stop" : 1602183053272,
+          "duration" : 6736
+        }
+      }, {
+        "uid" : "52869ea734cfa57b",
+        "reportUrl" : "https://path-to-report/#testresult/52869ea734cfa57b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594591736949,
+          "stop" : 1594591743223,
+          "duration" : 6274
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+  "source" : "dcbd7a535f912a9f.json",
+  "parameterValues" : [ "250", "250", "250", "250" ]
+}

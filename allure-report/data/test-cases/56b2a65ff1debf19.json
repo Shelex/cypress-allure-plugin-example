@@ -1,0 +1,281 @@
+{
+  "uid" : "56b2a65ff1debf19",
+  "name" : "Some scenario with examples (example #3)",
+  "fullName" : "Some scenario with examples (example #3)",
+  "historyId" : "76d7e5e6322bbc385815a2ac410a0a9c",
+  "time" : {
+    "start" : 1609375348700,
+    "stop" : 1609375349637,
+    "duration" : 937
+  },
+  "status" : "failed",
+  "statusMessage" : "Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command",
+  "statusTrace" : "CypressError: Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command\n    at $Cy.cy.<computed> [as task] (https://www.google.com/__cypress/runner/cypress_runner.js:170220:23)\n    at Object.onAfterScreenshot (https://www.google.com/__cypress/runner/cypress_runner.js:176459:21)\n    at https://www.google.com/__cypress/runner/cypress_runner.js:159458:17\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:10584:23)\n    at Promise._settlePromiseFromHandler (https://www.google.com/__cypress/runner/cypress_runner.js:8519:31)\n    at Promise._settlePromise (https://www.google.com/__cypress/runner/cypress_runner.js:8576:18)\n    at Promise._settlePromise0 (https://www.google.com/__cypress/runner/cypress_runner.js:8621:10)\n    at Promise._settlePromises (https://www.google.com/__cypress/runner/cypress_runner.js:8701:18)\n    at _drainQueueStep (https://www.google.com/__cypress/runner/cypress_runner.js:5291:12)\n    at _drainQueue (https://www.google.com/__cypress/runner/cypress_runner.js:5284:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.google.com/__cypress/runner/cypress_runner.js:5300:5)\n    at Async.drainQueues (https://www.google.com/__cypress/runner/cypress_runner.js:5170:14)\nFrom Your Spec Code:\n    at eval (https://www.google.com/__cypress/tests?p=cypress/integration/cucumber/news/Google.feature:53:3)\n    at eval (https://www.google.com/__cypress/tests?p=cypress/integration/cucumber/news/Google.feature:10400:44)\nFrom Your Spec Code:\n    at eval (https://www.google.com/__cypress/tests?p=cypress/integration/cucumber/news/Google.feature:53:3)\n    at eval (https://www.google.com/__cypress/tests?p=cypress/integration/cucumber/news/Google.feature:10400:44)",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command",
+    "statusTrace" : "CypressError: Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command\n    at $Cy.cy.<computed> [as task] (https://www.google.com/__cypress/runner/cypress_runner.js:170220:23)\n    at Object.onAfterScreenshot (https://www.google.com/__cypress/runner/cypress_runner.js:176459:21)\n    at https://www.google.com/__cypress/runner/cypress_runner.js:159458:17\n    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:10584:23)\n    at Promise._settlePromiseFromHandler (https://www.google.com/__cypress/runner/cypress_runner.js:8519:31)\n    at Promise._settlePromise (https://www.google.com/__cypress/runner/cypress_runner.js:8576:18)\n    at Promise._settlePromise0 (https://www.google.com/__cypress/runner/cypress_runner.js:8621:10)\n    at Promise._settlePromises (https://www.google.com/__cypress/runner/cypress_runner.js:8701:18)\n    at _drainQueueStep (https://www.google.com/__cypress/runner/cypress_runner.js:5291:12)\n    at _drainQueue (https://www.google.com/__cypress/runner/cypress_runner.js:5284:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://www.google.com/__cypress/runner/cypress_runner.js:5300:5)\n    at Async.drainQueues (https://www.google.com/__cypress/runner/cypress_runner.js:5170:14)\nFrom Your Spec Code:\n    at eval (https://www.google.com/__cypress/tests?p=cypress/integration/cucumber/news/Google.feature:53:3)\n    at eval (https://www.google.com/__cypress/tests?p=cypress/integration/cucumber/news/Google.feature:10400:44)\nFrom Your Spec Code:\n    at eval (https://www.google.com/__cypress/tests?p=cypress/integration/cucumber/news/Google.feature:53:3)\n    at eval (https://www.google.com/__cypress/tests?p=cypress/integration/cucumber/news/Google.feature:10400:44)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1609375348700,
+        "stop" : 1609375348719,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"This will run before every scenario\")",
+        "time" : {
+          "start" : 1609375348717,
+          "stop" : 1609375348719,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1609375348719,
+        "stop" : 1609375348720,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **4** to be below **6** assert",
+      "time" : {
+        "start" : 1609375348722,
+        "stop" : 1609375348722,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I sum 3 and 2",
+      "time" : {
+        "start" : 1609375348724,
+        "stop" : 1609375349636,
+        "duration" : 912
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "screenshot (\"this_is_cy_screenshot\")",
+        "time" : {
+          "start" : 1609375348729,
+          "stop" : 1609375349117,
+          "duration" : 388
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "this_is_cy_screenshot screenshot",
+        "time" : {
+          "start" : 1609375349117,
+          "stop" : 1609375349117,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "a",
+        "value" : "3"
+      }, {
+        "name" : "b",
+        "value" : "2"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "The Google"
+  }, {
+    "name" : "epic",
+    "value" : "cucumber"
+  }, {
+    "name" : "story",
+    "value" : "myStory"
+  }, {
+    "name" : "subSuite",
+    "value" : "thirdtest0"
+  }, {
+    "name" : "epic",
+    "value" : "thirdtest2"
+  }, {
+    "name" : "story",
+    "value" : "thirdstory"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "owner",
+    "value" : "me"
+  }, {
+    "name" : "tag",
+    "value" : "someOtherTags"
+  }, {
+    "name" : "feature",
+    "value" : "The Google"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "link-to-tms",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://google.com",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "owner" : "me",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "84ad620255330634",
+        "reportUrl" : "https://path-to-report/#testresult/84ad620255330634",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608040699197,
+          "stop" : 1608040699687,
+          "duration" : 490
+        }
+      }, {
+        "uid" : "3ce9810930004893",
+        "reportUrl" : "https://path-to-report/#testresult/3ce9810930004893",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608040111014,
+          "stop" : 1608040112019,
+          "duration" : 1005
+        }
+      }, {
+        "uid" : "810439aa5bb4e211",
+        "reportUrl" : "https://path-to-report/#testresult/810439aa5bb4e211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039725145,
+          "stop" : 1608039725623,
+          "duration" : 478
+        }
+      }, {
+        "uid" : "7fe87690d2cd9c08",
+        "reportUrl" : "https://path-to-report/#testresult/7fe87690d2cd9c08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039398158,
+          "stop" : 1608039398218,
+          "duration" : 60
+        }
+      }, {
+        "uid" : "3db5652e5988ae42",
+        "reportUrl" : "https://path-to-report/#testresult/3db5652e5988ae42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602183076195,
+          "stop" : 1602183076247,
+          "duration" : 52
+        }
+      }, {
+        "uid" : "ec1675d39c4e2f9",
+        "reportUrl" : "https://path-to-report/#testresult/ec1675d39c4e2f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594591763485,
+          "stop" : 1594591763512,
+          "duration" : 27
+        }
+      } ]
+    },
+    "tags" : [ "someOtherTags" ]
+  },
+  "source" : "56b2a65ff1debf19.json",
+  "parameterValues" : [ ]
+}

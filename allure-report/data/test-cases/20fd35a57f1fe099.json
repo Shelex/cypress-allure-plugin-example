@@ -1,0 +1,335 @@
+{
+  "uid" : "20fd35a57f1fe099",
+  "name" : ".uncheck() - uncheck a checkbox element",
+  "fullName" : ".uncheck() - uncheck a checkbox element",
+  "historyId" : "51a9f7733ef5e871f2775d59ad773b00",
+  "time" : {
+    "start" : 1609375314395,
+    "stop" : 1609375319779,
+    "duration" : 5384
+  },
+  "status" : "failed",
+  "statusMessage" : "Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command",
+  "statusTrace" : "CypressError: Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command\n    at $Cy.cy.<computed> [as task] (https://example.cypress.io/__cypress/runner/cypress_runner.js:170220:23)\n    at Object.onAfterScreenshot (https://example.cypress.io/__cypress/runner/cypress_runner.js:176459:21)\n    at https://example.cypress.io/__cypress/runner/cypress_runner.js:159458:17\n    at tryCatcher (https://example.cypress.io/__cypress/runner/cypress_runner.js:10584:23)\n    at Promise._settlePromiseFromHandler (https://example.cypress.io/__cypress/runner/cypress_runner.js:8519:31)\n    at Promise._settlePromise (https://example.cypress.io/__cypress/runner/cypress_runner.js:8576:18)\n    at Promise._settlePromise0 (https://example.cypress.io/__cypress/runner/cypress_runner.js:8621:10)\n    at Promise._settlePromises (https://example.cypress.io/__cypress/runner/cypress_runner.js:8701:18)\n    at _drainQueueStep (https://example.cypress.io/__cypress/runner/cypress_runner.js:5291:12)\n    at _drainQueue (https://example.cypress.io/__cypress/runner/cypress_runner.js:5284:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:5300:5)\n    at Async.drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:5170:14)\nFrom Your Spec Code:\n    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress/integration/examples/actions.spec.js:136:8)\nFrom Your Spec Code:\n    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress/integration/examples/actions.spec.js:136:8)",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command",
+    "statusTrace" : "CypressError: Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command\n    at $Cy.cy.<computed> [as task] (https://example.cypress.io/__cypress/runner/cypress_runner.js:170220:23)\n    at Object.onAfterScreenshot (https://example.cypress.io/__cypress/runner/cypress_runner.js:176459:21)\n    at https://example.cypress.io/__cypress/runner/cypress_runner.js:159458:17\n    at tryCatcher (https://example.cypress.io/__cypress/runner/cypress_runner.js:10584:23)\n    at Promise._settlePromiseFromHandler (https://example.cypress.io/__cypress/runner/cypress_runner.js:8519:31)\n    at Promise._settlePromise (https://example.cypress.io/__cypress/runner/cypress_runner.js:8576:18)\n    at Promise._settlePromise0 (https://example.cypress.io/__cypress/runner/cypress_runner.js:8621:10)\n    at Promise._settlePromises (https://example.cypress.io/__cypress/runner/cypress_runner.js:8701:18)\n    at _drainQueueStep (https://example.cypress.io/__cypress/runner/cypress_runner.js:5291:12)\n    at _drainQueue (https://example.cypress.io/__cypress/runner/cypress_runner.js:5284:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:5300:5)\n    at Async.drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:5170:14)\nFrom Your Spec Code:\n    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress/integration/examples/actions.spec.js:136:8)\nFrom Your Spec Code:\n    at Context.eval (https://example.cypress.io/__cypress/tests?p=cypress/integration/examples/actions.spec.js:136:8)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1609375314395,
+        "stop" : 1609375314637,
+        "duration" : 242
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"https://example.cypress.io/commands/actions\")",
+        "time" : {
+          "start" : 1609375314426,
+          "stop" : 1609375314637,
+          "duration" : 211
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "By default, .uncheck() will uncheck all matching checkbox elements in succession, one after another",
+      "time" : {
+        "start" : 1609375314639,
+        "stop" : 1609375319779,
+        "duration" : 5140
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get (\".action-check [type=\"checkbox\"]\")",
+        "time" : {
+          "start" : 1609375314640,
+          "stop" : 1609375314650,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "not (\"[disabled]\")",
+        "time" : {
+          "start" : 1609375314650,
+          "stop" : 1609375314654,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "uncheck",
+        "time" : {
+          "start" : 1609375314654,
+          "stop" : 1609375314826,
+          "duration" : 172
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "uncheck",
+        "time" : {
+          "start" : 1609375314826,
+          "stop" : 1609375314826,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **[ <input>, 1 more... ]** not to be **checked** assert",
+        "time" : {
+          "start" : 1609375314826,
+          "stop" : 1609375314826,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "screenshot",
+        "time" : {
+          "start" : 1609375314826,
+          "stop" : 1609375319306,
+          "duration" : 4480
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "screenshot",
+        "time" : {
+          "start" : 1609375319306,
+          "stop" : 1609375319306,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1609375319780,
+        "stop" : 1609375319824,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"this is after each hook\")",
+        "time" : {
+          "start" : 1609375319816,
+          "stop" : 1609375319823,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "bb3377b78d7c451f",
+      "name" : "actions.spec.js:2020-12-31T00:41:59.310Z",
+      "source" : "bb3377b78d7c451f.png",
+      "type" : "image/png",
+      "size" : 350663
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Actions"
+  }, {
+    "name" : "feature",
+    "value" : "Actions Feature"
+  }, {
+    "name" : "epic",
+    "value" : "Plain js tests"
+  }, {
+    "name" : "tag",
+    "value" : "this is tag"
+  }, {
+    "name" : "owner",
+    "value" : "Me, lol"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "docs",
+    "url" : "https://on.cypress.io/interacting-with-elements",
+    "type" : "tms"
+  }, {
+    "name" : "docs",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://on.cypress.io/uncheck",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Me, lol",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "9fffe4d7402ca854",
+        "reportUrl" : "https://path-to-report/#testresult/9fffe4d7402ca854",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608040658377,
+          "stop" : 1608040664231,
+          "duration" : 5854
+        }
+      }, {
+        "uid" : "83d5c3e7544d0a0d",
+        "reportUrl" : "https://path-to-report/#testresult/83d5c3e7544d0a0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608040039910,
+          "stop" : 1608040053266,
+          "duration" : 13356
+        }
+      }, {
+        "uid" : "d6b38b6a1045399a",
+        "reportUrl" : "https://path-to-report/#testresult/d6b38b6a1045399a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039684313,
+          "stop" : 1608039690126,
+          "duration" : 5813
+        }
+      }, {
+        "uid" : "4df1cff4884cd96e",
+        "reportUrl" : "https://path-to-report/#testresult/4df1cff4884cd96e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039360582,
+          "stop" : 1608039366195,
+          "duration" : 5613
+        }
+      }, {
+        "uid" : "5b94c787ed48f633",
+        "reportUrl" : "https://path-to-report/#testresult/5b94c787ed48f633",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602183039479,
+          "stop" : 1602183044993,
+          "duration" : 5514
+        }
+      }, {
+        "uid" : "745ec373fc748013",
+        "reportUrl" : "https://path-to-report/#testresult/745ec373fc748013",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594591730242,
+          "stop" : 1594591735512,
+          "duration" : 5270
+        }
+      } ]
+    },
+    "tags" : [ "this is tag" ]
+  },
+  "source" : "20fd35a57f1fe099.json",
+  "parameterValues" : [ ]
+}
