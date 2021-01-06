@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 15,
+  "reportName" : "reportName",
+  "data" : {
+    "run" : 20,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 0,
   "reportName" : "reportName",
   "data" : {

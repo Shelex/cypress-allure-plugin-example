@@ -1,7 +1,7 @@
 [ {
   "name" : "somename",
   "type" : "type",
-  "buildOrder" : 15,
+  "buildOrder" : 9,
   "buildName" : "basic",
   "reportName" : "reportName"
 } ]
