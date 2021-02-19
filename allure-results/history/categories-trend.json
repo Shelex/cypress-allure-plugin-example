@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 9,
+  "reportName" : "reportName",
+  "data" : {
+    "Product defects" : 1,
+    "Not to have class tests" : 1
+  }
+}, {
   "buildOrder" : 15,
   "reportName" : "reportName",
   "data" : {

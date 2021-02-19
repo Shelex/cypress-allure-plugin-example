@@ -1,0 +1,385 @@
+{
+  "uid" : "414e59c8701355f9",
+  "name" : "Some scenario with examples (example #3)",
+  "fullName" : "Some scenario with examples (example #3)",
+  "historyId" : "76d7e5e6322bbc385815a2ac410a0a9c",
+  "time" : {
+    "start" : 1613753142982,
+    "stop" : 1613753143399,
+    "duration" : 417
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1613753142982,
+        "stop" : 1613753143013,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"This will run before every scenario\")",
+        "time" : {
+          "start" : 1613753143012,
+          "stop" : 1613753143013,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1613753143013,
+        "stop" : 1613753143014,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expected **4** to be below **6** assert",
+      "time" : {
+        "start" : 1613753143016,
+        "stop" : 1613753143016,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I sum 3 and 2",
+      "time" : {
+        "start" : 1613753143018,
+        "stop" : 1613753143393,
+        "duration" : 375
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "screenshot (\"this_is_cy_screenshot\")",
+        "time" : {
+          "start" : 1613753143019,
+          "stop" : 1613753143391,
+          "duration" : 372
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "wrap (\"5\")",
+        "time" : {
+          "start" : 1613753143391,
+          "stop" : 1613753143392,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "as (\"sumResult\")",
+        "time" : {
+          "start" : 1613753143392,
+          "stop" : 1613753143392,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "a",
+        "value" : "3"
+      }, {
+        "name" : "b",
+        "value" : "2"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I want to see 5",
+      "time" : {
+        "start" : 1613753143393,
+        "stop" : 1613753143399,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get (\"@sumResult\")",
+        "time" : {
+          "start" : 1613753143394,
+          "stop" : 1613753143396,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **5** to equal **5** assert",
+        "time" : {
+          "start" : 1613753143396,
+          "stop" : 1613753143396,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get (\"@sumResult\")",
+        "time" : {
+          "start" : 1613753143396,
+          "stop" : 1613753143397,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b59fd2b335e6ae83",
+      "name" : "this_is_json_attached",
+      "source" : "b59fd2b335e6ae83.txt",
+      "type" : "text/plain",
+      "size" : 34
+    }, {
+      "uid" : "2d77b9654f150fe6",
+      "name" : "this_is_cy_screenshot",
+      "source" : "2d77b9654f150fe6.png",
+      "type" : "image/png",
+      "size" : 41003
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "The Google"
+  }, {
+    "name" : "epic",
+    "value" : "cucumber"
+  }, {
+    "name" : "story",
+    "value" : "myStory"
+  }, {
+    "name" : "subSuite",
+    "value" : "thirdtest0"
+  }, {
+    "name" : "epic",
+    "value" : "thirdtest2"
+  }, {
+    "name" : "story",
+    "value" : "thirdstory"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "owner",
+    "value" : "me"
+  }, {
+    "name" : "tag",
+    "value" : "someOtherTags"
+  }, {
+    "name" : "feature",
+    "value" : "The Google"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "link-to-tms",
+    "url" : "https://some.testrail.instance/path/suite/caseID-https://google.com",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "owner" : "me",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "5b306a3e3968ecc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609924908843,
+          "stop" : 1609924909293,
+          "duration" : 450
+        }
+      }, {
+        "uid" : "393440df49266416",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609428252660,
+          "stop" : 1609428253136,
+          "duration" : 476
+        }
+      }, {
+        "uid" : "56b2a65ff1debf19",
+        "status" : "failed",
+        "statusDetails" : "Cypress detected that you returned a promise from a command while also invoking one or more cy commands in that promise.\n\nThe command that returned the promise was:\n\n  > `cy.screenshot()`\n\nThe cy command you invoked inside the promise was:\n\n  > `cy.task()`\n\nBecause Cypress commands are already promise-like, you don't need to wrap them or return your own promise.\n\nCypress will resolve your command with whatever the final Cypress command yields.\n\nThe reason this is an error instead of a warning is because Cypress internally queues commands serially whereas Promises execute as soon as they are invoked. Attempting to reconcile this would prevent Cypress from ever resolving.\n\nhttps://on.cypress.io/returning-promise-and-commands-in-another-command",
+        "time" : {
+          "start" : 1609375348700,
+          "stop" : 1609375349637,
+          "duration" : 937
+        }
+      }, {
+        "uid" : "84ad620255330634",
+        "reportUrl" : "https://path-to-report/#testresult/84ad620255330634",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608040699197,
+          "stop" : 1608040699687,
+          "duration" : 490
+        }
+      }, {
+        "uid" : "3ce9810930004893",
+        "reportUrl" : "https://path-to-report/#testresult/3ce9810930004893",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608040111014,
+          "stop" : 1608040112019,
+          "duration" : 1005
+        }
+      }, {
+        "uid" : "810439aa5bb4e211",
+        "reportUrl" : "https://path-to-report/#testresult/810439aa5bb4e211",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039725145,
+          "stop" : 1608039725623,
+          "duration" : 478
+        }
+      }, {
+        "uid" : "7fe87690d2cd9c08",
+        "reportUrl" : "https://path-to-report/#testresult/7fe87690d2cd9c08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608039398158,
+          "stop" : 1608039398218,
+          "duration" : 60
+        }
+      }, {
+        "uid" : "3db5652e5988ae42",
+        "reportUrl" : "https://path-to-report/#testresult/3db5652e5988ae42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602183076195,
+          "stop" : 1602183076247,
+          "duration" : 52
+        }
+      }, {
+        "uid" : "ec1675d39c4e2f9",
+        "reportUrl" : "https://path-to-report/#testresult/ec1675d39c4e2f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594591763485,
+          "stop" : 1594591763512,
+          "duration" : 27
+        }
+      } ]
+    },
+    "tags" : [ "someOtherTags" ]
+  },
+  "source" : "414e59c8701355f9.json",
+  "parameterValues" : [ ]
+}

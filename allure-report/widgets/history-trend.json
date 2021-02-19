@@ -1,4 +1,15 @@
 [ {
+  "buildOrder" : 16,
+  "reportName" : "reportName",
+  "data" : {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 18,
+    "unknown" : 0,
+    "total" : 20
+  }
+}, {
   "buildOrder" : 9,
   "reportName" : "reportName",
   "data" : {

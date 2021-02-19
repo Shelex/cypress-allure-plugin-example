@@ -1,4 +1,10 @@
 [ {
+  "buildOrder" : 9,
+  "reportName" : "reportName",
+  "data" : {
+    "duration" : 59715
+  }
+}, {
   "buildOrder" : 15,
   "reportName" : "reportName",
   "data" : {
