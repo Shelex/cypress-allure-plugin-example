@@ -1,0 +1,100 @@
+{
+  "uid" : "99a3d122d2d9e8e0",
+  "name" : "should be able to attach file to test by content",
+  "fullName" : "should be able to attach file to test by content",
+  "historyId" : "cfa0b798b6aa16e99a07ef39d67addbd",
+  "time" : {
+    "start" : 1617973879674,
+    "stop" : 1617973879696,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "attachment should be outside of this step",
+      "time" : {
+        "start" : 1617973879694,
+        "stop" : 1617973879696,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"example\")",
+        "time" : {
+          "start" : 1617973879694,
+          "stop" : 1617973879695,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "a52d32ae3fad7ed3",
+      "name" : "example",
+      "source" : "a52d32ae3fad7ed3.json",
+      "type" : "application/json",
+      "size" : 22
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure attachments"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "367bb1994e647489",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973609211,
+          "stop" : 1617973609226,
+          "duration" : 15
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "99a3d122d2d9e8e0.json",
+  "parameterValues" : [ ]
+}

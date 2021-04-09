@@ -1,0 +1,69 @@
+{
+  "uid" : "50c9c141fe4e21fa",
+  "name" : "should be able to add link other external system",
+  "fullName" : "should be able to add link other external system",
+  "historyId" : "5d8dc1349aca0b983398b29dc1a72ff8",
+  "time" : {
+    "start" : 1617973889424,
+    "stop" : 1617973889448,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure links"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "xray",
+    "url" : "https://example.tms.com/case/CYP-19.aspx",
+    "type" : "tms"
+  }, {
+    "name" : "with tms icon",
+    "url" : "https://example.com",
+    "type" : "tms"
+  }, {
+    "name" : "with bug icon",
+    "url" : "https://example.com",
+    "type" : "issue"
+  }, {
+    "name" : "without icon",
+    "url" : "https://example.com"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "fd8961716731bfc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973622045,
+          "stop" : 1617973622056,
+          "duration" : 11
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "50c9c141fe4e21fa.json",
+  "parameterValues" : [ ]
+}

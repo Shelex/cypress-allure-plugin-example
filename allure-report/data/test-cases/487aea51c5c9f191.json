@@ -1,0 +1,63 @@
+{
+  "uid" : "487aea51c5c9f191",
+  "name" : "\"Tests structure\", \"behaviors\", \"labels\"",
+  "fullName" : "\"Tests structure\", \"behaviors\", \"labels\"",
+  "historyId" : "69f4cd9a30e800944dfe204175f5c6e6",
+  "time" : {
+    "start" : 1617973905454,
+    "stop" : 1617973905493,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure tests structure"
+  }, {
+    "name" : "epic",
+    "value" : "Tests structure"
+  }, {
+    "name" : "feature",
+    "value" : "behaviors"
+  }, {
+    "name" : "story",
+    "value" : "labels"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "45abb78030d1a18c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973643969,
+          "stop" : 1617973643989,
+          "duration" : 20
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "487aea51c5c9f191.json",
+  "parameterValues" : [ ]
+}

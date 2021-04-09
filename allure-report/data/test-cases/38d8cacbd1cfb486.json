@@ -1,0 +1,225 @@
+{
+  "uid" : "38d8cacbd1cfb486",
+  "name" : "Some scenario with examples (example #2)",
+  "fullName" : "Some scenario with examples (example #2)",
+  "historyId" : "669ec901978748d892a313a04b41bf83",
+  "time" : {
+    "start" : 1617973918512,
+    "stop" : 1617973922652,
+    "duration" : 4140
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: expected 4 to equal 5",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected 4 to equal 5\n    at Context.eval (http://localhost:33555/__cypress/tests?p=cypress/integration/cucumber/examples.feature:54:24)\n    at Context.resolveAndRunStepDefinition (http://localhost:33555/__cypress/tests?p=cypress/integration/cucumber/examples.feature:10401:9)\n    at Context.eval (http://localhost:33555/__cypress/tests?p=cypress/integration/cucumber/examples.feature:9769:35)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: expected 4 to equal 5",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected 4 to equal 5\n    at Context.eval (http://localhost:33555/__cypress/tests?p=cypress/integration/cucumber/examples.feature:54:24)\n    at Context.resolveAndRunStepDefinition (http://localhost:33555/__cypress/tests?p=cypress/integration/cucumber/examples.feature:10401:9)\n    at Context.eval (http://localhost:33555/__cypress/tests?p=cypress/integration/cucumber/examples.feature:9769:35)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1617973918513,
+        "stop" : 1617973918530,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When I sum 3 and 1",
+      "time" : {
+        "start" : 1617973918533,
+        "stop" : 1617973918541,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "wrap (\"4\")",
+        "time" : {
+          "start" : 1617973918535,
+          "stop" : 1617973918536,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "as (\"sumResult\")",
+        "time" : {
+          "start" : 1617973918536,
+          "stop" : 1617973918536,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "a",
+        "value" : "3"
+      }, {
+        "name" : "b",
+        "value" : "1"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Then I want to see 5",
+      "time" : {
+        "start" : 1617973918541,
+        "stop" : 1617973922651,
+        "duration" : 4110
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get (\"@sumResult\")",
+        "time" : {
+          "start" : 1617973918541,
+          "stop" : 1617973922651,
+          "duration" : 4110
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "expected **4** to equal **5** assert",
+        "time" : {
+          "start" : 1617973922651,
+          "stop" : 1617973922651,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ {
+      "uid" : "13fcd9570ad3119a",
+      "name" : "cucumber/examples.feature:2021-04-09T13:12:02.539Z",
+      "source" : "13fcd9570ad3119a.png",
+      "type" : "image/png",
+      "size" : 69721
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gherkin_suite"
+  }, {
+    "name" : "feature",
+    "value" : "Gherkin_feature"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Gherkin_parent_suite"
+  }, {
+    "name" : "subSuite",
+    "value" : "Gherkin_sub_suite"
+  }, {
+    "name" : "epic",
+    "value" : "Behaviours epic"
+  }, {
+    "name" : "story",
+    "value" : "Behaviours story"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d7bf65810edfd1f7",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected 4 to equal 5",
+        "time" : {
+          "start" : 1617973584970,
+          "stop" : 1617973588999,
+          "duration" : 4029
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "38d8cacbd1cfb486.json",
+  "parameterValues" : [ ]
+}

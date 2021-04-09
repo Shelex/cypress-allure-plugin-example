@@ -1,0 +1,214 @@
+{
+  "uid" : "9196714967fbd283",
+  "name" : "Allure labels",
+  "fullName" : "Allure labels",
+  "historyId" : "c3d14408857b9326a9a507cea6acc563",
+  "time" : {
+    "start" : 1617973918374,
+    "stop" : 1617973918430,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1617973918375,
+        "stop" : 1617973918394,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Given some precondition",
+      "time" : {
+        "start" : 1617973918401,
+        "stop" : 1617973918409,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"given\")",
+        "time" : {
+          "start" : 1617973918402,
+          "stop" : 1617973918407,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Then I am very happy",
+      "time" : {
+        "start" : 1617973918409,
+        "stop" : 1617973918429,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "title",
+        "time" : {
+          "start" : 1617973918409,
+          "stop" : 1617973918424,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "expected **''** to not include **Google** assert",
+        "time" : {
+          "start" : 1617973918424,
+          "stop" : 1617973918424,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gherkin_suite"
+  }, {
+    "name" : "feature",
+    "value" : "Gherkin_feature"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Gherkin_parent_suite"
+  }, {
+    "name" : "subSuite",
+    "value" : "Gherkin_sub_suite"
+  }, {
+    "name" : "epic",
+    "value" : "Behaviours epic"
+  }, {
+    "name" : "story",
+    "value" : "Behaviours story"
+  }, {
+    "name" : "owner",
+    "value" : "Oleksandr Shevtsov"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "AS_ID",
+    "value" : "42"
+  }, {
+    "name" : "tag",
+    "value" : "willBeTag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "jira",
+    "url" : "https://your.domain.atlassian.net/browse/ACT-123",
+    "type" : "issue"
+  }, {
+    "name" : "tms",
+    "url" : "https://some.testrail.instance/path/suite/caseID-TC-123",
+    "type" : "tms"
+  }, {
+    "name" : "google",
+    "url" : "https://google.com",
+    "type" : "link"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "owner" : "Oleksandr Shevtsov",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "31d83b2e5a63a5db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973584902,
+          "stop" : 1617973584930,
+          "duration" : 28
+        }
+      } ]
+    },
+    "tags" : [ "willBeTag" ]
+  },
+  "source" : "9196714967fbd283.json",
+  "parameterValues" : [ ]
+}
