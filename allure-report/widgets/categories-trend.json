@@ -1,3 +1,6 @@
 [ {
-  "data" : { }
+  "buildOrder" : 16,
+  "data" : {
+    "Product defects" : 2
+  }
 } ]

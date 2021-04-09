@@ -1,0 +1,66 @@
+{
+  "uid" : "9c34361bf6625bf",
+  "name" : "should attach parameter number 1 to step",
+  "fullName" : "should attach parameter number 1 to step",
+  "historyId" : "04f9af1fdf22d0e42d82aade08b16fef",
+  "time" : {
+    "start" : 1617973624594,
+    "stop" : 1617973624608,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "parameters should be in this step",
+      "time" : {
+        "start" : 1617973624607,
+        "stop" : 1617973624608,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "1"
+      }, {
+        "name" : "message",
+        "value" : "hello"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure parameters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9c34361bf6625bf.json",
+  "parameterValues" : [ ]
+}

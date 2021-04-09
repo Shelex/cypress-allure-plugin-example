@@ -1,0 +1,51 @@
+{
+  "uid" : "4540e1f9c6a52775",
+  "name" : "should be able to attach existing file to test by path",
+  "fullName" : "should be able to attach existing file to test by path",
+  "historyId" : "9b60856aa6122323c3ddaa8928065d42",
+  "time" : {
+    "start" : 1617973609230,
+    "stop" : 1617973609246,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1ffe02e67e479488",
+      "name" : "example",
+      "source" : "1ffe02e67e479488.json",
+      "type" : "application/json",
+      "size" : 25
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure attachments"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4540e1f9c6a52775.json",
+  "parameterValues" : [ ]
+}

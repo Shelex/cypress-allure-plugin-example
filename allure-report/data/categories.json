@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
-  "name" : "categories"
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 4000ms: expected 4 to equal 5",
+      "children" : [ {
+        "name" : "Some scenario with examples (example #2)",
+        "uid" : "d7bf65810edfd1f7",
+        "parentUid" : "f0cff20cc4618e0c10ee5c8755153371",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617973584970,
+          "stop" : 1617973588999,
+          "duration" : 4029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0cff20cc4618e0c10ee5c8755153371"
+    }, {
+      "name" : "Timed out retrying after 4000ms: expected true to equal false",
+      "children" : [ {
+        "name" : "should be failed",
+        "uid" : "11722e937346f0b7",
+        "parentUid" : "dbf7b3a653cc3263c669a04df1239913",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617973631704,
+          "stop" : 1617973636212,
+          "duration" : 4508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dbf7b3a653cc3263c669a04df1239913"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

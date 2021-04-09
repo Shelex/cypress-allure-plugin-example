@@ -1,1 +1,7 @@
-[ ]
+[ {
+  "values" : [ "https://github.com/Shelex/cypress-allure-plugin" ],
+  "name" : "cypress-allure-plugin"
+}, {
+  "values" : [ "42" ],
+  "name" : "magicNumber"
+} ]

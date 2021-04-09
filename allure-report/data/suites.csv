@@ -1,0 +1,59 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Apr 09 16:07:04 EEST 2021","Fri Apr 09 16:07:04 EEST 2021","14","","Allure parameters","","","","should attach parameter number 1 to step",""
+"passed","Fri Apr 09 16:06:49 EEST 2021","Fri Apr 09 16:06:49 EEST 2021","50","","Allure attachments","","","","should be able to attach file to executable by content",""
+"passed","Fri Apr 09 16:06:49 EEST 2021","Fri Apr 09 16:06:49 EEST 2021","16","","Allure attachments","","","","should be able to attach existing file to test by path",""
+"passed","Fri Apr 09 16:07:18 EEST 2021","Fri Apr 09 16:07:18 EEST 2021","18","","Allure steps","","","","could be started for current executable with log step, or step(name,false) and finish automatically",""
+"passed","Fri Apr 09 16:06:24 EEST 2021","Fri Apr 09 16:06:24 EEST 2021","24","Gherkin_parent_suite","Gherkin_suite","Gherkin_sub_suite","","","Allure gherkin suite structure",""
+"passed","Fri Apr 09 16:07:02 EEST 2021","Fri Apr 09 16:07:02 EEST 2021","11","","Allure links","","","","should be able to add link other external system",""
+"passed","Fri Apr 09 16:07:18 EEST 2021","Fri Apr 09 16:07:18 EEST 2021","18","","Allure steps","","","","could be started for current test with step and finished automatically",""
+"passed","Fri Apr 09 16:07:21 EEST 2021","Fri Apr 09 16:07:21 EEST 2021","19","","Allure labels","","","","should be able to add label",""
+"passed","Fri Apr 09 16:07:09 EEST 2021","Fri Apr 09 16:07:09 EEST 2021","12","","Allure screenshots","","","","should attach screenshot diff",""
+"passed","Fri Apr 09 16:07:21 EEST 2021","Fri Apr 09 16:07:21 EEST 2021","9","","Allure labels","","","","should be able to add test id for allure testops",""
+"passed","Fri Apr 09 16:07:23 EEST 2021","Fri Apr 09 16:07:24 EEST 2021","12","Allure tests structure","Set in test","Using commands","","","""Set in test"", ""Using commands""",""
+"passed","Fri Apr 09 16:07:18 EEST 2021","Fri Apr 09 16:07:18 EEST 2021","32","","Allure steps","","","","could be started and finished with startStep, endStep",""
+"passed","Fri Apr 09 16:07:02 EEST 2021","Fri Apr 09 16:07:02 EEST 2021","22","","Allure links","","","","should be able to add link to issue tracker",""
+"passed","Fri Apr 09 16:07:08 EEST 2021","Fri Apr 09 16:07:09 EEST 2021","967","","Allure screenshots","","","","should attach screenshot with custom name",""
+"passed","Fri Apr 09 16:06:51 EEST 2021","Fri Apr 09 16:06:51 EEST 2021","28","","Allure Cypress log","","","","should log cypress commands as steps when allureLogCypress is enabled",""
+"passed","Fri Apr 09 16:07:04 EEST 2021","Fri Apr 09 16:07:04 EEST 2021","21","","Allure parameters","","","","should attach testParameter number 1 to test",""
+"passed","Fri Apr 09 16:07:11 EEST 2021","Fri Apr 09 16:07:11 EEST 2021","29","","Allure test statuses","","","","should be passed",""
+"passed","Fri Apr 09 16:06:59 EEST 2021","Fri Apr 09 16:06:59 EEST 2021","31","","Allure hooks","","","","should log before hooks as pre-requisites and each hooks as steps",""
+"passed","Fri Apr 09 16:06:51 EEST 2021","Fri Apr 09 16:06:51 EEST 2021","16","","Allure Cypress log","","","","should not log cypress commands when allureLogCypress is disabled",""
+"passed","Fri Apr 09 16:06:54 EEST 2021","Fri Apr 09 16:06:54 EEST 2021","9","","Allure Environment info","","","","should overwrite Environment info",""
+"passed","Fri Apr 09 16:07:04 EEST 2021","Fri Apr 09 16:07:04 EEST 2021","7","","Allure parameters","","","","should attach testParameter number 2 to test",""
+"passed","Fri Apr 09 16:07:01 EEST 2021","Fri Apr 09 16:07:01 EEST 2021","21","","Allure links","","","","should be configurable with prefix env variables",""
+"passed","Fri Apr 09 16:06:24 EEST 2021","Fri Apr 09 16:06:24 EEST 2021","28","Gherkin_parent_suite","Gherkin_suite","Gherkin_sub_suite","","","Allure labels",""
+"failed","Fri Apr 09 16:07:11 EEST 2021","Fri Apr 09 16:07:16 EEST 2021","4508","","Allure test statuses","","","","should be failed",""
+"passed","Fri Apr 09 16:06:54 EEST 2021","Fri Apr 09 16:06:54 EEST 2021","20","","Allure Environment info","","","","should add Environment info",""
+"skipped","Fri Apr 09 16:07:11 EEST 2021","Fri Apr 09 16:07:11 EEST 2021","2","","Allure test statuses","","","","should be skipped",""
+"passed","Fri Apr 09 16:07:04 EEST 2021","Fri Apr 09 16:07:04 EEST 2021","13","","Allure parameters","","","","should attach parameter number 2 to step",""
+"passed","Fri Apr 09 16:07:24 EEST 2021","Fri Apr 09 16:07:24 EEST 2021","13","Allure tests structure","Label storage","Set in test","","","""Label storage"", ""Set in test""",""
+"passed","Fri Apr 09 16:07:24 EEST 2021","Fri Apr 09 16:07:24 EEST 2021","13","Allure tests structure","Label storage","Set in beforeEach","","","""Label storage"", ""Set in beforeEach""",""
+"passed","Fri Apr 09 16:06:51 EEST 2021","Fri Apr 09 16:06:51 EEST 2021","16","","Allure Cypress log","","","","should be configurable by allureLogCypress env variable",""
+"passed","Fri Apr 09 16:06:51 EEST 2021","Fri Apr 09 16:06:51 EEST 2021","30","","Allure Cypress log","","","","should log cypress custom command as separate step",""
+"passed","Fri Apr 09 16:07:07 EEST 2021","Fri Apr 09 16:07:08 EEST 2021","1009","","Allure screenshots","","","","should attach screenshot automatically",""
+"passed","Fri Apr 09 16:07:21 EEST 2021","Fri Apr 09 16:07:21 EEST 2021","13","","Allure labels","","","","should be able to add html description",""
+"passed","Fri Apr 09 16:07:01 EEST 2021","Fri Apr 09 16:07:01 EEST 2021","13","","Allure links","","","","should be able to add link to test management system",""
+"passed","Fri Apr 09 16:07:21 EEST 2021","Fri Apr 09 16:07:21 EEST 2021","7","","Allure labels","","","","should be able to add tag",""
+"passed","Fri Apr 09 16:07:21 EEST 2021","Fri Apr 09 16:07:21 EEST 2021","10","","Allure labels","","","","should be able to add owner",""
+"passed","Fri Apr 09 16:06:24 EEST 2021","Fri Apr 09 16:06:24 EEST 2021","25","Gherkin_parent_suite","Gherkin_suite","Gherkin_sub_suite","","","Some scenario with examples (example #1)",""
+"failed","Fri Apr 09 16:06:24 EEST 2021","Fri Apr 09 16:06:28 EEST 2021","4029","Gherkin_parent_suite","Gherkin_suite","Gherkin_sub_suite","","","Some scenario with examples (example #2)",""
+"passed","Fri Apr 09 16:07:23 EEST 2021","Fri Apr 09 16:07:23 EEST 2021","20","","Allure tests structure","","","","""Tests structure"", ""behaviors"", ""labels""",""
+"passed","Fri Apr 09 16:07:21 EEST 2021","Fri Apr 09 16:07:21 EEST 2021","10","","Allure labels","","","","should be able to add severity",""
+"passed","Fri Apr 09 16:06:29 EEST 2021","Fri Apr 09 16:06:29 EEST 2021","19","Gherkin_parent_suite","Gherkin_suite","Gherkin_sub_suite","","","Some scenario with examples (example #4)",""
+"passed","Fri Apr 09 16:07:21 EEST 2021","Fri Apr 09 16:07:21 EEST 2021","14","","Allure labels","","","","should be able to add markdown description","
+## Emphasis
+
+**This is bold text**
+
+__This is bold text__
+
+*This is italic text*
+
+_This is italic text_
+
+~~Strikethrough~~
+"
+"passed","Fri Apr 09 16:06:56 EEST 2021","Fri Apr 09 16:06:56 EEST 2021","23","","Allure executor info","","","","should write executors.json file",""
+"passed","Fri Apr 09 16:07:01 EEST 2021","Fri Apr 09 16:07:02 EEST 2021","26","","Allure links","","","","should accept * character as pattern in tmsPrefix configuration",""
+"passed","Fri Apr 09 16:06:49 EEST 2021","Fri Apr 09 16:06:49 EEST 2021","15","","Allure attachments","","","","should be able to attach file to test by content",""
+"passed","Fri Apr 09 16:06:29 EEST 2021","Fri Apr 09 16:06:29 EEST 2021","31","Gherkin_parent_suite","Gherkin_suite","Gherkin_sub_suite","","","Some scenario with examples (example #3)",""

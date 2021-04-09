@@ -1,0 +1,50 @@
+{
+  "uid" : "fd8961716731bfc9",
+  "name" : "should be able to add link other external system",
+  "fullName" : "should be able to add link other external system",
+  "historyId" : "5d8dc1349aca0b983398b29dc1a72ff8",
+  "time" : {
+    "start" : 1617973622045,
+    "stop" : 1617973622056,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure links"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "xray",
+    "url" : "https://example.tms.com/case/CYP-19.aspx",
+    "type" : "tms"
+  }, {
+    "name" : "with tms icon",
+    "url" : "https://example.com",
+    "type" : "tms"
+  }, {
+    "name" : "with bug icon",
+    "url" : "https://example.com",
+    "type" : "issue"
+  }, {
+    "name" : "without icon",
+    "url" : "https://example.com"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd8961716731bfc9.json",
+  "parameterValues" : [ ]
+}

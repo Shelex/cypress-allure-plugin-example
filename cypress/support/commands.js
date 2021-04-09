@@ -23,3 +23,12 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('customCommand', (one, two, ...args) => {
+    cy.log('this is message from cy custom command');
+    cy.log(one);
+    cy.log(two);
+    args.forEach((arg) => {
+        cy.log(arg);
+    });
+});
