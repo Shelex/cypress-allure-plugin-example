@@ -1,7 +1,0 @@
-[ {
-  "name" : "somename",
-  "type" : "type",
-  "buildOrder" : 16,
-  "buildName" : "basic",
-  "reportName" : "reportName"
-} ]

@@ -1,7 +1,0 @@
-[ {
-  "values" : [ "envInfo" ],
-  "name" : "someEnvInfo"
-}, {
-  "values" : [ "https://github.com/Shelex/cypress-allure-plugin" ],
-  "name" : "cypress-allure-plugin"
-} ]
