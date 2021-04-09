@@ -4,6 +4,7 @@
     "main": "index.js",
     "license": "Apache-2.0",
     "scripts": {
+        "test": "node cypress/scripts/runner.js",
         "cy:open": "yarn cypress open --env allure=true --config integrationFolder=cypress/integration/examples,testFiles=**/*.js --browser chrome",
         "cy:cucumber:open": "yarn cypress open --env allure=true --config integrationFolder=cypress/integration/cucumber,ignoreTestFiles=*.js,testFiles=**/*.{feature,features} --browser chrome",
         "cy:run": "yarn cypress run --config video=false,integrationFolder=cypress/integration/examples --env allure=true --browser chrome",
