@@ -47,7 +47,7 @@ jobs:
 
             - name: Generate Allure report
               if: always()
-              uses: afiore/action-allure-report@v0.1.0
+              uses: QuintilianoNery/action-allure-report-V2@0.2.0
 
             - name: Commit report results
               if: always()
