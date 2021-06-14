@@ -818,13 +818,14 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@shelex/cypress-allure-plugin@2.5.0":
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-2.5.0.tgz#e3e5d5d9a61b0994f69ecc5d8c223737f7336774"
-  integrity sha512-iLYREpNyTW3KUMlwiQDDzZ7kLa4GyhSQeBNGCzIrBuRB4/5nKFFQklHgfI9QksxeoCUk4rKJgW4qjeDP98a8pQ==
+"@shelex/cypress-allure-plugin@2.8.0":
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-2.8.0.tgz#a798e6d39b669873263b2c7a80994308e0e47544"
+  integrity sha512-5EDSoIJ5lBT/TOVguKJ4mrdbg9BjKIioDcGrpZDoi+v/1YdtaYZH2Db8icCnLqz92uenfp7qGbeQVZAd6yeDFA==
   dependencies:
     allure-js-commons "^2.0.0-beta.6"
-    uuid "^7.0.2"
+    crypto-js "3.3.0"
+    uuid "8.3.2"
 
 "@types/node@12.12.50":
   version "12.12.50"
@@ -1804,6 +1805,11 @@ crypto-browserify@^3.0.0:
     randombytes "^2.0.0"
     randomfill "^1.0.3"
 
+crypto-js@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-3.3.0.tgz#846dd1cce2f68aacfa156c8578f926a609b7976b"
+  integrity sha512-DIT51nX0dCfKltpRiXV+/TVZq+Qq2NgF4644+K7Ttnla7zEzqc+kjJyiB96BHNyUTBxyjzRcZYpUdZa+QAqi6Q==
+
 cucumber-expressions@^5.0.13:
   version "5.0.18"
   resolved "https://registry.yarnpkg.com/cucumber-expressions/-/cucumber-expressions-5.0.18.tgz#6c70779efd3aebc5e9e7853938b1110322429596"
@@ -2180,15 +2186,15 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-plugin-chai-friendly@0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-chai-friendly/-/eslint-plugin-chai-friendly-0.6.0.tgz#54052fab79302ed0cea76ab997351ea4809bfb77"
-  integrity sha512-Uvvv1gkbRGp/qfN15B0kQyQWg+oFA8buDSqrwmW3egNSk/FpqH2MjQqKOuKwmEL6w4QIQrIjDp+gg6kGGmD3oQ==
+eslint-plugin-chai-friendly@0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-chai-friendly/-/eslint-plugin-chai-friendly-0.7.1.tgz#eabc1f1f7d427e565ff4c6ad52ca03d40dd3fce8"
+  integrity sha512-0xhGiSQ+9oWtNc6IZPUR+6ChKbEvLXwT9oZZ5NcGlPzHVKGn1YKwQFj7a9yL3rnRKbWF7b3RkRYEP8kN6dPOwQ==
 
-eslint-plugin-cypress@^2.11.2:
-  version "2.11.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-2.11.2.tgz#a8f3fe7ec840f55e4cea37671f93293e6c3e76a0"
-  integrity sha512-1SergF1sGbVhsf7MYfOLiBhdOg6wqyeV9pXUAIDIffYTGMN3dTBQS9nFAzhLsHhO+Bn0GaVM1Ecm71XUidQ7VA==
+eslint-plugin-cypress@^2.11.3:
+  version "2.11.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-cypress/-/eslint-plugin-cypress-2.11.3.tgz#54ee4067aa8192aa62810cd35080eb577e191ab7"
+  integrity sha512-hOoAid+XNFtpvOzZSNWP5LDrQBEJwbZwjib4XJ1KcRYKjeVj0mAmPmucG4Egli4j/aruv+Ow/acacoloWWCl9Q==
   dependencies:
     globals "^11.12.0"
 
@@ -4611,15 +4617,15 @@ util@~0.10.1:
   dependencies:
     inherits "2.0.3"
 
+uuid@8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
 uuid@^3.3.2:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
-
-uuid@^7.0.2:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.3.tgz#c5c9f2c8cf25dc0a372c4df1441c41f5bd0c680b"
-  integrity sha512-DPSke0pXhTZgoF/d+WSt2QaKMCFSfx7QegxEWT+JOuHF5aWrKEn0G+ztjuJg/gG8/ItK+rbPCD/yNv8yyih6Cg==
 
 verror@1.10.0, verror@^1.9.0:
   version "1.10.0"
