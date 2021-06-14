@@ -1,0 +1,88 @@
+{
+  "uid" : "9fb33c4e3b41ce73",
+  "name" : "should accept * character as pattern in tmsPrefix configuration",
+  "fullName" : "should accept * character as pattern in tmsPrefix configuration",
+  "historyId" : "6edbd8e8e6a4bfc088cf041ec19f3532",
+  "time" : {
+    "start" : 1623692123805,
+    "stop" : 1623692123831,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure links"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "xray",
+    "url" : "https://example.tms.com/case/CYP-17.aspx",
+    "type" : "tms"
+  }, {
+    "name" : "test in tms",
+    "url" : "https://example.tms.com/case/ID_OF_TEST_CASE_INSIDE_PATTERN.aspx",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "82b9448d5157fed5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617975953170,
+          "stop" : 1617975953203,
+          "duration" : 33
+        }
+      }, {
+        "uid" : "134e07f99d9b7f4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973889375,
+          "stop" : 1617973889393,
+          "duration" : 18
+        }
+      }, {
+        "uid" : "2e51ed72eccc1494",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973621991,
+          "stop" : 1617973622017,
+          "duration" : 26
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9fb33c4e3b41ce73.json",
+  "parameterValues" : [ ]
+}

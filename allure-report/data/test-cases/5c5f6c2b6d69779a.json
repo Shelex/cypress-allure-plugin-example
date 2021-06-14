@@ -1,0 +1,84 @@
+{
+  "uid" : "5c5f6c2b6d69779a",
+  "name" : "should be configurable with prefix env variables",
+  "fullName" : "should be configurable with prefix env variables",
+  "historyId" : "36240f4c42d087699fa09e8b980086d6",
+  "time" : {
+    "start" : 1623692123700,
+    "stop" : 1623692123737,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure links"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "xray",
+    "url" : "https://example.tms.com/case/CYP-15",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "df6b6cca18c5df34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617975953062,
+          "stop" : 1617975953137,
+          "duration" : 75
+        }
+      }, {
+        "uid" : "a04ba368ab6bc423",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973889290,
+          "stop" : 1617973889324,
+          "duration" : 34
+        }
+      }, {
+        "uid" : "624e9fc6fc2c1a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973621949,
+          "stop" : 1617973621970,
+          "duration" : 21
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5c5f6c2b6d69779a.json",
+  "parameterValues" : [ ]
+}

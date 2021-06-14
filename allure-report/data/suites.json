@@ -4,39 +4,39 @@
     "name" : "Allure attachments",
     "children" : [ {
       "name" : "should be able to attach file to executable by content",
-      "uid" : "7215162426b8279f",
+      "uid" : "2a397eabd75c417b",
       "parentUid" : "45b17883a8807513f7d6826844a2598c",
       "status" : "passed",
       "time" : {
-        "start" : 1617975939666,
-        "stop" : 1617975939762,
-        "duration" : 96
+        "start" : 1623692114273,
+        "stop" : 1623692114346,
+        "duration" : 73
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should be able to attach file to test by content",
-      "uid" : "48f7c438090ca99f",
+      "uid" : "350d30236cccd33e",
       "parentUid" : "45b17883a8807513f7d6826844a2598c",
       "status" : "passed",
       "time" : {
-        "start" : 1617975939773,
-        "stop" : 1617975939832,
-        "duration" : 59
+        "start" : 1623692114357,
+        "stop" : 1623692114379,
+        "duration" : 22
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should be able to attach existing file to test by path",
-      "uid" : "f7fbe0bc6ee31bd0",
+      "uid" : "dcf3abe8463e0c96",
       "parentUid" : "45b17883a8807513f7d6826844a2598c",
       "status" : "passed",
       "time" : {
-        "start" : 1617975939846,
-        "stop" : 1617975939869,
-        "duration" : 23
+        "start" : 1623692114390,
+        "stop" : 1623692114399,
+        "duration" : 9
       },
       "flaky" : false,
       "newFailed" : false,
@@ -47,52 +47,52 @@
     "name" : "Allure Cypress log",
     "children" : [ {
       "name" : "should be configurable by allureLogCypress env variable",
-      "uid" : "be256b3b8f3261cc",
+      "uid" : "15803216c0053810",
       "parentUid" : "49c6182d51734400515617e246552c75",
       "status" : "passed",
       "time" : {
-        "start" : 1617975942305,
-        "stop" : 1617975942352,
-        "duration" : 47
+        "start" : 1623692116274,
+        "stop" : 1623692116297,
+        "duration" : 23
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should log cypress commands as steps when allureLogCypress is enabled",
-      "uid" : "390ae8fd673d771f",
+      "uid" : "cc6959aa179e4b99",
       "parentUid" : "49c6182d51734400515617e246552c75",
       "status" : "passed",
       "time" : {
-        "start" : 1617975942369,
-        "stop" : 1617975942432,
-        "duration" : 63
+        "start" : 1623692116313,
+        "stop" : 1623692116356,
+        "duration" : 43
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should log cypress custom command as separate step",
-      "uid" : "c0e68855ce643dc8",
+      "uid" : "6551c8129fb7a461",
       "parentUid" : "49c6182d51734400515617e246552c75",
       "status" : "passed",
       "time" : {
-        "start" : 1617975942439,
-        "stop" : 1617975942516,
-        "duration" : 77
+        "start" : 1623692116371,
+        "stop" : 1623692116404,
+        "duration" : 33
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should not log cypress commands when allureLogCypress is disabled",
-      "uid" : "9d5e026d2b215e30",
+      "uid" : "57e4c07f7bd816fb",
       "parentUid" : "49c6182d51734400515617e246552c75",
       "status" : "passed",
       "time" : {
-        "start" : 1617975942534,
-        "stop" : 1617975942567,
-        "duration" : 33
+        "start" : 1623692116415,
+        "stop" : 1623692116427,
+        "duration" : 12
       },
       "flaky" : false,
       "newFailed" : false,
@@ -103,26 +103,26 @@
     "name" : "Allure Environment info",
     "children" : [ {
       "name" : "should add Environment info",
-      "uid" : "13ee64816dc31d81",
+      "uid" : "3f646fd2f215cba",
       "parentUid" : "bedd553c0e037e80ca4c9fb6129419cd",
       "status" : "passed",
       "time" : {
-        "start" : 1617975945302,
-        "stop" : 1617975945359,
-        "duration" : 57
+        "start" : 1623692118216,
+        "stop" : 1623692118248,
+        "duration" : 32
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "{\n  \"magicNumber\": 42,\n  \"examples\": true\n}" ]
     }, {
       "name" : "should overwrite Environment info",
-      "uid" : "da90ba3879e24c62",
+      "uid" : "f5bf27b64ec80c34",
       "parentUid" : "bedd553c0e037e80ca4c9fb6129419cd",
       "status" : "passed",
       "time" : {
-        "start" : 1617975945369,
-        "stop" : 1617975945379,
-        "duration" : 10
+        "start" : 1623692118260,
+        "stop" : 1623692118292,
+        "duration" : 32
       },
       "flaky" : false,
       "newFailed" : false,
@@ -133,13 +133,13 @@
     "name" : "Allure executor info",
     "children" : [ {
       "name" : "should write executors.json file",
-      "uid" : "f7581a8b880e3f0c",
+      "uid" : "e9cd6923176aa215",
       "parentUid" : "317fc76133abfbaca5ee22b01fa3d109",
       "status" : "passed",
       "time" : {
-        "start" : 1617975947774,
-        "stop" : 1617975947879,
-        "duration" : 105
+        "start" : 1623692120051,
+        "stop" : 1623692120082,
+        "duration" : 31
       },
       "flaky" : false,
       "newFailed" : false,
@@ -150,13 +150,13 @@
     "name" : "Allure hooks",
     "children" : [ {
       "name" : "should log before hooks as pre-requisites and each hooks as steps",
-      "uid" : "9d87f253ff658884",
+      "uid" : "68c83b59a80110aa",
       "parentUid" : "780ad1f159f5efbe64bfce3801692867",
       "status" : "passed",
       "time" : {
-        "start" : 1617975950499,
-        "stop" : 1617975950543,
-        "duration" : 44
+        "start" : 1623692121857,
+        "stop" : 1623692121869,
+        "duration" : 12
       },
       "flaky" : false,
       "newFailed" : false,
@@ -167,65 +167,65 @@
     "name" : "Allure links",
     "children" : [ {
       "name" : "should be configurable with prefix env variables",
-      "uid" : "df6b6cca18c5df34",
+      "uid" : "5c5f6c2b6d69779a",
       "parentUid" : "22d6d4a22b9f164f6118ed53b762e2ec",
       "status" : "passed",
       "time" : {
-        "start" : 1617975953062,
-        "stop" : 1617975953137,
-        "duration" : 75
+        "start" : 1623692123700,
+        "stop" : 1623692123737,
+        "duration" : 37
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should be able to add link to test management system",
-      "uid" : "124d0534f3347a9",
+      "uid" : "86cec547a35bce39",
       "parentUid" : "22d6d4a22b9f164f6118ed53b762e2ec",
       "status" : "passed",
       "time" : {
-        "start" : 1617975953148,
-        "stop" : 1617975953166,
-        "duration" : 18
+        "start" : 1623692123751,
+        "stop" : 1623692123795,
+        "duration" : 44
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should accept * character as pattern in tmsPrefix configuration",
-      "uid" : "82b9448d5157fed5",
+      "uid" : "9fb33c4e3b41ce73",
       "parentUid" : "22d6d4a22b9f164f6118ed53b762e2ec",
       "status" : "passed",
       "time" : {
-        "start" : 1617975953170,
-        "stop" : 1617975953203,
-        "duration" : 33
+        "start" : 1623692123805,
+        "stop" : 1623692123831,
+        "duration" : 26
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should be able to add link to issue tracker",
-      "uid" : "35b87336ec14e22f",
+      "uid" : "f167808d357201fd",
       "parentUid" : "22d6d4a22b9f164f6118ed53b762e2ec",
       "status" : "passed",
       "time" : {
-        "start" : 1617975953207,
-        "stop" : 1617975953221,
-        "duration" : 14
+        "start" : 1623692123834,
+        "stop" : 1623692123863,
+        "duration" : 29
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should be able to add link other external system",
-      "uid" : "bbe5f482880ce273",
+      "uid" : "3d723d7a68cd455d",
       "parentUid" : "22d6d4a22b9f164f6118ed53b762e2ec",
       "status" : "passed",
       "time" : {
-        "start" : 1617975953226,
-        "stop" : 1617975953259,
-        "duration" : 33
+        "start" : 1623692123871,
+        "stop" : 1623692123889,
+        "duration" : 18
       },
       "flaky" : false,
       "newFailed" : false,
@@ -236,52 +236,52 @@
     "name" : "Allure parameters",
     "children" : [ {
       "name" : "should attach testParameter number 1 to test",
-      "uid" : "21ba63dc000ca592",
+      "uid" : "c951296db9ea852c",
       "parentUid" : "f37e930fc348f43de7f3d7e244751df3",
       "status" : "passed",
       "time" : {
-        "start" : 1617975955730,
-        "stop" : 1617975955777,
-        "duration" : 47
+        "start" : 1623692125607,
+        "stop" : 1623692125647,
+        "duration" : 40
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "hello", "1" ]
     }, {
       "name" : "should attach testParameter number 2 to test",
-      "uid" : "8ad6dfbc39bcb04d",
+      "uid" : "5756ec4ac6a43f43",
       "parentUid" : "f37e930fc348f43de7f3d7e244751df3",
       "status" : "passed",
       "time" : {
-        "start" : 1617975955793,
-        "stop" : 1617975955813,
-        "duration" : 20
+        "start" : 1623692125655,
+        "stop" : 1623692125666,
+        "duration" : 11
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "world", "2" ]
     }, {
       "name" : "should attach parameter number 1 to step",
-      "uid" : "a2e484edf489a83b",
+      "uid" : "4238da32075fcd75",
       "parentUid" : "f37e930fc348f43de7f3d7e244751df3",
       "status" : "passed",
       "time" : {
-        "start" : 1617975955825,
-        "stop" : 1617975955864,
-        "duration" : 39
+        "start" : 1623692125677,
+        "stop" : 1623692125687,
+        "duration" : 10
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should attach parameter number 2 to step",
-      "uid" : "50afb33adcd5ac46",
+      "uid" : "9738f9cc9274afb1",
       "parentUid" : "f37e930fc348f43de7f3d7e244751df3",
       "status" : "passed",
       "time" : {
-        "start" : 1617975955869,
-        "stop" : 1617975955889,
-        "duration" : 20
+        "start" : 1623692125701,
+        "stop" : 1623692125716,
+        "duration" : 15
       },
       "flaky" : false,
       "newFailed" : false,
@@ -292,39 +292,39 @@
     "name" : "Allure screenshots",
     "children" : [ {
       "name" : "should attach screenshot automatically",
-      "uid" : "54240ae56d879e00",
+      "uid" : "879fdab4d40a647",
       "parentUid" : "edc264adf53f5230b2bb7b82d9548abf",
       "status" : "passed",
       "time" : {
-        "start" : 1617975958249,
-        "stop" : 1617975958962,
-        "duration" : 713
+        "start" : 1623692127468,
+        "stop" : 1623692127904,
+        "duration" : 436
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should attach screenshot with custom name",
-      "uid" : "88a2f09712aa15dd",
+      "uid" : "b4f018310d6c4e78",
       "parentUid" : "edc264adf53f5230b2bb7b82d9548abf",
       "status" : "passed",
       "time" : {
-        "start" : 1617975958973,
-        "stop" : 1617975959429,
-        "duration" : 456
+        "start" : 1623692127919,
+        "stop" : 1623692128265,
+        "duration" : 346
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should attach screenshot diff",
-      "uid" : "c804ce3dbf600695",
+      "uid" : "6d7a05058a1e2e71",
       "parentUid" : "edc264adf53f5230b2bb7b82d9548abf",
       "status" : "passed",
       "time" : {
-        "start" : 1617975959438,
-        "stop" : 1617975959474,
-        "duration" : 36
+        "start" : 1623692128277,
+        "stop" : 1623692128291,
+        "duration" : 14
       },
       "flaky" : false,
       "newFailed" : false,
@@ -335,39 +335,39 @@
     "name" : "Allure test statuses",
     "children" : [ {
       "name" : "should be passed",
-      "uid" : "fa9184962b342003",
+      "uid" : "f36becdcae1070d2",
       "parentUid" : "c831d81be87472a1202a702bb00fa775",
       "status" : "passed",
       "time" : {
-        "start" : 1617975961964,
-        "stop" : 1617975962026,
-        "duration" : 62
+        "start" : 1623692130050,
+        "stop" : 1623692130098,
+        "duration" : 48
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should be skipped",
-      "uid" : "831d90ec676da6b",
+      "uid" : "f4ef4ac949bf209a",
       "parentUid" : "c831d81be87472a1202a702bb00fa775",
       "status" : "skipped",
       "time" : {
-        "start" : 1617975962032,
-        "stop" : 1617975962036,
-        "duration" : 4
+        "start" : 1623692130135,
+        "stop" : 1623692130138,
+        "duration" : 3
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should be failed",
-      "uid" : "b859cf5e9fb3ee8",
+      "uid" : "eebe7721b080285c",
       "parentUid" : "c831d81be87472a1202a702bb00fa775",
       "status" : "failed",
       "time" : {
-        "start" : 1617975962036,
-        "stop" : 1617975966208,
-        "duration" : 4172
+        "start" : 1623692130138,
+        "stop" : 1623692134372,
+        "duration" : 4234
       },
       "flaky" : false,
       "newFailed" : false,
@@ -378,39 +378,39 @@
     "name" : "Allure steps",
     "children" : [ {
       "name" : "could be started and finished with startStep, endStep",
-      "uid" : "27337d720f37d2e4",
+      "uid" : "633532f240f2a2a5",
       "parentUid" : "c87af7c9fdc6c28d8ff2a40a09e72db1",
       "status" : "passed",
       "time" : {
-        "start" : 1617975968566,
-        "stop" : 1617975968620,
-        "duration" : 54
+        "start" : 1623692136306,
+        "stop" : 1623692136361,
+        "duration" : 55
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "could be started for current test with step and finished automatically",
-      "uid" : "8e4bc4c8e63de894",
+      "uid" : "be4a694bf4796067",
       "parentUid" : "c87af7c9fdc6c28d8ff2a40a09e72db1",
       "status" : "passed",
       "time" : {
-        "start" : 1617975968642,
-        "stop" : 1617975968679,
-        "duration" : 37
+        "start" : 1623692136395,
+        "stop" : 1623692136431,
+        "duration" : 36
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "could be started for current executable with log step, or step(name,false) and finish automatically",
-      "uid" : "5bd6da2c3248fd76",
+      "uid" : "ece3ffabab6c1bbe",
       "parentUid" : "c87af7c9fdc6c28d8ff2a40a09e72db1",
       "status" : "passed",
       "time" : {
-        "start" : 1617975968692,
-        "stop" : 1617975968722,
-        "duration" : 30
+        "start" : 1623692136439,
+        "stop" : 1623692136457,
+        "duration" : 18
       },
       "flaky" : false,
       "newFailed" : false,
@@ -421,91 +421,91 @@
     "name" : "Allure labels",
     "children" : [ {
       "name" : "should be able to add label",
-      "uid" : "4135eb0aca45745b",
+      "uid" : "f821b0d7655cfde8",
       "parentUid" : "f118f7ed5a1e5fd956013604f915e5d8",
       "status" : "passed",
       "time" : {
-        "start" : 1617975971050,
-        "stop" : 1617975971116,
-        "duration" : 66
+        "start" : 1623692138260,
+        "stop" : 1623692138291,
+        "duration" : 31
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should be able to add test id for allure testops",
-      "uid" : "cfd6bf33060d3fd8",
+      "uid" : "13b47bf2b116935c",
       "parentUid" : "f118f7ed5a1e5fd956013604f915e5d8",
       "status" : "passed",
       "time" : {
-        "start" : 1617975971132,
-        "stop" : 1617975971175,
-        "duration" : 43
+        "start" : 1623692138297,
+        "stop" : 1623692138314,
+        "duration" : 17
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should be able to add owner",
-      "uid" : "23f45f1621987b75",
+      "uid" : "733ac05cce3d57ab",
       "parentUid" : "f118f7ed5a1e5fd956013604f915e5d8",
       "status" : "passed",
       "time" : {
-        "start" : 1617975971187,
-        "stop" : 1617975971227,
-        "duration" : 40
+        "start" : 1623692138318,
+        "stop" : 1623692138330,
+        "duration" : 12
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should be able to add severity",
-      "uid" : "aa8af5ac5417118c",
+      "uid" : "ee43a563202c0b6",
       "parentUid" : "f118f7ed5a1e5fd956013604f915e5d8",
       "status" : "passed",
       "time" : {
-        "start" : 1617975971233,
-        "stop" : 1617975971255,
-        "duration" : 22
+        "start" : 1623692138334,
+        "stop" : 1623692138350,
+        "duration" : 16
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should be able to add tag",
-      "uid" : "1f411cd5e4070bc7",
+      "uid" : "5363310d8c2fa021",
       "parentUid" : "f118f7ed5a1e5fd956013604f915e5d8",
       "status" : "passed",
       "time" : {
-        "start" : 1617975971267,
-        "stop" : 1617975971303,
-        "duration" : 36
+        "start" : 1623692138353,
+        "stop" : 1623692138370,
+        "duration" : 17
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should be able to add markdown description",
-      "uid" : "9c31075039ef2b3c",
+      "uid" : "46734e8cf5546e5b",
       "parentUid" : "f118f7ed5a1e5fd956013604f915e5d8",
       "status" : "passed",
       "time" : {
-        "start" : 1617975971306,
-        "stop" : 1617975971335,
-        "duration" : 29
+        "start" : 1623692138375,
+        "stop" : 1623692138416,
+        "duration" : 41
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "should be able to add html description",
-      "uid" : "52e669ff1c381987",
+      "uid" : "1e848751a1f491e5",
       "parentUid" : "f118f7ed5a1e5fd956013604f915e5d8",
       "status" : "passed",
       "time" : {
-        "start" : 1617975971338,
-        "stop" : 1617975971359,
-        "duration" : 21
+        "start" : 1623692138435,
+        "stop" : 1623692138461,
+        "duration" : 26
       },
       "flaky" : false,
       "newFailed" : false,
@@ -516,13 +516,13 @@
     "name" : "Allure tests structure",
     "children" : [ {
       "name" : "\"Tests structure\", \"behaviors\", \"labels\"",
-      "uid" : "ed78ce6ecfc6f90a",
+      "uid" : "1fbb4d6cae25b83c",
       "parentUid" : "5939582343bc3b002620e595a201c9a6",
       "status" : "passed",
       "time" : {
-        "start" : 1617975973710,
-        "stop" : 1617975973769,
-        "duration" : 59
+        "start" : 1623692140266,
+        "stop" : 1623692140334,
+        "duration" : 68
       },
       "flaky" : false,
       "newFailed" : false,
@@ -533,13 +533,13 @@
         "name" : "Using commands",
         "children" : [ {
           "name" : "\"Set in test\", \"Using commands\"",
-          "uid" : "71d1869c1461cbd6",
+          "uid" : "14b7d0b1a39cb8ab",
           "parentUid" : "2cb57f97054dd0d521a62bc830f02bff",
           "status" : "passed",
           "time" : {
-            "start" : 1617975973778,
-            "stop" : 1617975973806,
-            "duration" : 28
+            "start" : 1623692140342,
+            "stop" : 1623692140363,
+            "duration" : 21
           },
           "flaky" : false,
           "newFailed" : false,
@@ -554,13 +554,13 @@
         "name" : "Set in beforeEach",
         "children" : [ {
           "name" : "\"Label storage\", \"Set in beforeEach\"",
-          "uid" : "e5eaeb7feaaf79da",
+          "uid" : "e74c7579e569ee4e",
           "parentUid" : "7df60fa822b3680947bdb9177e9c9e27",
           "status" : "passed",
           "time" : {
-            "start" : 1617975973823,
-            "stop" : 1617975973860,
-            "duration" : 37
+            "start" : 1623692140367,
+            "stop" : 1623692140400,
+            "duration" : 33
           },
           "flaky" : false,
           "newFailed" : false,
@@ -571,12 +571,12 @@
         "name" : "Set in test",
         "children" : [ {
           "name" : "\"Label storage\", \"Set in test\"",
-          "uid" : "2756190ba82dd5bb",
+          "uid" : "1ca0a07e52f4a160",
           "parentUid" : "5074662869911496e161f339a94fd9af",
           "status" : "passed",
           "time" : {
-            "start" : 1617975973870,
-            "stop" : 1617975973892,
+            "start" : 1623692140405,
+            "stop" : 1623692140427,
             "duration" : 22
           },
           "flaky" : false,
@@ -596,78 +596,78 @@
         "name" : "Gherkin_sub_suite",
         "children" : [ {
           "name" : "Allure gherkin suite structure",
-          "uid" : "93ed8051eb18dfd",
+          "uid" : "810cccb7e1345f4f",
           "parentUid" : "81715fe1ee14b249dfa611b19bc11d91",
           "status" : "passed",
           "time" : {
-            "start" : 1617975990779,
-            "stop" : 1617975990829,
-            "duration" : 50
+            "start" : 1623692153641,
+            "stop" : 1623692153713,
+            "duration" : 72
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Allure labels",
-          "uid" : "20be6c94073ac663",
+          "uid" : "26cac4a5d23c7470",
           "parentUid" : "81715fe1ee14b249dfa611b19bc11d91",
           "status" : "passed",
           "time" : {
-            "start" : 1617975990861,
-            "stop" : 1617975990936,
-            "duration" : 75
+            "start" : 1623692153720,
+            "stop" : 1623692153766,
+            "duration" : 46
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Some scenario with examples (example #1)",
-          "uid" : "a6f0339d16860fd2",
+          "uid" : "b52fec76b4520c63",
           "parentUid" : "81715fe1ee14b249dfa611b19bc11d91",
           "status" : "passed",
           "time" : {
-            "start" : 1617975990945,
-            "stop" : 1617975990995,
-            "duration" : 50
+            "start" : 1623692153771,
+            "stop" : 1623692153811,
+            "duration" : 40
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Some scenario with examples (example #2)",
-          "uid" : "393753df1f7c995d",
+          "uid" : "193006fcf7c5800",
           "parentUid" : "81715fe1ee14b249dfa611b19bc11d91",
           "status" : "failed",
           "time" : {
-            "start" : 1617975991003,
-            "stop" : 1617975995268,
-            "duration" : 4265
+            "start" : 1623692153826,
+            "stop" : 1623692158054,
+            "duration" : 4228
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Some scenario with examples (example #3)",
-          "uid" : "a880edf14fbba643",
+          "uid" : "74ca8c30f959c8be",
           "parentUid" : "81715fe1ee14b249dfa611b19bc11d91",
           "status" : "passed",
           "time" : {
-            "start" : 1617975995302,
-            "stop" : 1617975995360,
-            "duration" : 58
+            "start" : 1623692158106,
+            "stop" : 1623692158148,
+            "duration" : 42
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Some scenario with examples (example #4)",
-          "uid" : "eea5e0b672674915",
+          "uid" : "1d32914cbcbdd006",
           "parentUid" : "81715fe1ee14b249dfa611b19bc11d91",
           "status" : "passed",
           "time" : {
-            "start" : 1617975995379,
-            "stop" : 1617975995415,
-            "duration" : 36
+            "start" : 1623692158154,
+            "stop" : 1623692158218,
+            "duration" : 64
           },
           "flaky" : false,
           "newFailed" : false,
