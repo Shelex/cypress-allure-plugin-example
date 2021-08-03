@@ -818,12 +818,19 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@shelex/cypress-allure-plugin@2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-2.8.0.tgz#a798e6d39b669873263b2c7a80994308e0e47544"
-  integrity sha512-5EDSoIJ5lBT/TOVguKJ4mrdbg9BjKIioDcGrpZDoi+v/1YdtaYZH2Db8icCnLqz92uenfp7qGbeQVZAd6yeDFA==
+"@shelex/allure-js-commons-browser@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@shelex/allure-js-commons-browser/-/allure-js-commons-browser-1.2.0.tgz#16e8752e100860a3ecd5bb2581113f131e27cf39"
+  integrity sha512-BlRjExO+Y/Y0OMwEUhyCinf6rkcqTVPeAC7W5QENTXrvhu6CKXqUlhSTM+GUu4tOSlNSwdyvSI+fiMjCV1TI5g==
   dependencies:
-    allure-js-commons "^2.0.0-beta.6"
+    uuid "8.3.0"
+
+"@shelex/cypress-allure-plugin@2.9.0":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-2.9.0.tgz#e4c9796294c3c30aff8b24d723cd4e593fe24a61"
+  integrity sha512-OdzwxhTwymInHuRR18Ix5jj4jyLnIJ7z/ZVYKsgQ+sGwiH2VS8luGVrEdfXVxyqr4A8Es29aPTahmM1ksJEJCg==
+  dependencies:
+    "@shelex/allure-js-commons-browser" "1.2.0"
     crypto-js "3.3.0"
     uuid "8.3.2"
 
@@ -878,15 +885,6 @@ ajv@^6.5.5:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
-
-allure-js-commons@^2.0.0-beta.6:
-  version "2.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/allure-js-commons/-/allure-js-commons-2.0.0-beta.6.tgz#43da136e6bd073015b77da4e049dd42a37c3f88f"
-  integrity sha512-CcGB65Zrpyl74vZY55rBA5ofmTDDZrSM9kwMdYtqbYgqmPZuvAlVxWWXWrFpZuWpkdgrXYFgVIEv/wCm9+U46w==
-  dependencies:
-    mkdirp "^0.5.1"
-    properties "^1.2.1"
-    uuid "^3.3.2"
 
 ansi-escapes@^3.0.0:
   version "3.2.0"
@@ -2186,10 +2184,10 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-plugin-chai-friendly@0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-chai-friendly/-/eslint-plugin-chai-friendly-0.7.1.tgz#eabc1f1f7d427e565ff4c6ad52ca03d40dd3fce8"
-  integrity sha512-0xhGiSQ+9oWtNc6IZPUR+6ChKbEvLXwT9oZZ5NcGlPzHVKGn1YKwQFj7a9yL3rnRKbWF7b3RkRYEP8kN6dPOwQ==
+eslint-plugin-chai-friendly@0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-chai-friendly/-/eslint-plugin-chai-friendly-0.7.2.tgz#0ebfbb2c1244f5de2997f3963d155758234f2b0f"
+  integrity sha512-LOIfGx5sZZ5FwM1shr2GlYAWV9Omdi+1/3byuVagvQNoGUuU0iHhp7AfjA1uR+4dJ4Isfb4+FwBJgQajIw9iAg==
 
 eslint-plugin-cypress@^2.11.3:
   version "2.11.3"
@@ -3312,13 +3310,6 @@ mkdirp@^0.5.0, mkdirp@^0.5.4:
   dependencies:
     minimist "^1.2.5"
 
-mkdirp@^0.5.1:
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.5.tgz#d91cefd62d1436ca0f41620e251288d420099def"
-  integrity sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
-  dependencies:
-    minimist "^1.2.5"
-
 module-deps@^6.0.0:
   version "6.2.2"
   resolved "https://registry.yarnpkg.com/module-deps/-/module-deps-6.2.2.tgz#d8a15c2265dfc119153c29bb47386987d0ee423b"
@@ -3688,11 +3679,6 @@ progress@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
-
-properties@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/properties/-/properties-1.2.1.tgz#0ee97a7fc020b1a2a55b8659eda4aa8d869094bd"
-  integrity sha1-Dul6f8AgsaKlW4ZZ7aSqjYaQlL0=
 
 psl@^1.1.28:
   version "1.8.0"
@@ -4616,6 +4602,11 @@ util@~0.10.1:
   integrity sha512-0Pm9hTQ3se5ll1XihRic3FDIku70C+iHUdT/W926rSgHV5QgXsYbKZN8MSC3tJtSkhuROzvsQjAaFENRXr+19A==
   dependencies:
     inherits "2.0.3"
+
+uuid@8.3.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.0.tgz#ab738085ca22dc9a8c92725e459b1d507df5d6ea"
+  integrity sha512-fX6Z5o4m6XsXBdli9g7DtWgAx+osMsRRZFKma1mIUsLCz6vRvv+pz5VNbyu9UEDzpMWulZfvpgb/cmDXVulYFQ==
 
 uuid@8.3.2:
   version "8.3.2"

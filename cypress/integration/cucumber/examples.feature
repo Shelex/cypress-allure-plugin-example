@@ -15,9 +15,10 @@ Feature: Gherkin_feature
     @owner("Oleksandr Shevtsov")
     @severity("critical")
     @AS_ID("42")
-    @issue("jira","ACT-123")
-    @tms("tms","TC-123")
+    @issue("ACT-123")
+    @tms("TC-123")
     @link("google","https://google.com")
+    @link("https://example.com/")
     @willBeTag
     Scenario: Allure labels
         Given some precondition
