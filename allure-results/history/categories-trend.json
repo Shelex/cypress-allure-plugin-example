@@ -1,4 +1,9 @@
 [ {
+  "buildOrder" : 17,
+  "data" : {
+    "Product defects" : 2
+  }
+}, {
   "buildOrder" : 13,
   "data" : {
     "Product defects" : 2
