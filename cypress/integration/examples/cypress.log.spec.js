@@ -4,6 +4,7 @@
 describe('Allure Cypress log', () => {
     it('should be configurable by allureLogCypress env variable', () => {
         Cypress.env('allureLogCypress', true);
+        Cypress.env('allureAttachRequests', true);
     });
 
     it('should log cypress commands as steps when allureLogCypress is enabled', () => {
@@ -17,6 +18,12 @@ describe('Allure Cypress log', () => {
         cy.log('this is message from cy log command');
         cy.customCommand(100, 200, 300, 400, 500);
         cy.get('@number').should('be.eq', 42);
+    });
+
+    it('should attach cy.request data with allureLogCypress and allureAttachRequests env vars', () => {
+        cy.request(
+            'https://dog-facts-api.herokuapp.com/api/v1/resources/dogs?number=1'
+        );
     });
 
     it('should not log cypress commands when allureLogCypress is disabled', () => {

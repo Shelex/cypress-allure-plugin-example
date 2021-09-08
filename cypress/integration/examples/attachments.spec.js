@@ -28,11 +28,4 @@ describe('Allure attachments', () => {
             'application/json'
         );
     });
-
-    it('should attach cy.request data with allureAttachRequests env var', () => {
-        Cypress.env('allureAttachRequests', true);
-        cy.request(
-            'https://dog-facts-api.herokuapp.com/api/v1/resources/dogs?number=1'
-        );
-    });
 });
