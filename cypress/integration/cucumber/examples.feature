@@ -33,3 +33,11 @@ Feature: Gherkin_feature
             | 3 | 1  | 5      |
             | 3 | 2  | 5      |
             | 2 | -1 | 1      |
+
+    Scenario Outline: Will attach links for each example separately
+        Given some precondition
+        Then I am very happy
+        Examples:
+            | tms         | issue  |
+            | TEST-CASE-1 | TASK-1 |
+            | TEST-CASE-2 | TASK-2 |

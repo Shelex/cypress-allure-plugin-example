@@ -825,13 +825,13 @@
   dependencies:
     uuid "8.3.0"
 
-"@shelex/cypress-allure-plugin@2.9.0":
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-2.9.0.tgz#e4c9796294c3c30aff8b24d723cd4e593fe24a61"
-  integrity sha512-OdzwxhTwymInHuRR18Ix5jj4jyLnIJ7z/ZVYKsgQ+sGwiH2VS8luGVrEdfXVxyqr4A8Es29aPTahmM1ksJEJCg==
+"@shelex/cypress-allure-plugin@2.12.0":
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-2.12.0.tgz#c89c5092f987478333877fecd773867fc5cd6393"
+  integrity sha512-WJbb/25UsnAEhrxgSx4YuPpAcHQ6rWSY44qHh41Ff7VnHy7H+r5jaOfhSc3FK7JZCLxRYTH/6BwbeRFCKJGInw==
   dependencies:
     "@shelex/allure-js-commons-browser" "1.2.0"
-    crypto-js "3.3.0"
+    crypto-js "4.1.1"
     uuid "8.3.2"
 
 "@types/node@12.12.50":
@@ -1803,10 +1803,10 @@ crypto-browserify@^3.0.0:
     randombytes "^2.0.0"
     randomfill "^1.0.3"
 
-crypto-js@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-3.3.0.tgz#846dd1cce2f68aacfa156c8578f926a609b7976b"
-  integrity sha512-DIT51nX0dCfKltpRiXV+/TVZq+Qq2NgF4644+K7Ttnla7zEzqc+kjJyiB96BHNyUTBxyjzRcZYpUdZa+QAqi6Q==
+crypto-js@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.1.1.tgz#9e485bcf03521041bd85844786b83fb7619736cf"
+  integrity sha512-o2JlM7ydqd3Qk9CA0L4NL6mTzU2sdx96a+oOfPu8Mkl/PK51vSyoi8/rQ8NknZtk44vq15lmhAj9CIAGwgeWKw==
 
 cucumber-expressions@^5.0.13:
   version "5.0.18"
