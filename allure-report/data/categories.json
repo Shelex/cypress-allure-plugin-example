@@ -6,13 +6,13 @@
       "name" : "Timed out retrying after 4000ms: expected true to equal false",
       "children" : [ {
         "name" : "should be failed",
-        "uid" : "21e42ed5aa3b7765",
+        "uid" : "defc9b31bdfbd67d",
         "parentUid" : "dbf7b3a653cc3263c669a04df1239913",
         "status" : "failed",
         "time" : {
-          "start" : 1631122001992,
-          "stop" : 1631122006215,
-          "duration" : 4223
+          "start" : 1631123030730,
+          "stop" : 1631123034897,
+          "duration" : 4167
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +23,13 @@
       "name" : "Timed out retrying after 4000ms: expected 4 to equal 5",
       "children" : [ {
         "name" : "Some scenario with examples (example #2)",
-        "uid" : "5624b044128b48a",
+        "uid" : "c74755259445684e",
         "parentUid" : "f0cff20cc4618e0c10ee5c8755153371",
         "status" : "failed",
         "time" : {
-          "start" : 1631122027767,
-          "stop" : 1631122032051,
-          "duration" : 4284
+          "start" : 1631123056767,
+          "stop" : 1631123061020,
+          "duration" : 4253
         },
         "flaky" : false,
         "newFailed" : false,
