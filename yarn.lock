@@ -825,10 +825,10 @@
   dependencies:
     uuid "8.3.0"
 
-"@shelex/cypress-allure-plugin@2.12.0":
-  version "2.12.0"
-  resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-2.12.0.tgz#c89c5092f987478333877fecd773867fc5cd6393"
-  integrity sha512-WJbb/25UsnAEhrxgSx4YuPpAcHQ6rWSY44qHh41Ff7VnHy7H+r5jaOfhSc3FK7JZCLxRYTH/6BwbeRFCKJGInw==
+"@shelex/cypress-allure-plugin@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.yarnpkg.com/@shelex/cypress-allure-plugin/-/cypress-allure-plugin-2.12.1.tgz#57045f5527785a283f606eaf732430d01e42e138"
+  integrity sha512-T66SxACLnAZo0MYzk8iEPwsqWiHYLd+OIQKeTCmNffrE6eyENQjKm+6DW4o+MvJ5aE59yKmXFdyoP4H1agN5sw==
   dependencies:
     "@shelex/allure-js-commons-browser" "1.2.0"
     crypto-js "4.1.1"
