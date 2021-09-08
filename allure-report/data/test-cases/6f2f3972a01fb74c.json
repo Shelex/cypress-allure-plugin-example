@@ -1,0 +1,207 @@
+{
+  "uid" : "6f2f3972a01fb74c",
+  "name" : "Will attach links for each example separately (example #2)",
+  "fullName" : "Will attach links for each example separately (example #2)",
+  "historyId" : "fe09bed570c005c224a87228565fe1ec",
+  "time" : {
+    "start" : 1631121223613,
+    "stop" : 1631121223673,
+    "duration" : 60
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1631121223613,
+        "stop" : 1631121223647,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given some precondition",
+      "time" : {
+        "start" : 1631121223650,
+        "stop" : 1631121223665,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"given\")",
+        "time" : {
+          "start" : 1631121223651,
+          "stop" : 1631121223651,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I am very happy",
+      "time" : {
+        "start" : 1631121223665,
+        "stop" : 1631121223673,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "title",
+        "time" : {
+          "start" : 1631121223665,
+          "stop" : 1631121223667,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "expected **''** to not include **Google** assert",
+        "time" : {
+          "start" : 1631121223667,
+          "stop" : 1631121223667,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gherkin_suite"
+  }, {
+    "name" : "feature",
+    "value" : "Gherkin_feature"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Gherkin_parent_suite"
+  }, {
+    "name" : "subSuite",
+    "value" : "Gherkin_sub_suite"
+  }, {
+    "name" : "epic",
+    "value" : "Behaviours epic"
+  }, {
+    "name" : "story",
+    "value" : "Behaviours story"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "TEST-CASE-2",
+    "url" : "https://some.testrail.instance/path/suite/caseID-TEST-CASE-2",
+    "type" : "tms"
+  }, {
+    "name" : "TASK-2",
+    "url" : "https://your.domain.atlassian.net/browse/TASK-2",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f22c244e1382a2a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631120822947,
+          "stop" : 1631120823012,
+          "duration" : 65
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6f2f3972a01fb74c.json",
+  "parameterValues" : [ ]
+}

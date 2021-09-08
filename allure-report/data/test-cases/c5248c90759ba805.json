@@ -1,0 +1,70 @@
+{
+  "uid" : "c5248c90759ba805",
+  "name" : "should attach cy.request data with allureLogCypress and allureAttachRequests env vars",
+  "fullName" : "should attach cy.request data with allureLogCypress and allureAttachRequests env vars",
+  "historyId" : "e29c91eca2a37ea8a1e231fcc181f62e",
+  "time" : {
+    "start" : 1631121171752,
+    "stop" : 1631121172225,
+    "duration" : 473
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET 200 https://dog-facts-api.herokuapp.com/api/v1/resources/dogs?number=1",
+      "time" : {
+        "start" : 1631121171767,
+        "stop" : 1631121172224,
+        "duration" : 457
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure Cypress log"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5248c90759ba805.json",
+  "parameterValues" : [ ]
+}

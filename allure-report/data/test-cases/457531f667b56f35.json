@@ -1,0 +1,135 @@
+{
+  "uid" : "457531f667b56f35",
+  "name" : "should attach testParameter number 2 to test",
+  "fullName" : "should attach testParameter number 2 to test",
+  "historyId" : "6f198f5686201a257e8aa782f6c86003",
+  "time" : {
+    "start" : 1631121183886,
+    "stop" : 1631121183906,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "parameters should not be in this step",
+      "time" : {
+        "start" : 1631121183904,
+        "stop" : 1631121183906,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure parameters"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "message",
+    "value" : "world"
+  }, {
+    "name" : "number",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "c67b8f303ee72b4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631120786742,
+          "stop" : 1631120786771,
+          "duration" : 29
+        }
+      }, {
+        "uid" : "71f3839e081c0bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627993281408,
+          "stop" : 1627993281431,
+          "duration" : 23
+        }
+      }, {
+        "uid" : "5756ec4ac6a43f43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623692125655,
+          "stop" : 1623692125666,
+          "duration" : 11
+        }
+      }, {
+        "uid" : "8ad6dfbc39bcb04d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617975955793,
+          "stop" : 1617975955813,
+          "duration" : 20
+        }
+      }, {
+        "uid" : "3c559e8dfb826fc3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973891301,
+          "stop" : 1617973891315,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "eeff809895cbe79c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973624584,
+          "stop" : 1617973624591,
+          "duration" : 7
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "457531f667b56f35.json",
+  "parameterValues" : [ "world", "2" ]
+}
