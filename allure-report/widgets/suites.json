@@ -7,9 +7,9 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 8
     }
   }, {
     "uid" : "c831d81be87472a1202a702bb00fa775",
@@ -45,6 +45,17 @@
       "total" : 5
     }
   }, {
+    "uid" : "45b17883a8807513f7d6826844a2598c",
+    "name" : "Allure attachments",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
     "uid" : "49c6182d51734400515617e246552c75",
     "name" : "Allure Cypress log",
     "statistic" : {
@@ -76,17 +87,6 @@
       "passed" : 4,
       "unknown" : 0,
       "total" : 4
-    }
-  }, {
-    "uid" : "45b17883a8807513f7d6826844a2598c",
-    "name" : "Allure attachments",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 3,
-      "unknown" : 0,
-      "total" : 3
     }
   }, {
     "uid" : "edc264adf53f5230b2bb7b82d9548abf",

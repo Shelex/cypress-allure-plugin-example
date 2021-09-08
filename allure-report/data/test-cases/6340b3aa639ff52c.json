@@ -1,0 +1,246 @@
+{
+  "uid" : "6340b3aa639ff52c",
+  "name" : "Allure gherkin suite structure",
+  "fullName" : "Allure gherkin suite structure",
+  "historyId" : "143e0bf5d37bf42950039d93356b637c",
+  "time" : {
+    "start" : 1631120818275,
+    "stop" : 1631120818318,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1631120818280,
+        "stop" : 1631120818281,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given some precondition",
+      "time" : {
+        "start" : 1631120818295,
+        "stop" : 1631120818302,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"given\")",
+        "time" : {
+          "start" : 1631120818299,
+          "stop" : 1631120818300,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I do some actions",
+      "time" : {
+        "start" : 1631120818302,
+        "stop" : 1631120818305,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"when\")",
+        "time" : {
+          "start" : 1631120818303,
+          "stop" : 1631120818304,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I get some result",
+      "time" : {
+        "start" : 1631120818305,
+        "stop" : 1631120818314,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log (\"then\")",
+        "time" : {
+          "start" : 1631120818311,
+          "stop" : 1631120818312,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Gherkin_suite"
+  }, {
+    "name" : "feature",
+    "value" : "Gherkin_feature"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Gherkin_parent_suite"
+  }, {
+    "name" : "subSuite",
+    "value" : "Gherkin_sub_suite"
+  }, {
+    "name" : "epic",
+    "value" : "Behaviours epic"
+  }, {
+    "name" : "story",
+    "value" : "Behaviours story"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "6566b35345b4d1ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627993307585,
+          "stop" : 1627993307617,
+          "duration" : 32
+        }
+      }, {
+        "uid" : "810cccb7e1345f4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623692153641,
+          "stop" : 1623692153713,
+          "duration" : 72
+        }
+      }, {
+        "uid" : "93ed8051eb18dfd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617975990779,
+          "stop" : 1617975990829,
+          "duration" : 50
+        }
+      }, {
+        "uid" : "19a9e9546f1c8441",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973918330,
+          "stop" : 1617973918358,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "723a101f97d6c6df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973584869,
+          "stop" : 1617973584893,
+          "duration" : 24
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6340b3aa639ff52c.json",
+  "parameterValues" : [ ]
+}
