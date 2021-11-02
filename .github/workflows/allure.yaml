@@ -5,7 +5,7 @@ name: allure-report
             - master
 jobs:
     generate-report:
-        runs-on: ubuntu-16.04
+        runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
             - name: Download Cypress
