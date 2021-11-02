@@ -14,7 +14,7 @@
         "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true"
     },
     "devDependencies": {
-        "@shelex/cypress-allure-plugin": "2.12.1",
+        "@shelex/cypress-allure-plugin": "2.19.5",
         "cypress": "6.8.0",
         "cypress-cucumber-preprocessor": "2.3.1",
         "eslint-plugin-chai-friendly": "0.7.2",
