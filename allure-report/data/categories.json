@@ -3,33 +3,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "`cy.request()` failed on:\n\nhttps://dog-facts-api.herokuapp.com/api/v1/resources/dogs?number=1\n\nThe response we received from your web server was:\n\n  > 503: Service Unavailable\n\nThis was considered a failure because the status code was not `2xx` or `3xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: GET\nURL: https://dog-facts-api.herokuapp.com/api/v1/resources/dogs?number=1\nHeaders: {\n  \"Connection\": \"keep-alive\",\n  \"user-agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36\",\n  \"accept\": \"*/*\",\n  \"accept-encoding\": \"gzip, deflate\"\n}\n\n-----------------------------------------------------------\n\nThe response we got was:\n\nStatus: 503 - Service Unavailable\nHeaders: {\n  \"connection\": \"keep-alive\",\n  \"server\": \"Cowboy\",\n  \"date\": \"Fri, 31 Dec 2021 12:54:01 GMT\",\n  \"content-length\": \"506\",\n  \"content-type\": \"text/html; charset=utf-8\",\n  \"cache-control\": \"no-cache, no-store\"\n}\nBody: <!DOCTYPE html>\n\t<html>\n\t  <head>\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t\t<meta charset=\"utf-8\">\n\t\t<title>Application Error</title>\n\t\t<style media=\"screen\">\n\t\t  html,body,iframe {\n\t\t\tmargin: 0;\n\t\t\tpadding: 0;\n\t\t  }\n\t\t  html,body {\n\t\t\theight: 100%;\n\t\t\toverflow: hidden;\n\t\t  }\n\t\t  iframe {\n\t\t\twidth: 100%;\n\t\t\theight: 100%;\n\t\t\tborder: 0;\n\t\t  }\n\t\t</style>\n\t  </head>\n\t  <body>\n\t\t<iframe src=\"//www.herokucdn.com/error-pages/application-error.html\"></iframe>\n\t  </body>\n\t</html>\n\n\nhttps://on.cypress.io/request",
-      "children" : [ {
-        "name" : "should attach cy.request data with allureLogCypress and allureAttachRequests env vars",
-        "uid" : "3ffd2661ea5acd0b",
-        "parentUid" : "246846d70cf3a92d69fb3f003e3ab94e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1640955241900,
-          "stop" : 1640955242678,
-          "duration" : 778
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "246846d70cf3a92d69fb3f003e3ab94e"
-    }, {
       "name" : "Timed out retrying after 4000ms: expected true to equal false",
       "children" : [ {
         "name" : "should be failed",
-        "uid" : "ab5c6ffd3f9e6c08",
+        "uid" : "941d6128a65c2da2",
         "parentUid" : "dbf7b3a653cc3263c669a04df1239913",
         "status" : "failed",
         "time" : {
-          "start" : 1640955259993,
-          "stop" : 1640955264264,
-          "duration" : 4271
+          "start" : 1640956682965,
+          "stop" : 1640956687173,
+          "duration" : 4208
         },
         "flaky" : false,
         "newFailed" : false,
@@ -40,13 +23,13 @@
       "name" : "Timed out retrying after 4000ms: expected 4 to equal 5",
       "children" : [ {
         "name" : "Some scenario with examples (example #2)",
-        "uid" : "9fde4e7df4a027f8",
+        "uid" : "5b69c42fb8af4b3c",
         "parentUid" : "f0cff20cc4618e0c10ee5c8755153371",
         "status" : "failed",
         "time" : {
-          "start" : 1640955289344,
-          "stop" : 1640955293621,
-          "duration" : 4277
+          "start" : 1640956706395,
+          "stop" : 1640956710586,
+          "duration" : 4191
         },
         "flaky" : false,
         "newFailed" : false,

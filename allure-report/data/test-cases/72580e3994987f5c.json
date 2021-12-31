@@ -1,0 +1,172 @@
+{
+  "uid" : "72580e3994987f5c",
+  "name" : "should be able to attach file to test by content",
+  "fullName" : "should be able to attach file to test by content",
+  "historyId" : "cfa0b798b6aa16e99a07ef39d67addbd",
+  "time" : {
+    "start" : 1640956664114,
+    "stop" : 1640956664203,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "attachment should be outside of this step",
+      "time" : {
+        "start" : 1640956664198,
+        "stop" : 1640956664203,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"example\")",
+        "time" : {
+          "start" : 1640956664198,
+          "stop" : 1640956664198,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "96cca163d9e7335",
+      "name" : "example",
+      "source" : "96cca163d9e7335.json",
+      "type" : "application/json",
+      "size" : 22
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure attachments"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "33d98f79917e4e65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640955238688,
+          "stop" : 1640955238838,
+          "duration" : 150
+        }
+      }, {
+        "uid" : "c6bea98d9ccd56bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631123013038,
+          "stop" : 1631123013058,
+          "duration" : 20
+        }
+      }, {
+        "uid" : "94f42d0489e7f7aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631121982621,
+          "stop" : 1631121982661,
+          "duration" : 40
+        }
+      }, {
+        "uid" : "30cd87ef3e6d4d6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631121169197,
+          "stop" : 1631121169221,
+          "duration" : 24
+        }
+      }, {
+        "uid" : "9d8229a7ac783dc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631120772134,
+          "stop" : 1631120772192,
+          "duration" : 58
+        }
+      }, {
+        "uid" : "a8947e595babab90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627993270573,
+          "stop" : 1627993270596,
+          "duration" : 23
+        }
+      }, {
+        "uid" : "350d30236cccd33e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623692114357,
+          "stop" : 1623692114379,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "48f7c438090ca99f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617975939773,
+          "stop" : 1617975939832,
+          "duration" : 59
+        }
+      }, {
+        "uid" : "99a3d122d2d9e8e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973879674,
+          "stop" : 1617973879696,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "367bb1994e647489",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973609211,
+          "stop" : 1617973609226,
+          "duration" : 15
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "72580e3994987f5c.json",
+  "parameterValues" : [ ]
+}
