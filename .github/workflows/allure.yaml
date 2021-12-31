@@ -40,6 +40,8 @@ jobs:
 
             - name: Run Cypress
               run: npm run cy:run
+              env:
+                  CYPRESS_SPLIT_SPEC_API_KEY: '${{ secrets.SPLIT_SPEC_API_KEY }}'
 
             - name: Run Cypress Cucumber
               if: always()

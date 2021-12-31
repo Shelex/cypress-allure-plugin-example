@@ -22,9 +22,16 @@ describe('Allure Cypress log', () => {
     it('should attach cy.request data with allureLogCypress and allureAttachRequests env vars', () => {
         Cypress.env('allureLogCypress', true);
         Cypress.env('allureAttachRequests', true);
-        cy.request(
-            'https://dog-facts-api.herokuapp.com/api/v1/resources/dogs?number=1'
-        );
+        cy.request({
+            method: 'POST',
+            url: 'https://split-specs.appspot.com/query',
+            headers: {
+                Authorization: Cypress.env('SPLIT_SPEC_API_KEY')
+            },
+            body: {
+                query: 'query { projects }'
+            }
+        });
     });
 
     it('should not log cypress commands when allureLogCypress is disabled', () => {
