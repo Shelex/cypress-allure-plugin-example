@@ -1,0 +1,253 @@
+{
+  "uid" : "2079d5ecb1c8500",
+  "name" : "should log before hooks as pre-requisites and each hooks as steps",
+  "fullName" : "should log before hooks as pre-requisites and each hooks as steps",
+  "historyId" : "39c6963642d3de6a47b2d4dbe22c3d32",
+  "time" : {
+    "start" : 1640955250156,
+    "stop" : 1640955250185,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log from before",
+      "time" : {
+        "start" : 1640955250137,
+        "stop" : 1640955250151,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1640955250172,
+        "stop" : 1640955250178,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log from beforeEach",
+        "time" : {
+          "start" : 1640955250173,
+          "stop" : 1640955250177,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "log from test",
+      "time" : {
+        "start" : 1640955250179,
+        "stop" : 1640955250183,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1640955250186,
+        "stop" : 1640955250193,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "log from afterEach",
+        "time" : {
+          "start" : 1640955250187,
+          "stop" : 1640955250193,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log from after",
+      "time" : {
+        "start" : 1640955250209,
+        "stop" : 1640955250212,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure hooks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "361f47c6128ae01",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631123021436,
+          "stop" : 1631123021490,
+          "duration" : 54
+        }
+      }, {
+        "uid" : "b615d75ff60dee7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631121992126,
+          "stop" : 1631121992166,
+          "duration" : 40
+        }
+      }, {
+        "uid" : "aea9fba3247a799d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631121178989,
+          "stop" : 1631121179004,
+          "duration" : 15
+        }
+      }, {
+        "uid" : "6ab94a317e1ed50c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631120781946,
+          "stop" : 1631120782010,
+          "duration" : 64
+        }
+      }, {
+        "uid" : "d700655e6d3c051",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627993277747,
+          "stop" : 1627993277781,
+          "duration" : 34
+        }
+      }, {
+        "uid" : "68c83b59a80110aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623692121857,
+          "stop" : 1623692121869,
+          "duration" : 12
+        }
+      }, {
+        "uid" : "9d87f253ff658884",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617975950499,
+          "stop" : 1617975950543,
+          "duration" : 44
+        }
+      }, {
+        "uid" : "61b0b6fd8a26e80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973887416,
+          "stop" : 1617973887444,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "92fe49d7e3b80c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973619362,
+          "stop" : 1617973619393,
+          "duration" : 31
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2079d5ecb1c8500.json",
+  "parameterValues" : [ ]
+}

@@ -12,6 +12,17 @@
       "total" : 8
     }
   }, {
+    "uid" : "49c6182d51734400515617e246552c75",
+    "name" : "Allure Cypress log",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
     "uid" : "c831d81be87472a1202a702bb00fa775",
     "name" : "Allure test statuses",
     "statistic" : {
@@ -32,17 +43,6 @@
       "passed" : 7,
       "unknown" : 0,
       "total" : 7
-    }
-  }, {
-    "uid" : "49c6182d51734400515617e246552c75",
-    "name" : "Allure Cypress log",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 5,
-      "unknown" : 0,
-      "total" : 5
     }
   }, {
     "uid" : "22d6d4a22b9f164f6118ed53b762e2ec",
