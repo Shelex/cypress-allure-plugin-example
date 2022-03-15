@@ -1,490 +1,490 @@
 [ {
-  "uid" : "59daae375412577d",
-  "name" : "should attach testParameter number 2 to test",
+  "uid" : "691973459823e5f8",
+  "name" : "should log cypress custom command as separate step",
   "time" : {
-    "start" : 1640956678063,
-    "stop" : 1640956678085,
-    "duration" : 22
+    "start" : 1647373320352,
+    "stop" : 1647373320417,
+    "duration" : 65
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "91676827819077b",
-  "name" : "should be able to add test id for allure testops",
+  "uid" : "41d80f708946ab2e",
+  "name" : "should be able to attach file to test by content",
   "time" : {
-    "start" : 1640956690997,
-    "stop" : 1640956691033,
+    "start" : 1647373318192,
+    "stop" : 1647373318228,
     "duration" : 36
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "59fd8577d9af70d4",
-  "name" : "could be started and finished with startStep, endStep",
+  "uid" : "46860fd7c2f8c436",
+  "name" : "should attach testParameter number 2 to test",
   "time" : {
-    "start" : 1640956689056,
-    "stop" : 1640956689103,
-    "duration" : 47
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "85043160494f14ce",
-  "name" : "should attach screenshot automatically",
-  "time" : {
-    "start" : 1640956680105,
-    "stop" : 1640956680587,
-    "duration" : 482
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "72580e3994987f5c",
-  "name" : "should be able to attach file to test by content",
-  "time" : {
-    "start" : 1640956664114,
-    "stop" : 1640956664203,
-    "duration" : 89
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f3f1ec32af2905e9",
-  "name" : "should log before hooks as pre-requisites and each hooks as steps",
-  "time" : {
-    "start" : 1640956673636,
-    "stop" : 1640956673666,
-    "duration" : 30
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "883b57f66c6f427a",
-  "name" : "should be able to add tag",
-  "time" : {
-    "start" : 1640956691113,
-    "stop" : 1640956691139,
-    "duration" : 26
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fb690c504fc8f34c",
-  "name" : "Some scenario with examples (example #3)",
-  "time" : {
-    "start" : 1640956710641,
-    "stop" : 1640956710688,
-    "duration" : 47
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2217b7a32007acd0",
-  "name" : "should attach parameter number 1 to step",
-  "time" : {
-    "start" : 1640956678094,
-    "stop" : 1640956678114,
+    "start" : 1647373330145,
+    "stop" : 1647373330165,
     "duration" : 20
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "920025179ab30516",
-  "name" : "should be skipped",
+  "uid" : "b6e54311071d3faf",
+  "name" : "should be able to add html description",
   "time" : {
-    "start" : 1640956682963,
-    "stop" : 1640956682965,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "3ceed78618cfd9ef",
-  "name" : "should be able to add markdown description",
-  "time" : {
-    "start" : 1640956691142,
-    "stop" : 1640956691161,
-    "duration" : 19
+    "start" : 1647373341833,
+    "stop" : 1647373341885,
+    "duration" : 52
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "470771198e013718",
-  "name" : "should be configurable by allureLogCypress env variable",
-  "time" : {
-    "start" : 1640956666506,
-    "stop" : 1640956666573,
-    "duration" : 67
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c68714ea06ae3434",
-  "name" : "should be able to add label",
-  "time" : {
-    "start" : 1640956690942,
-    "stop" : 1640956690990,
-    "duration" : 48
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2fb987a74731c9d5",
-  "name" : "should be able to add link to issue tracker",
-  "time" : {
-    "start" : 1640956675869,
-    "stop" : 1640956675915,
-    "duration" : 46
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dae426ef4783d9c0",
-  "name" : "should be configurable with prefix env variables",
-  "time" : {
-    "start" : 1640956675649,
-    "stop" : 1640956675778,
-    "duration" : 129
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2674802e4189b0b6",
+  "uid" : "36a792bb14e4621",
   "name" : "Will attach links for each example separately (example #1)",
   "time" : {
-    "start" : 1640956710741,
-    "stop" : 1640956710756,
+    "start" : 1647373359175,
+    "stop" : 1647373359210,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a246c26a18335a06",
+  "name" : "\"Set in test\", \"Using commands\"",
+  "time" : {
+    "start" : 1647373343557,
+    "stop" : 1647373343586,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc7e502007b89a5a",
+  "name" : "Some scenario with examples (example #1)",
+  "time" : {
+    "start" : 1647373354795,
+    "stop" : 1647373354828,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1616603e7c43113",
+  "name" : "\"Label storage\", \"Set in beforeEach\"",
+  "time" : {
+    "start" : 1647373343590,
+    "stop" : 1647373343605,
     "duration" : 15
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "63fef856283c9b2",
-  "name" : "should accept * character as pattern in tmsPrefix configuration",
+  "uid" : "80adf09e5f48faad",
+  "name" : "should be able to attach existing file to test by path",
   "time" : {
-    "start" : 1640956675824,
-    "stop" : 1640956675858,
-    "duration" : 34
+    "start" : 1647373318232,
+    "stop" : 1647373318267,
+    "duration" : 35
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "70a174300b3e1f6b",
-  "name" : "Some scenario with examples (example #4)",
+  "uid" : "226790a147abf369",
+  "name" : "should be able to add severity",
   "time" : {
-    "start" : 1640956710692,
-    "stop" : 1640956710737,
-    "duration" : 45
+    "start" : 1647373341721,
+    "stop" : 1647373341734,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b7f1b78a04d813c4",
+  "name" : "should be able to add link to issue tracker",
+  "time" : {
+    "start" : 1647373328441,
+    "stop" : 1647373328474,
+    "duration" : 33
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ef3598acfc18e2f",
+  "uid" : "34a9b496aa3a684b",
+  "name" : "Some scenario with examples (example #3)",
+  "time" : {
+    "start" : 1647373359082,
+    "stop" : 1647373359117,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ff1e96485bde229",
+  "name" : "should be passed",
+  "time" : {
+    "start" : 1647373334111,
+    "stop" : 1647373334144,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94c2fdf75f1bd1a4",
+  "name" : "should attach parameter number 2 to step",
+  "time" : {
+    "start" : 1647373330195,
+    "stop" : 1647373330213,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95d508e616ad67ce",
   "name" : "should overwrite Environment info",
   "time" : {
-    "start" : 1640956669887,
-    "stop" : 1640956669932,
-    "duration" : 45
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7f705cef62e71004",
-  "name" : "should attach testParameter number 1 to test",
-  "time" : {
-    "start" : 1640956678008,
-    "stop" : 1640956678051,
-    "duration" : 43
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dad76bc74caa9f1c",
-  "name" : "Will attach links for each example separately (example #2)",
-  "time" : {
-    "start" : 1640956710778,
-    "stop" : 1640956710838,
-    "duration" : 60
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2d3fd7cbbcd4dfde",
-  "name" : "\"Label storage\", \"Set in test\"",
-  "time" : {
-    "start" : 1640956693058,
-    "stop" : 1640956693085,
+    "start" : 1647373323472,
+    "stop" : 1647373323499,
     "duration" : 27
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "aac16150d4809b42",
-  "name" : "Some scenario with examples (example #1)",
+  "uid" : "ed31e28fac235408",
+  "name" : "could be started for current executable with log step, or step(name,false) and finish automatically",
   "time" : {
-    "start" : 1640956706303,
-    "stop" : 1640956706359,
-    "duration" : 56
+    "start" : 1647373340037,
+    "stop" : 1647373340054,
+    "duration" : 17
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e2007d3ac757ddf3",
+  "uid" : "7a1391440219db8a",
+  "name" : "could be started and finished with startStep, endStep",
+  "time" : {
+    "start" : 1647373339949,
+    "stop" : 1647373339986,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4552da17d0301bd0",
+  "name" : "should be able to add label",
+  "time" : {
+    "start" : 1647373341640,
+    "stop" : 1647373341673,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5f725d5531989c6",
+  "name" : "should attach screenshot automatically",
+  "time" : {
+    "start" : 1647373331843,
+    "stop" : 1647373332200,
+    "duration" : 357
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4d48adf81c8af80",
+  "name" : "should attach screenshot diff",
+  "time" : {
+    "start" : 1647373332509,
+    "stop" : 1647373332527,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea00c65cfe32e834",
+  "name" : "should be able to attach file to executable by content",
+  "time" : {
+    "start" : 1647373318107,
+    "stop" : 1647373318189,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55ecaf13efee9f4e",
+  "name" : "should be able to add test id for allure testops",
+  "time" : {
+    "start" : 1647373341677,
+    "stop" : 1647373341694,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff972e988f29b806",
+  "name" : "should be skipped",
+  "time" : {
+    "start" : 1647373334151,
+    "stop" : 1647373334153,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "792f2dffa1df4afb",
+  "name" : "should accept * character as pattern in tmsPrefix configuration",
+  "time" : {
+    "start" : 1647373328411,
+    "stop" : 1647373328427,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53bab1811fec26e7",
+  "name" : "should add Environment info",
+  "time" : {
+    "start" : 1647373323433,
+    "stop" : 1647373323460,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a0ec376a617b76b",
+  "name" : "should be configurable by allureLogCypress env variable",
+  "time" : {
+    "start" : 1647373320194,
+    "stop" : 1647373320267,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db374119b73071ed",
+  "name" : "should attach cy.request data with allureLogCypress and allureAttachRequests env vars",
+  "time" : {
+    "start" : 1647373320430,
+    "stop" : 1647373321850,
+    "duration" : 1420
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d045002b064f8b3",
+  "name" : "should attach parameter number 1 to step",
+  "time" : {
+    "start" : 1647373330173,
+    "stop" : 1647373330190,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd5c9b85cf9aae02",
   "name" : "should log cypress commands as steps when allureLogCypress is enabled",
   "time" : {
-    "start" : 1640956666589,
-    "stop" : 1640956666650,
-    "duration" : 61
+    "start" : 1647373320284,
+    "stop" : 1647373320339,
+    "duration" : 55
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e4da323577641939",
-  "name" : "should not log cypress commands when allureLogCypress is disabled",
-  "time" : {
-    "start" : 1640956667890,
-    "stop" : 1640956667951,
-    "duration" : 61
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5b69c42fb8af4b3c",
+  "uid" : "5e2ebbef43fde177",
   "name" : "Some scenario with examples (example #2)",
   "time" : {
-    "start" : 1640956706395,
-    "stop" : 1640956710586,
-    "duration" : 4191
+    "start" : 1647373354846,
+    "stop" : 1647373359039,
+    "duration" : 4193
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "34c42f91ec06ac39",
-  "name" : "should be able to attach file to executable by content",
+  "uid" : "2e7d47d2edba795",
+  "name" : "should be configurable with prefix env variables",
   "time" : {
-    "start" : 1640956663980,
-    "stop" : 1640956664088,
-    "duration" : 108
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7fcda4f588bac1a2",
-  "name" : "should attach cy.request data with allureLogCypress and allureAttachRequests env vars",
-  "time" : {
-    "start" : 1640956666727,
-    "stop" : 1640956667873,
-    "duration" : 1146
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bef0f6ca7f5da30b",
-  "name" : "Allure labels",
-  "time" : {
-    "start" : 1640956706263,
-    "stop" : 1640956706294,
-    "duration" : 31
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "914dbdd01de4e474",
-  "name" : "should be passed",
-  "time" : {
-    "start" : 1640956682885,
-    "stop" : 1640956682931,
-    "duration" : 46
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d2431f008a741292",
-  "name" : "should write executors.json file",
-  "time" : {
-    "start" : 1640956671787,
-    "stop" : 1640956671823,
-    "duration" : 36
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "38258f66bb6f16ed",
-  "name" : "should be able to add link to test management system",
-  "time" : {
-    "start" : 1640956675789,
-    "stop" : 1640956675813,
-    "duration" : 24
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a97a40dee10b4c19",
-  "name" : "could be started for current executable with log step, or step(name,false) and finish automatically",
-  "time" : {
-    "start" : 1640956689144,
-    "stop" : 1640956689172,
-    "duration" : 28
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b88082c8112f0f59",
-  "name" : "\"Set in test\", \"Using commands\"",
-  "time" : {
-    "start" : 1640956692987,
-    "stop" : 1640956693006,
-    "duration" : 19
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dc43798b02e5d035",
-  "name" : "should be able to add severity",
-  "time" : {
-    "start" : 1640956691090,
-    "stop" : 1640956691109,
-    "duration" : 19
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "4f274a80e99eb68b",
-  "name" : "should be able to add owner",
-  "time" : {
-    "start" : 1640956691048,
-    "stop" : 1640956691078,
+    "start" : 1647373328346,
+    "stop" : 1647373328376,
     "duration" : 30
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9a4ca8dccdeb94a9",
-  "name" : "should be able to add html description",
+  "uid" : "b389f1aca9034c2c",
+  "name" : "should write executors.json file",
   "time" : {
-    "start" : 1640956691170,
-    "stop" : 1640956691182,
-    "duration" : 12
+    "start" : 1647373325104,
+    "stop" : 1647373325160,
+    "duration" : 56
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "adab42c3bc3e08a0",
-  "name" : "should attach screenshot with custom name",
-  "time" : {
-    "start" : 1640956680608,
-    "stop" : 1640956681007,
-    "duration" : 399
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "60fdaf9f7a233b41",
-  "name" : "should add Environment info",
-  "time" : {
-    "start" : 1640956669841,
-    "stop" : 1640956669872,
-    "duration" : 31
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "81b2f924bebf0443",
+  "uid" : "f0d713ce11296fb6",
   "name" : "could be started for current test with step and finished automatically",
   "time" : {
-    "start" : 1640956689120,
-    "stop" : 1640956689142,
-    "duration" : 22
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b9e7b1fe60f1b61a",
-  "name" : "Allure gherkin suite structure",
-  "time" : {
-    "start" : 1640956706215,
-    "stop" : 1640956706251,
-    "duration" : 36
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "941d6128a65c2da2",
-  "name" : "should be failed",
-  "time" : {
-    "start" : 1640956682965,
-    "stop" : 1640956687173,
-    "duration" : 4208
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "aa24e8b2a604da64",
-  "name" : "\"Label storage\", \"Set in beforeEach\"",
-  "time" : {
-    "start" : 1640956693012,
-    "stop" : 1640956693054,
-    "duration" : 42
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4c8705420547a88e",
-  "name" : "should attach screenshot diff",
-  "time" : {
-    "start" : 1640956681015,
-    "stop" : 1640956681046,
-    "duration" : 31
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4cbcdcbca56a941c",
-  "name" : "should be able to add link other external system",
-  "time" : {
-    "start" : 1640956675940,
-    "stop" : 1640956675990,
-    "duration" : 50
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b0ce3bcfa1f13894",
-  "name" : "should attach parameter number 2 to step",
-  "time" : {
-    "start" : 1640956678119,
-    "stop" : 1640956678141,
-    "duration" : 22
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "df40a71ab52604de",
-  "name" : "should log cypress custom command as separate step",
-  "time" : {
-    "start" : 1640956666662,
-    "stop" : 1640956666712,
-    "duration" : 50
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "423cd519dd6b66b0",
-  "name" : "\"Tests structure\", \"behaviors\", \"labels\"",
-  "time" : {
-    "start" : 1640956692941,
-    "stop" : 1640956692980,
+    "start" : 1647373339992,
+    "stop" : 1647373340031,
     "duration" : 39
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9a1a315edec66519",
-  "name" : "should be able to attach existing file to test by path",
+  "uid" : "66d44959fc7d5be6",
+  "name" : "should be able to add link to test management system",
   "time" : {
-    "start" : 1640956664205,
-    "stop" : 1640956664277,
-    "duration" : 72
+    "start" : 1647373328384,
+    "stop" : 1647373328407,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fad3511509bb659",
+  "name" : "should not log cypress commands when allureLogCypress is disabled",
+  "time" : {
+    "start" : 1647373321854,
+    "stop" : 1647373321875,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe469bbcb35808ac",
+  "name" : "Allure gherkin suite structure",
+  "time" : {
+    "start" : 1647373354716,
+    "stop" : 1647373354740,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd42c7099f80e7d9",
+  "name" : "\"Tests structure\", \"behaviors\", \"labels\"",
+  "time" : {
+    "start" : 1647373343508,
+    "stop" : 1647373343548,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6886fe89b84c7c89",
+  "name" : "should be able to add owner",
+  "time" : {
+    "start" : 1647373341699,
+    "stop" : 1647373341708,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c6d5f2ab273c2f5",
+  "name" : "should attach screenshot with custom name",
+  "time" : {
+    "start" : 1647373332208,
+    "stop" : 1647373332503,
+    "duration" : 295
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2aa4b9e4e0cc1ed0",
+  "name" : "should be able to add markdown description",
+  "time" : {
+    "start" : 1647373341796,
+    "stop" : 1647373341831,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b9b28a969d7cb70",
+  "name" : "should attach testParameter number 1 to test",
+  "time" : {
+    "start" : 1647373330097,
+    "stop" : 1647373330138,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "160274760cdfc2a2",
+  "name" : "Allure labels",
+  "time" : {
+    "start" : 1647373354755,
+    "stop" : 1647373354783,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "37be2d72ed04b6b3",
+  "name" : "should log before hooks as pre-requisites and each hooks as steps",
+  "time" : {
+    "start" : 1647373326727,
+    "stop" : 1647373326746,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "975be12be332f378",
+  "name" : "Some scenario with examples (example #4)",
+  "time" : {
+    "start" : 1647373359120,
+    "stop" : 1647373359155,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4b399dd539462d2",
+  "name" : "\"Label storage\", \"Set in test\"",
+  "time" : {
+    "start" : 1647373343610,
+    "stop" : 1647373343644,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30c704c3316d9ce7",
+  "name" : "should be failed",
+  "time" : {
+    "start" : 1647373334153,
+    "stop" : 1647373338316,
+    "duration" : 4163
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e342ccf1d82df90",
+  "name" : "should be able to add tag",
+  "time" : {
+    "start" : 1647373341751,
+    "stop" : 1647373341785,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "434bb69ba8c2a791",
+  "name" : "should be able to add link other external system",
+  "time" : {
+    "start" : 1647373328480,
+    "stop" : 1647373328507,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76d5ff0c326610f2",
+  "name" : "Will attach links for each example separately (example #2)",
+  "time" : {
+    "start" : 1647373359213,
+    "stop" : 1647373359265,
+    "duration" : 52
   },
   "status" : "passed",
   "severity" : "normal"
