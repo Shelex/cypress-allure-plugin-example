@@ -1,5 +1,7 @@
 # Cypress Allure Plugin Usage Example
 
+[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine/)
+
 This project demonstrates how to use [cypress-allure-plugin](https://github.com/Shelex/cypress-allure-plugin).
 
 ## Pre-requisite
