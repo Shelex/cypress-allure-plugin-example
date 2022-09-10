@@ -1,17 +1,6 @@
 {
   "total" : 42,
   "items" : [ {
-    "uid" : "e19c48b4e43a091c5ac0a2c7e9f68691",
-    "name" : "Behaviours epic",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "d9b77997f4ca6170267b7b13294679d3",
     "name" : "Tests structure",
     "statistic" : {

@@ -1,0 +1,36 @@
+{
+  "uid" : "4f5782d486764068",
+  "name" : "should add Environment info",
+  "fullName" : "should add Environment info",
+  "historyId" : "3053fe80ae19aa4e2e625788ee1f1cd2",
+  "time" : {
+    "start" : 1662776179948,
+    "stop" : 1662776179974,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure Environment info"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "initial environment info",
+    "value" : "{\n  \"magicNumber\": 42,\n  \"examples\": true\n}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f5782d486764068.json",
+  "parameterValues" : [ "{\n  \"magicNumber\": 42,\n  \"examples\": true\n}" ]
+}

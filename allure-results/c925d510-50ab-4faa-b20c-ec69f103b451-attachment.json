@@ -1,0 +1,11 @@
+{
+  "errors": [
+    {
+      "message": "access denied",
+      "path": [
+        "projects"
+      ]
+    }
+  ],
+  "data": null
+}

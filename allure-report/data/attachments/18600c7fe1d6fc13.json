@@ -1,9 +1,0 @@
-{
-  "Connection": "keep-alive",
-  "Authorization": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGV4YW1wbGUuY29tIiwiZW50aXR5IjoiY2J5Y1hVQ2Z1NUlMT2huakx3QjVhIiwiZXhwIjoxNjkxNjcwNjY0LCJpZCI6ImxzdVZuXzFlV2w2eVZoWGFGSmJWNiJ9.QxminleFMiku5YLOEqlVKPirL3uf7zr3D_XnCCOWVm1k17oBflN-AUMzFFhV4evJKT9sJioI1X-3epyhXA4UuIO-OPaLXDq4xXteiQgTt9zyO4yUuGyc35HKiOJskBAXpnZzuYqI_JGsv6AIUVlaibB6MQaOAjjyrfEU99Umnr8",
-  "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36",
-  "accept": "*/*",
-  "accept-encoding": "gzip, deflate",
-  "content-type": "application/json",
-  "content-length": 30
-}

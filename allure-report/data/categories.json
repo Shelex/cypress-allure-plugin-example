@@ -6,13 +6,13 @@
       "name" : "Timed out retrying after 4000ms: expected true to equal false",
       "children" : [ {
         "name" : "should be failed",
-        "uid" : "30c704c3316d9ce7",
+        "uid" : "4a1b7438a4ef8e18",
         "parentUid" : "dbf7b3a653cc3263c669a04df1239913",
         "status" : "failed",
         "time" : {
-          "start" : 1647373334153,
-          "stop" : 1647373338316,
-          "duration" : 4163
+          "start" : 1662776225996,
+          "stop" : 1662776230118,
+          "duration" : 4122
         },
         "flaky" : false,
         "newFailed" : false,
@@ -20,22 +20,22 @@
       } ],
       "uid" : "dbf7b3a653cc3263c669a04df1239913"
     }, {
-      "name" : "Timed out retrying after 4000ms: expected 4 to equal 5",
+      "name" : "The following error originated from your test code, not from Cypress.\n\n  > Given is not defined\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
       "children" : [ {
-        "name" : "Some scenario with examples (example #2)",
-        "uid" : "5e2ebbef43fde177",
-        "parentUid" : "f0cff20cc4618e0c10ee5c8755153371",
+        "name" : "An uncaught error was detected outside of a test",
+        "uid" : "c9cea5e97a315c10",
+        "parentUid" : "cbecb1d42d32817e1f2a4058c6ec4fb4",
         "status" : "failed",
         "time" : {
-          "start" : 1647373354846,
-          "stop" : 1647373359039,
-          "duration" : 4193
+          "start" : 1662776237426,
+          "stop" : 1662776237582,
+          "duration" : 156
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f0cff20cc4618e0c10ee5c8755153371"
+      "uid" : "cbecb1d42d32817e1f2a4058c6ec4fb4"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
