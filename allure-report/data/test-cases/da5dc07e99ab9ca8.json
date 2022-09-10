@@ -1,0 +1,36 @@
+{
+  "uid" : "da5dc07e99ab9ca8",
+  "name" : "should be able to add severity",
+  "fullName" : "should be able to add severity",
+  "historyId" : "c6bb3730f23de48b04fc19a51b7f9452",
+  "time" : {
+    "start" : 1662777854485,
+    "stop" : 1662777854502,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure labels"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da5dc07e99ab9ca8.json",
+  "parameterValues" : [ ]
+}

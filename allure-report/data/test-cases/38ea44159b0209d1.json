@@ -1,0 +1,79 @@
+{
+  "uid" : "38ea44159b0209d1",
+  "name" : "should be able to attach file to test by content",
+  "fullName" : "should be able to attach file to test by content",
+  "historyId" : "cfa0b798b6aa16e99a07ef39d67addbd",
+  "time" : {
+    "start" : 1662777828672,
+    "stop" : 1662777828702,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "attachment should be outside of this step",
+      "time" : {
+        "start" : 1662777828700,
+        "stop" : 1662777828702,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"example\")",
+        "time" : {
+          "start" : 1662777828701,
+          "stop" : 1662777828701,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1549b51f38b425f",
+      "name" : "example",
+      "source" : "1549b51f38b425f.json",
+      "type" : "application/json",
+      "size" : 22
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure attachments"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38ea44159b0209d1.json",
+  "parameterValues" : [ ]
+}

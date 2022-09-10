@@ -6,12 +6,12 @@
       "name" : "Oops...we found an error preparing this test file:\n\n  > cypress/e2e/examples/crashed.cy.js\n\n",
       "children" : [ {
         "name" : "Oops...we found an error preparing this test file: cypress/e2e/examples/crashed.cy.js",
-        "uid" : "70fe5b14132091b1",
+        "uid" : "bb066565d5c856d6",
         "parentUid" : "a9f1ac62274ca1de50f525b9450dd606",
         "status" : "broken",
         "time" : {
-          "start" : 1662777412258,
-          "stop" : 1662777412258,
+          "start" : 1662777830234,
+          "stop" : 1662777830234,
           "duration" : 0
         },
         "flaky" : false,
@@ -19,12 +19,12 @@
         "parameters" : [ ]
       }, {
         "name" : "Oops...we found an error preparing this test file: cypress/e2e/examples/crashed.cy.js",
-        "uid" : "2612e1c924b7501d",
+        "uid" : "8e2c7a23b0d52913",
         "parentUid" : "a9f1ac62274ca1de50f525b9450dd606",
         "status" : "broken",
         "time" : {
-          "start" : 1662777447656,
-          "stop" : 1662777447656,
+          "start" : 1662777865074,
+          "stop" : 1662777865074,
           "duration" : 0
         },
         "flaky" : false,
@@ -40,13 +40,13 @@
       "name" : "Timed out retrying after 4000ms: expected true to equal false",
       "children" : [ {
         "name" : "should be failed",
-        "uid" : "1081b8f7d7326e04",
+        "uid" : "f13c589aeb3e5c12",
         "parentUid" : "dbf7b3a653cc3263c669a04df1239913",
         "status" : "failed",
         "time" : {
-          "start" : 1662777462354,
-          "stop" : 1662777466468,
-          "duration" : 4114
+          "start" : 1662777880144,
+          "stop" : 1662777884250,
+          "duration" : 4106
         },
         "flaky" : false,
         "newFailed" : false,
@@ -57,13 +57,13 @@
       "name" : "The following error originated from your test code, not from Cypress.\n\n  > Expected to find a global registry (this usually means you are trying to define steps or hooks in support/e2e.js, which is not supported) (this might be a bug, please report at https://github.com/badeball/cypress-cucumber-preprocessor)\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
       "children" : [ {
         "name" : "An uncaught error was detected outside of a test",
-        "uid" : "625406222a6bf85d",
+        "uid" : "8904cc2d1ed62861",
         "parentUid" : "7be34d3fab0658dd8a002b0fb843a5d3",
         "status" : "failed",
         "time" : {
-          "start" : 1662777474378,
-          "stop" : 1662777474501,
-          "duration" : 123
+          "start" : 1662777892030,
+          "stop" : 1662777892166,
+          "duration" : 136
         },
         "flaky" : false,
         "newFailed" : false,

@@ -1,0 +1,64 @@
+{
+  "uid" : "100c4aeebd56798d",
+  "name" : "should attach screenshot diff",
+  "fullName" : "should attach screenshot diff",
+  "historyId" : "526c529f31a2a99e8d3d26ea92f91bb6",
+  "time" : {
+    "start" : 1662777844853,
+    "stop" : 1662777844874,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4d56ce5255643e6d",
+      "name" : "actual",
+      "source" : "4d56ce5255643e6d.png",
+      "type" : "image/png",
+      "size" : 65749
+    }, {
+      "uid" : "570545d87927b93",
+      "name" : "expected",
+      "source" : "570545d87927b93.png",
+      "type" : "image/png",
+      "size" : 99638
+    }, {
+      "uid" : "6aca22ffbbde5bcd",
+      "name" : "diff",
+      "source" : "6aca22ffbbde5bcd.png",
+      "type" : "image/png",
+      "size" : 56716
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure screenshots"
+  }, {
+    "name" : "testType",
+    "value" : "screenshotDiff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "100c4aeebd56798d.json",
+  "parameterValues" : [ ]
+}

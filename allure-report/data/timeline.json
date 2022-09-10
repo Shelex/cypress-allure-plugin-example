@@ -1,273 +1,416 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "should be able to add severity",
-    "uid" : "2eaf47164979b55b",
+    "name" : "should attach parameter number 2 to step",
+    "uid" : "dd3e4707edee3bb1",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777470025,
-      "stop" : 1662777470037,
-      "duration" : 12
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be able to add link to issue tracker",
-    "uid" : "50138f41637c95b1",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777421942,
-      "stop" : 1662777421956,
-      "duration" : 14
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should attach screenshot automatically",
-    "uid" : "9aee6faa0f2d08b1",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777425396,
-      "stop" : 1662777425752,
-      "duration" : 356
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should write executors.json file",
-    "uid" : "be935615a41a97bf",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777453265,
-      "stop" : 1662777453292,
-      "duration" : 27
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be configurable with prefix env variables",
-    "uid" : "288cdfab133f7fbd",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777421876,
-      "stop" : 1662777421902,
-      "duration" : 26
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be able to add owner",
-    "uid" : "a22ab7b3050404c0",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777436452,
-      "stop" : 1662777436470,
-      "duration" : 18
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should accept * character as pattern in tmsPrefix configuration",
-    "uid" : "31427b2cea00622e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777421923,
-      "stop" : 1662777421939,
-      "duration" : 16
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should attach screenshot with custom name",
-    "uid" : "b3e5eaf5c78e1a99",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777460407,
-      "stop" : 1662777460702,
-      "duration" : 295
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be able to attach file to test by content",
-    "uid" : "f3d35090791e373",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777410701,
-      "stop" : 1662777410722,
+      "start" : 1662777842107,
+      "stop" : 1662777842128,
       "duration" : 21
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "should be passed",
-    "uid" : "5c97702dd5915c08",
+    "name" : "should attach screenshot diff",
+    "uid" : "100c4aeebd56798d",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777462315,
-      "stop" : 1662777462348,
-      "duration" : 33
+      "start" : 1662777844853,
+      "stop" : 1662777844874,
+      "duration" : 21
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "should be able to add link to test management system",
-    "uid" : "93b7f260314f6bb7",
+    "name" : "should overwrite Environment info",
+    "uid" : "9419408987440152",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777421905,
-      "stop" : 1662777421918,
+      "start" : 1662777869063,
+      "stop" : 1662777869076,
       "duration" : 13
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ ]
+    "parameters" : [ "{\n  \"cypress-allure-plugin\": \"https://github.com/Shelex/cypress-allure-plugin\",\n  \"magicNumber\": 42\n}" ]
   }, {
-    "name" : "should be able to add html description",
-    "uid" : "79eeb9f8e1b1d4f6",
+    "name" : "should be able to attach existing file to test by path",
+    "uid" : "b707b4c286fd01a1",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777436517,
-      "stop" : 1662777436530,
-      "duration" : 13
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be able to add tag",
-    "uid" : "7265b4639674f731",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777470039,
-      "stop" : 1662777470050,
-      "duration" : 11
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Oops...we found an error preparing this test file: cypress/e2e/examples/crashed.cy.js",
-    "uid" : "2612e1c924b7501d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
-    "time" : {
-      "start" : 1662777447656,
-      "stop" : 1662777447656,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should add Environment info",
-    "uid" : "fb282f53f5f8ae76",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777416552,
-      "stop" : 1662777416588,
-      "duration" : 36
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "{\n  \"magicNumber\": 42,\n  \"examples\": true\n}" ]
-  }, {
-    "name" : "should be able to add label",
-    "uid" : "7970aa9568bf6534",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777436406,
-      "stop" : 1662777436431,
-      "duration" : 25
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be able to add markdown description",
-    "uid" : "5a7190d815f2347",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777470053,
-      "stop" : 1662777470061,
-      "duration" : 8
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be failed",
-    "uid" : "1081b8f7d7326e04",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1662777462354,
-      "stop" : 1662777466468,
-      "duration" : 4114
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should attach testParameter number 2 to test",
-    "uid" : "d59737731ca1f21f",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777458417,
-      "stop" : 1662777458428,
-      "duration" : 11
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "world", "2" ]
-  }, {
-    "name" : "should be able to add test id for allure testops",
-    "uid" : "4102c95c7c8628d9",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777436435,
-      "stop" : 1662777436449,
-      "duration" : 14
+      "start" : 1662777828706,
+      "stop" : 1662777828725,
+      "duration" : 19
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "could be started for current executable with log step, or step(name,false) and finish automatically",
-    "uid" : "935514bd5849d7a9",
+    "uid" : "509878880f444be",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777468251,
-      "stop" : 1662777468263,
+      "start" : 1662777886062,
+      "stop" : 1662777886073,
+      "duration" : 11
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to add tag",
+    "uid" : "63563f723bdaeb97",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777854505,
+      "stop" : 1662777854522,
+      "duration" : 17
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should attach parameter number 1 to step",
+    "uid" : "f5f41b8a2c335682",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777842080,
+      "stop" : 1662777842102,
+      "duration" : 22
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should log cypress custom command as separate step",
+    "uid" : "fe1053d5724cc3cc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777832049,
+      "stop" : 1662777832076,
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to add markdown description",
+    "uid" : "61ac57cb0662c2a1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777887823,
+      "stop" : 1662777887839,
+      "duration" : 16
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be skipped",
+    "uid" : "3d52a79c1b2df945",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1662777880142,
+      "stop" : 1662777880144,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should add Environment info",
+    "uid" : "89de8f115efb19ee",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777834354,
+      "stop" : 1662777834388,
+      "duration" : 34
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{\n  \"magicNumber\": 42,\n  \"examples\": true\n}" ]
+  }, {
+    "name" : "should attach cy.request data with allureLogCypress and allureAttachRequests env vars",
+    "uid" : "75d16a6e4d2817a0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777866869,
+      "stop" : 1662777867318,
+      "duration" : 449
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to add link to test management system",
+    "uid" : "608852805d648b29",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777874245,
+      "stop" : 1662777874258,
+      "duration" : 13
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Oops...we found an error preparing this test file: cypress/e2e/examples/crashed.cy.js",
+    "uid" : "8e2c7a23b0d52913",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1662777865074,
+      "stop" : 1662777865074,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should accept * character as pattern in tmsPrefix configuration",
+    "uid" : "960bc3288674ab9a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777840039,
+      "stop" : 1662777840057,
+      "duration" : 18
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should attach testParameter number 2 to test",
+    "uid" : "abe7220c40eb17b8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777842057,
+      "stop" : 1662777842075,
+      "duration" : 18
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "world", "2" ]
+  }, {
+    "name" : "should be passed",
+    "uid" : "18d374aa8f831870",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777880107,
+      "stop" : 1662777880138,
+      "duration" : 31
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to attach file to test by content",
+    "uid" : "38ea44159b0209d1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777828672,
+      "stop" : 1662777828702,
+      "duration" : 30
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to add link to issue tracker",
+    "uid" : "550eb9ebc5a3966",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777840061,
+      "stop" : 1662777840080,
+      "duration" : 19
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should write executors.json file",
+    "uid" : "86b70cd8a7b54a07",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777836141,
+      "stop" : 1662777836172,
+      "duration" : 31
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to add html description",
+    "uid" : "ced610ada56c0876",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777887840,
+      "stop" : 1662777887850,
+      "duration" : 10
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should log before hooks as pre-requisites and each hooks as steps",
+    "uid" : "7dd1c86fc1823f1f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777837972,
+      "stop" : 1662777837995,
+      "duration" : 23
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should attach testParameter number 1 to test",
+    "uid" : "fe6e07ab52d6f966",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777875969,
+      "stop" : 1662777875993,
+      "duration" : 24
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "hello", "1" ]
+  }, {
+    "name" : "should be able to add label",
+    "uid" : "9942c68e2fb402d9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777854417,
+      "stop" : 1662777854444,
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be configurable by allureLogCypress env variable",
+    "uid" : "9d5ae18d47b299fe",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777831990,
+      "stop" : 1662777832010,
+      "duration" : 20
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should accept * character as pattern in tmsPrefix configuration",
+    "uid" : "14a778673894ed77",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777874260,
+      "stop" : 1662777874271,
+      "duration" : 11
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to add markdown description",
+    "uid" : "100ef09c08ee376b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777854524,
+      "stop" : 1662777854542,
+      "duration" : 18
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should not log cypress commands when allureLogCypress is disabled",
+    "uid" : "3d176faed5aa34be",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777867321,
+      "stop" : 1662777867333,
+      "duration" : 12
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Oops...we found an error preparing this test file: cypress/e2e/examples/crashed.cy.js",
+    "uid" : "bb066565d5c856d6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1662777830234,
+      "stop" : 1662777830234,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "\"Label storage\", \"Set in test\"",
+    "uid" : "8ebc29ffd6b3ce8a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777856455,
+      "stop" : 1662777856468,
+      "duration" : 13
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should not log cypress commands when allureLogCypress is disabled",
+    "uid" : "9151a3fae9213f32",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777832587,
+      "stop" : 1662777832609,
+      "duration" : 22
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "\"Label storage\", \"Set in test\"",
+    "uid" : "60b1df7b8a79a787",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777889576,
+      "stop" : 1662777889588,
       "duration" : 12
     },
     "flaky" : false,
@@ -275,116 +418,25 @@
     "parameters" : [ ]
   }, {
     "name" : "\"Label storage\", \"Set in beforeEach\"",
-    "uid" : "64955a0d05cbe97d",
+    "uid" : "3efb443cf19b964f",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777471843,
-      "stop" : 1662777471853,
-      "duration" : 10
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should overwrite Environment info",
-    "uid" : "7770b77564573a4a",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777451594,
-      "stop" : 1662777451605,
-      "duration" : 11
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "{\n  \"cypress-allure-plugin\": \"https://github.com/Shelex/cypress-allure-plugin\",\n  \"magicNumber\": 42\n}" ]
-  }, {
-    "name" : "should be able to add severity",
-    "uid" : "91bda826ed35eb30",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777436473,
-      "stop" : 1662777436483,
-      "duration" : 10
+      "start" : 1662777856434,
+      "stop" : 1662777856452,
+      "duration" : 18
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "\"Tests structure\", \"behaviors\", \"labels\"",
-    "uid" : "e9e7f2f931e689a2",
+    "uid" : "ef7cb1cd6b93434d",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777471799,
-      "stop" : 1662777471822,
-      "duration" : 23
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should attach parameter number 1 to step",
-    "uid" : "70d2cf62cf428b45",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777458430,
-      "stop" : 1662777458439,
-      "duration" : 9
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should attach testParameter number 1 to test",
-    "uid" : "c77efbc495a0699f",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777423670,
-      "stop" : 1662777423696,
-      "duration" : 26
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "hello", "1" ]
-  }, {
-    "name" : "could be started and finished with startStep, endStep",
-    "uid" : "c8e1b653e78427a",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777434648,
-      "stop" : 1662777434686,
-      "duration" : 38
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be able to add link to issue tracker",
-    "uid" : "faee8076d332d3cb",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777456690,
-      "stop" : 1662777456699,
-      "duration" : 9
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should log cypress commands as steps when allureLogCypress is enabled",
-    "uid" : "bca005c1baaedeb3",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777449380,
-      "stop" : 1662777449405,
+      "start" : 1662777889517,
+      "stop" : 1662777889542,
       "duration" : 25
     },
     "flaky" : false,
@@ -392,272 +444,194 @@
     "parameters" : [ ]
   }, {
     "name" : "should attach screenshot with custom name",
-    "uid" : "d064cd7de54893fd",
+    "uid" : "a9b82e5f8ca82510",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777425763,
-      "stop" : 1662777426109,
-      "duration" : 346
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should add Environment info",
-    "uid" : "9610a45c2122394",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777451564,
-      "stop" : 1662777451590,
-      "duration" : 26
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "{\n  \"magicNumber\": 42,\n  \"examples\": true\n}" ]
-  }, {
-    "name" : "should be able to attach existing file to test by path",
-    "uid" : "bc1d7a7b38102749",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777446266,
-      "stop" : 1662777446275,
-      "duration" : 9
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should log cypress commands as steps when allureLogCypress is enabled",
-    "uid" : "dc8f2bc1f09c16c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777414086,
-      "stop" : 1662777414114,
-      "duration" : 28
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be skipped",
-    "uid" : "5d29f88abd3198c0",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1662777428056,
-      "stop" : 1662777428058,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "could be started for current test with step and finished automatically",
-    "uid" : "1811073aa8a6e419",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777468237,
-      "stop" : 1662777468249,
-      "duration" : 12
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should attach cy.request data with allureLogCypress and allureAttachRequests env vars",
-    "uid" : "622233682eeb90df",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777414153,
-      "stop" : 1662777414668,
-      "duration" : 515
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be able to add tag",
-    "uid" : "ed57fa2f9367ac80",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777436485,
-      "stop" : 1662777436498,
-      "duration" : 13
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should not log cypress commands when allureLogCypress is disabled",
-    "uid" : "884bed9379c51e0e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777414670,
-      "stop" : 1662777414696,
-      "duration" : 26
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be able to add owner",
-    "uid" : "58d33f2df290b675",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777470014,
-      "stop" : 1662777470023,
-      "duration" : 9
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "An uncaught error was detected outside of a test",
-    "uid" : "625406222a6bf85d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1662777474378,
-      "stop" : 1662777474501,
-      "duration" : 123
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should attach screenshot automatically",
-    "uid" : "aca647300bf4f763",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777460049,
-      "stop" : 1662777460397,
-      "duration" : 348
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be able to attach existing file to test by path",
-    "uid" : "de03ef75b7278101",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777410724,
-      "stop" : 1662777410738,
-      "duration" : 14
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should attach screenshot diff",
-    "uid" : "7c1eec5ea579afac",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777460712,
-      "stop" : 1662777460727,
-      "duration" : 15
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be able to add label",
-    "uid" : "45df15c9022abea7",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777469976,
-      "stop" : 1662777469998,
-      "duration" : 22
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "could be started and finished with startStep, endStep",
-    "uid" : "5bebb70da0b9f951",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777468197,
-      "stop" : 1662777468232,
-      "duration" : 35
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be configurable by allureLogCypress env variable",
-    "uid" : "4c843ba15c774eb6",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777414063,
-      "stop" : 1662777414082,
-      "duration" : 19
+      "start" : 1662777844517,
+      "stop" : 1662777844838,
+      "duration" : 321
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "should log before hooks as pre-requisites and each hooks as steps",
-    "uid" : "c911f178188928c6",
+    "uid" : "99ed128e7fbae27d",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777420055,
-      "stop" : 1662777420078,
-      "duration" : 23
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be configurable with prefix env variables",
-    "uid" : "f3cabb376c0d9549",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777456636,
-      "stop" : 1662777456659,
-      "duration" : 23
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should overwrite Environment info",
-    "uid" : "f656dc8c4c531960",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777416593,
-      "stop" : 1662777416615,
+      "start" : 1662777872501,
+      "stop" : 1662777872523,
       "duration" : 22
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "{\n  \"cypress-allure-plugin\": \"https://github.com/Shelex/cypress-allure-plugin\",\n  \"magicNumber\": 42\n}" ]
+    "parameters" : [ ]
   }, {
-    "name" : "could be started for current executable with log step, or step(name,false) and finish automatically",
-    "uid" : "5b561630da6067af",
+    "name" : "should be able to add test id for allure testops",
+    "uid" : "2bd76748448b3069",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777434709,
-      "stop" : 1662777434726,
+      "start" : 1662777887768,
+      "stop" : 1662777887782,
+      "duration" : 14
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should attach screenshot with custom name",
+    "uid" : "5c91b4fd1ae2ccc5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777878096,
+      "stop" : 1662777878406,
+      "duration" : 310
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should attach cy.request data with allureLogCypress and allureAttachRequests env vars",
+    "uid" : "7d8e578ff24dca04",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777832083,
+      "stop" : 1662777832584,
+      "duration" : 501
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "\"Set in test\", \"Using commands\"",
+    "uid" : "38d5e0791fd4c180",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777856412,
+      "stop" : 1662777856430,
+      "duration" : 18
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to add test id for allure testops",
+    "uid" : "cb0a10bdcd71420c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777854447,
+      "stop" : 1662777854464,
+      "duration" : 17
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should attach parameter number 2 to step",
+    "uid" : "527fe26eac139ad",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777876023,
+      "stop" : 1662777876033,
+      "duration" : 10
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to add link to issue tracker",
+    "uid" : "24c752cf3d6668eb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777874273,
+      "stop" : 1662777874283,
+      "duration" : 10
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "\"Tests structure\", \"behaviors\", \"labels\"",
+    "uid" : "9e87990441cbeb3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777856379,
+      "stop" : 1662777856406,
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to attach file to test by content",
+    "uid" : "70801ec4b3777ddd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777863628,
+      "stop" : 1662777863642,
+      "duration" : 14
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be passed",
+    "uid" : "98889e82cf04da53",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777846713,
+      "stop" : 1662777846745,
+      "duration" : 32
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "could be started for current test with step and finished automatically",
+    "uid" : "51512b4c85ba9231",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777852681,
+      "stop" : 1662777852697,
+      "duration" : 16
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be failed",
+    "uid" : "3fe6bc2f5f1c804d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1662777846754,
+      "stop" : 1662777850886,
+      "duration" : 4132
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to add severity",
+    "uid" : "da5dc07e99ab9ca8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777854485,
+      "stop" : 1662777854502,
       "duration" : 17
     },
     "flaky" : false,
@@ -665,90 +639,181 @@
     "parameters" : [ ]
   }, {
     "name" : "should be able to attach file to executable by content",
-    "uid" : "e439855c50e78852",
+    "uid" : "b8df637fd36d09a5",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777446217,
-      "stop" : 1662777446250,
-      "duration" : 33
+      "start" : 1662777863584,
+      "stop" : 1662777863625,
+      "duration" : 41
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "should log cypress custom command as separate step",
-    "uid" : "44a8b33bf2f83a9c",
+    "name" : "should be able to add severity",
+    "uid" : "d8d14546bccbd7be",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777449407,
-      "stop" : 1662777449430,
-      "duration" : 23
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be able to add markdown description",
-    "uid" : "747dd0485d936369",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777436500,
-      "stop" : 1662777436515,
-      "duration" : 15
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should accept * character as pattern in tmsPrefix configuration",
-    "uid" : "77e0398504cea7b1",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777456678,
-      "stop" : 1662777456688,
-      "duration" : 10
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should not log cypress commands when allureLogCypress is disabled",
-    "uid" : "46b16a9af81ec844",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777449921,
-      "stop" : 1662777449933,
+      "start" : 1662777887796,
+      "stop" : 1662777887808,
       "duration" : 12
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "should be able to attach file to test by content",
-    "uid" : "18e8d209c86ca87d",
+    "name" : "should be able to add link to test management system",
+    "uid" : "a8742985bb62be92",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777446253,
-      "stop" : 1662777446264,
+      "start" : 1662777840015,
+      "stop" : 1662777840035,
+      "duration" : 20
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be configurable with prefix env variables",
+    "uid" : "ef8a0058d4391c2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777839981,
+      "stop" : 1662777840010,
+      "duration" : 29
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should add Environment info",
+    "uid" : "7f4699c6af2e9d86",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777869033,
+      "stop" : 1662777869060,
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{\n  \"magicNumber\": 42,\n  \"examples\": true\n}" ]
+  }, {
+    "name" : "should attach screenshot automatically",
+    "uid" : "fdcd37e0f802541",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777877733,
+      "stop" : 1662777878085,
+      "duration" : 352
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to add tag",
+    "uid" : "4f548bd53cbc2d74",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777887810,
+      "stop" : 1662777887821,
       "duration" : 11
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "should be able to add link other external system",
-    "uid" : "fb8e0d740b9ad6da",
+    "name" : "should be configurable by allureLogCypress env variable",
+    "uid" : "10b9da5653f2c745",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777456701,
-      "stop" : 1662777456715,
+      "start" : 1662777866794,
+      "stop" : 1662777866811,
+      "duration" : 17
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should attach screenshot diff",
+    "uid" : "971dcc5d972ace24",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777878410,
+      "stop" : 1662777878434,
+      "duration" : 24
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "could be started and finished with startStep, endStep",
+    "uid" : "73e193c6a44902ae",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777886000,
+      "stop" : 1662777886043,
+      "duration" : 43
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to add html description",
+    "uid" : "68e300a885b83ad4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777854543,
+      "stop" : 1662777854558,
+      "duration" : 15
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should attach parameter number 1 to step",
+    "uid" : "1e05d78a8b1461a2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777876010,
+      "stop" : 1662777876021,
+      "duration" : 11
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "could be started and finished with startStep, endStep",
+    "uid" : "c0c4c41134bd1afb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777852636,
+      "stop" : 1662777852676,
+      "duration" : 40
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "could be started for current executable with log step, or step(name,false) and finish automatically",
+    "uid" : "fde55f2e4e4d9411",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777852699,
+      "stop" : 1662777852713,
       "duration" : 14
     },
     "flaky" : false,
@@ -756,351 +821,286 @@
     "parameters" : [ ]
   }, {
     "name" : "should attach testParameter number 1 to test",
-    "uid" : "1de968ea7470ab8f",
+    "uid" : "585a31e8023bbc20",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777458384,
-      "stop" : 1662777458413,
-      "duration" : 29
+      "start" : 1662777842025,
+      "stop" : 1662777842052,
+      "duration" : 27
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "hello", "1" ]
   }, {
-    "name" : "should be able to attach file to executable by content",
-    "uid" : "30a4b2eefaaad01",
+    "name" : "should be configurable with prefix env variables",
+    "uid" : "2f67228df38f4f1b",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777410660,
-      "stop" : 1662777410698,
-      "duration" : 38
+      "start" : 1662777874218,
+      "stop" : 1662777874242,
+      "duration" : 24
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "should attach testParameter number 2 to test",
-    "uid" : "460fbe36673dc8a7",
+    "name" : "should be able to attach file to executable by content",
+    "uid" : "216b7f5aae3f6583",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777423699,
-      "stop" : 1662777423712,
+      "start" : 1662777828615,
+      "stop" : 1662777828667,
+      "duration" : 52
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "\"Set in test\", \"Using commands\"",
+    "uid" : "b27d1ddae4974235",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777889546,
+      "stop" : 1662777889559,
       "duration" : 13
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "world", "2" ]
+    "parameters" : [ ]
   }, {
-    "name" : "should write executors.json file",
-    "uid" : "755ecd9b9d2c4bb3",
+    "name" : "should overwrite Environment info",
+    "uid" : "a78da8f2dd5d099f",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777418330,
-      "stop" : 1662777418359,
-      "duration" : 29
+      "start" : 1662777834392,
+      "stop" : 1662777834412,
+      "duration" : 20
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{\n  \"cypress-allure-plugin\": \"https://github.com/Shelex/cypress-allure-plugin\",\n  \"magicNumber\": 42\n}" ]
+  }, {
+    "name" : "should be failed",
+    "uid" : "f13c589aeb3e5c12",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1662777880144,
+      "stop" : 1662777884250,
+      "duration" : 4106
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "should be able to add link to test management system",
-    "uid" : "29eff00313b1b5a2",
+    "name" : "should be able to add owner",
+    "uid" : "d2f46d2b778c84e8",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777456663,
-      "stop" : 1662777456675,
-      "duration" : 12
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "\"Tests structure\", \"behaviors\", \"labels\"",
-    "uid" : "226201b8fc88b475",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777438406,
-      "stop" : 1662777438431,
-      "duration" : 25
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should attach parameter number 2 to step",
-    "uid" : "8c2f9bce5b83fb63",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777458441,
-      "stop" : 1662777458450,
+      "start" : 1662777887785,
+      "stop" : 1662777887794,
       "duration" : 9
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "should attach cy.request data with allureLogCypress and allureAttachRequests env vars",
-    "uid" : "95d7019dd58bfdae",
+    "name" : "should attach testParameter number 2 to test",
+    "uid" : "f871c5e0e4e15ab9",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777449433,
-      "stop" : 1662777449919,
-      "duration" : 486
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should log cypress custom command as separate step",
-    "uid" : "9d64b8a96aa38b99",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777414117,
-      "stop" : 1662777414145,
-      "duration" : 28
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be failed",
-    "uid" : "33cdc990a79e8e12",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1662777428058,
-      "stop" : 1662777432215,
-      "duration" : 4157
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should attach parameter number 2 to step",
-    "uid" : "a45cff4f72755a5b",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777423727,
-      "stop" : 1662777423742,
-      "duration" : 15
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be configurable by allureLogCypress env variable",
-    "uid" : "da68b84abfc0a245",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777449354,
-      "stop" : 1662777449376,
-      "duration" : 22
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be able to add link other external system",
-    "uid" : "dc8d85a6f87aec7c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777421959,
-      "stop" : 1662777421971,
+      "start" : 1662777875996,
+      "stop" : 1662777876008,
       "duration" : 12
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ ]
+    "parameters" : [ "world", "2" ]
   }, {
-    "name" : "\"Label storage\", \"Set in test\"",
-    "uid" : "8686f900d223fcd8",
+    "name" : "should log cypress commands as steps when allureLogCypress is enabled",
+    "uid" : "4c25012285280fa9",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777471855,
-      "stop" : 1662777471865,
-      "duration" : 10
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be passed",
-    "uid" : "cf0e3e3571bb372",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777428017,
-      "stop" : 1662777428052,
-      "duration" : 35
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "\"Set in test\", \"Using commands\"",
-    "uid" : "f07af1ed218e5487",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777471828,
-      "stop" : 1662777471841,
-      "duration" : 13
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should attach screenshot diff",
-    "uid" : "7560841f438255a2",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777426120,
-      "stop" : 1662777426140,
-      "duration" : 20
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "\"Label storage\", \"Set in beforeEach\"",
-    "uid" : "5a41808f62112ab6",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777438456,
-      "stop" : 1662777438473,
-      "duration" : 17
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be skipped",
-    "uid" : "16452b76ccfc0545",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1662777462352,
-      "stop" : 1662777462354,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "\"Label storage\", \"Set in test\"",
-    "uid" : "73b11150202ef17b",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777438476,
-      "stop" : 1662777438492,
-      "duration" : 16
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be able to add test id for allure testops",
-    "uid" : "eb873f6132aefcce",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777470000,
-      "stop" : 1662777470012,
-      "duration" : 12
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should be able to add html description",
-    "uid" : "9e999035b4dcee8d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777470062,
-      "stop" : 1662777470070,
-      "duration" : 8
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should log before hooks as pre-requisites and each hooks as steps",
-    "uid" : "ff210dbd8f97083d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777454961,
-      "stop" : 1662777454980,
-      "duration" : 19
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "\"Set in test\", \"Using commands\"",
-    "uid" : "d1fbea72b7695722",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777438436,
-      "stop" : 1662777438452,
-      "duration" : 16
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "should attach parameter number 1 to step",
-    "uid" : "c947ce51b1963681",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1662777423714,
-      "stop" : 1662777423725,
-      "duration" : 11
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Oops...we found an error preparing this test file: cypress/e2e/examples/crashed.cy.js",
-    "uid" : "70fe5b14132091b1",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
-    "time" : {
-      "start" : 1662777412258,
-      "stop" : 1662777412258,
-      "duration" : 0
+      "start" : 1662777866814,
+      "stop" : 1662777866839,
+      "duration" : 25
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "could be started for current test with step and finished automatically",
-    "uid" : "c6165c9986b095ed",
+    "uid" : "e7e767ccaf138c25",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1662777434690,
-      "stop" : 1662777434708,
-      "duration" : 18
+      "start" : 1662777886047,
+      "stop" : 1662777886060,
+      "duration" : 13
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should attach screenshot automatically",
+    "uid" : "b6c211bbb9eed937",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777844113,
+      "stop" : 1662777844507,
+      "duration" : 394
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should log cypress commands as steps when allureLogCypress is enabled",
+    "uid" : "47ea27f242ad3ffc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777832014,
+      "stop" : 1662777832045,
+      "duration" : 31
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to add label",
+    "uid" : "d433e94b4248a59d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777887744,
+      "stop" : 1662777887765,
+      "duration" : 21
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to add link other external system",
+    "uid" : "ac85e6b7752add67",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777840083,
+      "stop" : 1662777840110,
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should log cypress custom command as separate step",
+    "uid" : "6807dc39439a0eda",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777866842,
+      "stop" : 1662777866866,
+      "duration" : 24
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to add link other external system",
+    "uid" : "3578879edb0a8f22",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777874288,
+      "stop" : 1662777874302,
+      "duration" : 14
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to attach existing file to test by path",
+    "uid" : "f583a3c9e54f78c7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777863644,
+      "stop" : 1662777863655,
+      "duration" : 11
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "\"Label storage\", \"Set in beforeEach\"",
+    "uid" : "4595134956da6a3d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777889561,
+      "stop" : 1662777889574,
+      "duration" : 13
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "An uncaught error was detected outside of a test",
+    "uid" : "8904cc2d1ed62861",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1662777892030,
+      "stop" : 1662777892166,
+      "duration" : 136
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be able to add owner",
+    "uid" : "9fdf0e63d67555a1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777854466,
+      "stop" : 1662777854483,
+      "duration" : 17
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should write executors.json file",
+    "uid" : "52e2f52587a84fc5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662777870733,
+      "stop" : 1662777870758,
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should be skipped",
+    "uid" : "e12818268341b303",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1662777846752,
+      "stop" : 1662777846754,
+      "duration" : 2
     },
     "flaky" : false,
     "newFailed" : false,

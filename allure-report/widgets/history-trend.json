@@ -12,6 +12,16 @@
   "buildOrder" : 2,
   "data" : {
     "failed" : 2,
+    "broken" : 2,
+    "skipped" : 1,
+    "passed" : 39,
+    "unknown" : 0,
+    "total" : 44
+  }
+}, {
+  "buildOrder" : 2,
+  "data" : {
+    "failed" : 2,
     "broken" : 0,
     "skipped" : 1,
     "passed" : 39,
