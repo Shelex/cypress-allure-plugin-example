@@ -27,12 +27,6 @@ jobs:
                       cypress-cache-v2-${{ runner.os }}-${{ hashFiles('**/package.json')
                       }}
 
-            - name: Prepare Allure history
-              run: |
-                  rm -r allure-results/*
-                  cp -r ./allure-report/history ./allure-results/history
-                  rm -r allure-report/*
-
             - name: Install Cypress
               run: |
                   npx cypress install
@@ -49,22 +43,25 @@ jobs:
               if: always()
               run: npm run cy:cucumber:run
 
-            - name: Generate Allure report
+            - name: Get Allure history
+              uses: actions/checkout@v2
               if: always()
-              uses: QuintilianoNery/action-allure-report-V2@0.2.0
-
-            - name: Commit report results
-              if: always()
-              run: |
-                  git config --local user.email "action@github.com"
-                  git config --local user.name "GitHub Action"
-                  git add allure-report -f
-                  git add allure-results -f
-                  git commit -m "[chore] autogenerate Allure report" -a
-
-            - name: Push changes
-              if: always()
-              uses: ad-m/github-push-action@master
+              continue-on-error: true
               with:
-                  github_token: '${{ secrets.GITHUB_TOKEN }}'
-                  force: true
+                  ref: allure
+                  path: allure
+
+            - name: Generate Allure Report
+              uses: simple-elf/allure-report-action@master
+              if: always()
+              with:
+                  allure_results: allure-results
+                  gh_pages: allure
+
+            - name: Deploy report to Github Pages
+              if: always()
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_branch: allure
+                  publish_dir: allure-history
