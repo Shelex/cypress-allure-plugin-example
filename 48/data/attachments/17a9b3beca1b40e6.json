@@ -1,0 +1,11 @@
+{
+  "server": "nginx/1.18.0 (Ubuntu)",
+  "date": "Sat, 10 Sep 2022 03:35:04 GMT",
+  "content-type": "text/html",
+  "last-modified": "Fri, 03 Jun 2022 12:11:51 GMT",
+  "transfer-encoding": "chunked",
+  "connection": "keep-alive",
+  "etag": "W/\"6299fa87-379\"",
+  "strict-transport-security": "max-age=31536000",
+  "content-encoding": "gzip"
+}
