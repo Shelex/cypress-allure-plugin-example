@@ -4,10 +4,11 @@ const cypressConfig = {
     video: false,
     browser: 'chrome',
     config: {
-        integrationFolder: 'cypress/integration/examples'
+        specPattern: 'specPattern=cypress/e2e/examples/**'
     },
     env: {
-        allure: true
+        allure: true,
+        allureReuseAfterSpec: true
     }
 };
 
@@ -15,9 +16,8 @@ const cypressCucumberConfig = {
     ...cypressConfig,
     ...{
         config: {
-            integrationFolder: 'cypress/integration/cucumber',
-            ignoreTestFiles: '*.js',
-            testFiles: '**/*.{feature,features}'
+            specPattern: 'cypress/e2e/cucumber/*.feature',
+            excludeSpecPattern: '*.js'
         }
     }
 };

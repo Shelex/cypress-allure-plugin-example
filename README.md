@@ -12,9 +12,10 @@ This project demonstrates how to use [cypress-allure-plugin](https://github.com/
 ## How to run:
 
 -   clone this repo
--   run tests: `yarn && yarn cy:run`
--   clear previous output `yarn allure:clear`
--   generate allure report: `yarn allure:report`
+-   install dependencies: `npm install`
+-   run tests: `npm run cy:run`
+-   clear previous output `npm run allure:clear`
+-   generate allure report: `npm run allure:report`
 -   open report: `allure open`
 
 ## Allure report
@@ -25,7 +26,7 @@ This project demonstrates how to use [cypress-allure-plugin](https://github.com/
 
 ## VS Code for cypress + cucumber
 
-In case you are using VS Code and [Cypress Helper](https://marketplace.visualstudio.com/items?itemName=Shelex.vscode-cy-helper) extension, it has configuration for allure cucumber tags autocompletion available:
+In case you are using VS Code and [Cypress Helper (latest)](https://marketplace.visualstudio.com/items?itemName=shevtsov.vscode-cy-helper) extension, it has configuration for allure cucumber tags autocompletion available:
 
 ```
 "cypressHelper.cucumberTagsAutocomplete": {

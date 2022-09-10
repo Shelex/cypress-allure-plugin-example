@@ -1,16 +1,15 @@
 {
-    "eslint.packageManager": "yarn",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
     "editor.formatOnSave": true,
-    "cucumberautocomplete.steps":["cypress/integration/cucumber/**/*.js"],
+    "cucumberautocomplete.steps": ["cypress/e2e/cucumber/**/*.js"],
     "cucumberautocomplete.syncfeatures": true,
     "cucumberautocomplete.strictGherkinCompletion": false,
     "cucumberautocomplete.onTypeFormat": true,
     "eslint.lintTask.enable": true,
-    "cypressHelper.commandForOpen": "yarn cy:cucumber:open",
+    "cypressHelper.commandForOpen": "npm run cy:cucumber:open",
     "cypressHelper.customCommandsFolder": "cypress/support",
     "cypressHelper.cucumberTagsAutocomplete": {
         "enable": true,
