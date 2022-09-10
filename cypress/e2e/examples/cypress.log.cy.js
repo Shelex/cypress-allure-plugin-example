@@ -23,13 +23,10 @@ describe('Allure Cypress log', () => {
         Cypress.env('allureLogCypress', true);
         Cypress.env('allureAttachRequests', true);
         cy.request({
-            method: 'POST',
-            url: 'https://split-specs.appspot.com/query',
+            method: 'GET',
+            url: 'https://split-specs.shelex.dev/projects',
             headers: {
                 Authorization: Cypress.env('SPLIT_SPEC_API_KEY')
-            },
-            body: {
-                query: 'query { projects }'
             }
         });
     });
