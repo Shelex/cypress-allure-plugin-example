@@ -1,3 +1,5 @@
+import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor';
+
 Given('some precondition', () => {
     cy.log(`given`);
 });
