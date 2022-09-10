@@ -1,0 +1,57 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Sep 10 02:53:49 GMT 2022","Sat Sep 10 02:53:49 GMT 2022","13","","Allure links","","","","should be able to add link to test management system",""
+"passed","Sat Sep 10 02:54:03 GMT 2022","Sat Sep 10 02:54:03 GMT 2022","7","","Allure labels","","","","should be able to add markdown description","
+## Emphasis
+
+**This is bold text**
+
+__This is bold text__
+
+*This is italic text*
+
+_This is italic text_
+
+~~Strikethrough~~
+"
+"failed","Sat Sep 10 02:54:07 GMT 2022","Sat Sep 10 02:54:07 GMT 2022","133","","","","","","An uncaught error was detected outside of a test",""
+"passed","Sat Sep 10 02:53:49 GMT 2022","Sat Sep 10 02:53:49 GMT 2022","12","","Allure links","","","","should accept * character as pattern in tmsPrefix configuration",""
+"passed","Sat Sep 10 02:53:53 GMT 2022","Sat Sep 10 02:53:53 GMT 2022","362","","Allure screenshots","","","","should attach screenshot automatically",""
+"passed","Sat Sep 10 02:54:04 GMT 2022","Sat Sep 10 02:54:04 GMT 2022","11","Allure tests structure","Set in test","Using commands","","","""Set in test"", ""Using commands""",""
+"passed","Sat Sep 10 02:53:44 GMT 2022","Sat Sep 10 02:53:44 GMT 2022","11","","Allure Environment info","","","","should overwrite Environment info",""
+"passed","Sat Sep 10 02:53:51 GMT 2022","Sat Sep 10 02:53:51 GMT 2022","21","","Allure parameters","","","","should attach testParameter number 1 to test",""
+"passed","Sat Sep 10 02:53:42 GMT 2022","Sat Sep 10 02:53:42 GMT 2022","22","","Allure Cypress log","","","","should log cypress custom command as separate step",""
+"passed","Sat Sep 10 02:54:03 GMT 2022","Sat Sep 10 02:54:03 GMT 2022","8","","Allure labels","","","","should be able to add html description",""
+"passed","Sat Sep 10 02:53:49 GMT 2022","Sat Sep 10 02:53:49 GMT 2022","12","","Allure links","","","","should be able to add link other external system",""
+"passed","Sat Sep 10 02:54:03 GMT 2022","Sat Sep 10 02:54:03 GMT 2022","9","","Allure labels","","","","should be able to add severity",""
+"passed","Sat Sep 10 02:53:42 GMT 2022","Sat Sep 10 02:53:42 GMT 2022","24","","Allure Cypress log","","","","should log cypress commands as steps when allureLogCypress is enabled",""
+"passed","Sat Sep 10 02:54:04 GMT 2022","Sat Sep 10 02:54:04 GMT 2022","9","Allure tests structure","Label storage","Set in beforeEach","","","""Label storage"", ""Set in test""",""
+"passed","Sat Sep 10 02:54:01 GMT 2022","Sat Sep 10 02:54:01 GMT 2022","11","","Allure steps","","","","could be started for current executable with log step, or step(name,false) and finish automatically",""
+"passed","Sat Sep 10 02:53:42 GMT 2022","Sat Sep 10 02:53:42 GMT 2022","437","","Allure Cypress log","","","","should attach cy.request data with allureLogCypress and allureAttachRequests env vars",""
+"passed","Sat Sep 10 02:53:39 GMT 2022","Sat Sep 10 02:53:39 GMT 2022","13","","Allure attachments","","","","should be able to attach existing file to test by path",""
+"failed","Sat Sep 10 02:53:55 GMT 2022","Sat Sep 10 02:53:59 GMT 2022","4135","","Allure test statuses","","","","should be failed",""
+"passed","Sat Sep 10 02:53:51 GMT 2022","Sat Sep 10 02:53:51 GMT 2022","12","","Allure parameters","","","","should attach testParameter number 2 to test",""
+"broken","Sat Sep 10 02:53:06 GMT 2022","Sat Sep 10 02:53:06 GMT 2022","0","","cypress/e2e/examples/crashed.cy.js","","","","Oops...we found an error preparing this test file: cypress/e2e/examples/crashed.cy.js",""
+"passed","Sat Sep 10 02:54:03 GMT 2022","Sat Sep 10 02:54:03 GMT 2022","11","","Allure labels","","","","should be able to add test id for allure testops",""
+"passed","Sat Sep 10 02:53:49 GMT 2022","Sat Sep 10 02:53:49 GMT 2022","11","","Allure links","","","","should be able to add link to issue tracker",""
+"passed","Sat Sep 10 02:54:03 GMT 2022","Sat Sep 10 02:54:03 GMT 2022","20","","Allure labels","","","","should be able to add label",""
+"passed","Sat Sep 10 02:54:04 GMT 2022","Sat Sep 10 02:54:04 GMT 2022","22","Allure tests structure","Allure tests structure","Set in beforeEach","","","""Tests structure"", ""behaviors"", ""labels""",""
+"passed","Sat Sep 10 02:53:49 GMT 2022","Sat Sep 10 02:53:49 GMT 2022","28","","Allure links","","","","should be configurable with prefix env variables",""
+"passed","Sat Sep 10 02:53:55 GMT 2022","Sat Sep 10 02:53:55 GMT 2022","29","","Allure test statuses","","","","should be passed",""
+"passed","Sat Sep 10 02:53:46 GMT 2022","Sat Sep 10 02:53:46 GMT 2022","22","","Allure executor info","","","","should write executors.json file",""
+"passed","Sat Sep 10 02:54:04 GMT 2022","Sat Sep 10 02:54:04 GMT 2022","16","Allure tests structure","Label storage","Set in beforeEach","","","""Label storage"", ""Set in beforeEach""",""
+"passed","Sat Sep 10 02:53:42 GMT 2022","Sat Sep 10 02:53:42 GMT 2022","23","","Allure Cypress log","","","","should be configurable by allureLogCypress env variable",""
+"passed","Sat Sep 10 02:53:53 GMT 2022","Sat Sep 10 02:53:53 GMT 2022","295","","Allure screenshots","","","","should attach screenshot with custom name",""
+"passed","Sat Sep 10 02:53:51 GMT 2022","Sat Sep 10 02:53:51 GMT 2022","9","","Allure parameters","","","","should attach parameter number 1 to step",""
+"passed","Sat Sep 10 02:54:01 GMT 2022","Sat Sep 10 02:54:01 GMT 2022","11","","Allure steps","","","","could be started for current test with step and finished automatically",""
+"passed","Sat Sep 10 02:53:53 GMT 2022","Sat Sep 10 02:53:53 GMT 2022","18","","Allure screenshots","","","","should attach screenshot diff",""
+"passed","Sat Sep 10 02:53:48 GMT 2022","Sat Sep 10 02:53:48 GMT 2022","20","","Allure hooks","","","","should log before hooks as pre-requisites and each hooks as steps",""
+"broken","Sat Sep 10 02:53:40 GMT 2022","Sat Sep 10 02:53:40 GMT 2022","0","","cypress/e2e/examples/crashed.cy.js","","","","Oops...we found an error preparing this test file: cypress/e2e/examples/crashed.cy.js",""
+"passed","Sat Sep 10 02:54:01 GMT 2022","Sat Sep 10 02:54:01 GMT 2022","40","","Allure steps","","","","could be started and finished with startStep, endStep",""
+"passed","Sat Sep 10 02:53:39 GMT 2022","Sat Sep 10 02:53:39 GMT 2022","16","","Allure attachments","","","","should be able to attach file to test by content",""
+"passed","Sat Sep 10 02:54:03 GMT 2022","Sat Sep 10 02:54:03 GMT 2022","11","","Allure labels","","","","should be able to add tag",""
+"skipped","Sat Sep 10 02:53:55 GMT 2022","Sat Sep 10 02:53:55 GMT 2022","3","","Allure test statuses","","","","should be skipped",""
+"passed","Sat Sep 10 02:54:03 GMT 2022","Sat Sep 10 02:54:03 GMT 2022","8","","Allure labels","","","","should be able to add owner",""
+"passed","Sat Sep 10 02:53:51 GMT 2022","Sat Sep 10 02:53:51 GMT 2022","10","","Allure parameters","","","","should attach parameter number 2 to step",""
+"passed","Sat Sep 10 02:53:42 GMT 2022","Sat Sep 10 02:53:42 GMT 2022","12","","Allure Cypress log","","","","should not log cypress commands when allureLogCypress is disabled",""
+"passed","Sat Sep 10 02:53:44 GMT 2022","Sat Sep 10 02:53:44 GMT 2022","22","","Allure Environment info","","","","should add Environment info",""
+"passed","Sat Sep 10 02:53:39 GMT 2022","Sat Sep 10 02:53:39 GMT 2022","41","","Allure attachments","","","","should be able to attach file to executable by content",""
