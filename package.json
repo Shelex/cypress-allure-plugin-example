@@ -14,7 +14,7 @@
         "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true"
     },
     "devDependencies": {
-        "@shelex/cypress-allure-plugin": "2.30.3",
+        "@shelex/cypress-allure-plugin": "2.31.0",
         "cypress": "10.7.0",
         "@badeball/cypress-cucumber-preprocessor": "12.1.0",
         "@cypress/webpack-preprocessor": "5.12.2",

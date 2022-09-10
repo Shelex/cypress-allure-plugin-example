@@ -4,7 +4,8 @@ const cypressConfig = {
     video: false,
     browser: 'chrome',
     config: {
-        specPattern: 'specPattern=cypress/e2e/examples/**'
+        specPattern: 'cypress/e2e/examples/**',
+        excludeSpecPattern: '*.feature'
     },
     env: {
         allure: true,
@@ -17,7 +18,7 @@ const cypressCucumberConfig = {
     ...{
         config: {
             specPattern: 'cypress/e2e/cucumber/*.feature',
-            excludeSpecPattern: '*.js'
+            excludeSpecPattern: '**/*.js'
         }
     }
 };
