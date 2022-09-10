@@ -7,8 +7,8 @@
         "test": "node cypress/scripts/runner.js",
         "cy:open": "npx cypress open --env allure=true --config specPattern=cypress/e2e/examples/** --browser chrome",
         "cy:cucumber:open": "npx cypress open --env allure=true --config specPattern=cypress/e2e/cucumber/*.feature,excludeSpecPattern=*.js --browser chrome",
-        "cy:run": "DEBUG=cypress:* npx cypress run --config video=false,specPattern=cypress/e2e/examples/** --env allure=true --browser chrome",
-        "cy:cucumber:run": "npx cypress run --config video=false,excludeSpecPattern=*.js --env allure=true --browser chrome",
+        "cy:run": "DEBUG=allure-plugin* npx cypress run --config video=false,specPattern=cypress/e2e/examples/failed* --env allure=true --browser chrome",
+        "cy:cucumber:run": "DEBUG=allure-plugin* npx cypress run --config video=false,excludeSpecPattern=*.js --env allure=true --browser chrome",
         "allure:report": "allure generate allure-results --clean -o allure-report",
         "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true",
         "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true"

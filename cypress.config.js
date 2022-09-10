@@ -11,8 +11,6 @@ module.exports = defineConfig({
         tmsPrefix: 'https://some.testrail.instance/path/suite/caseID-'
     },
     e2e: {
-        // We've imported your old cypress plugins here.
-        // You may want to clean this up later by importing these.
         setupNodeEvents: async function (on, config) {
             await addCucumberPreprocessorPlugin(on, config);
             on(

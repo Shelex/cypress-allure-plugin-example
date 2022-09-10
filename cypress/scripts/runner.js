@@ -1,7 +1,7 @@
 const cypress = require('cypress');
 
 const cypressConfig = {
-    video: false,
+    video: true,
     browser: 'chrome',
     config: {
         specPattern: 'cypress/e2e/examples/**',
@@ -9,7 +9,8 @@ const cypressConfig = {
     },
     env: {
         allure: true,
-        allureReuseAfterSpec: true
+        allureReuseAfterSpec: true,
+        stepDefinitions: `cypress/e2e/cucumber/**/*.js`
     }
 };
 
@@ -18,7 +19,7 @@ const cypressCucumberConfig = {
     ...{
         config: {
             specPattern: 'cypress/e2e/cucumber/*.feature',
-            excludeSpecPattern: '**/*.js'
+            excludeSpecPattern: '**/*.cy.js'
         }
     }
 };
