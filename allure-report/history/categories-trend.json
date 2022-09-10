@@ -4,6 +4,11 @@
     "Product defects" : 2
   }
 }, {
+  "buildOrder" : 2,
+  "data" : {
+    "Product defects" : 2
+  }
+}, {
   "buildOrder" : 19,
   "data" : {
     "Product defects" : 2

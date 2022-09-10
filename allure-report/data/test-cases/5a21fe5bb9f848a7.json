@@ -1,0 +1,36 @@
+{
+  "uid" : "5a21fe5bb9f848a7",
+  "name" : "should be able to add test id for allure testops",
+  "fullName" : "should be able to add test id for allure testops",
+  "historyId" : "50fa772d27f827cda05540084ee484e5",
+  "time" : {
+    "start" : 1662776479315,
+    "stop" : 1662776479335,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure labels"
+  }, {
+    "name" : "AS_ID",
+    "value" : "42"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a21fe5bb9f848a7.json",
+  "parameterValues" : [ ]
+}

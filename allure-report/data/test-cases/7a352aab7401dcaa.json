@@ -1,0 +1,36 @@
+{
+  "uid" : "7a352aab7401dcaa",
+  "name" : "should be able to add owner",
+  "fullName" : "should be able to add owner",
+  "historyId" : "ed67145d5a29e25152309373c3897d01",
+  "time" : {
+    "start" : 1662776479339,
+    "stop" : 1662776479355,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure labels"
+  }, {
+    "name" : "owner",
+    "value" : "Oleksandr Shevtsov"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a352aab7401dcaa.json",
+  "parameterValues" : [ ]
+}

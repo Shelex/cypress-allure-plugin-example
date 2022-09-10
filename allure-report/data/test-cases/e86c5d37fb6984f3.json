@@ -1,0 +1,33 @@
+{
+  "uid" : "e86c5d37fb6984f3",
+  "name" : "should be configurable by allureLogCypress env variable",
+  "fullName" : "should be configurable by allureLogCypress env variable",
+  "historyId" : "67dfc6936c1617ebfd6f2fda14429e9c",
+  "time" : {
+    "start" : 1662776453917,
+    "stop" : 1662776453940,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure Cypress log"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e86c5d37fb6984f3.json",
+  "parameterValues" : [ ]
+}

@@ -9,6 +9,16 @@
     "total" : 42
   }
 }, {
+  "buildOrder" : 2,
+  "data" : {
+    "failed" : 2,
+    "broken" : 0,
+    "skipped" : 1,
+    "passed" : 39,
+    "unknown" : 0,
+    "total" : 42
+  }
+}, {
   "buildOrder" : 19,
   "data" : {
     "failed" : 2,

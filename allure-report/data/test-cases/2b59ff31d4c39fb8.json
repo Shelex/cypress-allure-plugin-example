@@ -1,0 +1,61 @@
+{
+  "uid" : "2b59ff31d4c39fb8",
+  "name" : "should be able to add markdown description",
+  "fullName" : "should be able to add markdown description",
+  "historyId" : "bb2277a13d2e3f90a5521dbc392f0c91",
+  "time" : {
+    "start" : 1662776479402,
+    "stop" : 1662776479423,
+    "duration" : 21
+  },
+  "description" : "\n## Emphasis\n\n**This is bold text**\n\n__This is bold text__\n\n*This is italic text*\n\n_This is italic text_\n\n~~Strikethrough~~\n",
+  "descriptionHtml" : "<h2>Emphasis</h2>\n<p><strong>This is bold text</strong></p>\n<p><strong>This is bold text</strong></p>\n<p><em>This is italic text</em></p>\n<p><em>This is italic text</em></p>\n<p>~~Strikethrough~~</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n## Emphasis\n\n**This is bold text**\n\n__This is bold text__\n\n*This is italic text*\n\n_This is italic text_\n\n~~Strikethrough~~\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "should not have description",
+      "time" : {
+        "start" : 1662776479422,
+        "stop" : 1662776479423,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure labels"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b59ff31d4c39fb8.json",
+  "parameterValues" : [ ]
+}
