@@ -1,0 +1,193 @@
+{
+  "uid" : "9e999035b4dcee8d",
+  "name" : "should be able to add html description",
+  "fullName" : "should be able to add html description",
+  "historyId" : "ed0cbdda8136ebf70b27d357937301ea",
+  "time" : {
+    "start" : 1662777470062,
+    "stop" : 1662777470070,
+    "duration" : 8
+  },
+  "descriptionHtml" : "\n<table border='1'>\n  <tr align=left>\n    <th>Company</th>\n    <th>Contact</th>\n    <th>Country</th>\n  </tr>\n  <tr>\n    <td>Alfreds Futterkiste</td>\n    <td>Maria Anders</td>\n    <td>Germany</td>\n  </tr>\n  <tr>\n    <td>Centro comercial Moctezuma</td>\n    <td>Francisco Chang</td>\n    <td>Mexico</td>\n  </tr>\n</table>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "\n<table border='1'>\n  <tr align=left>\n    <th>Company</th>\n    <th>Contact</th>\n    <th>Country</th>\n  </tr>\n  <tr>\n    <td>Alfreds Futterkiste</td>\n    <td>Maria Anders</td>\n    <td>Germany</td>\n  </tr>\n  <tr>\n    <td>Centro comercial Moctezuma</td>\n    <td>Francisco Chang</td>\n    <td>Mexico</td>\n  </tr>\n</table>\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "should not have description",
+      "time" : {
+        "start" : 1662777470069,
+        "stop" : 1662777470070,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure labels"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "79eeb9f8e1b1d4f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662777436517,
+        "stop" : 1662777436530,
+        "duration" : 13
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "d05a4dbc48992837",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662776516595,
+          "stop" : 1662776516609,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "fddbb292aa1b77d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1662776233760,
+          "stop" : 1662776233772,
+          "duration" : 12
+        }
+      }, {
+        "uid" : "b6e54311071d3faf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647373341833,
+          "stop" : 1647373341885,
+          "duration" : 52
+        }
+      }, {
+        "uid" : "9a4ca8dccdeb94a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640956691170,
+          "stop" : 1640956691182,
+          "duration" : 12
+        }
+      }, {
+        "uid" : "81348568f36b5214",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640955268892,
+          "stop" : 1640955268925,
+          "duration" : 33
+        }
+      }, {
+        "uid" : "34a9413c45228c75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631123039104,
+          "stop" : 1631123039125,
+          "duration" : 21
+        }
+      }, {
+        "uid" : "830f2e9ce00a67f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631122010772,
+          "stop" : 1631122010797,
+          "duration" : 25
+        }
+      }, {
+        "uid" : "e3d994f7e0590f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631121198774,
+          "stop" : 1631121198786,
+          "duration" : 12
+        }
+      }, {
+        "uid" : "bdb11646131cd979",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631120801083,
+          "stop" : 1631120801124,
+          "duration" : 41
+        }
+      }, {
+        "uid" : "54d43fc9b9a4a97b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627993293292,
+          "stop" : 1627993293311,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "1e848751a1f491e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623692138435,
+          "stop" : 1623692138461,
+          "duration" : 26
+        }
+      }, {
+        "uid" : "52e669ff1c381987",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617975971338,
+          "stop" : 1617975971359,
+          "duration" : 21
+        }
+      }, {
+        "uid" : "219f5d6f3a1e385",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973903807,
+          "stop" : 1617973903814,
+          "duration" : 7
+        }
+      }, {
+        "uid" : "6e36d0abaa0c11e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617973641484,
+          "stop" : 1617973641497,
+          "duration" : 13
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9e999035b4dcee8d.json",
+  "parameterValues" : [ ]
+}

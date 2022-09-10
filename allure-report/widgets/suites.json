@@ -1,5 +1,5 @@
 {
-  "total" : 13,
+  "total" : 14,
   "items" : [ {
     "uid" : "c831d81be87472a1202a702bb00fa775",
     "name" : "Allure test statuses",
@@ -10,6 +10,17 @@
       "passed" : 1,
       "unknown" : 0,
       "total" : 3
+    }
+  }, {
+    "uid" : "a69bf7663aa45f0fb4cacd05b7925c69",
+    "name" : "cypress/e2e/examples/crashed.cy.js",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
     }
   }, {
     "uid" : "f118f7ed5a1e5fd956013604f915e5d8",
@@ -98,17 +109,6 @@
       "passed" : 3,
       "unknown" : 0,
       "total" : 3
-    }
-  }, {
-    "uid" : "bedd553c0e037e80ca4c9fb6129419cd",
-    "name" : "Allure Environment info",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
     }
   } ]
 }

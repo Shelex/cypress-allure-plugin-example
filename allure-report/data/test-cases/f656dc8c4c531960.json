@@ -1,0 +1,36 @@
+{
+  "uid" : "f656dc8c4c531960",
+  "name" : "should overwrite Environment info",
+  "fullName" : "should overwrite Environment info",
+  "historyId" : "764534fa1625373dc3744758ddaaed4d",
+  "time" : {
+    "start" : 1662777416593,
+    "stop" : 1662777416615,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure Environment info"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "should overwrite previous environment info",
+    "value" : "{\n  \"cypress-allure-plugin\": \"https://github.com/Shelex/cypress-allure-plugin\",\n  \"magicNumber\": 42\n}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f656dc8c4c531960.json",
+  "parameterValues" : [ "{\n  \"cypress-allure-plugin\": \"https://github.com/Shelex/cypress-allure-plugin\",\n  \"magicNumber\": 42\n}" ]
+}

@@ -1,0 +1,39 @@
+{
+  "uid" : "d1fbea72b7695722",
+  "name" : "\"Set in test\", \"Using commands\"",
+  "fullName" : "\"Set in test\", \"Using commands\"",
+  "historyId" : "b2117522c5fb757cdbd88ac0ff2a08b8",
+  "time" : {
+    "start" : 1662777438436,
+    "stop" : 1662777438452,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Set in test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Allure tests structure"
+  }, {
+    "name" : "subSuite",
+    "value" : "Using commands"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d1fbea72b7695722.json",
+  "parameterValues" : [ ]
+}

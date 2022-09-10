@@ -1,0 +1,37 @@
+{
+  "uid" : "288cdfab133f7fbd",
+  "name" : "should be configurable with prefix env variables",
+  "fullName" : "should be configurable with prefix env variables",
+  "historyId" : "36240f4c42d087699fa09e8b980086d6",
+  "time" : {
+    "start" : 1662777421876,
+    "stop" : 1662777421902,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure links"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "xray",
+    "url" : "https://example.tms.com/case/CYP-15",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "288cdfab133f7fbd.json",
+  "parameterValues" : [ ]
+}

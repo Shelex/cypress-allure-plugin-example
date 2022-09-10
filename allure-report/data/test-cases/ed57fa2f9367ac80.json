@@ -1,0 +1,36 @@
+{
+  "uid" : "ed57fa2f9367ac80",
+  "name" : "should be able to add tag",
+  "fullName" : "should be able to add tag",
+  "historyId" : "eab690dee35c651dfa387db6223de40e",
+  "time" : {
+    "start" : 1662777436485,
+    "stop" : 1662777436498,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure labels"
+  }, {
+    "name" : "tag",
+    "value" : "tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "tag" ]
+  },
+  "source" : "ed57fa2f9367ac80.json",
+  "parameterValues" : [ ]
+}

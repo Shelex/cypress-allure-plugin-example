@@ -1,0 +1,33 @@
+{
+  "uid" : "755ecd9b9d2c4bb3",
+  "name" : "should write executors.json file",
+  "fullName" : "should write executors.json file",
+  "historyId" : "ed4bda1d5ba4370f8f250b1c14f4f870",
+  "time" : {
+    "start" : 1662777418330,
+    "stop" : 1662777418359,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Allure executor info"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "755ecd9b9d2c4bb3.json",
+  "parameterValues" : [ ]
+}

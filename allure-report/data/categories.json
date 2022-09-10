@@ -1,18 +1,52 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Oops...we found an error preparing this test file:\n\n  > cypress/e2e/examples/crashed.cy.js\n\n",
+      "children" : [ {
+        "name" : "Oops...we found an error preparing this test file: cypress/e2e/examples/crashed.cy.js",
+        "uid" : "70fe5b14132091b1",
+        "parentUid" : "a9f1ac62274ca1de50f525b9450dd606",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662777412258,
+          "stop" : 1662777412258,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Oops...we found an error preparing this test file: cypress/e2e/examples/crashed.cy.js",
+        "uid" : "2612e1c924b7501d",
+        "parentUid" : "a9f1ac62274ca1de50f525b9450dd606",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662777447656,
+          "stop" : 1662777447656,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a9f1ac62274ca1de50f525b9450dd606"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
     "name" : "Product defects",
     "children" : [ {
       "name" : "Timed out retrying after 4000ms: expected true to equal false",
       "children" : [ {
         "name" : "should be failed",
-        "uid" : "ab3fa75f44aee9e3",
+        "uid" : "1081b8f7d7326e04",
         "parentUid" : "dbf7b3a653cc3263c669a04df1239913",
         "status" : "failed",
         "time" : {
-          "start" : 1662776508216,
-          "stop" : 1662776512346,
-          "duration" : 4130
+          "start" : 1662777462354,
+          "stop" : 1662777466468,
+          "duration" : 4114
         },
         "flaky" : false,
         "newFailed" : false,
@@ -20,22 +54,22 @@
       } ],
       "uid" : "dbf7b3a653cc3263c669a04df1239913"
     }, {
-      "name" : "The following error originated from your test code, not from Cypress.\n\n  > Given is not defined\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
+      "name" : "The following error originated from your test code, not from Cypress.\n\n  > Expected to find a global registry (this usually means you are trying to define steps or hooks in support/e2e.js, which is not supported) (this might be a bug, please report at https://github.com/badeball/cypress-cucumber-preprocessor)\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
       "children" : [ {
         "name" : "An uncaught error was detected outside of a test",
-        "uid" : "e4a74b78713f8bfb",
-        "parentUid" : "cbecb1d42d32817e1f2a4058c6ec4fb4",
+        "uid" : "625406222a6bf85d",
+        "parentUid" : "7be34d3fab0658dd8a002b0fb843a5d3",
         "status" : "failed",
         "time" : {
-          "start" : 1662776520668,
-          "stop" : 1662776520810,
-          "duration" : 142
+          "start" : 1662777474378,
+          "stop" : 1662777474501,
+          "duration" : 123
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "cbecb1d42d32817e1f2a4058c6ec4fb4"
+      "uid" : "7be34d3fab0658dd8a002b0fb843a5d3"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
