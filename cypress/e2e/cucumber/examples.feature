@@ -1,8 +1,8 @@
 @parentSuite("Gherkin_parent_suite")
 @suite("Gherkin_suite")
 @subSuite("Gherkin_sub_suite")
-@epic("Behaviours epic")
-@story("Behaviours story")
+@epic("Behaviours_epic")
+@story("Behaviours_story")
 Feature: Gherkin_feature
 
     I want gherkin scenarios be logged into allure
@@ -12,9 +12,9 @@ Feature: Gherkin_feature
         When I do some actions
         Then I get some result
 
-    @owner("Oleksandr Shevtsov")
+    @owner("Oleksandr_Shevtsov")
     @severity("critical")
-    @AS_ID("42")
+    @testID("42")
     @issue("ACT-123")
     @tms("TC-123")
     @link("google","https://google.com")
