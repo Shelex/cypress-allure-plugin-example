@@ -7,7 +7,7 @@ jobs:
     generate-report:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v2
+            - uses: actions/checkout@v3
             - name: Download Cypress
               uses: bahmutov/npm-install@v1
               env:
@@ -44,7 +44,7 @@ jobs:
               run: npm run cy:cucumber:run
 
             - name: Get Allure history
-              uses: actions/checkout@v2
+              uses: actions/checkout@v3
               if: always()
               continue-on-error: true
               with:

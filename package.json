@@ -14,10 +14,10 @@
         "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true"
     },
     "devDependencies": {
-        "@shelex/cypress-allure-plugin": "2.31.0",
-        "cypress": "10.7.0",
+        "@shelex/cypress-allure-plugin": "2.34.1",
+        "cypress": "12.4.1",
         "@badeball/cypress-cucumber-preprocessor": "12.1.0",
-        "@cypress/webpack-preprocessor": "5.12.2",
+        "@cypress/webpack-preprocessor": "5.16.1",
         "eslint-plugin-chai-friendly": "0.7.2",
         "eslint-plugin-cypress": "2.12.1"
     },
