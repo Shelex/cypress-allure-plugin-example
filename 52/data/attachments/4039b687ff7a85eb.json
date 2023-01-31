@@ -1,0 +1,7 @@
+{
+  "Connection": "keep-alive",
+  "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJlbnRpdHkiOiIxMjJlMTZiZi0yNDk4LTQxN2QtYTA4MS03NDg2Y2MyYjYyMzIiLCJleHAiOjE3NjExODU4NjgwMDAsImlkIjoiNzRkYmYyNGQtNTZkMS00MzBhLThiMDQtNTk1NGNjMzhhM2ZjIn0.I5t3EFCjJ48Ttbi8vr_YmPEqu-_AeW66I65zuf--BFsjuhWjVP8MItYOnPm7BErdBg70hqSzoF88Lvr-27-zYkV2U8q4k5q-mrh73itH07adQosFmW-4ZYuVm8MOLLfgwMk6aek1hEfkd_-XMWW8YU--0XZ7H4BQ-TqIlBaWhvEvPZ3Ecm7TAsQN1agfGHqITtOWidqRIijGk5X5F9aZzyb68EEhC5hV2IS4ITZHmNgZGLGUPdtgaf_GfDtJmewyxn5-JsAjYF7yfX5P3typyk2Q70QxsuusYcN31MDlqxOj5VR8O-rJk9lXhAr8xGovBB9KuyHPwFaLJKgNnJ5m-w",
+  "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/109.0.5414.74 Safari/537.36",
+  "accept": "*/*",
+  "accept-encoding": "gzip, deflate"
+}
