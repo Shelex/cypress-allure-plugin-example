@@ -40,10 +40,11 @@ jobs:
               env:
                   CYPRESS_SPLIT_SPEC_API_KEY: '${{ secrets.SPLIT_SPEC_API_KEY }}'
 
-            - name: Run Cypress Cucumber
-              continue-on-error: true
-              if: always()
-              run: npm run cy:cucumber:run
+            # disabled due to https://github.com/Shelex/cypress-allure-plugin/issues/186
+            # - name: Run Cypress Cucumber
+            #   continue-on-error: true
+            #   if: always()
+            #   run: npm run cy:cucumber:run
 
             - name: Get Allure history
               uses: actions/checkout@v3
