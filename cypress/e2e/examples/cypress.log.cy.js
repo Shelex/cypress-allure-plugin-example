@@ -19,15 +19,18 @@ describe('Allure Cypress log', () => {
         cy.get('@number').should('be.eq', 42);
     });
 
-
     const apiSvc = {
         method: 'POST',
         url: 'https://split-specs.appspot.com/query',
-        body: { "operationName": "projects", "variables": {}, "query": "query projects {\n  projects\n}\n" },
+        body: {
+            operationName: 'projects',
+            variables: {},
+            query: 'query projects {\n  projects\n}\n'
+        },
         headers: {
             Authorization: Cypress.env('SPLIT_SPEC_API_KEY')
         }
-    }
+    };
 
     it('should attach cy.request data with allureLogCypress and allureAttachRequests env vars', () => {
         Cypress.env('allureLogCypress', true);
