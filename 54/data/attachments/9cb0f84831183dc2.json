@@ -1,0 +1,5 @@
+{
+  "operationName": "projects",
+  "variables": {},
+  "query": "query projects {\n  projects\n}\n"
+}
