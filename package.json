@@ -16,7 +16,7 @@
     "devDependencies": {
         "@badeball/cypress-cucumber-preprocessor": "12.1.0",
         "@cypress/webpack-preprocessor": "5.16.1",
-        "@shelex/cypress-allure-plugin": "2.38.1",
+        "@shelex/cypress-allure-plugin": "2.38.2",
         "cypress": "12.4.1",
         "cypress-plugin-api": "2.11.0",
         "eslint-plugin-chai-friendly": "0.7.2",
