@@ -38,7 +38,7 @@ jobs:
               continue-on-error: true
               run: npm run cy:run
               env:
-                  CYPRESS_SPLIT_SPEC_API_KEY: '${{ secrets.SPLIT_SPEC_API_KEY }}'
+                  CYPRESS_PARALLEL_SPEC_API_KEY: '${{ secrets.PARALLEL_SPEC_API_KEY }}'
 
             - name: Run Cypress Cucumber
               continue-on-error: true

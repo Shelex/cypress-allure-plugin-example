@@ -10,6 +10,7 @@ const cypressConfig = {
     env: {
         allure: true,
         allureReuseAfterSpec: true,
+        allureLogHooks: true,
         stepDefinitions: `cypress/e2e/cucumber/**/*.js`
     }
 };

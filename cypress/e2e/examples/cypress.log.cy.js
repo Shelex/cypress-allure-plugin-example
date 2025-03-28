@@ -20,15 +20,10 @@ describe('Allure Cypress log', () => {
     });
 
     const apiSvc = {
-        method: 'POST',
-        url: 'https://split-specs.appspot.com/query',
-        body: {
-            operationName: 'projects',
-            variables: {},
-            query: 'query projects {\n  projects\n}\n'
-        },
+        method: 'GET',
+        url: 'https://parallel-specs-api.shelex.dev/api/projects',
         headers: {
-            Authorization: Cypress.env('SPLIT_SPEC_API_KEY')
+            Authorization: `Bearer ${Cypress.env('PARALLEL_SPEC_API_KEY')}`
         }
     };
 
