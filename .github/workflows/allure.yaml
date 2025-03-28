@@ -7,11 +7,11 @@ jobs:
     generate-report:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v3
+            - uses: actions/checkout@v4
             - name: Download Cypress
               uses: bahmutov/npm-install@v1
               with:
-                  install-command: npm i --force
+                  install-command: npm i
               env:
                   CYPRESS_INSTALL_BINARY: 0
 
@@ -22,12 +22,13 @@ jobs:
 
             - name: restore / cache the binary
               id: cache-cypress
-              uses: actions/cache@v1
+              uses: actions/cache@v3
               with:
                   path: ~/.cache/Cypress
-                  key: >-
-                      cypress-cache-v2-${{ runner.os }}-${{ hashFiles('**/package.json')
-                      }}
+                  key: cypress-cache-v2-${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+                  restore-keys: |
+                      cypress-cache-v2-${{ runner.os }}-
+                      cypress-cache-v2-
 
             - name: Install Cypress
               run: |
@@ -46,7 +47,7 @@ jobs:
               run: npm run cy:cucumber:run
 
             - name: Get Allure history
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
               if: always()
               continue-on-error: true
               with:
@@ -62,7 +63,7 @@ jobs:
 
             - name: Deploy report to Github Pages
               if: always()
-              uses: peaceiris/actions-gh-pages@v3
+              uses: peaceiris/actions-gh-pages@v4
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
                   publish_branch: allure
